@@ -1,0 +1,161 @@
+.class final Lcom/google/android/gms/internal/measurement/e8;
+.super Lcom/google/android/gms/internal/measurement/f8;
+.source "SourceFile"
+
+
+# instance fields
+.field private final e:[B
+
+.field private final f:Z
+
+.field private g:I
+
+.field private h:I
+
+.field private i:I
+
+.field private j:I
+
+.field private k:I
+
+
+# direct methods
+.method private constructor <init>([BIIZ)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    .line 2
+    invoke-direct {p0, v0}, Lcom/google/android/gms/internal/measurement/f8;-><init>(Lcom/google/android/gms/internal/measurement/g8;)V
+
+    const v0, 0x7fffffff
+
+    .line 3
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/e8;->k:I
+
+    .line 4
+    iput-object p1, p0, Lcom/google/android/gms/internal/measurement/e8;->e:[B
+
+    add-int/2addr p3, p2
+
+    .line 5
+    iput p3, p0, Lcom/google/android/gms/internal/measurement/e8;->g:I
+
+    .line 6
+    iput p2, p0, Lcom/google/android/gms/internal/measurement/e8;->i:I
+
+    .line 7
+    iput p2, p0, Lcom/google/android/gms/internal/measurement/e8;->j:I
+
+    .line 8
+    iput-boolean p4, p0, Lcom/google/android/gms/internal/measurement/e8;->f:Z
+
+    return-void
+.end method
+
+.method synthetic constructor <init>([BIIZLcom/google/android/gms/internal/measurement/h8;)V
+    .locals 0
+
+    .line 1
+    const/4 p2, 0x0
+
+    invoke-direct {p0, p1, p2, p3, p2}, Lcom/google/android/gms/internal/measurement/e8;-><init>([BIIZ)V
+
+    return-void
+.end method
+
+.method private final f()V
+    .locals 3
+
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/e8;->g:I
+
+    iget v1, p0, Lcom/google/android/gms/internal/measurement/e8;->h:I
+
+    add-int/2addr v0, v1
+
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/e8;->g:I
+
+    iget v1, p0, Lcom/google/android/gms/internal/measurement/e8;->j:I
+
+    sub-int v1, v0, v1
+
+    iget v2, p0, Lcom/google/android/gms/internal/measurement/e8;->k:I
+
+    if-le v1, v2, :cond_0
+
+    sub-int/2addr v1, v2
+
+    iput v1, p0, Lcom/google/android/gms/internal/measurement/e8;->h:I
+
+    sub-int/2addr v0, v1
+
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/e8;->g:I
+
+    return-void
+
+    :cond_0
+    const/4 v0, 0x0
+
+    iput v0, p0, Lcom/google/android/gms/internal/measurement/e8;->h:I
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final a(I)I
+    .locals 1
+
+    if-ltz p1, :cond_2
+
+    invoke-virtual {p0}, Lcom/google/android/gms/internal/measurement/f8;->d()I
+
+    move-result v0
+
+    add-int/2addr p1, v0
+
+    if-ltz p1, :cond_1
+
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/e8;->k:I
+
+    if-gt p1, v0, :cond_0
+
+    iput p1, p0, Lcom/google/android/gms/internal/measurement/e8;->k:I
+
+    invoke-direct {p0}, Lcom/google/android/gms/internal/measurement/e8;->f()V
+
+    return v0
+
+    :cond_0
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/j9;->f()Lcom/google/android/gms/internal/measurement/j9;
+
+    move-result-object p1
+
+    throw p1
+
+    :cond_1
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/j9;->e()Lcom/google/android/gms/internal/measurement/j9;
+
+    move-result-object p1
+
+    throw p1
+
+    :cond_2
+    invoke-static {}, Lcom/google/android/gms/internal/measurement/j9;->d()Lcom/google/android/gms/internal/measurement/j9;
+
+    move-result-object p1
+
+    throw p1
+.end method
+
+.method public final d()I
+    .locals 2
+
+    iget v0, p0, Lcom/google/android/gms/internal/measurement/e8;->i:I
+
+    iget v1, p0, Lcom/google/android/gms/internal/measurement/e8;->j:I
+
+    sub-int/2addr v0, v1
+
+    return v0
+.end method

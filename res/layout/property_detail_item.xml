@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/property_detail_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="12.0sp" android:id="@id/item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="130.0dip" style="@style/hp_bottomsheet_item_heading" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/info_symbol" android:visibility="visible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/info_outline_grey" android:tint="@color/black" android:layout_alignTop="@id/item" android:layout_alignBottom="@id/item" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_marginStart="4.0dip" android:layout_toEndOf="@id/item" android:tintMode="screen" />
+    <com.nnacres.app.utils.FlowLayout android:id="@id/fl_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_marginStart="160.0dip" android:layout_alignParentStart="true">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="12.0sp" android:id="@id/itemText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/small_even" android:layout_toEndOf="@id/item" style="@style/bold_medium_label" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/area_subtext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_small" style="@style/AssistiveText" />
+            <ImageView android:id="@id/area_subtext_dropdown" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_pd_arrow_drop_down_24px" />
+        </LinearLayout>
+    </com.nnacres.app.utils.FlowLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="12.0sp" android:ellipsize="end" android:id="@id/item_subText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:layout_below="@id/fl_detail" android:layout_marginStart="160.0dip" android:layout_toEndOf="@id/item" android:layout_alignParentStart="true" style="@style/AssistiveText" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

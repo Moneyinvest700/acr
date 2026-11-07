@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_facility_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" app:event_type="ALL" app:identifier="FACILITIES" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <include android:id="@id/xid_facility_header" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/xid_section_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_xid_top_faclity_viewall" android:layout_width="wrap_content" android:layout_height="48.0dip" android:maxLines="1" android:layout_alignParentEnd="true" android:paddingHorizontal="4.0dip" android:paddingVertical="15.0dip" app:event_type="CLICK" app:identifier="VIEW_ALL" style="@style/hyperlinkSmall" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_xid_top_facility" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:paddingStart="@dimen/large_even" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/xid_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

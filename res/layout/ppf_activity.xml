@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/ppfActivityRootView" android:layout_width="fill_parent" android:layout_height="fill_parent" app:topmost="true" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" android:id="@id/toolbar" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_ppf_back" />
+            <TextView android:textColor="@color/Ng500" android:id="@id/toolbarHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="40.0dip" style="@style/semibold_section_header" />
+        </androidx.appcompat.widget.Toolbar>
+        <ProgressBar android:id="@id/progressBar" android:padding="0.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/s" android:max="100" android:progress="0" android:indeterminate="false" android:progressDrawable="@drawable/custom_progress_bar_horizontal" style="?android:progressBarStyleHorizontal" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/editCustomWarning" android:background="@drawable/card_border" android:padding="@dimen/medium_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/I_errorSubtle" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/ppfFormSubHeading">
+            <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/large" android:layout_height="@dimen/large" app:srcCompat="@drawable/ic_error_icon" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="@dimen/txt_normal" android:id="@id/editCustomWarningtext" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_medium_even" android:layout_marginEnd="@dimen/webinar_icon_width_height" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+        <ViewStub android:id="@id/tabLayoutViewStub" android:layout="@layout/ppf_tab_layout" android:inflatedId="@id/tabLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <androidx.fragment.app.FragmentContainerView android:name="androidx.navigation.fragment.NavHostFragment" android:id="@id/hostFragment" android:layout_width="fill_parent" android:layout_height="fill_parent" app:defaultNavHost="true" />
+    </LinearLayout>
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/ppfFormProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerInParent="true" />
+    <include android:id="@id/whatsAppIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="70.0dip" android:layout_alignParentBottom="true" android:layout_alignParentEnd="true" layout="@layout/whats_app_fab" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

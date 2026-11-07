@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/material_gray_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/srpPageLayout" android:background="@color/material_gray_50" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/npSrpContent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/sort_refine_layout">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_projects" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:listSelector="@drawable/propertytype_item_bg" android:cacheColorHint="#ffc0c0c0" android:divider="@null" android:dividerHeight="0.0dip" android:footerDividersEnabled="false" android:nestedScrollingEnabled="true" />
+        </RelativeLayout>
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="@color/white" android:id="@id/fullSearchString" android:background="@drawable/layout_outline" android:padding="6.0dip" android:visibility="invisible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ImageView android:id="@id/imageView1_temp" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shortlist_inactive" android:scaleType="fitXY" />
+</RelativeLayout>

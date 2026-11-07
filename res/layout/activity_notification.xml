@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/material_gray_350" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_white" />
+    <RelativeLayout android:id="@id/zrpholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="120.0dip">
+        <ImageView android:id="@id/iv_zrp" android:layout_width="150.0dip" android:layout_height="150.0dip" android:src="@drawable/ic_zrp_notification" android:scaleType="centerInside" android:layout_centerHorizontal="true" />
+        <TextView android:gravity="center_horizontal" android:id="@id/tv_no_notification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="You do not have any notification yet" android:layout_below="@id/iv_zrp" android:fontFamily="@font/open_sans_bold" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/notification_tuple" android:paddingTop="4.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+</LinearLayout>

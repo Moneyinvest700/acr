@@ -1,0 +1,4518 @@
+{
+  "propertyAmenity": {
+    "1": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 30,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Internet/wi-fi connectivity",
+          "url": "/images/seller/icons/amenities/desktop/a30.png"
+        },
+        {
+          "id": 31,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water softening plant",
+          "url": "/images/seller/icons/amenities/desktop/a31.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "2": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 30,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Internet/wi-fi connectivity",
+          "url": "/images/seller/icons/amenities/desktop/a30.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "3": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        }
+      ],
+      "other": []
+    },
+    "4": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 30,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Internet/wi-fi connectivity",
+          "url": "/images/seller/icons/amenities/desktop/a30.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "5": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "6": {
+      "default": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        }
+      ]
+    },
+    "9": {
+      "default": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        }
+      ]
+    },
+    "10": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ]
+    },
+    "12": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ]
+    },
+    "15": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "16": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        }
+      ]
+    },
+    "17": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "18": {
+      "default": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "19": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "20": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "22": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 30,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Internet/wi-fi connectivity",
+          "url": "/images/seller/icons/amenities/desktop/a30.png"
+        },
+        {
+          "id": 31,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water softening plant",
+          "url": "/images/seller/icons/amenities/desktop/a31.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "80": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "81": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ]
+    },
+    "82": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        }
+      ]
+    },
+    "83": {
+      "default": [
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        }
+      ]
+    },
+    "90": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 6,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Park",
+          "url": "/images/seller/icons/amenities/desktop/a6.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 44,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "High Ceiling Height",
+          "url": "/images/seller/icons/amenities/desktop/a44.png"
+        },
+        {
+          "id": 45,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "False Ceiling Lighting",
+          "url": "/images/seller/icons/amenities/desktop/a45.png"
+        },
+        {
+          "id": 46,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Separate entry for servant room",
+          "url": "/images/seller/icons/amenities/desktop/a46.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 47,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "No open drainage around",
+          "url": "/images/seller/icons/amenities/desktop/a47.png"
+        },
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 29,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Piped-gas",
+          "url": "/images/seller/icons/amenities/desktop/a29.png"
+        },
+        {
+          "id": 30,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Internet/wi-fi connectivity",
+          "url": "/images/seller/icons/amenities/desktop/a30.png"
+        },
+        {
+          "id": 31,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water softening plant",
+          "url": "/images/seller/icons/amenities/desktop/a31.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 32,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Water purifier",
+          "url": "/images/seller/icons/amenities/desktop/a32.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 39,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Recently Renovated",
+          "url": "/images/seller/icons/amenities/desktop/a39.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 8,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Private Garden / Terrace",
+          "url": "/images/seller/icons/amenities/desktop/a8.png"
+        },
+        {
+          "id": 40,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Natural Light",
+          "url": "/images/seller/icons/amenities/desktop/a40.png"
+        },
+        {
+          "id": 41,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Airy Rooms",
+          "url": "/images/seller/icons/amenities/desktop/a41.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 42,
+          "category": "Property Feature",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Spacious Interiors",
+          "url": "/images/seller/icons/amenities/desktop/a42.png"
+        },
+        {
+          "id": 43,
+          "category": "Other Features",
+          "type": "FEATURES_RESIDENTIAL",
+          "label": "Low Density Society",
+          "url": "/images/seller/icons/amenities/desktop/a43.png"
+        }
+      ]
+    },
+    "91": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": []
+    },
+    "92": {
+      "default": [
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": []
+    },
+    "93": {
+      "default": [
+        {
+          "id": 22,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Service / Goods Lift",
+          "url": "/images/seller/icons/amenities/desktop/a22.png"
+        },
+        {
+          "id": 23,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Maintenance Staff",
+          "url": "/images/seller/icons/amenities/desktop/a23.png"
+        },
+        {
+          "id": 24,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Water Storage",
+          "url": "/images/seller/icons/amenities/desktop/a24.png"
+        },
+        {
+          "id": 25,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Waste Disposal",
+          "url": "/images/seller/icons/amenities/desktop/a25.png"
+        },
+        {
+          "id": 11,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "ATM",
+          "url": "/images/seller/icons/amenities/desktop/a11.png"
+        },
+        {
+          "id": 33,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Shopping Centre",
+          "url": "/images/seller/icons/amenities/desktop/a33.png"
+        },
+        {
+          "id": 13,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Cafeteria / Food Court",
+          "url": "/images/seller/icons/amenities/desktop/a13.png"
+        },
+        {
+          "id": 37,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grade A Building",
+          "url": "/images/seller/icons/amenities/desktop/a37.png"
+        },
+        {
+          "id": 16,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Conference room",
+          "url": "/images/seller/icons/amenities/desktop/a16.png"
+        },
+        {
+          "id": 38,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Grocery Shop",
+          "url": "/images/seller/icons/amenities/desktop/a38.png"
+        },
+        {
+          "id": 17,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security / Fire Alarm",
+          "url": "/images/seller/icons/amenities/desktop/a17.png"
+        },
+        {
+          "id": 19,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Visitor Parking",
+          "url": "/images/seller/icons/amenities/desktop/a19.png"
+        },
+        {
+          "id": 9,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Security Personnel",
+          "url": "/images/seller/icons/amenities/desktop/a9.png"
+        },
+        {
+          "id": 20,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Intercom Facility",
+          "url": "/images/seller/icons/amenities/desktop/a20.png"
+        },
+        {
+          "id": 21,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Lift(s)",
+          "url": "/images/seller/icons/amenities/desktop/a21.png"
+        }
+      ],
+      "other": [
+        {
+          "id": 26,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Rain Water Harvesting",
+          "url": "/images/seller/icons/amenities/desktop/a26.png"
+        },
+        {
+          "id": 27,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Access to High Speed Internet",
+          "url": "/images/seller/icons/amenities/desktop/a27.png"
+        },
+        {
+          "id": 28,
+          "category": "Other Features",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bank Attached Property",
+          "url": "/images/seller/icons/amenities/desktop/a28.png"
+        },
+        {
+          "id": 10,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Centrally Air Conditioned",
+          "url": "/images/seller/icons/amenities/desktop/a10.png"
+        },
+        {
+          "id": 12,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Fitness Centre / GYM",
+          "url": "/images/seller/icons/amenities/desktop/a12.png"
+        },
+        {
+          "id": 34,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "WheelChair Accessibilitiy",
+          "url": "/images/seller/icons/amenities/desktop/a34.png"
+        },
+        {
+          "id": 35,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "DG Availability",
+          "url": "/images/seller/icons/amenities/desktop/a35.png"
+        },
+        {
+          "id": 14,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Banquet Hall",
+          "url": "/images/seller/icons/amenities/desktop/a14.png"
+        },
+        {
+          "id": 36,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "CCTV Surveillance",
+          "url": "/images/seller/icons/amenities/desktop/a36.png"
+        },
+        {
+          "id": 15,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Bar / Lounge",
+          "url": "/images/seller/icons/amenities/desktop/a15.png"
+        },
+        {
+          "id": 1,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Swimming Pool",
+          "url": "/images/seller/icons/amenities/desktop/a1.png"
+        },
+        {
+          "id": 2,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Power Back-up",
+          "url": "/images/seller/icons/amenities/desktop/a2.png"
+        },
+        {
+          "id": 3,
+          "category": "Society/Building Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Club house / Community Center",
+          "url": "/images/seller/icons/amenities/desktop/a3.png"
+        },
+        {
+          "id": 4,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Reserved Parking",
+          "url": "/images/seller/icons/amenities/desktop/a4.png"
+        },
+        {
+          "id": 5,
+          "category": "Property Feature",
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Feng Shui / Vaastu Compliant",
+          "url": "/images/seller/icons/amenities/desktop/a5.png"
+        },
+        {
+          "id": 7,
+          "type": "FEATURES_COMMERCIAL",
+          "label": "Servant Quarters",
+          "url": "/images/seller/icons/amenities/desktop/a7.png"
+        }
+      ]
+    }
+  }
+}

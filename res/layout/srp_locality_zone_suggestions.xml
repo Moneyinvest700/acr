@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginVertical="@dimen/large" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@drawable/shape_rectangle_a100_with_corner_8" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" />
+    <androidx.cardview.widget.CardView android:id="@id/zoneSuggestionCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-80.0dip" android:layout_marginBottom="@dimen/small_even" android:layout_below="@id/header" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginHorizontal="20.0dip">
+            <TextView android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" style="@style/semibold_list_header" />
+            <include layout="@layout/search_locality_item" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

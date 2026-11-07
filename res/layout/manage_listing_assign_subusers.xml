@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootListingSubuser" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/assignedToLabel" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/ppf_material_left_margin" android:layout_marginRight="10.0dip" android:text="This listing is already assigned to:" />
+    <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/assignedTo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:text="Dummy" android:layout_below="@id/assignedToLabel" />
+    <TextView android:id="@id/subUserSelect" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Choose Sub User" android:layout_below="@id/assignedTo" style="@style/ppf_heading" />
+    <ListView android:layout_gravity="center" android:id="@id/dropDownListInfoType" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:cacheColorHint="@color/transparentBlackBg" android:divider="@null" android:choiceMode="singleChoice" android:layout_above="@id/note" android:layout_below="@id/subUserSelect" />
+    <TextView android:id="@id/note" android:layout_marginTop="10.0dip" android:text="Note: Sub User will be Nominated to handle responses to the assigned Listings" android:layout_above="@id/assign" style="@style/ppf_note_style" />
+    <TextView android:id="@id/assign" android:layout_width="fill_parent" android:layout_height="@dimen/action_button_height" android:text="Assign Listing" android:layout_alignParentBottom="true" style="@style/ActionButtonBlue" />
+</RelativeLayout>

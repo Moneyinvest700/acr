@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="30.0dip" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="RENT_PAYMENT_BANNER" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/image" android:background="@drawable/shape_rectangle_corner_radius_8_p100" android:layout_width="fill_parent" android:layout_height="260.0dip" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmer_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="154.0dip" android:layout_marginTop="@dimen/extra_small_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/global_shimmer_style" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout>

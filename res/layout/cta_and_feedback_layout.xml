@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/notification_feedback_layer" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/light_green" android:gravity="center" android:id="@id/view_more_btn" android:background="@drawable/notification_cta_style" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginBottom="7.0dip" android:foreground="?selectableItemBackground" android:text="@string/show_more_properties_text" android:maxLines="1" android:layout_marginStart="5.0dip" android:layout_marginEnd="5.0dip" android:elevation="1.0dip" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/view_more_btn" layout="@layout/feedback_layout" />
+</RelativeLayout>

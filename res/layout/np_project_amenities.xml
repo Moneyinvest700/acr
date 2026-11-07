@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xid_widget_style">
+        <TextView android:id="@id/amenities_heading" android:text="@string/text_amenities" style="@style/XidDetailHeading" />
+        <GridView android:gravity="center" android:id="@id/grid_basicAmenity" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="290.0dip" android:horizontalSpacing="15.0dip" android:verticalSpacing="20.0dip" android:stretchMode="columnWidth" android:numColumns="3" />
+        <LinearLayout android:orientation="vertical" android:id="@id/lifestyle_amenities_parent" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+</FrameLayout>

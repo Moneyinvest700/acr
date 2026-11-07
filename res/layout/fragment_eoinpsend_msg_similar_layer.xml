@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include layout="@layout/eoi_complete_action_header" />
+            <TextView android:id="@id/tv_seller_heading" android:padding="@dimen/list_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_eoi_sellers_heading" style="@style/bold_list_header" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_sellers_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small" />
+            <TextView android:id="@id/similarLayerTextView" android:padding="@dimen/list_padding" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_collab_proj_heading" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/similarLayerNpRecyclerView" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </ScrollView>
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/progressWheel" android:visibility="gone" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/chatBotIcon" android:visibility="visible" android:layout_width="@dimen/xxxx_large" android:layout_height="@dimen/xxxx_large" android:layout_marginTop="@dimen/small" android:layout_marginBottom="@dimen/small" android:layout_alignParentTop="true" android:layout_marginEnd="@dimen/large" android:layout_alignParentEnd="true" wheel:srcCompat="@drawable/chatbot" wheel:topmost="true" />
+</RelativeLayout>

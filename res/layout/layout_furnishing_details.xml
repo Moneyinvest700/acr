@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/furnish_item1" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item2" android:visibility="gone" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item3" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item4" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item5" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item18" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item6" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item7" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item8" layout="@layout/furnish_detail_item_multiple" />
+            <include android:id="@id/furnish_item9" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item10" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item11" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item12" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item13" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item14" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item15" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item16" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item17" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <include android:id="@id/furnish_item19" android:visibility="gone" layout="@layout/furnish_detail_item_checkbox" />
+            <EditText android:id="@id/other_furnishings" android:tag="@string/other_furnish" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_margin="10.0dip" android:hint="Others" />
+        </LinearLayout>
+    </ScrollView>
+    <TextView android:id="@id/btn_submit" android:layout_width="fill_parent" android:text="Done" style="@style/ActionButtonBlue" />
+</LinearLayout>

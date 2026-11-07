@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/webview_layout_progress" android:visibility="visible" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" />
+    <WebView android:id="@id/floor_plans_web_view" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/image_caption_webview" android:layout_below="@id/toolbar" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/material_gray_600" android:ellipsize="marquee" android:gravity="center" android:id="@id/image_caption_webview" android:background="@color/white" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="60.0dip" android:text="heloo hkdhkjhsdhdsksdl" android:maxLines="2" android:layout_alignParentBottom="true" />
+</RelativeLayout>

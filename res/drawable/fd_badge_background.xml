@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient android:startColor="#ffff6c3e" android:endColor="#ffffa63e" android:angle="-45.0" android:type="linear" android:centerColor="#ffff6c3e" />
+            <padding android:left="@dimen/extra_extra_small" android:top="@dimen/extra_extra_small" android:right="@dimen/extra_extra_small" android:bottom="@dimen/extra_extra_small" />
+            <corners android:radius="@dimen/extra_extra_small" />
+        </shape>
+    </item>
+</selector>

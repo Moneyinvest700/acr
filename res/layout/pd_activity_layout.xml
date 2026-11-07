@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/ll_user_activity" android:background="@drawable/shape_rectangle_corners_radius_8_light_grey_background" android:padding="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/extra_large" app:event_type="ALL" app:identifier="USER_ACTION" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/icon" android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" app:srcCompat="@drawable/facility_electricity" />
+    <TextView android:textSize="@dimen/hp_heading_text_size" android:textColor="@color/Ng600" android:gravity="center_vertical" android:layout_gravity="center" android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium_even" style="@style/secondarySmallSemiBoldLabel" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

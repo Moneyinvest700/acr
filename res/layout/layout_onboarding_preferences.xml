@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="24.0dip" android:textColor="@color/onboarding_heading_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_onboarding_preferences_get_started" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:splitMotionEvents="false">
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/buttonResBuy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_buy" style="@style/onBoardButtonStyle" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/buttonResRent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/text_rent_lease" style="@style/onBoardButtonStyle" />
+            <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginBottom="15.0dip" />
+            <androidx.appcompat.widget.AppCompatButton android:id="@id/buttonSellRentProperty" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_onboarding_preferences_sell_rent_property" style="@style/onBoardButtonStyle" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

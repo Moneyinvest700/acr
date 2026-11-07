@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textColor="@color/Ng500" android:gravity="center" android:id="@id/tv_rera_tag" android:background="@drawable/rera_tag_bkg" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bodySmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

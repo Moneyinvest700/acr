@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="CLICK"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/buttonDone" android:layout_marginLeft="@dimen/filter_form_section_left_right_margin" android:layout_marginTop="@dimen/medium" android:layout_marginRight="@dimen/filter_form_section_left_right_margin" android:layout_marginBottom="@dimen/medium" android:text="@string/compare_now_0" app:event_type="CLICK" style="@style/AppActionButtonStyle" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

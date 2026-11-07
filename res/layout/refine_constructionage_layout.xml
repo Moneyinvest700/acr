@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/construtAgeLessThan1year" android:text="@string/age_less_than_1_year" android:onClick="constructionDateClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/construtAge1year" android:text="@string/age_1_5_year" android:onClick="constructionDateClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/construtAge5Years" android:text="@string/age_5_10_years" android:onClick="constructionDateClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/construtAge10Years" android:text="@string/age_10_20_years" android:onClick="constructionDateClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/construtAge20Year" android:text="@string/age_20_plus_years" android:onClick="constructionDateClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

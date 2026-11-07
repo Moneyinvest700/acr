@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/fomoParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginHorizontal="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/fomoIcon" android:layout_width="@dimen/large_medium_even" android:layout_height="@dimen/large_medium_even" />
+    <TextView android:textSize="@dimen/txt_small" android:textColor="@color/offers_tag_color" android:layout_gravity="center_vertical" android:id="@id/fomoText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_bold" android:layout_marginStart="@dimen/small_medium_even" android:layout_marginEnd="@dimen/extra_extra_large_even" />
+</LinearLayout>

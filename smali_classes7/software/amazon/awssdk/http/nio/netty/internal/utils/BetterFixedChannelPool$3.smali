@@ -1,0 +1,144 @@
+.class Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/netty/util/concurrent/FutureListener;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;->release(Lio/netty/channel/Channel;Lio/netty/util/concurrent/Promise;)Lio/netty/util/concurrent/Future;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lio/netty/util/concurrent/FutureListener<",
+        "Ljava/lang/Void;",
+        ">;"
+    }
+.end annotation
+
+
+# static fields
+.field static final synthetic $assertionsDisabled:Z
+
+
+# instance fields
+.field final synthetic this$0:Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;
+
+.field final synthetic val$channel:Lio/netty/channel/Channel;
+
+.field final synthetic val$promise:Lio/netty/util/concurrent/Promise;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 0
+
+    return-void
+.end method
+
+.method constructor <init>(Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;Lio/netty/channel/Channel;Lio/netty/util/concurrent/Promise;)V
+    .locals 0
+
+    iput-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->this$0:Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;
+
+    iput-object p2, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$channel:Lio/netty/channel/Channel;
+
+    iput-object p3, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$promise:Lio/netty/util/concurrent/Promise;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public operationComplete(Lio/netty/util/concurrent/Future;)V
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Lio/netty/util/concurrent/Future<",
+            "Ljava/lang/Void;",
+            ">;)V"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/Exception;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->this$0:Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;->access$1000(Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;)Z
+
+    move-result v0
+
+    if-eqz v0, :cond_0
+
+    iget-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$channel:Lio/netty/channel/Channel;
+
+    invoke-interface {p1}, Lio/netty/channel/ChannelOutboundInvoker;->close()Lio/netty/channel/ChannelFuture;
+
+    iget-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$promise:Lio/netty/util/concurrent/Promise;
+
+    sget-object v0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;->POOL_CLOSED_ON_RELEASE_EXCEPTION:Ljava/lang/IllegalStateException;
+
+    invoke-interface {p1, v0}, Lio/netty/util/concurrent/Promise;->setFailure(Ljava/lang/Throwable;)Lio/netty/util/concurrent/Promise;
+
+    return-void
+
+    :cond_0
+    invoke-interface {p1}, Lio/netty/util/concurrent/Future;->isSuccess()Z
+
+    move-result v0
+
+    if-eqz v0, :cond_1
+
+    iget-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->this$0:Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;
+
+    invoke-static {p1}, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;->access$1100(Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;)V
+
+    iget-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$promise:Lio/netty/util/concurrent/Promise;
+
+    const/4 v0, 0x0
+
+    invoke-interface {p1, v0}, Lio/netty/util/concurrent/Promise;->setSuccess(Ljava/lang/Object;)Lio/netty/util/concurrent/Promise;
+
+    goto :goto_0
+
+    :cond_1
+    invoke-interface {p1}, Lio/netty/util/concurrent/Future;->cause()Ljava/lang/Throwable;
+
+    move-result-object v0
+
+    instance-of v0, v0, Ljava/lang/IllegalArgumentException;
+
+    if-nez v0, :cond_2
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->this$0:Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;->access$1100(Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool;)V
+
+    :cond_2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/utils/BetterFixedChannelPool$3;->val$promise:Lio/netty/util/concurrent/Promise;
+
+    invoke-interface {p1}, Lio/netty/util/concurrent/Future;->cause()Ljava/lang/Throwable;
+
+    move-result-object p1
+
+    invoke-interface {v0, p1}, Lio/netty/util/concurrent/Promise;->setFailure(Ljava/lang/Throwable;)Lio/netty/util/concurrent/Promise;
+
+    :goto_0
+    return-void
+.end method

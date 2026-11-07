@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/hp_similar_proj_item_parent" android:background="@drawable/hp_tuple_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:foreground="?android:selectableItemBackground" android:minHeight="120.0dip" app:cardElevation="1.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/hp_tuple_border" android:layout_width="fill_parent" android:layout_height="fill_parent" android:minHeight="120.0dip">
+        <FrameLayout android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.32">
+            <ImageView android:id="@id/similarTupleImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+            <TextView android:id="@id/ReraTag" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/np_recom_rera_style" />
+            <TextView android:id="@id/similarTuplePossession" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/np_recom_possession_time_style" />
+        </FrameLayout>
+        <RelativeLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginTop="8.0dip" android:layout_weight="0.68">
+            <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/material_gray_900" android:id="@id/similarTupleProjectName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Pal Village" android:maxLines="1" android:fontFamily="@font/open_sans_semibold" />
+            <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/material_gray_700" android:id="@id/similarTupleProjectAddress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="Yamuna Expressway, Greater Noida" android:maxLines="1" android:layout_below="@id/similarTupleProjectName" />
+            <RelativeLayout android:id="@id/rl_price" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/similarTupleProjectAddress" android:layout_centerInParent="true">
+                <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/blue" android:id="@id/similarTuplePrice" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Rs 30-50 Lacs" android:fontFamily="@font/open_sans_bold" />
+                <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/light_gray" android:id="@id/similarTupleArea" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:text="3150 - 8244 Sq.Ft." android:layout_below="@id/similarTuplePrice" android:fontFamily="@font/open_sans_semibold" />
+                <TextView android:id="@id/tv_secondary_area" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/similarTupleArea" style="@style/SecondaryArea" />
+            </RelativeLayout>
+            <ImageView android:id="@id/iv_actionCall" android:background="?android:selectableItemBackground" android:padding="5.0dip" android:focusable="false" android:visibility="gone" android:clickable="true" android:layout_width="46.0dip" android:layout_height="46.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:src="@drawable/ic_call_offsite" android:scaleType="centerCrop" android:layout_above="@id/sectionDescription" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/rl_price">
+                <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/dark_gray" android:id="@id/similarTuplePlanDescription" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:layout_marginBottom="8.0dip" android:text="4 Bed(s) House/Villa" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

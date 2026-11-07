@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/bedbath_default_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/numberWashroomsContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/numberWashrooms" android:tag="@string/washroom_num" android:hint="Washroom(s)" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/numberofbalconyContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/numberWashroomsContainer" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/numberofbalcony" android:layout_marginTop="10.0dip" android:hint="Balconies(optional)" android:layout_alignWithParentIfMissing="true" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

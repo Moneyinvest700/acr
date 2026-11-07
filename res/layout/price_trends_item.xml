@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/price_trends_key_price_point" android:background="@drawable/shape_grey_bckg" android:layout_width="@dimen/tcp_card_height" android:layout_height="fill_parent" android:layout_margin="12.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip">
+        <ImageView android:id="@id/trend_icon" android:layout_width="@dimen/extra_extra_extra_large_even" android:layout_height="@dimen/extra_extra_extra_large_even" />
+        <TextView android:id="@id/trend_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:fontFamily="@font/open_sans_semibold" style="@style/hp_upcoming_localities_title" />
+        <TextView android:id="@id/trend_body" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="13.0dip" style="@style/new_srp_tuple_heading_style" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

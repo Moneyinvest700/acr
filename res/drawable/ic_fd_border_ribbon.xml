@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="27.0dip" android:width="26.0dip" android:viewportWidth="26.0" android:viewportHeight="27.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="#00000000" android:pathData="M13,1L13,1A12,12 0,0 1,25 13L25,13A12,12 0,0 1,13 25L13,25A12,12 0,0 1,1 13L1,13A12,12 0,0 1,13 1z" android:strokeColor="@drawable/$ic_fd_border_ribbon__0" android:strokeWidth="1.0" />
+    <path android:fillColor="#ffffffff" android:pathData="M26,19.9813C26,22.7322 23.7614,24.9627 21,24.9627C18.2386,24.9627 16,22.7322 16,19.9813C16,17.2302 18.2386,15 21,15C23.7614,15 26,17.2302 26,19.9813Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffe46138" android:pathData="M19.0322,18.1649V26.4818C19.0322,26.7202 19.2856,26.8723 19.4941,26.759L20.8306,26.0336C20.9237,25.9833 21.0354,25.9833 21.128,26.0336L22.4646,26.759C22.6733,26.8723 22.9264,26.7202 22.9264,26.4818V18.1649H19.0322Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_fd_border_ribbon__1" android:pathData="M25.3701,20.0033C25.3701,22.4427 23.4041,24.4206 20.979,24.4206C18.5539,24.4206 16.5879,22.4427 16.5879,20.0033C16.5879,17.5637 18.5539,15.5861 20.979,15.5861C23.4041,15.5861 25.3701,17.5637 25.3701,20.0033Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffd24c23" android:pathData="M22.9264,24.9685V23.9579C22.3392,24.2512 21.6795,24.4203 20.9792,24.4203C20.2791,24.4203 19.6195,24.2512 19.0322,23.9579V24.9685C19.6355,25.2086 20.2919,25.3422 20.9792,25.3422C21.6665,25.3422 22.3229,25.2086 22.9264,24.9685Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffd3aa" android:pathData="M23.5166,20.0032C23.5166,21.413 22.3804,22.5558 20.9789,22.5558C19.5773,22.5558 18.4414,21.413 18.4414,20.0032C18.4414,18.5933 19.5773,17.4505 20.9789,17.4505C22.3804,17.4505 23.5166,18.5933 23.5166,20.0032Z" android:fillType="evenOdd" />
+    <path android:fillColor="@drawable/$ic_fd_border_ribbon__2" android:pathData="M23.5166,20.0032C23.5166,21.413 22.3804,22.5558 20.9789,22.5558C19.5773,22.5558 18.4414,21.413 18.4414,20.0032C18.4414,18.5933 19.5773,17.4505 20.9789,17.4505C22.3804,17.4505 23.5166,18.5933 23.5166,20.0032Z" android:fillAlpha="0.2" android:fillType="evenOdd" />
+</vector>

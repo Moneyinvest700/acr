@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/P500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_clear" android:layout_marginEnd="@dimen/large" app:event_type="CLICK" app:identifier="CLEAR_ALL" app:topmost="true" style="@style/primaryRegularLabel"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/captionSubduedMedium" />
+    <TextView android:id="@id/tv_more" android:paddingRight="40.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hyperlinkSmall" />
+    <TextView android:id="@id/tv_subText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" style="@style/captionSubduedMedium" />
+    <TextView android:id="@id/tv_link" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" style="@style/captionSubduedMedium" />
+    <TextView android:id="@id/tv_copyRight" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" style="@style/captionSubduedMedium" />
+</LinearLayout>

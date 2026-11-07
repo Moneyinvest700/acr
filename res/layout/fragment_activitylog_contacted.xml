@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pd_eoi_base_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/radio_buttons_properties_projects" />
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView android:id="@id/lv_views" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" android:layout_below="@id/rgPropertyProject" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/rgPropertyProject" layout="@layout/recent_activity_empty_view" />
+</RelativeLayout>

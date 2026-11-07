@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_tour_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" app:event_type="ALL" app:identifier="INPAGE_GALLERY" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <include android:id="@id/xid_tour_header" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/xid_section_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/iv_info" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/info_icon" android:layout_centerVertical="true" android:layout_alignParentEnd="true" app:event_type="CLICK" app:identifier="INFO_ICON" />
+    </RelativeLayout>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_tour_video_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:paddingStart="@dimen/large" />
+    </HorizontalScrollView>
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/ll_tour_images_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/large" />
+    </HorizontalScrollView>
+    <include android:id="@id/xid_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" layout="@layout/xid_error_layout" />
+    <TextView android:id="@id/tv_feedback_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginStart="@dimen/large" style="@style/secondaryXtraSmallSemiBoldLabel" />
+    <include android:id="@id/view_more_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/xid_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

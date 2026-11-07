@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/heading_configSlots" android:layout_marginLeft="@dimen/xid_inside_margin_top" android:layout_marginTop="@dimen/xid_inside_margin_top" android:layout_marginRight="@dimen/xid_inside_margin_top" android:text="Offers &amp; Deals" style="@style/XidDetailHeading" />
+        <include layout="@layout/config_slot_layout" />
+        <RelativeLayout android:orientation="vertical" android:id="@id/rl_projectOptions" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/ic_confslot_shadow" android:scaleType="fitXY" android:layout_alignParentBottom="true" />
+            <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_projectOptions" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xid_inside_margin_top" android:layout_marginRight="@dimen/xid_inside_margin_top" android:layout_marginBottom="5.0dip" />
+            <TextView android:gravity="center" android:id="@id/tv_zeroProjectOption" android:padding="30.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/xid_inside_margin_top" android:layout_marginRight="@dimen/xid_inside_margin_top" android:text="No project option available" />
+        </RelativeLayout>
+        <FrameLayout android:background="#99fafafa" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_configSlots" android:paddingBottom="@dimen/xid_margin_right" android:layoutAnimation="@anim/item_animation_from_right" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </FrameLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/medium" android:paddingEnd="@dimen/small" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/small" app:event_type="CLICK" style="@style/AppActionButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

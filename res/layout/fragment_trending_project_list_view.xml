@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/main_content" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:theme="@style/AppBaseTheme.AppBarOverlay" android:id="@id/appbar" android:paddingTop="@dimen/appbar_padding_top" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:background="?colorPrimary" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:title="@string/trending_projects_string" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/AppBaseTheme.PopupOverlay" app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar" app:titleTextAppearance="@style/Toolbar.TitleText" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tabs" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabIndicatorHeight="3.0dip" app:tabMode="scrollable" app:tabPaddingEnd="16.0dip" app:tabPaddingStart="16.0dip" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.viewpager.widget.ViewPager android:id="@id/property_type_viewpager" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

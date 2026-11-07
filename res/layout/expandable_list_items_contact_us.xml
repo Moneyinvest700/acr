@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:id="@id/contact_99acres_ppf_hardchecks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Contact 99acres" style="@style/ActionButtonBlue"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

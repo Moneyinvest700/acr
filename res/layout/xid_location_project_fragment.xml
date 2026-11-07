@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/root_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/pw_loader" android:layout_width="fill_parent" android:layout_height="@dimen/location_bottom_sheet_height" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:src="@drawable/bottom_sheet_top_bar" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:text="Projects in this area" app:event_type="IMPRESSION" app:identifier="NEARBY_PROJECTS" style="@style/bold_section_header" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rv_project" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</FrameLayout>

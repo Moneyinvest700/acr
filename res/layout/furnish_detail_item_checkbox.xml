@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="70.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/amenity_image" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:src="@drawable/amenity_intercom_facility" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+    <TextView android:textColor="@color/material_gray_700" android:gravity="center" android:id="@id/amenity_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:text="furnish detail" android:layout_toRightOf="@id/amenity_image" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.SwitchCompat android:enabled="true" android:id="@id/furnish_item_switch" android:padding="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="20.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="20.0dip" android:layout_alignParentEnd="true" style="@style/SwitchCompat" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_alignParentBottom="true" />
+</RelativeLayout>

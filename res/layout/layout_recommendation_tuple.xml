@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_dealerComapnyName" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="8.0dip" android:text="Agent Name" android:layout_alignParentTop="true" style="@style/eoi_unpaid_tuple_dark" />
+        <TextView android:textSize="10.0dip" android:textColor="@color/white" android:id="@id/tv_topAdvertiserTag" android:background="@drawable/bg_recommend_tag" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Top Advertiser" android:layout_alignParentTop="true" android:layout_alignParentRight="true" />
+        <TextView android:id="@id/tv_propConfiguration" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:text="2 - 4 BHK Residential Apartment " android:layout_below="@id/tv_dealerComapnyName" style="@style/eoi_unpaid_tuple_semidark" />
+        <TextView android:id="@id/tv_propLocation" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="4.0dip" android:text="In Mahagun Mezzaria, Supertech Supernova" android:layout_below="@id/tv_propConfiguration" style="@style/eoi_unpaid_tuple_light" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_contactNumberContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/tv_propLocation">
+            <include android:id="@id/dummy_mobileRow" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/layout_mobile_row" />
+        </LinearLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

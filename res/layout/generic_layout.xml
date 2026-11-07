@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/llRoot" android:background="@color/material_gray_50" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:gravity="center" android:id="@id/toolbar" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="10.0dip" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" app:theme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Toolbar.TitleText_Custom_offsite"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/content_frame" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior">
+        <include layout="@layout/np_search_page_layout" />
+    </LinearLayout>
+    <include android:id="@id/zeroResult" android:visibility="gone" layout="@layout/zero_results_page" />
+    <include layout="@layout/fab_with_text" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

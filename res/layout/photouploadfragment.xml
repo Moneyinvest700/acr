@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gridContainer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/ll_continue">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:id="@id/fsl_photo_requirement_banner" android:paddingLeft="22.0dip" android:paddingTop="15.0dip" android:paddingRight="22.0dip" android:paddingBottom="15.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include layout="@layout/ppf_fsl_photo_requirement_banner" />
+            </LinearLayout>
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/albumGrid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/fsl_photo_requirement_banner" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/large" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_continue" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_change_cover" android:padding="@dimen/medium_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:text="@string/change_cover_photo" android:layout_weight="1.0" android:fontFamily="@font/open_sans_bold" android:layout_marginStart="@dimen/large" style="@style/primaryRegularLabel" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:gravity="center_horizontal" android:id="@id/tv_continue" android:background="@drawable/shape_primary_active_button" android:padding="@dimen/medium_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" android:text="Continue" android:layout_weight="1.0" android:fontFamily="@font/open_sans_bold" style="@style/whiteLabels" />
+    </LinearLayout>
+</RelativeLayout>

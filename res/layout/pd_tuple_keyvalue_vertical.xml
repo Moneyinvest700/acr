@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:paddingTop="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/topDealerSection" android:visibility="gone" layout="@layout/include_top_dealer_info" />
+    <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/pd_textcolor_light" android:id="@id/key" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/pd_textcolor_dark" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="@id/key" app:layout_constraintTop_toBottomOf="@id/key" />
+    <TextView android:textSize="@dimen/medium_even" android:textColor="@color/P500" android:id="@id/link" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_qr_code_underlined" android:fontFamily="@font/open_sans" android:layout_marginStart="@dimen/medium_even" app:layout_constraintBottom_toBottomOf="@id/value" app:layout_constraintStart_toEndOf="@id/value" app:layout_constraintTop_toTopOf="@id/value" />
+    <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/pd_textcolor_light" android:id="@id/tv_sub_value" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintLeft_toLeftOf="@id/value" app:layout_constraintTop_toBottomOf="@id/value" />
+</androidx.constraintlayout.widget.ConstraintLayout>

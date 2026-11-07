@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:layout_width="155.0dip" android:layout_height="155.0dip" android:layout_margin="@dimen/small_even" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/iv_default" android:background="@drawable/shape_rectangle_grey_corner_radius_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Photos" android:drawableTop="@drawable/ic_add_grey_vector" android:drawablePadding="@dimen/extra_small_even" style="@style/propertyOptionTextNormal" />
+        </FrameLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

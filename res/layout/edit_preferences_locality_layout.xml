@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Locality or Project/ Society" style="@style/preferences_heading_style" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/edit_pref_locality_rv" android:background="@drawable/preferences_locality_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="7.0dip" app:layoutManager="LinearLayoutManager" />
+    <RelativeLayout android:gravity="center_vertical" android:id="@id/preferences_pg_checkBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="18.0dip">
+        <TextView android:textSize="@dimen/text_size_xxx_small" android:textStyle="bold" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="6.0dip" android:text="@string/pg_only_text" android:layout_toLeftOf="@id/preferences_locality_pg_only" android:layout_centerVertical="true" />
+        <androidx.appcompat.widget.SwitchCompat android:gravity="center" android:layout_gravity="center" android:id="@id/preferences_locality_pg_only" android:background="@color/transparent" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_alignParentRight="true" android:layout_centerVertical="true" style="@style/SwitchCompat" />
+    </RelativeLayout>
+</LinearLayout>

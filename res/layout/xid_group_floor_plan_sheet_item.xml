@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_price_breakup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_group_floor_tuple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <TextView android:id="@id/tv_area" android:paddingTop="@dimen/small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1,400 sq.ft. (132 sq.m.)" android:fontFamily="@font/open_sans" />
+            <TextView android:id="@id/tv_area_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Super Built up area" style="@style/captionSubduedMedium" />
+        </LinearLayout>
+        <TextView android:layout_gravity="end" android:id="@id/tv_price" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" ₹72 Lac" android:layout_weight="1.0" android:layout_marginStart="@dimen/extra_large" style="@style/bold_list_header" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/large" layout="@layout/line_divider_layout" />
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_unit_option_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" style="@style/bold_title" />
+    <HorizontalScrollView android:id="@id/rv_property_type" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/unit_options_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingEnd="@dimen/medium_even" android:layout_marginStart="@dimen/large" />
+    </HorizontalScrollView>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_root" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:layout_marginStart="@dimen/extra_extra_large">
+        <RelativeLayout android:id="@id/rl_price" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.75">
+            <ImageView android:id="@id/iv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_price" />
+            <TextView android:id="@id/tv_price_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:layout_below="@id/iv_price" style="@style/captionSubduedSmall" />
+            <TextView android:id="@id/tv_price" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:layout_below="@id/tv_price_label" style="@style/bold_section_header" />
+            <TextView android:id="@id/tv_secondary_price_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_price" style="@style/secondaryBadgeLarge" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/additional_charges_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_price" android:layout_toEndOf="@id/tv_secondary_price_label" app:event_type="CLICK" app:identifier="GOVT_CHARGES_LABEL" style="@style/chargesAssistive" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/rl_area" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+            <ImageView android:id="@id/iv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_area" />
+            <TextView android:id="@id/tv_area_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:layout_below="@id/iv_area" style="@style/captionSubduedSmall" />
+            <TextView android:ellipsize="end" android:id="@id/tv_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_below="@id/tv_area_label" android:layout_marginEnd="@dimen/extra_extra_large" style="@style/bold_section_header" />
+            <TextView android:id="@id/tv_secondary_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_area" style="@style/secondaryBadgeLarge" />
+        </RelativeLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_resale_rental" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/small" />
+    <com.nnacres.app.xid_revamp.view.XidFloatingActionButton android:layout_gravity="center" android:id="@id/summary_action_button" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/large" android:layout_marginBottom="@dimen/small" app:event_type="CLICK" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

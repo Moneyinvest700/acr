@@ -1,0 +1,2296 @@
+{
+  "page_detail": {
+    "page_name": "HP",
+    "section_page_size": 6,
+    "days_for_posted_property": 30
+  },
+  "budget_calculator_data": {
+    "interest_rate": 8.5,
+    "budget_calculation_variable": 10,
+    "disclaimer": "This is only an estimated value, actual eligibility depends on loan provider, terms of loan etc."
+  },
+  "sections": {
+    "QUICK_LINKS": {
+      "id": "QUICK_LINKS",
+      "title": "Get started with",
+      "subtitle": "exploring real estate options in top cities",
+      "sub_section": [
+        "Buying a home",
+        "Renting a home",
+        "Selling/ Renting your property",
+        "PG and co-living",
+        "Buy commercial property",
+        "Lease commercial property"
+      ]
+    },
+    "EXPLORE_CARD_BUY_EXPANDED": {
+      "id": "EXPLORE_CARD_BUY_EXPANDED",
+      "title": "Buying a home",
+      "subtitle": "Apartments, land, builder floors, villas and more",
+      "cta": "Explore all home buying options",
+      "res_com": "R",
+      "preference": "S"
+    },
+    "SELL_LEASE_CARD": {
+      "id": "SELL_LEASE_CARD"
+    },
+    "TOP_ARTICLE_BUY": {
+      "id": "TOP_ARTICLE_BUY",
+      "title": "Top articles on home buying",
+      "res_com": "R",
+      "preference": "S"
+    },
+    "BUDGET_CALCULATOR": {
+      "id": "BUDGET_CALCULATOR",
+      "title": "Check your home buying budget",
+      "subtitle": "Based on your savings and EMI",
+      "cta": "View estimate",
+      "interest_rate": 8.5,
+      "budget_calculation_variable": 10,
+      "disclaimer": "This is only an estimated value, actual eligibility depends on loan provider, terms of loan etc."
+    },
+    "EXPLORE_CARD_RENT_EXPANDED": {
+      "id": "EXPLORE_CARD_RENT_EXPANDED",
+      "title": "Renting a home",
+      "subtitle": "Apartments, builder floors, villas and more",
+      "cta": "Explore all home renting options",
+      "res_com": "R",
+      "preference": "R"
+    },
+    "TOP_ARTICLE_RENT": {
+      "id": "TOP_ARTICLE_RENT",
+      "title": "Top articles on home renting",
+      "res_com": "R",
+      "preference": "R"
+    },
+    "EXPLORE_CARD_COMM_BUY_EXPANDED": {
+      "id": "EXPLORE_CARD_COMM_BUY_EXPANDED",
+      "title": "Buying a commercial property",
+      "subtitle": "Shops, offices, land, factories, warehouses and more",
+      "cta": "Explore all commercial buying options",
+      "res_com": "C",
+      "preference": "S"
+    },
+    "EXPLORE_CARD_COMM_LEASE_EXPANDED": {
+      "id": "EXPLORE_CARD_COMM_LEASE_EXPANDED",
+      "title": "Leasing a commercial property",
+      "subtitle": "Shops, offices, land, factories, warehouses and more",
+      "cta": "Explore all commercial leasing options",
+      "res_com": "C",
+      "preference": "L"
+    },
+    "EXPLORE_CARD_PG_EXPANDED": {
+      "id": "EXPLORE_CARD_PG_EXPANDED",
+      "title": "PG and co-living",
+      "subtitle": "Organised, owner and broker listed PGs",
+      "cta": "Explore all PG and co-living options",
+      "res_com": "R",
+      "preference": "P"
+    },
+    "EXPLORE_POPULAR_CITY": {
+      "id": "EXPLORE_POPULAR_CITY",
+      "title": "Explore popular cities",
+      "subtitle": "Buy or Rent properties in top cities"
+    },
+    "EXPLORE_CARD_SELL_EXPANDED": {
+      "id": "EXPLORE_CARD_SELL_EXPANDED",
+      "title": "Selling/ Renting your property",
+      "subtitle": "Close the deal faster with 99acres",
+      "cta": "Post property for FREE",
+      "subCTA": "Option to get assistance & free verification"
+    },
+    "TOP_ARTICLE_PG": {
+      "id": "TOP_ARTICLE_PG",
+      "title": "Top articles on PG & Co-living",
+      "res_com": "R",
+      "preference": "P"
+    },
+    "RENT_PAYMENT_WIDGET": {
+      "id": "RENT_PAYMENT_WIDGET"
+    },
+    "TOP_ARTICLE_OWNER": {
+      "id": "TOP_ARTICLE_OWNER",
+      "title": "Articles & guides for Owners",
+      "preference": "O"
+    },
+    "OWNER_SERVICES": {
+      "id": "OWNER_SERVICES",
+      "title": "Our services for owners",
+      "subtitle": "Make your life easier with our services"
+    },
+    "OWNER_SERVICES_SELLER": {
+      "id": "OWNER_SERVICES_SELLER",
+      "title": "Curated Services for you",
+      "subtitle": "Make it easier for you by using our services"
+    },
+    "RES_FEATURED_PROJECTS": {
+      "id": "RES_FEATURED_PROJECTS",
+      "title": "Handpicked Residential Projects",
+      "subtitle": "Featured Residential Projects across India",
+      "res_com": "R"
+    },
+    "COM_FEATURED_PROJECTS": {
+      "id": "COM_FEATURED_PROJECTS",
+      "title": "Handpicked Commercial Projects",
+      "subtitle": "Featured Commercial Projects across India",
+      "res_com": "C"
+    },
+    "INLINE_BANNER": {
+      "id": "INLINE_BANNER",
+      "title": "99acres exclusive",
+      "subtitle": "Sponsored projects and events"
+    },
+    "OWN_AD_INVENTORY": {
+      "id": "OWN_AD_INVENTORY"
+    },
+    "TOP_ARTICLE_PG_PERSONALISED": {
+      "id": "TOP_ARTICLE_PG_PERSONALISED",
+      "title": "Top articles on PG/ Co-living",
+      "res_com": "R",
+      "preference": "P"
+    },
+    "TOP_ARTICLE_OWNER_PERSONALISED": {
+      "id": "TOP_ARTICLE_OWNER_PERSONALISED",
+      "title": "Top articles for owners",
+      "preference": "O"
+    },
+    "WHY_99ACRES": {
+      "id": "WHY_99ACRES",
+      "title": "Why trust 99acres",
+      "title1": "Over 12 lac properties",
+      "subtitle1": "10,000+ properties are added everyday",
+      "title2": "Verification by 99acres team",
+      "subtitle2": "Photos/ Videos and other details are verified on location"
+    },
+    "TESTIMONIALS": {
+      "id": "TESTIMONIALS",
+      "title": "What our users have to say...",
+      "subtitle": "",
+      "cta": "View all testimonials"
+    },
+    "HOME_BUYERS_ONLY": {
+      "id": "HOME_BUYERS_ONLY",
+      "title": "For home buyers",
+      "subtitle": "Make informed decision when buying"
+    },
+    "TEAL_BANNER": {
+      "id": "TEAL_BANNER"
+    },
+    "LOCALITIES_BY_BUDGET": {
+      "id": "LOCALITIES_BY_BUDGET",
+      "title": "Localities by budget"
+    },
+    "ZONES_IN_CITY": {
+      "id": "ZONES_IN_CITY",
+      "subtitle": "Explore and Understand different localities in <City>",
+      "title": "Residential Zones in <City>"
+    },
+    "BUDGET_CALCULATOR_PERSONALISED": {
+      "id": "BUDGET_CALCULATOR_PERSONALISED",
+      "title": "Check your budget with 99acres home buying tool",
+      "subtitle": "Know how much you can spend",
+      "interest_rate": 8.5,
+      "budget_calculation_variable": 10,
+      "disclaimer": "This is only an estimated value, actual eligibility depends on loan provider, terms of loan etc."
+    },
+    "TOP_ARTICLE_BUY_PERSONALISED": {
+      "id": "TOP_ARTICLE_BUY_PERSONALISED",
+      "title": "Top articles on home buying",
+      "res_com": "R",
+      "preference": "S"
+    },
+    "TOP_ARTICLE_RENT_PERSONALISED": {
+      "id": "TOP_ARTICLE_RENT_PERSONALISED",
+      "title": "Top articles on home renting",
+      "res_com": "R",
+      "preference": "R"
+    },
+    "CROSS_SELL_RENT_EXPANDED": {
+      "id": "CROSS_SELL_RENT_EXPANDED",
+      "title": "Considering Renting a home?",
+      "subtitle": "Rent a home in similar budget",
+      "cta": "Explore all home renting options",
+      "res_com": "R",
+      "preference": "R"
+    },
+    "CROSS_SELL_PG_EXPANDED": {
+      "id": "CROSS_SELL_PG_EXPANDED",
+      "title": "Considering PG and co-living?",
+      "subtitle": "Get PGs/ Coliving at rates lower than monthly rentals",
+      "cta": "Explore all PG and co-living options",
+      "res_com": "R",
+      "preference": "P"
+    },
+    "EXPLORE_CARD_SELLING_PERSONALISED": {
+      "id": "EXPLORE_CARD_SELLING_PERSONALISED",
+      "title": "Want to sell/ rent your property?",
+      "cta": "Post property for FREE",
+      "titleAsSubtitle": false,
+      "tollFreeNumber": "1800 41 99099",
+      "customer_support_number": "1800 41 99099"
+    },
+    "BOC_WIDGET": {
+      "id": "BOC_WIDGET",
+      "title": "",
+      "subtitle": ""
+    },
+    "CHECKOUT_OTHER_OFFERING": {
+      "id": "CHECKOUT_OTHER_OFFERING",
+      "title": "Check out our offerings",
+      "subtitle": "Explore 99acres"
+    },
+    "EXPLORE_CARD_BUY_COLLAPSED": {
+      "id": "EXPLORE_CARD_BUY_COLLAPSED",
+      "title": "Buying a home",
+      "subtitle": "Apartments, land, builder floors, villas and more",
+      "res_com": "R",
+      "preference": "S"
+    },
+    "EXPLORE_CARD_RENT_COLLAPSED": {
+      "id": "EXPLORE_CARD_RENT_COLLAPSED",
+      "title": "Renting a home",
+      "subtitle": "Apartments, builder floors, villas and more",
+      "res_com": "R",
+      "preference": "R"
+    },
+    "EXPLORE_CARD_COMM_BUY_COLLAPSED": {
+      "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED",
+      "title": "Buying a commercial property",
+      "subtitle": "Shops, offices, land, factories, warehouses and more",
+      "res_com": "C",
+      "preference": "S"
+    },
+    "EXPLORE_CARD_COMM_LEASE_COLLAPSED": {
+      "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED",
+      "title": "Leasing a commercial property",
+      "subtitle": "Shops, offices, land, factories, warehouses and more",
+      "res_com": "C",
+      "preference": "L"
+    },
+    "EXPLORE_CARD_PG_COLLAPSED": {
+      "id": "EXPLORE_CARD_PG_COLLAPSED",
+      "title": "PG and co-living",
+      "subtitle": "Organised, owner and broker listed PGs",
+      "res_com": "R",
+      "preference": "P"
+    },
+    "YOUR_ACTIVITY": {
+      "id": "YOUR_ACTIVITY",
+      "title": "Continue browsing..."
+    },
+    "RECOMMENDED_PROPERTIES": {
+      "id": "RECOMMENDED_PROPERTIES",
+      "title": "Recommended Properties",
+      "subtitle": "Curated especially for you",
+      "recomId": "recommendedPropContainer"
+    },
+    "FRESH_LISTINGS": {
+      "id": "FRESH_LISTINGS",
+      "recomId": "freshPropContainer",
+      "subtitle": "Fresh properties, be quick before they rent out",
+      "title": "Recently posted properties"
+    },
+    "RECOMMENDED_PROJECTS": {
+      "id": "RECOMMENDED_PROJECTS",
+      "title": "Project Recommendations",
+      "subtitle": "in <City>, that match your preferences",
+      "recomId": "recommendedProjContainer",
+      "useConfigTitleSubtitle": false
+    },
+    "DEMANDED_PROJECTS": {
+      "id": "DEMANDED_PROJECTS",
+      "title": "Project Recommendations",
+      "subtitle": "in <City>, that match your preferences",
+      "recomId": "demandedProjContainer",
+      "useConfigTitleSubtitle": false
+    },
+    "RENTAL_YIELDS_PROJECTS": {
+      "id": "RENTAL_YIELDS_PROJECTS",
+      "title": "Project Recommendations",
+      "subtitle": "in <City>, that match your preferences",
+      "recomId": "rentalYieldProjContainer",
+      "useConfigTitleSubtitle": false
+    },
+    "ASSURED_RETURNS_PROJECTS": {
+      "id": "ASSURED_RETURNS_PROJECTS",
+      "title": "Assured Returns Projects",
+      "subtitle": "Offering upto 77% assured return annually in <City>",
+      "recomId": "assuredReturnsProjContainer"
+    },
+    "RECOMMENDED_LOCALITIES": {
+      "id": "RECOMMENDED_LOCALITIES",
+      "title": "Localities you may like",
+      "subtitle": "Check property rates, price trends, reviews & more",
+      "recomId": "recommendedLocContainer"
+    },
+    "RECOMMENDED_INSIGHTS": {
+      "id": "RECOMMENDED_INSIGHTS",
+      "title": "Localities you may like",
+      "subtitle": "based on your search & browsing behaviour",
+      "recomId": "recommendedInsightsContainer"
+    },
+    "POPULAR_PROJECTS": {
+      "id": "POPULAR_PROJECTS",
+      "title": "Projects in high demand",
+      "subtitle": "The most searched projects in <City>",
+      "recomId": "newCollabProjContainer"
+    },
+    "NEW_LAUNCH_PROJECTS": {
+      "id": "NEW_LAUNCH_PROJECTS",
+      "title": "Newly Launched Projects",
+      "subtitle": "Recently added projects and phases in <City>",
+      "placeholderProps": {
+        "cssStyleObject": {
+          "height": 340.25
+        }
+      }
+    },
+    "FEATURED_PROJECTS": {
+      "id": "FEATURED_PROJECTS",
+      "title": "Handpicked Projects",
+      "subtitle": "Featured projects in <city>",
+      "placeholderProps": {
+        "cssStyleObject": {
+          "height": 490.25
+        }
+      }
+    },
+    "CROSS_SELL_PROJECTS": {
+      "id": "CROSS_SELL_PROJECTS",
+      "title": "Based on search trends",
+      "alt_title": "<Location> buyers are also exploring",
+      "subtitle": "Other projects <Location> buyers considered",
+      "recomId": "crossSellProjContainer",
+      "useConfigTitleSubtitle": false
+    },
+    "PROJECT_INVESTMENT_OPTIONS": {
+      "id": "PROJECT_INVESTMENT_OPTIONS",
+      "title": "Looking to invest?"
+    },
+    "PROJECT_IN_FOCUS": {
+      "id": "PROJECT_IN_FOCUS",
+      "title": "Project in the Spotlight",
+      "subtitle": "Tour this projects and know more",
+      "placeholderProps": {
+        "cssStyleObject": {
+          "height": 467.25
+        }
+      }
+    },
+    "COMMERCIAL_INVESTMENTS": {
+      "id": "COMMERCIAL_INVESTMENTS",
+      "title": "Commercial Investment Ideas",
+      "subtitle": "Residential investors also consider commercial projects",
+      "recomId": "ProjContainer",
+      "useConfigTitleSubtitle": true
+    },
+    "RESIDENTIAL_INVESTMENTS": {
+      "id": "RESIDENTIAL_INVESTMENTS",
+      "title": "Residential Investment Ideas",
+      "subtitle": "Commercial investors also consider residential projects",
+      "recomId": "residentialProjContainer",
+      "useConfigTitleSubtitle": true
+    },
+    "POPULAR_BUILDERS": {
+      "id": "POPULAR_BUILDERS",
+      "title": "Popular builders",
+      "subtitle": "in <City>"
+    },
+    "OFFERS_SECTION": {
+      "id": "OFFERS_SECTION",
+      "title": "Offers for you",
+      "placeholderProps": {
+        "cssStyleObject": {
+          "height": 291
+        }
+      }
+    },
+    "POPULAR_LOCALITIES": {
+      "id": "POPULAR_LOCALITIES",
+      "title": "Popular localities",
+      "subtitle": "View insights of most searched localities",
+      "recomId": "popularLocContainer"
+    },
+    "UPCOMING_LOCALITIES": {
+      "id": "UPCOMING_LOCALITIES",
+      "title": "Emerging localities",
+      "subtitle": "View insights of localities with recent developments"
+    },
+    "TOP_DEALERS_IN_LOCALITY": {
+      "id": "TOP_DEALERS_IN_LOCALITY",
+      "title": "Get help from Top dealers",
+      "subtitle": "in your explored localities in <City>"
+    },
+    "WRITE_A_REVIEW": {
+      "id": "WRITE_A_REVIEW",
+      "title": "Share your Reviews & help others",
+      "subtitle": "Write about the society or locality you live in and help others make the right choice",
+      "cta": "Write a review"
+    },
+    "REVIEW_PAYTM_BANNER": {
+      "id": "REVIEW_PAYTM_BANNER",
+      "title": "Review your locality or Society and help other buyers & tenants",
+      "subtitle": " & unlock exclusive real estate insights",
+      "cta": "Write a Review",
+      "footerText": "Win u20B9${0} Paytm cashback - ${1}",
+      "vars": [
+        {
+          "text": "150"
+        },
+        {
+          "text": "View details",
+          "link": "View details",
+          "styles": {
+            "textDecoration": "underline",
+            "textDecorationLine": "underline",
+            "cursor": "pointer"
+          }
+        }
+      ]
+    },
+    "BROWSE_PROJECT_BY_BUDGET": {
+      "id": "BROWSE_PROJECT_BY_BUDGET",
+      "title": "Budget in mind?"
+    },
+    "BROWSE_BY_POSSESSION": {
+      "id": "BROWSE_BY_POSSESSION",
+      "title": "Move in now, next year or later",
+      "subtitle": "Projects based on your preferred possession date",
+      "facetsKey": "AVAILABILITY",
+      "additionalFacetsKey": "SUB_AVAILABILITY",
+      "filterName": "availability",
+      "additionalFilterName": "sub_availability",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top",
+      "cta": ""
+    },
+    "BROWSE_BY_SELLER_TYPE": {
+      "id": "BROWSE_BY_SELLER_TYPE",
+      "title": "Properties posted by",
+      "subtitle": "",
+      "facetsKey": "CLASS",
+      "filterName": "class",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "subsection": [
+        "O",
+        "A",
+        "B"
+      ],
+      "showIconBorder": false
+    },
+    "BROWSE_BY_PROP_TYPE": {
+      "id": "BROWSE_BY_PROP_TYPE",
+      "title": "Apartments, Villas and more",
+      "subtitle": "in <City>",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "BROWSE_BY_PROP_TYPE_RENT": {
+      "id": "BROWSE_BY_PROP_TYPE_RENT",
+      "title": "Apartments, Villas and more",
+      "subtitle": "in <City>",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "BROWSE_BY_PROP_TYPE_PG": {
+      "id": "BROWSE_BY_PROP_TYPE_PG",
+      "title": "Apartments, Villas and more",
+      "subtitle": "in <City>",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "BROWSE_BY_PROP_TYPE_BUY": {
+      "id": "BROWSE_BY_PROP_TYPE_BUY",
+      "title": "Offices, Retail, Land and more",
+      "subtitle": "in <City>",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "BROWSE_BY_PROP_TYPE_LEASE": {
+      "id": "BROWSE_BY_PROP_TYPE_LEASE",
+      "title": "Offices, Retail, Land and more",
+      "subtitle": "in <City>",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "BROWSE_BY_BHK": {
+      "id": "BROWSE_BY_BHK",
+      "title": "BHK choice in mind?",
+      "facetsKey": "BEDROOM_NUM",
+      "filterName": "bedroom_num",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "showIconBorder": false
+    },
+    "BROWSE_BY_LOOKING_TO_INVEST": {
+      "id": "BROWSE_BY_LOOKING_TO_INVEST",
+      "title": "Looking to invest?",
+      "facetsKey": "BROWSE_BY_LOOKING_TO_INVEST",
+      "filterName": "BROWSE_BY_LOOKING_TO_INVEST",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "showIconBorder": false,
+      "showImage": true,
+      "showIcon": false
+    },
+    "BROWSE_BY_INVEST_NOW": {
+      "id": "BROWSE_BY_INVEST_NOW",
+      "title": "Invest now",
+      "facetsKey": "BROWSE_BY_INVEST_NOW",
+      "filterName": "BROWSE_BY_INVEST_NOW",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "showIconBorder": false,
+      "showImage": true,
+      "showIcon": false
+    },
+    "BROWSE_BY_PROP_TYPE_INVEST": {
+      "id": "BROWSE_BY_PROP_TYPE_INVEST",
+      "title": "Invest in commercial projects",
+      "subtitle": "Explore commercial projects and get upto <PERCENTAGE>% ROI",
+      "facetsKey": "PROPERTY_TYPE",
+      "filterName": "property_type",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top"
+    },
+    "VERIFIED_PROPERTIES_V2": {
+      "id": "VERIFIED_PROPERTIES_V2",
+      "title": "View properties verified by 99acres",
+      "subtitleList": [
+        "Site verification",
+        "Real photos of the property"
+      ],
+      "class": "tick",
+      "facetsKey": "VERIFIED",
+      "cta": "View Verified Properties"
+    },
+    "PROPERTIES_BY_FURNISHING": {
+      "id": "PROPERTIES_BY_FURNISHING",
+      "title": "Homes by furnishing",
+      "subtitle": "Choose your preferred furnishing",
+      "facetsKey": "FURNISH",
+      "filterName": "furnish",
+      "cardViewType": "imageSquareCard",
+      "headingAlignment": "top",
+      "subsection": [
+        "1",
+        "4",
+        "2"
+      ]
+    },
+    "PROPERTIES_BY_AVAILABLE_FOR": {
+      "id": "PROPERTIES_BY_AVAILABLE_FOR",
+      "title": "Curated rental collections",
+      "subtitle": "in <City>",
+      "facetsKey": "TENANT_PREFERENCES",
+      "filterName": "tenant_pref",
+      "cardViewType": "cardWithTitle",
+      "headingAlignment": "top",
+      "subsection": [
+        "FA",
+        "SM",
+        "SW",
+        "CL"
+      ]
+    },
+    "PROPERTIES_BY_AVAILABLE_FOR_PG": {
+      "id": "PROPERTIES_BY_AVAILABLE_FOR_PG",
+      "title": "Curated PG collections",
+      "subtitle": "in <City>",
+      "facetsKey": "TENANT_PREFERENCES",
+      "filterName": "tenant_pref",
+      "cardViewType": "cardWithTitle",
+      "headingAlignment": "top",
+      "subsection": [
+        "B",
+        "G",
+        "STU",
+        "WP"
+      ]
+    },
+    "PROPERTIES_BY_SHARING": {
+      "id": "PROPERTIES_BY_SHARING",
+      "title": "Interested in sharing?",
+      "facetsKey": "SHARING_COUNT",
+      "filterName": "sharing",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "showIconBorder": false
+    },
+    "PROPERTIES_WITH_SERVICES": {
+      "id": "PROPERTIES_WITH_SERVICES",
+      "title": "Homes with AC, food and more",
+      "subtitle": "Choose your prefered amenities and services",
+      "facetsKey": "ADDITIONAL_SERVICES",
+      "additionalFacetsKey": "BATHROOM_ATTACHED",
+      "filterName": "additionalServices",
+      "additionalFilterName": "bathroom_attached",
+      "cardViewType": "imageSquareCard",
+      "headingAlignment": "top"
+    },
+    "INVEST_IN_COMMERCIAL": {
+      "id": "INVEST_IN_COMMERCIAL",
+      "title": "INVEST IN COMMERCIAL",
+      "subtitle": "Double your returns with commercial Properties",
+      "description": "Earn 2x ROI than Residential",
+      "facetsKey": "INVEST_IN_COMMERCIAL",
+      "filterName": "INVEST_IN_COMMERCIAL",
+      "headingAlignment": "left",
+      "showIconBorder": false,
+      "showImage": true,
+      "showIcon": false
+    },
+    "ORGANISED_RENT_PROVIDERS": {
+      "id": "ORGANISED_RENT_PROVIDERS",
+      "title": "Top rent and co-living partners",
+      "subtitle": "in <City>"
+    },
+    "ORGANISED_PG_PROVIDERS": {
+      "id": "ORGANISED_PG_PROVIDERS",
+      "title": "Top PG and Co-living providers",
+      "subtitle": "in <City>"
+    },
+    "PROPERTIES_POSTED": {
+      "id": "PROPERTIES_POSTED",
+      "title": "Your property posting",
+      "cta": "Manage Property",
+      "subsection_ordering": [
+        {
+          "id": "OWNER_DISCOVERABILITY_PACK"
+        },
+        {
+          "id": "LISTING_LEADS"
+        },
+        {
+          "id": "OWNER_DISCOVERABILITY_PACK"
+        },
+        {
+          "id": "MANAGE_RESPONSE_SETTING"
+        },
+        {
+          "id": "BEWARE_QR"
+        },
+        {
+          "id": "LISTING_RESPONSES"
+        },
+        {
+          "id": "GET_MORE_RESPONSES"
+        },
+        {
+          "id": "PROPERTY_INSIGHTS"
+        },
+        {
+          "id": "PREMIUM_PACK_NUDGES"
+        },
+        {
+          "id": "DEALERS_TO_CONNECT"
+        },
+        {
+          "id": "SELL_LEASE_CARD"
+        },
+        {
+          "id": "SELL_TO_RENT_CARD"
+        },
+        {
+          "id": "OWNER_SERVICES_SELLER"
+        }
+      ]
+    },
+    "OWNER_DISCOVERABILITY_PACK": {
+      "id": "OWNER_DISCOVERABILITY_PACK"
+    },
+    "LISTING_LEADS": {
+      "id": "LISTING_LEADS",
+      "title": "Responses on Property",
+      "subtitle": "",
+      "cta": "View Details"
+    },
+    "LISTING_RESPONSES": {
+      "id": "LISTING_RESPONSES",
+      "title": "Recent Responses"
+    },
+    "GET_MORE_RESPONSES": {
+      "id": "GET_MORE_RESPONSES",
+      "title": "Get more Responses in <N> Steps",
+      "subtitle": "You are missing out on Responses",
+      "customer_support_number": "1800 41 99099"
+    },
+    "DEALERS_TO_CONNECT": {
+      "id": "DEALERS_TO_CONNECT",
+      "title": "Get help from Top dealers",
+      "subtitle": "and sell/ rent your property faster"
+    },
+    "PROPERTY_INSIGHTS": {
+      "id": "PROPERTY_INSIGHTS",
+      "title": "Property insights",
+      "subtitle": "Make smarter decisions with these insights",
+      "cta": "Adjust your price"
+    },
+    "SELL_TO_RENT_CARD": {
+      "id": "SELL_TO_RENT_CARD",
+      "title": "Considering renting till the property sells?",
+      "subtitle": "create the rental listing for free in 1 single step",
+      "cta": "Post for Rent"
+    },
+    "EXPLORE_CARD_SELLING_SELLER": {
+      "id": "EXPLORE_CARD_SELLING_SELLER",
+      "title": "Have another property to post?",
+      "subtitle": "",
+      "titleAsSubtitle": false,
+      "cta": "Post Property for FREE",
+      "customer_support_number": "1800 41 99099"
+    },
+    "APP_DOWNLOAD_BANNER": {
+      "id": "APP_DOWNLOAD_BANNER",
+      "title": "Don't miss out ",
+      "subtitle": "Be the first one to know about new listings and responses with 99acres mobile app",
+      "cta": "Get mobile app"
+    },
+    "SMARTAPPBANNER_HOMEPAGE_INLINE": {
+      "id": "SMARTAPPBANNER_HOMEPAGE_INLINE",
+      "title": ""
+    },
+    "WEBINARS": {
+      "id": "WEBINARS",
+      "title": "Online QnA session- LIVE",
+      "subtitle": "Get answers from Industry experts"
+    },
+    "BROWSE_BY_PRELEASED": {
+      "id": "BROWSE_BY_PRELEASED",
+      "title": "Pre-Leased Properties",
+      "facetsKey": "IS_PRE_LEASED",
+      "filterName": "isPreLeased",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "showIconBorder": false,
+      "showImage": true,
+      "showIcon": false
+    },
+    "EXPLORE_PRELEASED_PROPERTIES": {
+      "id": "EXPLORE_PRELEASED_PROPERTIES",
+      "title": "Buy Commercial properties that are Pre-leased",
+      "subtitleList": [
+        "Regular rental income",
+        "No hassle of leasing out",
+        "Ideal for investment"
+      ],
+      "class": "tick",
+      "facetsKey": "IS_PRE_LEASED",
+      "cta": "View Pre-Leased Properties"
+    },
+    "FD_Widget": {
+      "id": "FD_Widget",
+      "title": "Featured Dealers"
+    },
+    "MANAGE_RESPONSE_SETTING": {
+      "id": "MANAGE_RESPONSE_SETTING"
+    },
+    "BEWARE_QR": {
+      "id": "BEWARE_QR"
+    },
+    "PREMIUM_PACK_NUDGES": {
+      "id": "PREMIUM_PACK_NUDGES"
+    },
+    "RENT_PAYMENT_BANNER": {
+      "id": "RENT_PAYMENT_BANNER"
+    },
+    "HIGH_RENTAL_PROJECTS": {
+      "id": "HIGH_RENTAL_PROJECTS",
+      "title": "High Rental Yields Projects",
+      "subtitle": "Offering rental yields upto 99% in <City>",
+      "recomId": "recommendedProjContainer"
+    },
+    "IN_DEMAND_PROJECTS": {
+      "id": "IN_DEMAND_PROJECTS",
+      "title": "In Demand For Investment",
+      "subtitle": "Projects with high returns on Investment",
+      "recomId": "recommendedProjContainer"
+    },
+    "PROJECT_INVESTMENT_OPTIONS_COM": {
+      "id": "PROJECT_INVESTMENT_OPTIONS_COM",
+      "title": "Looking to invest?"
+    },
+    "INVEST_COM": {
+      "id": "INVEST_COM",
+      "title": "Invest in Commercial Projects",
+      "subtitle": "Explore commercial projects and get upto <ROI> ROI"
+    },
+    "PLOT_LAND_CITY": {
+      "id": "PLOT_LAND_CITY",
+      "title": "Plots/Land in <city>",
+      "subtitle": "Properties in and around the city"
+    },
+    "PLOT_LAND_COLLECTION": {
+      "id": "PLOT_LAND_COLLECTION",
+      "componentId": "FACETS_CUMULATIVE",
+      "title": "Plots/Land Collections",
+      "subtitle": "Showing for properties in<city>",
+      "facetsKey": "PLOT_LAND_COLLECTION",
+      "additionalFacetsKey": "",
+      "filterName": "plot_land",
+      "additionalFilterName": "",
+      "cardViewType": "coloredCard",
+      "headingAlignment": "top",
+      "cta": ""
+    },
+    "POPULAR_LOCALITIES_PLOT_LAND": {
+      "id": "POPULAR_LOCALITIES_PLOT_LAND",
+      "title": "Popular Localities",
+      "componentId": "POPULAR_LOCALITIES",
+      "subtitle": "Most searched localities for Plots/land in<city>"
+    },
+    "FEATURED_PROJECTS_PLOT_LAND": {
+      "id": "FEATURED_PROJECTS_PLOT_LAND",
+      "title": "Handpicked Projects",
+      "subtitle": "Featured Projects for Plots/Land in <city>"
+    },
+    "POPULAR_PROJECTS_PLOT_LAND": {
+      "id": "POPULAR_PROJECTS_PLOT_LAND",
+      "title": "Popular Projects with Plots/Land",
+      "subtitle": "in<city>that match your preferences",
+      "recomId": "recommendedProjContainerPlotLand",
+      "useConfigTitleSubtitle": true
+    },
+    "PROPERTIES_FOR_PLOT_LAND": {
+      "id": "PROPERTIES_FOR_PLOT_LAND",
+      "title": "Plots/Land in<city>",
+      "subtitle": "Curated especially for you",
+      "recomId": "recommendedPropContainerPlotLand"
+    },
+    "PROPERTY_POSTED_BUY_PLOT_LAND": {
+      "id": "PROPERTY_POSTED_BUY_PLOT_LAND",
+      "title": "Plots/Land posted by",
+      "subtitle": "Browse by advertiser type",
+      "facetsKey": "CLASS",
+      "filterName": "class",
+      "cardViewType": "squareCard",
+      "headingAlignment": "left",
+      "subsection": [
+        "O",
+        "A",
+        "B"
+      ],
+      "showIconBorder": false
+    },
+    "SELL_OR_LEASE_PLOT_LAND": {
+      "id": "SELL_OR_LEASE_PLOT_LAND",
+      "title": "Sell or Lease out your Plots/Land faster with 99acres",
+      "subtitle": "Get 2 free postings when you register with us",
+      "cta": "Post your property for FREE",
+      "subCTA": "Get 2 free postings when you register with us"
+    },
+    "ARTICLES_ON_PLOT_LAND": {
+      "id": "ARTICLES_ON_PLOT_LAND",
+      "title": "Top articles on Plots/Land",
+      "isBigCard": true,
+      "showSlides": 4,
+      "isFullWidth": true
+    },
+    "EXPLORE_PLOT_LAND_IN_POPULAR_CITIES": {
+      "id": "EXPLORE_PLOT_LAND_IN_POPULAR_CITIES",
+      "componentId": "EXPLORE_PLOT_LAND_IN_POPULAR_CITIES",
+      "title": "Explore Plots/Land in Popular Indian Cities",
+      "subtitle": "Top cities",
+      "isFullWidth": true
+    },
+    "GET_STARTED_WITH": {
+      "id": "GET_STARTED_WITH",
+      "title": "Get Started With"
+    },
+    "APP_RATING_NUDGE": {
+      "id": "APP_RATING_NUDGE",
+      "title": "Get Started With"
+    },
+    "EXPLORE_CARD_PLOT_LANDS_EXPANDED": {
+      "id": "EXPLORE_CARD_PLOT_LANDS_EXPANDED",
+      "title": "Buy Plots/Land",
+      "subtitle": "Explore Residential and Commercial Plots/Land",
+      "cta": "Explore all Plots/Land Options",
+      "res_com": "R",
+      "preference": "S",
+      "advanceFilter": [
+        {
+          "res_com": "R",
+          "property_type": [
+            "3"
+          ]
+        },
+        {
+          "res_com": "C",
+          "property_type": [
+            "9",
+            "16",
+            "20"
+          ]
+        }
+      ]
+    },
+    "EXPLORE_CARD_PLOT_LAND_EXPANDED_DESKTOP": {
+      "id": "EXPLORE_CARD_PLOT_LAND_EXPANDED_DESKTOP",
+      "title": "TOP CITIES",
+      "subtitle": "Explore Plots/Land in Popular Indian Cities",
+      "isFullWidth": true,
+      "res_com": "R",
+      "preference": "PL"
+    },
+    "CHECKOUT_OTHER_OFFERING_PLOT_LAND": {
+      "configList": [
+        {
+          "id": "R_S",
+          "res_com": "R",
+          "preference": "S",
+          "title": "Buy a home",
+          "subTitle": "Apartments, land, builder floors, villas and more",
+          "path": "https://static.99acres.com/universalapp/img/hp_buy.jpg",
+          "dataLabel": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "R_R",
+          "res_com": "R",
+          "preference": "R",
+          "path": "https://static.99acres.com/universalapp/img//hp_rent.jpg",
+          "title": "Rent a home",
+          "subTitle": "Apartments, builder floors, villas and more",
+          "dataLabel": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "res_com": "R",
+          "preference": "P",
+          "id": "R_P",
+          "title": "PG and co-living",
+          "path": "https://static.99acres.com/universalapp/img/hp_pg.png",
+          "subTitle": "Organised, owner and broker listed PGs",
+          "dataLabel": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "res_com": "R",
+          "preference": "S",
+          "id": "PL",
+          "title": "Buy Plots/Land",
+          "path": "https://static.99acres.com/universalapp/img/hp_plot_land.png",
+          "subTitle": "Residentials Plots",
+          "dataLabel": "EXPLORE_CARD_PLOT_LAND_COLLAPSED"
+        },
+        {
+          "res_com": "C",
+          "preference": "S",
+          "id": "PL",
+          "title": "Buy Plots/Land",
+          "path": "https://static.99acres.com/universalapp/img/hp_plot_land.png",
+          "subTitle": "Agricultural Lands, Industrial Lands, and Commercial Lands",
+          "dataLabel": "EXPLORE_CARD_PLOT_LAND_COLLAPSED"
+        },
+        {
+          "res_com": "C",
+          "preference": "S",
+          "id": "C_S",
+          "title": "Buy a commercial property",
+          "path": "https://static.99acres.com/universalapp/img/hp_commercial_buy.png",
+          "subTitle": "Shops, offices, land, factories, warehouses and more",
+          "dataLabel": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "res_com": "C",
+          "preference": "L",
+          "id": "C_L",
+          "title": "Lease a commercial property",
+          "path": "https://static.99acres.com/universalapp/img/hp_lease.png",
+          "subTitle": "Shops, offices, land, factories, warehouses and more",
+          "dataLabel": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        }
+      ],
+      "title": "Check out our other offerings",
+      "subTitle": "Explore 99acres",
+      "subtitle": "Explore 99acres",
+      "id": "CHECKOUT_OTHER_OFFERING_PLOT_LAND",
+      "isFullWidth": true
+    },
+    "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED": {
+      "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED",
+      "title": "Buy Plots / Lands",
+      "subtitle": "Residential Plots, Agricultural Farm lands, Inst. Lands and more",
+      "res_com": "R",
+      "preference": "S"
+    },
+    "TOP_ARTICLE_PLOT_LAND": {
+      "id": "TOP_ARTICLE_PLOT_LAND",
+      "title": "Articles on Plots/Land",
+      "articles": {
+        "articles": [
+          {
+            "author_name": "Anirudh Singh Chauhan",
+            "date": "Feb 16, 2022",
+            "author_designation": "Research Analyst",
+            "thumb": "https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2019/09/plottips-320x180.png?1649052102",
+            "link": "https://www.99acres.com/articles/tips-for-buying-a-plot-in-india.html",
+            "id": "121975",
+            "title": "Tips for buying a plot in India"
+          },
+          {
+            "author_name": "Bikki Sharma",
+            "date": "Feb 17, 2022",
+            "author_designation": "Research Analyst",
+            "thumb": "https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2022/02/commercial-land-320x180.jpg?1646992769",
+            "link": "https://www.99acres.com/articles/tips-for-buying-commercial-land-in-india.html",
+            "id": "244018",
+            "title": "Tips for buying commercial land in India"
+          },
+          {
+            "author_name": "Subhadra Bhadauria",
+            "date": "Feb 24, 2022",
+            "author_designation": "Editor",
+            "thumb": "https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2016/02/New-Project-83-320x180.jpg?1645708957",
+            "link": "https://www.99acres.com/articles/know-all-about-investing-in-an-industrial-property.html",
+            "id": "14041",
+            "title": "Know all about investing in an industrial property"
+          },
+          {
+            "author_name": "Subhadra Bhadauria",
+            "date": "Feb 23, 2022",
+            "author_designation": "Editor",
+            "thumb": "https://www.99acres.com/microsite/wp-content/blogs.dir/6161/files/2020/11/New-Project-43-320x180.jpg?1649051987",
+            "link": "https://www.99acres.com/articles/legal-tips-for-buying-agricultural-land-in-india.html",
+            "id": "198673",
+            "title": "Legal tips for buying agricultural land in India"
+          }
+        ],
+        "urlSuffix": "?frmsrc=99"
+      }
+    },
+    "HP_REVAMP_AB_RANGE": {
+      "maxValue": "100",
+      "minValue": "0"
+    },
+    "TOP_ARTICLE_COMMERCIAL_BUY": {
+      "id": "TOP_ARTICLE_COMMERCIAL_BUY",
+      "title": "Top articles on commercial buying",
+      "res_com": "C",
+      "preference": "S"
+    },
+    "TOP_ARTICLE_COMMERCIAL_LEASE": {
+      "id": "TOP_ARTICLE_COMMERCIAL_LEASE",
+      "title": "Top articles on leasing",
+      "res_com": "C",
+      "preference": "L"
+    },
+    "TOP_ARTICLE_COMMERCIAL_BUY_PERSONALISED": {
+      "id": "TOP_ARTICLE_COMMERCIAL_BUY_PERSONALISED",
+      "title": "Top articles on commercial buying",
+      "res_com": "C",
+      "preference": "S"
+    },
+    "TOP_ARTICLE_COMMERCIAL_LEASE_PERSONALISED": {
+      "id": "TOP_ARTICLE_COMMERCIAL_LEASE_PERSONALISED",
+      "title": "Top articles on leasing",
+      "res_com": "C",
+      "preference": "L"
+    },
+    "SELLER_GUIDE": {
+      "id": "SELLER_GUIDE"
+    }
+  },
+  "default": {
+    "ordering": [
+      {
+        "id": "GET_STARTED_WITH"
+      },
+      {
+        "id": "QUICK_LINKS"
+      },
+      {
+        "id": "BUDGET_CALCULATOR"
+      },
+      {
+        "id": "EXPLORE_CARD_BUY_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_BUY"
+      },
+      {
+        "id": "RES_FEATURED_PROJECTS"
+      },
+      {
+        "id": "EXPLORE_CARD_RENT_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_RENT"
+      },
+      {
+        "id": "EXPLORE_CARD_PLOT_LANDS_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_PLOT_LAND"
+      },
+      {
+        "id": "EXPLORE_CARD_SELL_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_OWNER"
+      },
+      {
+        "id": "OWNER_SERVICES"
+      },
+      {
+        "id": "EXPLORE_CARD_PG_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_PG"
+      },
+      {
+        "id": "EXPLORE_POPULAR_CITY"
+      },
+      {
+        "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+      },
+      {
+        "id": "EXPLORE_CARD_COMM_BUY_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_COMMERCIAL_BUY"
+      },
+      {
+        "id": "COM_FEATURED_PROJECTS"
+      },
+      {
+        "id": "EXPLORE_PRELEASED_PROPERTIES"
+      },
+      {
+        "id": "EXPLORE_CARD_COMM_LEASE_EXPANDED"
+      },
+      {
+        "id": "TOP_ARTICLE_COMMERCIAL_LEASE"
+      },
+      {
+        "id": "INLINE_BANNER"
+      },
+      {
+        "id": "WHY_99ACRES"
+      },
+      {
+        "id": "TESTIMONIALS"
+      },
+      {
+        "id": "APP_RATING_NUDGE"
+      },
+      {
+        "id": "APP_DOWNLOAD_BANNER"
+      }
+    ]
+  },
+  "personalised": {
+    "R_S": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "RECOMMENDED_INSIGHTS"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "OFFERS_SECTION"
+        },
+        {
+          "id": "FEATURED_PROJECTS"
+        },
+        {
+          "id": "WEBINARS"
+        },
+        {
+          "id": "INLINE_BANNER"
+        },
+        {
+          "id": "BUDGET_CALCULATOR_PERSONALISED"
+        },
+        {
+          "id": "PROJECT_IN_FOCUS"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "PROJECT_INVESTMENT_OPTIONS"
+        },
+        {
+          "id": "ZONES_IN_CITY"
+        },
+        {
+          "id": "INVEST_IN_COMMERCIAL"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "OWN_AD_INVENTORY"
+        },
+        {
+          "id": "CROSS_SELL_PROJECTS"
+        },
+        {
+          "id": "POPULAR_BUILDERS"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "LOCALITIES_BY_BUDGET"
+        },
+        {
+          "id": "UPCOMING_LOCALITIES"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "BROWSE_BY_POSSESSION"
+        },
+        {
+          "id": "BROWSE_PROJECT_BY_BUDGET"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE"
+        },
+        {
+          "id": "BROWSE_BY_BHK"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "COMMERCIAL_INVESTMENTS"
+        },
+        {
+          "id": "TEAL_BANNER"
+        },
+        {
+          "id": "HOME_BUYERS_ONLY"
+        },
+        {
+          "id": "TOP_ARTICLE_BUY_PERSONALISED"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_PERSONALISED"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        },
+        {
+          "id": "RENT_PAYMENT_WIDGET"
+        },
+        {
+          "id": "RENT_PAYMENT_BANNER"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "R_R": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "FRESH_LISTINGS"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "RECOMMENDED_INSIGHTS"
+        },
+        {
+          "id": "RENT_PAYMENT_WIDGET"
+        },
+        {
+          "id": "RENT_PAYMENT_BANNER"
+        },
+        {
+          "id": "PROPERTIES_BY_AVAILABLE_FOR"
+        },
+        {
+          "id": "PROPERTIES_BY_FURNISHING"
+        },
+        {
+          "id": "BUDGET_CALCULATOR_PERSONALISED"
+        },
+        {
+          "id": "ORGANISED_RENT_PROVIDERS"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "ZONES_IN_CITY"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "OWN_AD_INVENTORY"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "LOCALITIES_BY_BUDGET"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "INLINE_BANNER"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_RENT"
+        },
+        {
+          "id": "BROWSE_BY_BHK"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "CROSS_SELL_PG_EXPANDED"
+        },
+        {
+          "id": "TOP_ARTICLE_RENT_PERSONALISED"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_PERSONALISED"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "R_P": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "FRESH_LISTINGS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "RENT_PAYMENT_WIDGET"
+        },
+        {
+          "id": "PROPERTIES_BY_AVAILABLE_FOR_PG"
+        },
+        {
+          "id": "PROPERTIES_BY_FURNISHING"
+        },
+        {
+          "id": "PROPERTIES_WITH_SERVICES"
+        },
+        {
+          "id": "ORGANISED_PG_PROVIDERS"
+        },
+        {
+          "id": "PROPERTIES_BY_SHARING"
+        },
+        {
+          "id": "INLINE_BANNER"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_PG"
+        },
+        {
+          "id": "OWN_AD_INVENTORY"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "CROSS_SELL_RENT_EXPANDED"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_PERSONALISED"
+        },
+        {
+          "id": "TOP_ARTICLE_PG_PERSONALISED"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "C_S": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "OFFERS_SECTION"
+        },
+        {
+          "id": "FEATURED_PROJECTS"
+        },
+        {
+          "id": "PROJECT_INVESTMENT_OPTIONS_COM"
+        },
+        {
+          "id": "IN_DEMAND_PROJECTS"
+        },
+        {
+          "id": "WEBINARS"
+        },
+        {
+          "id": "INLINE_BANNER"
+        },
+        {
+          "id": "PROJECT_IN_FOCUS"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "BROWSE_BY_LOOKING_TO_INVEST"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "BROWSE_BY_PRELEASED"
+        },
+        {
+          "id": "INVEST_COM"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "BROWSE_BY_INVEST_NOW"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_INVEST"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "CROSS_SELL_PROJECTS"
+        },
+        {
+          "id": "POPULAR_BUILDERS"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "OWN_AD_INVENTORY"
+        },
+        {
+          "id": "UPCOMING_LOCALITIES"
+        },
+        {
+          "id": "TEAL_BANNER"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "HIGH_RENTAL_PROJECTS"
+        },
+        {
+          "id": "BROWSE_BY_POSSESSION"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_BUY"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "RESIDENTIAL_INVESTMENTS"
+        },
+        {
+          "id": "TOP_ARTICLE_COMMERCIAL_BUY_PERSONALISED"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_PERSONALISED"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        },
+        {
+          "id": "RENT_PAYMENT_WIDGET"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "C_L": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_LEASE"
+        },
+        {
+          "id": "INLINE_BANNER"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "OWN_AD_INVENTORY"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "TOP_ARTICLE_COMMERCIAL_LEASE_PERSONALISED"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_PERSONALISED"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "id": "RENT_PAYMENT_WIDGET"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "R_S_M": {
+      "ordering": [
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "OFFERS_SECTION"
+        },
+        {
+          "id": "FEATURED_PROJECTS"
+        },
+        {
+          "id": "PROJECT_IN_FOCUS"
+        },
+        {
+          "id": "PROJECT_INVESTMENT_OPTIONS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "POPULAR_BUILDERS"
+        },
+        {
+          "id": "ZONES_IN_CITY"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "LOCALITIES_BY_BUDGET"
+        },
+        {
+          "id": "UPCOMING_LOCALITIES"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "BROWSE_BY_POSSESSION"
+        },
+        {
+          "id": "BROWSE_PROJECT_BY_BUDGET"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE"
+        },
+        {
+          "id": "BROWSE_BY_BHK"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "TOP_DEALERS_IN_LOCALITY"
+        },
+        {
+          "id": "HOME_BUYERS_ONLY"
+        },
+        {
+          "id": "BUDGET_CALCULATOR_PERSONALISED"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "R_R_M": {
+      "ordering": [
+        {
+          "id": "RECOMMENDED_PROPERTIES"
+        },
+        {
+          "id": "FRESH_LISTINGS"
+        },
+        {
+          "id": "RECOMMENDED_PROJECTS"
+        },
+        {
+          "id": "RECOMMENDED_LOCALITIES"
+        },
+        {
+          "id": "PROPERTIES_BY_AVAILABLE_FOR"
+        },
+        {
+          "id": "PROPERTIES_BY_FURNISHING"
+        },
+        {
+          "id": "ORGANISED_RENT_PROVIDERS"
+        },
+        {
+          "id": "POPULAR_PROJECTS"
+        },
+        {
+          "id": "ZONES_IN_CITY"
+        },
+        {
+          "id": "POPULAR_LOCALITIES"
+        },
+        {
+          "id": "LOCALITIES_BY_BUDGET"
+        },
+        {
+          "id": "BROWSE_BY_SELLER_TYPE"
+        },
+        {
+          "id": "BROWSE_BY_PROP_TYPE_RENT"
+        },
+        {
+          "id": "BROWSE_BY_BHK"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    },
+    "C_S_investor1": {
+      "ordering": [
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        }
+      ]
+    },
+    "C_S_investor2": {
+      "ordering": [
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        }
+      ]
+    },
+    "C_S_investor3": {
+      "ordering": [
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_investor4": {
+      "ordering": [
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_rental1": {
+      "ordering": [
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_rental2": {
+      "ordering": [
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_returns1": {
+      "ordering": [
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_returns2": {
+      "ordering": [
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        }
+      ]
+    },
+    "C_S_upcoming": {
+      "ordering": [
+        {
+          "id": "NEW_LAUNCH_PROJECTS"
+        },
+        {
+          "id": "DEMANDED_PROJECTS"
+        },
+        {
+          "id": "ASSURED_RETURNS_PROJECTS"
+        },
+        {
+          "id": "RENTAL_YIELDS_PROJECTS"
+        }
+      ]
+    },
+    "SELLER": {
+      "ordering": [
+        {
+          "id": "YOUR_ACTIVITY"
+        },
+        {
+          "id": "SELLER_CONTAINER"
+        },
+        {
+          "id": "PROPERTIES_POSTED"
+        },
+        {
+          "id": "BUDGET_CALCULATOR_PERSONALISED"
+        },
+        {
+          "id": "SELLER_GUIDE"
+        },
+        {
+          "id": "TOP_ARTICLE_OWNER_PERSONALISED"
+        },
+        {
+          "id": "FD_Widget"
+        },
+        {
+          "id": "WRITE_A_REVIEW"
+        },
+        {
+          "id": "REVIEW_PAYTM_BANNER"
+        },
+        {
+          "id": "EXPLORE_CARD_SELLING_SELLER"
+        },
+        {
+          "id": "SMARTAPPBANNER_HOMEPAGE_INLINE"
+        },
+        {
+          "id": "BOC_WIDGET"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING"
+        },
+        {
+          "id": "EXPLORE_CARD_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_RENT_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PG_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_PLOTS_LANDS_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_BUY_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_CARD_COMM_LEASE_COLLAPSED"
+        },
+        {
+          "id": "EXPLORE_POPULAR_CITY"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        }
+      ]
+    },
+    "PLOT_LAND": {
+      "ordering": [
+        {
+          "id": "PLOT_LAND_CITY"
+        },
+        {
+          "id": "PLOT_LAND_COLLECTION"
+        },
+        {
+          "id": "POPULAR_LOCALITIES_PLOT_LAND"
+        },
+        {
+          "id": "FEATURED_PROJECTS"
+        },
+        {
+          "id": "POPULAR_PROJECTS_PLOT_LAND"
+        },
+        {
+          "id": "PROPERTIES_FOR_PLOT_LAND"
+        },
+        {
+          "id": "PROPERTY_POSTED_BUY_PLOT_LAND"
+        },
+        {
+          "id": "SELL_OR_LEASE_PLOT_LAND"
+        },
+        {
+          "id": "ARTICLES_ON_PLOT_LAND"
+        },
+        {
+          "id": "EXPLORE_PLOT_LAND_IN_POPULAR_CITIES"
+        },
+        {
+          "id": "CHECKOUT_OTHER_OFFERING_PLOT_LAND"
+        },
+        {
+          "id": "APP_RATING_NUDGE"
+        },
+        {
+          "id": "APP_DOWNLOAD_BANNER"
+        }
+      ]
+    }
+  },
+  "seller_bottomsheet": {
+    "verificationBottomSheet": {
+      "title": "Verify your property for FREE",
+      "CTA": "Request a call back",
+      "contents": [
+        {
+          "title": "Get more response",
+          "subtitle": "Buyers/ tenants trust verified properties more",
+          "id": 1
+        },
+        {
+          "title": "On-site property verification",
+          "subtitle": "Our team visits your property at your convenience to enhance your posting",
+          "id": 2
+        },
+        {
+          "title": "Free video and photo shoot",
+          "subtitle": "Professional video and photo shoot of your property by 99acres experts",
+          "id": 3
+        },
+        {
+          "title": "Get verified tag on your postings",
+          "subtitle": "Let your property stand out with the verified tag on your property listing",
+          "id": 4
+        }
+      ]
+    },
+    "OwnerBOSBottomSheet": {
+      "title": "Upgrade your listing",
+      "CTA": "Call us to know more",
+      "customer_support_number": "1800 41 99099",
+      "contents": [
+        {
+          "title": "Get more attention from buyers/tenants",
+          "subtitle": "Upgraded postings get more attention across 99acres website and app",
+          "id": 1
+        },
+        {
+          "title": "Top slot in search",
+          "subtitle": "Your posting will be highlighted and shown above other similar postings",
+          "id": 2
+        },
+        {
+          "title": "Experts to manage listing",
+          "subtitle": "You get a designated executive to help sell or rent your property faster",
+          "id": 3
+        },
+        {
+          "title": "Buyer/ Tenant pre-screening",
+          "subtitle": "We help save your time by pre-screening the interested buyers/ tenants who contact you",
+          "id": 4
+        },
+        {
+          "title": "Digital marketing campaigns",
+          "subtitle": "We help you extend your reach through social media and digital marketing",
+          "id": 5
+        }
+      ]
+    },
+    "BrokerBOSBottomSheet": {
+      "title": "Upgrade your listing",
+      "CTA": "Call us to know more",
+      "customer_support_number": "1800 41 99099",
+      "contents": [
+        {
+          "title": "Get more attention from buyers/tenants",
+          "subtitle": "Upgraded postings get more attention across 99acres website and app",
+          "id": 1
+        },
+        {
+          "title": "Top slot in search",
+          "subtitle": "Your posting will be highlighted and shown above other similar postings",
+          "id": 2
+        },
+        {
+          "title": "Get featured on project pages",
+          "subtitle": "Get more responses and brand visibility on project pages",
+          "id": 3
+        },
+        {
+          "title": "Visibility on our home page",
+          "subtitle": "High visibility for your property on 99acres mobile, desktop and apps",
+          "id": 4
+        },
+        {
+          "title": "Showcase interesting offers",
+          "subtitle": "Premium clients get an opportunity to showcase their offers on project pages",
+          "id": 5
+        }
+      ]
+    }
+  }
+}

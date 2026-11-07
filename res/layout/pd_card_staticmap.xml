@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rl_map_container" android:background="@color/white" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="150.0dip" android:scrollingCache="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/static_map_image" android:background="@drawable/dummy_map" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginTop="-50.0dip" />
+    <LinearLayout android:gravity="center" android:id="@id/ll_explore_neighbourhood" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <ImageView android:layout_width="18.0dip" android:layout_height="18.0dip" android:src="@drawable/explore_icon" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/material_blue_500" android:gravity="center" android:id="@id/explore_neighbourhood" android:background="@drawable/ripple_black_white" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="3.0dip" android:text="Explore Neighbourhood" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/nearby_menu" android:visibility="visible" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="56.0dip" android:layout_alignParentBottom="true">
+        <LinearLayout android:orientation="horizontal" android:background="@color/white" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent" android:divider="@android:color/darker_gray" android:showDividers="middle">
+            <include android:id="@id/nearby_railway" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_restaurant" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_grocery" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_airport" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_atm" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_park" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_bus_stand" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_school" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_medical" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_mall" layout="@layout/nearby_menuitem" />
+            <include android:id="@id/nearby_petrol_pump" layout="@layout/nearby_menuitem" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</RelativeLayout>

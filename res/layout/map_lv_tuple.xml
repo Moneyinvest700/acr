@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mapTuple" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="113.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="110.0dip" card_view:cardCornerRadius="1.0dip" card_view:cardElevation="0.0dip" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="5.0">
+            <RelativeLayout android:id="@id/leftPart" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+                <ImageView android:id="@id/propImage" android:background="@drawable/home_icon_grey" android:paddingBottom="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/emptyString" />
+                <ImageView android:id="@id/bookmark" android:background="@color/transparent" android:padding="5.0dip" android:clickable="true" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_margin="4.0dip" android:src="@drawable/ic_shortlist_inactive" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+                <TextView android:id="@id/seenTextViewMapMultiple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" style="@style/seen_text_view" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rightPart" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" android:layout_toRightOf="@id/leftPart">
+                <LinearLayout android:orientation="vertical" android:id="@id/firstDivider" android:paddingLeft="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:textSize="17.0sp" android:textStyle="bold" android:textColor="@color/black" android:id="@id/propPrice" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="17.0dip" android:layout_marginRight="3.0dip" android:singleLine="true" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/rent_propType" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center|left" android:id="@id/bhk_and_propType" android:paddingRight="30.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="1" />
+                    <TextView android:textSize="13.0sp" android:textColor="@color/material_gray_500" android:gravity="center" android:id="@id/propArea" android:paddingRight="60.0dip" android:paddingBottom="3.0dip" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_below="@id/bhk_and_propType" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" android:layout_alignParentStart="true" />
+                </LinearLayout>
+                <ProgressBar android:id="@id/progress_wheel" android:visibility="invisible" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

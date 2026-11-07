@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/pd_headingAmenities" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:text="Amenities" android:layout_alignParentTop="true" style="@style/pd_detailHeading" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/mid_gray" android:id="@id/tv_subheading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/rl_amenityParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/pd_headingAmenities" android:layout_alignParentLeft="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/amenityContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/moreAmenities" android:layout_alignParentLeft="true" />
+        <TextView android:gravity="center" android:id="@id/moreAmenities" android:background="@drawable/abox" android:padding="5.0dip" android:visibility="gone" android:layout_width="45.0dip" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="+20\nmore" android:layout_weight="1.0" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</LinearLayout>

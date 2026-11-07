@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout android:id="@id/cl_activity_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_xid" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/txt_xtra_xtra_small" android:stateListAnimator="@null">
+            <include layout="@layout/toolbar_white" />
+            <include android:id="@id/sticky_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/xid_sticky_header_layout" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/pd_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        <include android:layout_gravity="bottom" android:id="@id/pd_detailFooterParent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" layout="@layout/eoi_detail_page_footer" />
+        <include android:layout_gravity="bottom" android:id="@id/optionsLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/manage_listing_options" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout>
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/nn_progress_bar" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="8.0dip" android:layout_marginEnd="8.0dip" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

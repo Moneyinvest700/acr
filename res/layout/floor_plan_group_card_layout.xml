@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/card_floor_plan" android:layout_width="@dimen/featured_project_width" android:layout_height="fill_parent" android:layout_marginTop="@dimen/large_medium_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" android:elevation="@dimen/medium_even" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/m"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_group_card" android:paddingTop="@dimen/xxxx_large" android:paddingBottom="@dimen/xxxx_large" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/extra_large_even" android:paddingEnd="@dimen/extra_large_even">
+        <TextView android:layout_gravity="center" android:id="@id/arrow" android:background="@drawable/ic_group_card_arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <TextView android:textColor="@color/P500" android:layout_gravity="center" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" style="@style/bold_section_header" />
+        <TextView android:layout_gravity="center" android:id="@id/subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:textAlignment="center" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_landmarks" android:layout_width="fill_parent" android:layout_height="wrap_content" android:isScrollContainer="true" />
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/pw_loader" android:layout_width="fill_parent" android:layout_height="120.0dip" />
+    <LinearLayout android:id="@id/tv_zrp_container" android:background="@color/Ng200" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:gravity="center" android:id="@id/tv_zrp" android:layout_width="fill_parent" android:layout_height="120.0dip" style="@style/captionStrongMediumEven" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout>

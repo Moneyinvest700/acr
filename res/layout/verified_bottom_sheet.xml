@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:layout_behavior="android.support.design.widget.BottomSheetBehavior" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/large">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:layout_width="58.0dip" android:layout_height="58.0dip" android:src="@drawable/ic_frame_2751" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m" android:text="@string/what_does_a_verified_tag_on_99acres_mean" android:layout_marginStart="@dimen/large" android:layout_marginEnd="41.0dip" style="@style/bodyExtraBold" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip">
+            <TextView android:textSize="@dimen/l" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/_99acres_verification_team_physically_visit_the_property_check_the_below_details" android:layout_marginEnd="@dimen/extra_extra_large" style="@style/bodySmall12" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="26.0dip" android:src="@drawable/ic_check_circle_green_vector" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:layout_marginStart="@dimen/medium_even">
+                <TextView android:textColor="@color/Ng600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/on_site_phyiscal_verification" style="@style/verifiedBottomSheetListItemStyle" />
+                <TextView android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:text="@string/we_verify_the_property_type_and_configuration_details_bedrooms_bathrooms_balconys_other_interior_features_semi_permanent_in_nature" style="@style/captionStrongMedium" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_check_circle_green_vector" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium_even">
+                <TextView android:textColor="@color/Ng600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/real_photos_of_property" style="@style/verifiedBottomSheetListItemStyle" />
+                <TextView android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:text="@string/photos_taken_of_the_property_are_attached_by_our_team" style="@style/captionStrongMedium" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_check_circle_green_vector" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium_even">
+                <TextView android:textColor="@color/Ng600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="Location Validation" style="@style/verifiedBottomSheetListItemStyle" />
+                <TextView android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:text="Locality and society name are verified on location" style="@style/captionStrongMedium" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="20.0dip" android:src="@drawable/ic_check_circle_green_vector" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium_even">
+                <TextView android:textColor="@color/Ng600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="18.0dip" android:text="@string/property_advertiser" style="@style/verifiedBottomSheetListItemStyle" />
+                <TextView android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:text="@string/posted_by_an_owner_or_dealer_agent_and_their_contact_details_are_validated" style="@style/captionStrongMedium" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:background="@color/Ng200" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/display_xxl">
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="14.0dip" android:layout_height="15.0dip" android:layout_marginTop="13.0dip" android:src="@drawable/ic_warning_24px" android:layout_marginStart="@dimen/large" android:layout_marginEnd="7.0dip" />
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l" android:text="@string/you_are_advised_to_get_the_advertised_property_details_verified_independently" android:layout_marginEnd="@dimen/extra_extra_large" style="@style/bodySmall" />
+        </LinearLayout>
+        <TextView android:paddingBottom="14.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/we_do_not_verify_the_following_details_of_the_property_property_documents_ownership_details_area_built_up_vs_carpet_and_pricing_for_rent_sell" android:layout_marginStart="40.0dip" android:layout_marginEnd="@dimen/xxxx_large" style="@style/captionStrongSmall" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

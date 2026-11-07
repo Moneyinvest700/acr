@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/annualReturns" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/small" android:textColor="@color/Ng400" android:id="@id/example" android:layout_width="fill_parent" android:layout_height="wrap_content" android:textFontWeight="600" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/hideReturns" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hide_expected_returns" style="@style/secondaryRegularLabel" />
+</LinearLayout>

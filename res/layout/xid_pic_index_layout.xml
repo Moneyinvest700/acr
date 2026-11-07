@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:background="@drawable/shape_radius_left_radius_black" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/image_category" android:layout_marginRight="3.0dip" style="@style/xidDetailPhotoIndexTextStyle" />
+    <TextView android:id="@id/pdImgPagerCurIndex" style="@style/xidDetailPhotoIndexTextStyle" />
+    <TextView android:text="/" style="@style/xidDetailPhotoIndexTextStyle" />
+    <TextView android:id="@id/pdImgPagerMaxIndex" style="@style/xidDetailPhotoIndexTextStyle" />
+    <TextView android:layout_marginLeft="5.0dip" android:text="@string/photos_text" style="@style/xidDetailPhotoIndexTextStyle" />
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="14.0dip" android:layout_height="12.0dip" android:layout_marginLeft="3.0dip" android:src="@drawable/pd_image_pager_footer" android:scaleType="centerCrop" />
+</LinearLayout>

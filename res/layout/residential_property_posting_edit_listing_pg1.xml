@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:id="@id/container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/footer" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/steps" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/ppf_m1_steps" />
+            <include android:id="@id/actionType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/steps" layout="@layout/ppf_edit_m1_actiontype" />
+            <include android:id="@id/propType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/actionType" layout="@layout/ppf_edit_m1_proptype" />
+            <include android:id="@id/transact_typeholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/propType" layout="@layout/edit_scale_type_options" />
+            <com.nnacres.app.ui.NNacresCheckBox android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/pgProperty" android:tag="@string/show_pg_pref" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:checked="false" android:button="@null" android:text="PG accomodation available" android:drawableLeft="@drawable/custom_checkbox_design" android:drawableRight="@drawable/lock_icon" android:drawablePadding="5.0dip" android:layout_below="@id/transact_typeholder" android:layout_alignWithParentIfMissing="true" />
+            <include android:id="@id/ppf_tenant" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/pgProperty" layout="@layout/ppf_tenant_option" />
+            <include android:id="@id/photoWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/ppf_material_left_margin" android:layout_below="@id/ppf_tenant" layout="@layout/ppf_m1_photowidget" />
+            <include android:id="@id/fslAddress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/photoWidget" layout="@layout/ppf_m1_propertyaddressfsl" />
+        </RelativeLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

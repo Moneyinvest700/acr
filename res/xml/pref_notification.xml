@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <SwitchPreference android:title="@string/pref_title_new_message_notifications" android:key="notifications_new_message" android:widgetLayout="@layout/preferences_category_on" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref_title_last_search_alert" android:key="@string/last_search_property_alerts" android:summary="@string/fresh_alerts_summary" android:widgetLayout="@layout/preferences_category_on" android:dependency="notifications_new_message" android:defaultValue="true" />
+    <SwitchPreference android:title="@string/pref_title_matching_property_alert" android:key="@string/matching_property_alerts" android:summary="@string/matching_property_alerts_summary" android:widgetLayout="@layout/preferences_category_on" android:dependency="notifications_new_message" android:defaultValue="true" />
+    <PreferenceCategory android:title="Settings">
+        <SwitchPreference android:title="@string/pref_title_vibrate" android:key="notifications_new_message_vibrate" android:summary="@string/pref_summary_vibrate" android:widgetLayout="@layout/preferences_category_on" android:dependency="notifications_new_message" android:defaultValue="true" />
+        <SwitchPreference android:title="@string/pref_title_led" android:key="notifications_new_message_led" android:summary="@string/pref_summary_led" android:widgetLayout="@layout/preferences_category_on" android:dependency="notifications_new_message" android:defaultValue="true" />
+        <RingtonePreference android:title="@string/pref_title_ringtone" android:key="notifications_new_message_ringtone" android:summary="@string/pref_summary_ringtone" android:defaultValue="@string/default_ringtone_sound" android:ringtoneType="notification" />
+    </PreferenceCategory>
+</PreferenceScreen>

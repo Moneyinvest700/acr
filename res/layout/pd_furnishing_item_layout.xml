@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/pd_section_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_view_all" android:padding="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_alignParentEnd="true" app:event_type="CLICK" app:identifier="VIEW_ALL" style="@style/hyperlinkSmall" />
+    </RelativeLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" layout="@layout/pd_spec_band_layout" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

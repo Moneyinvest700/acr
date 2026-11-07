@@ -1,0 +1,36 @@
+.class public final synthetic Lsc/a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Lcom/huawei/hms/push/RemoteMessage;
+
+
+# direct methods
+.method public synthetic constructor <init>(Luc/a;Lcom/huawei/hms/push/RemoteMessage;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p2, p0, Lsc/a;->a:Lcom/huawei/hms/push/RemoteMessage;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    const/4 v0, 0x0
+
+    iget-object v1, p0, Lsc/a;->a:Lcom/huawei/hms/push/RemoteMessage;
+
+    invoke-static {v0, v1}, Lsc/c;->b(Luc/a;Lcom/huawei/hms/push/RemoteMessage;)V
+
+    return-void
+.end method

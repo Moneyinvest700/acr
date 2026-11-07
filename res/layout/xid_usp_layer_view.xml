@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/rl_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" app:event_type="IMPRESSION" app:identifier="USP" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle_with_gradient_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/xid_usp_background_height">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/medium_even">
+            <ImageView android:id="@id/usp_header_image" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/large_even" android:src="@drawable/ic_usp_image" android:layout_marginStart="@dimen/large_medium_even" />
+            <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/small" style="@style/bold_section_header" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/usp_item_holder" android:background="@drawable/shape_rectangle_solid_white_corners_radius_stroke_grey" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xid_usp_description_top_margin" android:layout_marginBottom="@dimen/extra_small_even" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/medium_even" android:elevation="@dimen/extra_small_even" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

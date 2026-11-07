@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_price_breakup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_price_type" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/secondarySmallLabel" />
+    <TextView android:id="@id/tv_price" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/extra_large" style="@style/completedPlaceholder" />
+</LinearLayout>

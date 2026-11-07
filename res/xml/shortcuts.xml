@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shortcuts
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut android:icon="@drawable/ic_search" android:enabled="true" android:shortcutId="search" android:shortcutShortLabel="@string/search_property" android:shortcutLongLabel="@string/search_property">
+        <intent android:targetPackage="com.nnacres.app" android:action="android.intent.action.VIEW" android:targetClass="com.nnacres.app.activity.ShortcutActivity">
+            <extra android:name="screen_to_show" android:value="2" />
+        </intent>
+    </shortcut>
+    <shortcut android:icon="@drawable/ic_post_residential" android:enabled="true" android:shortcutId="post" android:shortcutShortLabel="@string/post_property" android:shortcutLongLabel="@string/post_property">
+        <intent android:targetPackage="com.nnacres.app" android:action="android.intent.action.VIEW" android:targetClass="com.nnacres.app.ppf.ResidentialPPFPage1" />
+    </shortcut>
+</shortcuts>

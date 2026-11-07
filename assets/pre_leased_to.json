@@ -1,0 +1,126 @@
+[
+  {
+    "value": 1,
+    "label": "Jewellery"
+  },
+  {
+    "value": 2,
+    "label": "Gym"
+  },
+  {
+    "value": 3,
+    "label": "Grocery"
+  },
+  {
+    "value": 4,
+    "label": "Meat"
+  },
+  {
+    "value": 5,
+    "label": "Clinic"
+  },
+  {
+    "value": 6,
+    "label": "Stationery"
+  },
+  {
+    "value": 7,
+    "label": "Mobile"
+  },
+  {
+    "value": 8,
+    "label": "Clothes"
+  },
+  {
+    "value": 9,
+    "label": "Footwear"
+  },
+  {
+    "value": 10,
+    "label": "Chemist"
+  },
+  {
+    "value": 11,
+    "label": "Apparel"
+  },
+  {
+    "value": 12,
+    "label": "Groceries"
+  },
+  {
+    "value": 13,
+    "label": "Supermarket"
+  },
+  {
+    "value": 14,
+    "label": "Tech Firm"
+  },
+  {
+    "value": 15,
+    "label": "Electronics"
+  },
+  {
+    "value": 16,
+    "label": "Hardware"
+  },
+  {
+    "value": 17,
+    "label": "Bank"
+  },
+  {
+    "value": 18,
+    "label": "Private Bank"
+  },
+  {
+    "value": 19,
+    "label": "National Bank"
+  },
+  {
+    "value": 20,
+    "label": "Tuition"
+  },
+  {
+    "value": 21,
+    "label": "Coaching"
+  },
+  {
+    "value": 22,
+    "label": "Academy"
+  },
+  {
+    "value": 23,
+    "label": "Courier Service"
+  },
+  {
+    "value": 24,
+    "label": "Cafe"
+  },
+  {
+    "value": 25,
+    "label": "Restaurant"
+  },
+  {
+    "value": 26,
+    "label": "Dairy"
+  },
+  {
+    "value": 27,
+    "label": "Pharmacy"
+  },
+  {
+    "value": 28,
+    "label": "Medicine"
+  },
+  {
+    "value": 29,
+    "label": "Medical"
+  },
+  {
+    "value": 30,
+    "label": "Hospital"
+  },
+  {
+    "value": 31,
+    "label": "Saloon"
+  }
+]

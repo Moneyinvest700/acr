@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/cv" android:layout_width="155.0dip" android:layout_height="155.0dip" android:layout_margin="@dimen/small_even" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+        <ImageView android:id="@id/iv" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/login_bg" android:scaleType="centerCrop" />
+        <RelativeLayout android:id="@id/chkBox" android:background="@drawable/grid_cell_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:id="@id/tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+    <TextView android:layout_gravity="center" android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/propertyOption" />
+</LinearLayout>

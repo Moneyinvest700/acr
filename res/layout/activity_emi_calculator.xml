@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar_white" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/buttonDone" android:layout_below="@id/toolbar">
+        <androidx.constraintlayout.widget.ConstraintLayout android:padding="@dimen/large" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textColor="@color/black" android:gravity="center" android:id="@id/tvEmiTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/normal_text_view" />
+            <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/llEmiContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvEmiTitle">
+                <TextView android:id="@id/tvEmi" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_title_l" />
+                <ImageView android:id="@id/ivInfoIcon" android:layout_width="@dimen/large" android:layout_height="@dimen/large" android:src="@drawable/ic_info_pd_nudge" android:layout_marginStart="@dimen/small_even" />
+            </LinearLayout>
+            <TextView android:gravity="center" android:id="@id/tvInterest" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/fab_elevation" app:layout_constraintTop_toBottomOf="@id/llEmiContainer" style="@style/captionSubduedMedium" />
+            <com.nnacres.app.customviews.SingleThumbRangeSeekBar android:id="@id/loanAmountSlider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvInterest" />
+            <com.nnacres.app.customviews.SingleThumbRangeSeekBar android:id="@id/interestRateSlider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/loanAmountSlider" />
+            <com.nnacres.app.customviews.SingleThumbRangeSeekBar android:id="@id/tenureSlider" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxl" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/interestRateSlider" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

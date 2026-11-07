@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/personalized_hp_item_top_margin" app:event_type="ALL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/homepage_header" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvBrowse" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

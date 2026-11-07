@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_gravity="center" android:id="@id/action1" android:layout_width="0.0dip" android:text="Next" android:layout_weight="0.5" style="@style/ActionButtonBlue" />
+    <TextView android:layout_gravity="center" android:id="@id/action2" android:layout_width="0.0dip" android:layout_marginLeft="0.5dip" android:text="Done" android:layout_weight="0.5" style="@style/ActionButtonBlue" />
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/tvVerifiedTag" android:background="@drawable/rounded_corner_green_background" android:paddingTop="@dimen/extra_extra_small" android:paddingBottom="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_width="7.0dip" android:layout_height="7.0dip" android:src="@drawable/tick" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" />
+    <TextView android:textSize="@dimen/small_even" android:textColor="@color/white" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verified_text" android:layout_marginEnd="@dimen/extra_small_even" style="@style/text_semi_bold" />
+    <ImageView android:id="@id/infoIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_verified_info" android:layout_marginEnd="@dimen/extra_small_even" />
+</LinearLayout>

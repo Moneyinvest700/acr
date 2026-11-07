@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pricerangerr" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:id="@id/labelPriceRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="POSTED BY" style="@style/search_page_res_buy_card_title_textview" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/search_form_card_bg" android:layout_width="fill_parent" android:layout_height="@dimen/searchform_card_height" android:weightSum="2.0" android:layout_below="@id/titleresidential">
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_owner" android:text="@string/owner" android:drawableTop="@drawable/owner_selector" android:layout_weight="1.0" style="@style/PropertTypeButton" />
+        <androidx.appcompat.widget.AppCompatButton android:id="@id/btn_dealer" android:text="@string/dealer" android:drawableTop="@drawable/dealer_selector" android:layout_weight="1.0" style="@style/PropertTypeButton" />
+    </LinearLayout>
+</RelativeLayout>

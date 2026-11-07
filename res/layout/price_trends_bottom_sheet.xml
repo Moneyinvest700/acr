@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="CLICK" app:identifier="UNIT_OPTIONS" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/xid_section_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/trend_option_recycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginStart="@dimen/large" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

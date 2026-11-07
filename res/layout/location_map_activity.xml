@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/rootMapFragment" android:background="@color/transparentBlackBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <fragment android:name="com.google.android.gms.maps.SupportMapFragment" android:id="@id/map" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:gravity="center_horizontal" android:id="@id/tv_done" android:background="@drawable/shape_primary_active_button" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/large" android:text="Done" android:layout_alignParentBottom="true" android:fontFamily="@font/open_sans_bold" style="@style/whiteLabels" />
+</RelativeLayout>

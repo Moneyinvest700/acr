@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/pd_nearby_menuitem" android:background="@drawable/nearby_option_bg" android:padding="2.0dip" android:layout_width="75.0dip" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center" android:id="@id/nearby_menuitem_image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/nearby_atm" android:scaleType="centerInside" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/hp_regular_content" android:gravity="center_horizontal" android:layout_gravity="center" android:id="@id/nearby_menuitem_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" android:maxLines="1" android:fontFamily="@font/open_sans_semibold" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/medium" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tuple_title" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/semibold_list_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_furnishing_tuple" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

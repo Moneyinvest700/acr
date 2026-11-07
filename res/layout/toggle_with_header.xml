@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/toggleFilterContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/filter_form_section_bottom_gap">
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:weightSum="100.0">
+            <com.nnacres.app.customviews.HeaderCustomView android:id="@id/headerView" android:paddingTop="@dimen/filter_form_header_padding" android:paddingBottom="@dimen/s" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="86.0" android:paddingStart="@dimen/filter_form_header_padding" android:paddingEnd="@dimen/filter_form_header_padding" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNSwitchCompat android:id="@id/switchButton" android:layout_width="0.0dip" android:layout_height="wrap_content" android:checked="true" android:layout_weight="14.0" android:layout_marginEnd="@dimen/filter_form_section_left_right_margin" app:showText="false" app:thumbTint="@color/white" app:trackTint="@color/P200" />
+        </LinearLayout>
+        <View android:id="@id/divider" android:background="@color/custom_notification_divider" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" />
+    </LinearLayout>
+</FrameLayout>

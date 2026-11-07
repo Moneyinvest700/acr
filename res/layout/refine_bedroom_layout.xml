@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bedroom1" android:text="1 RK/1 BHK" android:onClick="bedroom1Clickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/bedroom2" android:text="2 BHK" android:onClick="bedroom2Clickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/bedroom3" android:text="3 BHK" android:onClick="bedroom3Clickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/bedroom4" android:text="4 BHK" android:onClick="bedroom4Clickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/bedroom5" android:text="4+ BHK" android:onClick="bedroom5Clickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

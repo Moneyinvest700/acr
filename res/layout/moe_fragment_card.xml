@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.moengage.cards.ui.widgets.MoETabLayout android:id="@id/tabs" android:background="?colorPrimary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="10.0dip" app:tabBackground="@drawable/moe_card_tab_selector" app:tabGravity="fill" app:tabMaxWidth="0.0dip" app:tabMode="scrollable" app:tabSelectedTextColor="@color/moe_card_tab_selected_text_color" app:tabTextAppearance="@style/MoECardTabTextStyle" app:tabTextColor="@color/moe_card_tab_unselected_text_color" />
+    <androidx.fragment.app.FragmentContainerView android:id="@id/categoryContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/moe_no_cards_available" />
+</LinearLayout>

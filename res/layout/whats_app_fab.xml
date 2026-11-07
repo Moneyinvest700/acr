@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/fab_with_text" android:background="@drawable/whats_app_link_bckg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:paddingEnd="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/fab_whats_app" android:padding="@dimen/m" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_whatsapp_vector" android:elevation="4.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_help" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:layout_gravity="end" android:id="@id/iv_whatsapp_cross" android:layout_width="18.0dip" android:layout_height="16.0dip" android:src="@drawable/cross" android:paddingStart="@dimen/extra_small_even" android:paddingEnd="@dimen/extra_small_even" />
+        <TextView android:id="@id/tv_help" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_help_text" android:layout_marginEnd="@dimen/medium" style="@style/semibold_label" />
+        <TextView android:textSize="@dimen/txt_xtra_small" android:id="@id/tv_tap_here" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/whats_tap_text" android:layout_marginEnd="1.0dip" style="@style/completedInputLabel" />
+    </LinearLayout>
+</LinearLayout>

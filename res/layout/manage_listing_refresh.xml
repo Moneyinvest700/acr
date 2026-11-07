@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRootView" android:background="@color/white" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+    <ScrollView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/ll_actionButtons" android:layout_below="@id/toolbar">
+        <RelativeLayout android:id="@id/contentRoot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <TextView android:textSize="18.0sp" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:id="@id/confirmMessage" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:paddingBottom="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Extend &lt;type> Listing?" android:drawablePadding="5.0dip" />
+            <RelativeLayout android:id="@id/childContainer" android:background="@color/white" android:paddingLeft="16.0dip" android:paddingRight="16.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/confirmMessage">
+                <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_600" android:id="@id/line1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" />
+                <TextView android:textSize="14.0dip" android:textColor="@color/accent_color" android:id="@id/btn_pricing_plan" android:paddingTop="15.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/view_pricing_plan" android:layout_below="@id/line1" />
+            </RelativeLayout>
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/listingPackTVContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="40.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_marginBottom="5.0dip" android:layout_below="@id/childContainer" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/listingPackTV" android:paddingRight="3.0dip" android:hint="Choose a listing pack" style="@style/SearchFormDialogueInputCity" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView android:id="@id/line2" android:background="@null" android:text="Note: Listings can only be extended using the same type of Listings pack" android:layout_below="@id/listingPackTVContainer" style="@style/ppf_note_style" />
+        </RelativeLayout>
+    </ScrollView>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/content" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="100.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_error_btn_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <TextView android:textColor="@color/white" android:id="@id/bosButton" android:layout_width="0.0dip" android:layout_marginRight="1.0dip" android:text="@string/buy_our_service" android:layout_weight="1.0" style="@style/ActionButtonBlue" />
+        <TextView android:textColor="@color/white" android:id="@id/callButton" android:layout_width="0.0dip" android:text="@string/call" android:layout_weight="1.0" style="@style/ActionButtonBlue" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_actionButtons" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentBottom="true">
+        <TextView android:textSize="12.0dip" android:textColor="@color/white" android:id="@id/refresh" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="1.0px" android:text="Extend Duration/upgrade" android:layout_weight="1.0" style="@style/ActionButtonBlue" />
+    </LinearLayout>
+</RelativeLayout>

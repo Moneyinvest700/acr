@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="148.0dip" android:width="156.0dip" android:viewportWidth="156.0" android:viewportHeight="148.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$hp_property_overlay__0" android:pathData="M0,86.092H156V144C156,146.209 154.209,148 152,148H4C1.791,148 0,146.209 0,144V86.092Z" />
+    <path android:fillColor="@drawable/$hp_property_overlay__1" android:pathData="M156,61.908L0,61.908L0,4C0,1.791 1.791,-0 4,-0L152,-0C154.209,-0 156,1.791 156,4L156,61.908Z" />
+</vector>

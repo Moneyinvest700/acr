@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ga_trackingId">UA-224016-8</string>
+    <bool name="ga_autoActivityTracking">false</bool>
+    <bool name="ga_reportUncaughtExceptions">true</bool>
+    <string name="ga_sampleFrequency">100.0</string>
+    <integer name="ga_dispatchPeriod">30</integer>
+    <bool name="ga_dryRun">false</bool>
+    <integer name="ga_sessionTimeout">1800</integer>
+</resources>

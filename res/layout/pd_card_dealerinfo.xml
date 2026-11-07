@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/dealerParent" android:paddingLeft="@dimen/small" android:paddingTop="20.0dip" android:paddingRight="@dimen/small" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scrollingCache="false"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="@dimen/text_size_small" android:ellipsize="end" android:id="@id/dealer_detail_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small" android:includeFontPadding="false" style="@style/pd_detailHeading" />
+    <include android:id="@id/sublayout" android:visibility="gone" layout="@layout/pd_dealer_sublayout" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/light_black" android:id="@id/tv_dealer_sub_heading" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:text="@string/top_dealer_fastrack" />
+    <com.nnacres.app.topdealer.TopDealerCardView android:id="@id/view_top_dealer_card" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_inline_eoi_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_inline_eoi_form_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" layout="@layout/pd_inline_eoi_form" />
+            <Button android:id="@id/eoi_button_request_callback" android:layout_width="fill_parent" android:layout_height="42.0dip" android:layout_marginTop="16.0dip" android:text="@string/request_callback" android:textAllCaps="false" android:fontFamily="@font/open_sans_semibold" style="@style/ActionButtonBlue" />
+            <include layout="@layout/gdpr_info_layout" />
+            <TextView android:textSize="10.0dip" android:textColorLink="@color/turquoise_dark" android:gravity="center_horizontal" android:id="@id/tv_tnc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/eoi_tnc_msg" />
+        </LinearLayout>
+        <TextView android:id="@id/tv_eoi_complete_msg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawableLeft="@drawable/tick_symbol" android:drawablePadding="10.0dip" />
+    </LinearLayout>
+</LinearLayout>

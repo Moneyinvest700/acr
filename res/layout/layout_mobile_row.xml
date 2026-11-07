@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/ripple_contact_row_leads" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/line_top" android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.5dip" android:layout_alignParentTop="true" />
+    <RelativeLayout android:gravity="center_vertical" android:paddingLeft="16.0dip" android:paddingTop="5.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/action_layout" android:layout_below="@id/line_top" android:layout_alignParentLeft="true">
+        <TextView android:textSize="14.0dip" android:id="@id/tv_countryCode" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="+91" android:layout_alignParentLeft="true" style="@style/eoi_unpaid_tuple_semidark" />
+        <TextView android:id="@id/tv_countryCodeSeparator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="5.0dip" android:text=" - " android:layout_toRightOf="@id/tv_countryCode" style="@style/eoi_unpaid_tuple_dark" />
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:id="@id/tv_mobileNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="XXXXXXXXXX" android:layout_toRightOf="@id/tv_countryCodeSeparator" style="@style/eoi_unpaid_tuple_dark" />
+        <TextView android:id="@id/tv_contactNumberType" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mobile" android:layout_below="@id/tv_countryCode" android:layout_alignLeft="@id/tv_countryCode" style="@style/eoi_unpaid_tuple_light" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/action_layout" android:background="@drawable/box_eoi_leadsharescreen" android:paddingRight="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <TextView android:textSize="14.0dip" android:textColor="@color/turquoise_dark" android:layout_gravity="center" android:id="@id/tv_actionView" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View" android:layout_centerInParent="true" />
+        <ImageView android:id="@id/iv_actionCall" android:padding="8.0dip" android:visibility="visible" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@null" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

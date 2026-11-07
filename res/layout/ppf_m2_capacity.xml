@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:baselineAligned="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/capacity_title" android:text="CAPACITY" style="@style/ppf_heading" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/bed_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:hint="Beds available in PG" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/pg_bed_no" android:tag="@string/avail_room" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/capacity_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:hint="Max Guests in PG" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/pg_total_capacity" android:tag="@string/capacity" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <TextView android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/change_account" style="@style/bold_title" />
+    <TextView android:textColor="@color/Ng700" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/large" android:text="@string/change_account_text" android:lineSpacingExtra="@dimen/extra_extra_extra_small" style="@style/completedPlaceholder" />
+</LinearLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="WEBINAR_AND_PROJECT_HIGHLIGHT" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/pd_section_header" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:orientation="horizontal" android:id="@id/project_tuple" android:paddingTop="@dimen/text_size_medium" android:layout_width="fill_parent" android:layout_height="@dimen/new_gallery_grid_tuple_width" app:event_type="CLICK" app:identifier="PANELISTS">
+        <ImageView android:id="@id/icon" android:paddingTop="@dimen/medium_even" android:paddingBottom="@dimen/medium_even" android:layout_width="@dimen/tcp_logo_width" android:layout_height="fill_parent" android:src="@color/blue" android:scaleType="centerInside" android:paddingStart="@dimen/small_even" android:paddingEnd="@dimen/small_even" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/small_even" android:layout_marginStart="@dimen/small_even" android:layout_toEndOf="@id/icon">
+            <TextView android:id="@id/name" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/semibold_list_header" />
+            <TextView android:id="@id/tower" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" style="@style/captionStrongMedium" />
+            <TextView android:id="@id/type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" />
+        </LinearLayout>
+        <TextView android:layout_gravity="center" android:id="@id/arrow" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" android:drawableEnd="@drawable/ic_arrow_right" android:layout_alignParentEnd="true" style="@style/captionSubduedSmall" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+    <com.nnacres.app.ui.WrapableGridView android:id="@id/building_grid" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:listSelector="#00000000" android:numColumns="3" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" android:layout_marginRight="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/xid_resale_rental" layout="@layout/xid_section_header" />
+    <FrameLayout android:id="@id/ll_properties_container_parent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+        <TextView android:gravity="center" android:id="@id/error_message" android:background="@color/Ng200" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="192.0dip" android:text="Network error. Tap here to try again!" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:orientation="vertical" android:id="@id/property_data_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="CLICK" app:topmost="true">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_properties_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="IMPRESSION" />
+            <include android:id="@id/section_footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ll_properties_container" layout="@layout/xid_view_more" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+        <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/pw_loader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="220.0dip" android:translationZ="@dimen/extra_small" style="@style/global_shimmer_style">
+            <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/resale_rental_shimmer" android:scaleType="matrix" />
+        </com.facebook.shimmer.ShimmerFrameLayout>
+    </FrameLayout>
+    <include android:id="@id/line_divider" layout="@layout/line_divider_layout" />
+</LinearLayout>

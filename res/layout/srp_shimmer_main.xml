@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerRoot" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="@dimen/small_medium_even" app:shimmer_auto_start="true" style="@style/global_shimmer_style"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/light_grey" android:layout_width="fill_parent" android:layout_height="@dimen/large_even" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/large" android:layout_marginStart="@dimen/medium_even" android:layout_marginEnd="@dimen/medium_even" />
+        <LinearLayout android:orientation="horizontal" android:paddingBottom="@dimen/small_even" android:layout_width="fill_parent" android:layout_height="46.0dip" android:layout_marginStart="@dimen/medium_even">
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+            <com.google.android.material.chip.Chip android:layout_width="80.0dip" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/small_even" app:chipBackgroundColor="@color/light_grey" style="@style/customChipStyle" />
+        </LinearLayout>
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_marginBottom="@dimen/small_even" layout="@layout/srp_shimmer" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_marginBottom="@dimen/small_even" layout="@layout/srp_shimmer" />
+    </LinearLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

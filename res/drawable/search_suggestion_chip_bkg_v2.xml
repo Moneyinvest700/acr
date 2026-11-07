@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:right="-1.0dip">
+        <shape android:shape="rectangle">
+            <solid android:color="@color/suggestion_chip_grp_background" />
+            <stroke android:width="1.0dip" android:color="@color/P100" android:dashGap="@dimen/dp_36" />
+            <corners android:topLeftRadius="4.0dip" android:bottomLeftRadius="4.0dip" />
+        </shape>
+    </item>
+</layer-list>

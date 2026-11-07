@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:orientation="vertical" android:id="@id/FurnishingDetailRent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/anyFurnishedRadioButton" android:checked="true" android:text="Any" android:onClick="rentAnyfurnishedButtonClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/unfurnishedRadioButton" android:checked="false" android:text="@string/unfurnished_text" android:onClick="rentUnfurnishedButtonClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/furnishedRadioButton" android:checked="false" android:text="@string/furnished_text" android:onClick="rentFurnishedButtonClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="40.0dip">
+        <TextView android:textColor="@color/material_gray_500" android:id="@id/txt_chooseFurnishing" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="25.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" android:text="@string/choose_furnish_attribute" android:layout_alignParentTop="true" />
+        <ListView android:id="@id/refine_furnishAttributeList" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@drawable/line_gray" android:layout_below="@id/txt_chooseFurnishing" />
+        <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/refine_furnishAttributeProgress" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RadioGroup>

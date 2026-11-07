@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:layout_behavior="android.support.design.widget.BottomSheetBehavior" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <ScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="420.0dip">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/l" android:src="@drawable/ic_qr_code" />
+            <TextView android:textSize="@dimen/extra_large_even" android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/beware_of_qr_code_scam" style="@style/bodyExtraBoldLarge" />
+            <TextView android:gravity="center_horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:text="@string/never_scan_a_qr_code_to_receive_money" style="@style/captionStrongMedium" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/what_is_qr_code_scam" style="@style/semibold_title" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1." style="@style/OverlineTextBold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/a_tenant_would_call_you" android:layout_marginStart="@dimen/s" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="An imposter will call you as a tenant" android:layout_marginStart="18.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2." style="@style/OverlineTextBold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/paying_advance_rent" android:layout_marginStart="@dimen/s" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/he_she_will_easily_agree_or_would_even_urge_you_to_take_advance_payment_or_booking_amount" android:layout_marginStart="18.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3." style="@style/OverlineTextBold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/try_to_gain_your_trust" android:layout_marginStart="@dimen/s" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/they_share_fake_govt_ids_and_also_transfer_a_small_amount_in_your_account_via_upi_app" android:layout_marginStart="18.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:textSize="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="4." style="@style/OverlineTextBold" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/qr_code_on_whatsapp" android:drawablePadding="@dimen/s" android:layout_marginStart="@dimen/s" app:drawableEndCompat="@drawable/ic_warning_amber_24px__1_" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/they_would_generate_a_qr_code_of_higher_amount_and_then_ask_you_to_scan_it_to_receive_booking_amount" android:layout_marginStart="18.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_large_even" android:text="@string/do_s_amp_don_ts" style="@style/semibold_title" />
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:src="@drawable/ic_close_24px__red" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/never_scan_a_qr_code_to_receive_money" android:layout_marginStart="@dimen/m" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="QR codes only deduct money from your account" android:layout_marginStart="28.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:src="@drawable/ic_close_24px__red" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/don_t_transact_money_via_whatsapp" android:layout_marginStart="@dimen/m" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fraudsters_use_whatsapp_amp_messenger_to_share_qr_codes" android:layout_marginStart="28.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:src="@drawable/ic_close_24px__red" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/never_share_pin_to_receive_money" android:layout_marginStart="@dimen/m" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/only_fraudsters_ask_you_to_share_upi_pin_or_password_to_transfer_money" android:layout_marginStart="28.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:src="@drawable/ic_check_24px__green" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/verify_all_documents" android:layout_marginStart="@dimen/m" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:textColorLink="@color/Ng500" android:id="@id/uidaiLink" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fraudsters_share_fake_govt_ids_verify_aadhar_card_at_uidai_website" android:layout_marginStart="28.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+                    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xs" android:src="@drawable/ic_check_24px__green" />
+                        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/tenant_police_verification" android:layout_marginStart="@dimen/m" style="@style/semibold_section_header" />
+                    </LinearLayout>
+                    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/submit_documents_for_police_verification_oline_or_offline" android:layout_marginStart="28.0dip" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <TextView android:paddingBottom="@dimen/extra_large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_large_even" android:text="@string/_99acres_will_never_call_you_on_behalf_of_a_tenant_we_devote_a_significant_amount_of_time_amp_resources_to_keep_genuine_users_on_our_platform_but_your_safety_is_a_shared_responsibility_yours_and_ours_stay_alert_stay_safe" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

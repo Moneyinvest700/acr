@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/srpTuple" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nnacres.app.customviews.SrpTupleView android:id="@id/container" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        <include layout="@layout/video_tour_section_recent_activity" />
+        <include layout="@layout/video_tour_section_cancel_layout" />
+        <View android:id="@id/selection" android:background="#4070b7ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/container" android:layout_alignBottom="@id/container" />
+        <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/container" android:layout_alignParentBottom="true" layout="@layout/note_row_srp" />
+        <include android:id="@id/deal_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/note_row_container" layout="@layout/top_deal_label" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

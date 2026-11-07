@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle_webinar_gradient_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/xid_usp_background_height">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/medium_even">
+            <ImageView android:id="@id/iv_header" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_webinar_usp" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/small" style="@style/bold_section_header" />
+                <TextView android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_marginStart="@dimen/small" style="@style/captionSubduedLarge" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_webinar" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="65.0dip" android:layout_marginBottom="@dimen/large" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

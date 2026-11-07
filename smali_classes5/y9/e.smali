@@ -1,0 +1,36 @@
+.class public final synthetic Ly9/e;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lkotlin/jvm/functions/Function0;
+
+
+# instance fields
+.field public final synthetic a:Ly9/i;
+
+
+# direct methods
+.method public synthetic constructor <init>(Ly9/i;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Ly9/e;->a:Ly9/i;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final invoke()Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Ly9/e;->a:Ly9/i;
+
+    invoke-static {v0}, Ly9/i;->c(Ly9/i;)Ljava/lang/String;
+
+    move-result-object v0
+
+    return-object v0
+.end method

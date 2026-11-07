@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:background="@color/white" android:paddingBottom="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/extra_large" android:paddingEnd="@dimen/extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:textColor="@color/P500" android:id="@id/cancel" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1.0" android:layout_marginEnd="@dimen/large" style="@style/AppActionButtonBorderlessStyle" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/buyServices" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/buy_our_service" android:layout_weight="1.0" style="@style/AppActionButtonStyle" />
+</LinearLayout>

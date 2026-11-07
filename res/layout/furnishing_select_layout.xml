@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/furnishingContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/furnishingTVContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/propFurnishing" android:tag="@string/fur" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/common_area_furnishing_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/furnishingTVContainer" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/prop_common_area_furnish" android:tag="COM_AREA_TYPE" android:hint="@string/common_area_furnishing" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pricerangerr" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:id="@id/labelPriceRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="SHARING" style="@style/search_page_res_buy_card_title_textview" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/search_form_card_bg" android:layout_width="fill_parent" android:layout_height="@dimen/searchform_card_height" android:weightSum="3.0" android:layout_below="@id/titleresidential">
+        <Button android:id="@id/btn_sharing1" android:text="@string/private_" android:drawableTop="@drawable/private_selector" android:layout_weight="1.0" style="@style/PropertTypeButton" />
+        <Button android:id="@id/btn_sharing2" android:text="@string/per_room_2" android:drawableTop="@drawable/shared_by_2_selector" android:layout_weight="1.0" style="@style/PropertTypeButton" />
+        <Button android:id="@id/btn_sharing3" android:text="@string/plus_per_room_2" android:drawableTop="@drawable/more_than_2_selector" android:layout_weight="1.0" style="@style/PropertTypeButton" />
+    </LinearLayout>
+</RelativeLayout>

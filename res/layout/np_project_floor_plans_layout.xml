@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="vertical" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+        <TextView android:id="@id/layoutFloorHeading" android:layout_margin="@dimen/xid_inside_margin_top" android:text="@string/text_floor_plans" style="@style/XidDetailHeading" />
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_indicator_floor_plans" android:background="@drawable/floor_plans_tab_layout_ripple" android:layout_width="fill_parent" android:layout_height="60.0dip" android:elevation="2.0dip" app:tabGravity="fill" app:tabMode="scrollable" style="@style/TabFloorPlansXid" />
+        <androidx.viewpager.widget.ViewPager android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/floor_plans_view_pager" android:padding="15.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="350.0dip" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/floor_plans_disclaimer_ll" android:layout_marginLeft="5.0dip" style="@style/xid_floor_plans_parent_style">
+            <TextView android:textSize="@dimen/xid_textsize_very_small_subheadings" android:textColor="@color/material_gray_600" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/disclaimer" />
+            <TextView android:textSize="@dimen/xid_textsize_very_small_subheadings" android:textColor="@color/material_gray_500" android:id="@id/floor_plans_disclaimer_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Liveable area is a 99acres defined area based on internal calculations." />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

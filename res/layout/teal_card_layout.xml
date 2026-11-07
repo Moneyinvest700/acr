@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:layout_width="156.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small" app:cardCornerRadius="@dimen/extra_small_even" app:cardElevation="@dimen/extra_small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginBottom="@dimen/medium_even" />
+        <TextView android:ellipsize="end" android:gravity="bottom" android:id="@id/tvHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_even" android:lines="2" style="@style/semibold_list_header" />
+        <TextView android:textSize="@dimen/small" android:id="@id/tvSubHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_semi_bold" />
+    </LinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:id="@id/tealLearnMoreCard" android:background="@drawable/shape_rectangle_corner_radius_8_p200" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="CLICK" app:identifier="STICKY.REGISTER_NOW">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/hyperlink_color" android:gravity="bottom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="46.0dip" android:text="Learn more" android:layout_marginStart="25.0dip" android:layout_marginEnd="25.0dip" style="@style/bold_section_header" />
+            <ImageView android:id="@id/learnMoreCardImage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/small" android:layout_marginRight="55.0dip" android:layout_marginBottom="52.0dip" android:scaleType="center" android:layout_marginStart="67.0dip" />
+        </LinearLayout>
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

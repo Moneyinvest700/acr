@@ -1,0 +1,49 @@
+[{
+"value": "9",
+"label": "Vitrified"
+},
+{
+"value": "13",
+"label": "Concrete"
+},
+{
+"value": "14",
+"label": "Polished concrete"
+},
+{
+"value": "4",
+"label": "Mosaic"
+},
+{
+"value": "8",
+"label": "Wood"
+},
+{
+"value": "2",
+"label": "Granite"
+},
+{
+"value": "10",
+"label": "Spartex"
+},
+{
+"value": "5",
+"label": "Cement"
+},
+{
+"value": "6",
+"label": "Stone"
+},
+{
+"value": "7",
+"label": "Vinyl"
+},
+{
+"value": "11",
+"label": "IPSFinish"
+},
+{
+"value": "12",
+"label": "Others"
+}
+]

@@ -1,0 +1,6808 @@
+{
+  "filters": {
+    "LIVE_VIDEO_TOUR": {
+      "title": "Live video tour",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "Y",
+        "unSelected": ""
+      }
+    },
+    "COWORKING_OPTIONS": {
+      "title": "Include coworking spaces",
+      "infoIcon": false,
+      "titleEndIcon": "ic_new_tag_filter_form",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "Y",
+        "unSelected": ""
+      }
+    },
+    "AMENITIES": {
+      "title": "Amenities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "4",
+          "label": "Parking"
+        },
+        {
+          "serverId": "21",
+          "label": "Lift"
+        },
+        {
+          "serverId": "2",
+          "label": "Power Backup"
+        },
+        {
+          "serverId": "29",
+          "label": "Gas Pipeline"
+        },
+        {
+          "serverId": "1",
+          "label": "Swimming Pool"
+        },
+        {
+          "serverId": "12",
+          "label": "Gymnasium"
+        },
+        {
+          "serverId": "3",
+          "label": "Club House"
+        },
+        {
+          "serverId": "6",
+          "label": "Park"
+        },
+        {
+          "serverId": "9",
+          "label": "Security Personal"
+        },
+        {
+          "serverId": "101",
+          "label": "Wheelchair Friendly"
+        },
+        {
+          "serverId": "102",
+          "label": "Pet Friendly"
+        }
+      ]
+    },
+    "AREA": {
+      "title": "Area",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 0,
+        "maxValue": 40,
+        "buckets": {
+          "0": {
+            "label": "0",
+            "serverId": "0"
+          },
+          "1": {
+            "label": "100",
+            "serverId": "100"
+          },
+          "2": {
+            "label": "200",
+            "serverId": "200"
+          },
+          "3": {
+            "label": "300",
+            "serverId": "300"
+          },
+          "4": {
+            "label": "400",
+            "serverId": "400"
+          },
+          "5": {
+            "label": "500",
+            "serverId": "500"
+          },
+          "6": {
+            "label": "700",
+            "serverId": "700"
+          },
+          "7": {
+            "label": "900",
+            "serverId": "900"
+          },
+          "8": {
+            "label": "1,000",
+            "serverId": "1000"
+          },
+          "9": {
+            "label": "1,100",
+            "serverId": "1100"
+          },
+          "10": {
+            "label": "1,200",
+            "serverId": "1200"
+          },
+          "11": {
+            "label": "1,300",
+            "serverId": "1300"
+          },
+          "12": {
+            "label": "1,400",
+            "serverId": "1400"
+          },
+          "13": {
+            "label": "1,500",
+            "serverId": "1500"
+          },
+          "14": {
+            "label": "1,600",
+            "serverId": "1600"
+          },
+          "15": {
+            "label": "1,700",
+            "serverId": "1700"
+          },
+          "16": {
+            "label": "1,800",
+            "serverId": "1800"
+          },
+          "18": {
+            "label": "1,900",
+            "serverId": "1900"
+          },
+          "19": {
+            "label": "2,000",
+            "serverId": "2000"
+          },
+          "20": {
+            "label": "2,100",
+            "serverId": "21000"
+          },
+          "21": {
+            "label": "2,200",
+            "serverId": "2200"
+          },
+          "22": {
+            "label": "2,300",
+            "serverId": "2300"
+          },
+          "23": {
+            "label": "2,400",
+            "serverId": "2400"
+          },
+          "24": {
+            "label": "2,500",
+            "serverId": "2500"
+          },
+          "25": {
+            "label": "2,600",
+            "serverId": "2600"
+          },
+          "26": {
+            "label": "2,700",
+            "serverId": "2700"
+          },
+          "27": {
+            "label": "2,800",
+            "serverId": "2800"
+          },
+          "28": {
+            "label": "2,900",
+            "serverId": "2900"
+          },
+          "29": {
+            "label": "3,000",
+            "serverId": "3000"
+          },
+          "30": {
+            "label": "3,100",
+            "serverId": "3100"
+          },
+          "31": {
+            "label": "3,200",
+            "serverId": "3200"
+          },
+          "32": {
+            "label": "3,300",
+            "serverId": "3300"
+          },
+          "33": {
+            "label": "3,400",
+            "serverId": "3400"
+          },
+          "34": {
+            "label": "3,500",
+            "serverId": "3500"
+          },
+          "35": {
+            "label": "3,600",
+            "serverId": "3600"
+          },
+          "36": {
+            "label": "3,700",
+            "serverId": "3700"
+          },
+          "37": {
+            "label": "3,800",
+            "serverId": "3800"
+          },
+          "38": {
+            "label": "3,900",
+            "serverId": "3900"
+          },
+          "39": {
+            "label": "4,000",
+            "serverId": "4000"
+          },
+          "40": {
+            "label": "4,000+",
+            "serverId": "4000+"
+          }
+        }
+      }
+    },
+    "AREA_CL": {
+      "title": "Area",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 0,
+        "maxValue": 18,
+        "buckets": {
+          "0": {
+            "label": "0",
+            "serverId": "0"
+          },
+          "1": {
+            "label": "250",
+            "serverId": "250"
+          },
+          "2": {
+            "label": "500",
+            "serverId": "500"
+          },
+          "3": {
+            "label": "600",
+            "serverId": "600"
+          },
+          "4": {
+            "label": "700",
+            "serverId": "700"
+          },
+          "5": {
+            "label": "800",
+            "serverId": "800"
+          },
+          "6": {
+            "label": "900",
+            "serverId": "900"
+          },
+          "7": {
+            "label": "1,000",
+            "serverId": "1000"
+          },
+          "8": {
+            "label": "1,100",
+            "serverId": "1100"
+          },
+          "9": {
+            "label": "1,200",
+            "serverId": "1200"
+          },
+          "10": {
+            "label": "1,300",
+            "serverId": "1300"
+          },
+          "11": {
+            "label": "1,400",
+            "serverId": "1400"
+          },
+          "12": {
+            "label": "1,500",
+            "serverId": "1500"
+          },
+          "13": {
+            "label": "2,000",
+            "serverId": "20000"
+          },
+          "14": {
+            "label": "3,000",
+            "serverId": "3000"
+          },
+          "15": {
+            "label": "4,000",
+            "serverId": "4000"
+          },
+          "16": {
+            "label": "5,000",
+            "serverId": "5000"
+          },
+          "17": {
+            "label": "10,000",
+            "serverId": "10000"
+          },
+          "18": {
+            "label": "10,000+",
+            "serverId": "10000+"
+          }
+        }
+      }
+    },
+    "ATTACHED_BATHROOM": {
+      "title": "Attached Bathroom",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "Y",
+        "unSelected": "N"
+      }
+    },
+    "AVAILABILITY": {
+      "title": "Construction Status",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "R",
+          "label": "Ready to move"
+        },
+        {
+          "serverId": "U",
+          "label": "Under construction"
+        }
+      ]
+    },
+    "AVAILABLE_FOR": {
+      "title": "Available for",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "WP",
+          "label": "Working Professionals"
+        },
+        {
+          "serverId": "STU",
+          "label": "Students"
+        },
+        {
+          "serverId": "G",
+          "label": "Girls"
+        },
+        {
+          "serverId": "B",
+          "label": "Boys"
+        },
+        {
+          "serverId": "SW",
+          "label": "Single Woman"
+        },
+        {
+          "serverId": "SM",
+          "label": "Single Man"
+        },
+        {
+          "serverId": "FA",
+          "label": "Family"
+        },
+        {
+          "serverId": "CL",
+          "label": "Tenants with company lease"
+        }
+      ]
+    },
+    "AVAILABLE_FROM": {
+      "title": "When are you looking to rent?",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "I",
+          "label": "Immediately"
+        },
+        {
+          "serverId": "15",
+          "label": "Within 15 days"
+        },
+        {
+          "serverId": "30",
+          "label": "Within 1 Month"
+        },
+        {
+          "serverId": "after30",
+          "label": "After 1 month"
+        }
+      ]
+    },
+    "BATHROOM": {
+      "title": "No. of bathrooms",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1+"
+        },
+        {
+          "serverId": "2",
+          "label": "2+"
+        },
+        {
+          "serverId": "3",
+          "label": "3+"
+        },
+        {
+          "serverId": "4",
+          "label": "4+"
+        },
+        {
+          "serverId": "5",
+          "label": "5+"
+        }
+      ]
+    },
+    "BHK": {
+      "title": "No. of Bedrooms",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1 RK / 1 BHK"
+        },
+        {
+          "serverId": "2",
+          "label": "2 BHK"
+        },
+        {
+          "serverId": "3",
+          "label": "3 BHK"
+        },
+        {
+          "serverId": "4",
+          "label": "4 BHK"
+        },
+        {
+          "serverId": "5",
+          "label": "4+ BHK"
+        }
+      ]
+    },
+    "DISTANCE": {
+      "title":"Show property results within",
+      "type": "DISTANCE_FILTER",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "PL",
+          "label": "Passenger Lift"
+        }
+      ]
+    },
+    "BUDGET_BUY": {
+      "title": "Budget",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 1,
+        "maxValue": 101,
+        "buckets": {
+          "1": {
+            "rawValue": 0,
+            "label": "₹0",
+            "serverId": "0"
+          },
+          "2": {
+            "rawValue": 500000,
+            "label": "₹5 Lacs",
+            "serverId": "5 Lacs"
+          },
+          "3": {
+            "rawValue": 1000000,
+            "label": "₹10 Lacs",
+            "serverId": "10 Lacs"
+          },
+          "4": {
+            "rawValue": 1500000,
+            "label": "₹15 Lacs",
+            "serverId": "15 Lacs"
+          },
+          "5": {
+            "rawValue": 2000000,
+            "label": "₹20 Lacs",
+            "serverId": "20 Lacs"
+          },
+          "6": {
+            "rawValue": 2500000,
+            "label": "₹25 Lacs",
+            "serverId": "25 Lacs"
+          },
+          "7": {
+            "rawValue": 3000000,
+            "label": "₹30 Lacs",
+            "serverId": "30 Lacs"
+          },
+          "8": {
+            "rawValue": 3500000,
+            "label": "₹35 Lacs",
+            "serverId": "35 Lacs"
+          },
+          "9": {
+            "rawValue": 4000000,
+            "label": "₹40 Lacs",
+            "serverId": "40 Lacs"
+          },
+          "10": {
+            "rawValue": 4500000,
+            "label": "₹45 Lacs",
+            "serverId": "45 Lacs"
+          },
+          "11": {
+            "rawValue": 5000000,
+            "label": "₹50 Lacs",
+            "serverId": "50 Lacs"
+          },
+          "12": {
+            "rawValue": 5500000,
+            "label": "₹55 Lacs",
+            "serverId": "55 Lacs"
+          },
+          "13": {
+            "rawValue": 6000000,
+            "label": "₹60 Lacs",
+            "serverId": "60 Lacs"
+          },
+          "14": {
+            "rawValue": 6500000,
+            "label": "₹65 Lacs",
+            "serverId": "65 Lacs"
+          },
+          "15": {
+            "rawValue": 7000000,
+            "label": "₹70 Lacs",
+            "serverId": "70 Lacs"
+          },
+          "16": {
+            "rawValue": 7500000,
+            "label": "₹75 Lacs",
+            "serverId": "75 Lacs"
+          },
+          "17": {
+            "rawValue": 8000000,
+            "label": "₹80 Lacs",
+            "serverId": "80 Lacs"
+          },
+          "18": {
+            "rawValue": 8500000,
+            "label": "₹85 Lacs",
+            "serverId": "85 Lacs"
+          },
+          "19": {
+            "rawValue": 9000000,
+            "label": "₹90 Lacs",
+            "serverId": "90 Lacs"
+          },
+          "20": {
+            "rawValue": 9500000,
+            "label": "₹95 Lacs",
+            "serverId": "95 Lacs"
+          },
+          "21": {
+            "rawValue": 10000000,
+            "label": "₹1 Crore",
+            "serverId": "1 Crore"
+          },
+          "22": {
+            "rawValue": 10500000,
+            "label": "₹1.05 Crores",
+            "serverId": "1.05 Crores"
+          },
+          "23": {
+            "rawValue": 11000000,
+            "label": "₹1.10 Crores",
+            "serverId": "1.1 Crores"
+          },
+          "24": {
+            "rawValue": 11500000,
+            "label": "₹1.15 Crores",
+            "serverId": "1.15 Crores"
+          },
+          "25": {
+            "rawValue": 12000000,
+            "label": "₹1.20 Crores",
+            "serverId": "1.2 Crores"
+          },
+          "26": {
+            "rawValue": 12500000,
+            "label": "₹1.25 Crores",
+            "serverId": "1.25 Crores"
+          },
+          "27": {
+            "rawValue": 13000000,
+            "label": "₹1.30 Crores",
+            "serverId": "1.3 Crores"
+          },
+          "28": {
+            "rawValue": 13500000,
+            "label": "₹1.35 Crores",
+            "serverId": "1.35 Crores"
+          },
+          "29": {
+            "rawValue": 14000000,
+            "label": "₹1.40 Crores",
+            "serverId": "1.4 Crores"
+          },
+          "30": {
+            "rawValue": 14500000,
+            "label": "₹1.45 Crores",
+            "serverId": "1.45 Crores"
+          },
+          "31": {
+            "rawValue": 15000000,
+            "label": "₹1.50 Crores",
+            "serverId": "1.5 Crores"
+          },
+          "32": {
+            "rawValue": 15500000,
+            "label": "₹1.55 Crores",
+            "serverId": "1.55 Crores"
+          },
+          "33": {
+            "rawValue": 16000000,
+            "label": "₹1.60 Crores",
+            "serverId": "1.6 Crores"
+          },
+          "34": {
+            "rawValue": 16500000,
+            "label": "₹1.65 Crores",
+            "serverId": "1.65 Crores"
+          },
+          "35": {
+            "rawValue": 17000000,
+            "label": "₹1.70 Crores",
+            "serverId": "1.7 Crores"
+          },
+          "36": {
+            "rawValue": 17500000,
+            "label": "₹1.75 Crores",
+            "serverId": "1.75 Crores"
+          },
+          "37": {
+            "rawValue": 18000000,
+            "label": "₹1.80 Crores",
+            "serverId": "1.8 Crores"
+          },
+          "38": {
+            "rawValue": 18500000,
+            "label": "₹1.85 Crores",
+            "serverId": "1.85 Crores"
+          },
+          "39": {
+            "rawValue": 19000000,
+            "label": "₹1.90 Crores",
+            "serverId": "1.9 Crores"
+          },
+          "40": {
+            "rawValue": 19500000,
+            "label": "₹1.95 Crores",
+            "serverId": "1.95 Crores"
+          },
+          "41": {
+            "rawValue": 20000000,
+            "label": "₹2 Crores",
+            "serverId": "2 Crores"
+          },
+          "42": {
+            "rawValue": 21000000,
+            "label": "₹2.1 Crores",
+            "serverId": "2.1 Crores"
+          },
+          "43": {
+            "rawValue": 22000000,
+            "label": "₹2.2 Crores",
+            "serverId": "2.2 Crores"
+          },
+          "44": {
+            "rawValue": 23000000,
+            "label": "₹2.3 Crores",
+            "serverId": "2.3 Crores"
+          },
+          "45": {
+            "rawValue": 24000000,
+            "label": "₹2.4 Crores",
+            "serverId": "2.4 Crores"
+          },
+          "46": {
+            "rawValue": 25000000,
+            "label": "₹2.5 Crores",
+            "serverId": "2.5 Crores"
+          },
+          "47": {
+            "rawValue": 26000000,
+            "label": "₹2.6 Crores",
+            "serverId": "2.6 Crores"
+          },
+          "48": {
+            "rawValue": 27000000,
+            "label": "₹2.7 Crores",
+            "serverId": "2.7 Crores"
+          },
+          "49": {
+            "rawValue": 28000000,
+            "label": "₹2.8 Crores",
+            "serverId": "2.8 Crores"
+          },
+          "50": {
+            "rawValue": 29000000,
+            "label": "₹2.9 Crores",
+            "serverId": "2.9 Crores"
+          },
+          "51": {
+            "rawValue": 30000000,
+            "label": "₹3 Crores",
+            "serverId": "3 Crores"
+          },
+          "52": {
+            "rawValue": 31000000,
+            "label": "₹3.1 Crores",
+            "serverId": "3.1 Crores"
+          },
+          "53": {
+            "rawValue": 32000000,
+            "label": "₹3.2 Crores",
+            "serverId": "3.2 Crores"
+          },
+          "54": {
+            "rawValue": 33000000,
+            "label": "₹3.3 Crores",
+            "serverId": "3.3 Crores"
+          },
+          "55": {
+            "rawValue": 34000000,
+            "label": "₹3.4 Crores",
+            "serverId": "3.4 Crores"
+          },
+          "56": {
+            "rawValue": 35000000,
+            "label": "₹3.5 Crores",
+            "serverId": "3.5 Crores"
+          },
+          "57": {
+            "rawValue": 36000000,
+            "label": "₹3.6 Crores",
+            "serverId": "3.6 Crores"
+          },
+          "58": {
+            "rawValue": 37000000,
+            "label": "₹3.7 Crores",
+            "serverId": "3.7 Crores"
+          },
+          "59": {
+            "rawValue": 38000000,
+            "label": "₹3.8 Crores",
+            "serverId": "3.8 Crores"
+          },
+          "60": {
+            "rawValue": 39000000,
+            "label": "₹3.9 Crores",
+            "serverId": "3.9 Crores"
+          },
+          "61": {
+            "rawValue": 40000000,
+            "label": "₹4 Crore",
+            "serverId": "4 Crores"
+          },
+          "62": {
+            "rawValue": 41000000,
+            "label": "₹4.1 Crores",
+            "serverId": "4.1 Crores"
+          },
+          "63": {
+            "rawValue": 42000000,
+            "label": "₹4.2 Crores",
+            "serverId": "4.2 Crores"
+          },
+          "64": {
+            "rawValue": 43000000,
+            "label": "₹4.3 Crores",
+            "serverId": "4.3 Crores"
+          },
+          "65": {
+            "rawValue": 44000000,
+            "label": "₹4.4 Crores",
+            "serverId": "4.4 Crores"
+          },
+          "66": {
+            "rawValue": 45000000,
+            "label": "₹4.5 Crores",
+            "serverId": "4.5 Crores"
+          },
+          "67": {
+            "rawValue": 46000000,
+            "label": "₹4.6 Crores",
+            "serverId": "4.6 Crores"
+          },
+          "68": {
+            "rawValue": 47000000,
+            "label": "₹4.7 Crores",
+            "serverId": "4.7 Crores"
+          },
+          "69": {
+            "rawValue": 48000000,
+            "label": "₹4.8 Crores",
+            "serverId": "4.8 Crores"
+          },
+          "70": {
+            "rawValue": 49000000,
+            "label": "₹4.9 Crores",
+            "serverId": "4.9 Crores"
+          },
+          "71": {
+            "rawValue": 50000000,
+            "label": "₹5 Crores",
+            "serverId": "5 Crores"
+          },
+          "72": {
+            "rawValue": 52500000,
+            "label": "₹5.25 Crores",
+            "serverId": "5.25 Crores"
+          },
+          "73": {
+            "rawValue": 55000000,
+            "label": "₹5.50 Crores",
+            "serverId": "5.5 Crores"
+          },
+          "74": {
+            "rawValue": 57500000,
+            "label": "₹5.75 Crores",
+            "serverId": "5.75 Crores"
+          },
+          "75": {
+            "rawValue": 60000000,
+            "label": "₹6 Crores",
+            "serverId": "6 Crores"
+          },
+          "76": {
+            "rawValue": 62500000,
+            "label": "₹6.25 Crores",
+            "serverId": "6.25 Crores"
+          },
+          "77": {
+            "rawValue": 65000000,
+            "label": "₹6.50 Crores",
+            "serverId": "6.5 Crores"
+          },
+          "78": {
+            "rawValue": 67500000,
+            "label": "₹6.75 Crores",
+            "serverId": "6.75 Crores"
+          },
+          "79": {
+            "rawValue": 70000000,
+            "label": "₹7 Crores",
+            "serverId": "7 Crores"
+          },
+          "80": {
+            "rawValue": 72500000,
+            "label": "₹7.25 Crores",
+            "serverId": "7.25 Crores"
+          },
+          "81": {
+            "rawValue": 75000000,
+            "label": "₹7.50 Crores",
+            "serverId": "7.5 Crores"
+          },
+          "82": {
+            "rawValue": 77500000,
+            "label": "₹7.75 Crores",
+            "serverId": "7.75 Crores"
+          },
+          "83": {
+            "rawValue": 80000000,
+            "label": "₹8 Crores",
+            "serverId": "8 Crores"
+          },
+          "84": {
+            "rawValue": 82500000,
+            "label": "₹8.25 Crores",
+            "serverId": "8.25 Crores"
+          },
+          "85": {
+            "rawValue": 85000000,
+            "label": "₹8.50 Crores",
+            "serverId": "8.5 Crores"
+          },
+          "86": {
+            "rawValue": 87500000,
+            "label": "₹8.75 Crores",
+            "serverId": "8.75 Crores"
+          },
+          "87": {
+            "rawValue": 90000000,
+            "label": "₹9 Crores",
+            "serverId": "9 Crores"
+          },
+          "88": {
+            "rawValue": 92500000,
+            "label": "₹9.25 Crores",
+            "serverId": "9.25 Crores"
+          },
+          "89": {
+            "rawValue": 95000000,
+            "label": "₹9.50 Crores",
+            "serverId": "9.5 Crores"
+          },
+          "90": {
+            "rawValue": 97500000,
+            "label": "₹9.75 Crores",
+            "serverId": "9.75 Crores"
+          },
+          "91": {
+            "rawValue": 100000000,
+            "label": "₹10 Crores",
+            "serverId": "10 Crores"
+          },
+          "92": {
+            "rawValue": 200000000,
+            "label": "₹20 Crores",
+            "serverId": "20 Crores"
+          },
+          "93": {
+            "rawValue": 300000000,
+            "label": "₹30 Crores",
+            "serverId": "30 Crores"
+          },
+          "94": {
+            "rawValue": 400000000,
+            "label": "₹40 Crores",
+            "serverId": "40 Crores"
+          },
+          "95": {
+            "rawValue": 500000000,
+            "label": "₹50 Crores",
+            "serverId": "50 Crores"
+          },
+          "96": {
+            "rawValue": 600000000,
+            "label": "₹60 Crores",
+            "serverId": "60 Crores"
+          },
+          "97": {
+            "rawValue": 700000000,
+            "label": "₹70 Crores",
+            "serverId": "70 Crores"
+          },
+          "98": {
+            "rawValue": 800000000,
+            "label": "₹80 Crores",
+            "serverId": "80 Crores"
+          },
+          "99": {
+            "rawValue": 900000000,
+            "label": "₹90 Crores",
+            "serverId": "90 Crores"
+          },
+          "100": {
+            "rawValue": 1000000000,
+            "label": "₹100 Crores",
+            "serverId": "100 Crores"
+          },
+          "101": {
+            "rawValue": 1000000001,
+            "label": "₹100+ Crores",
+            "serverId": "100+Crores"
+          }
+        }
+      }
+    },
+    "BUDGET_RENT": {
+      "title": "Budget",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 1,
+        "maxValue": 73,
+        "buckets": {
+          "1": {
+            "rawValue": 0,
+            "label": "₹0",
+            "serverId": "0"
+          },
+          "2": {
+            "rawValue": 1000,
+            "label": "₹1,000",
+            "serverId": "1,000"
+          },
+          "3": {
+            "rawValue": 2000,
+            "label": "₹2,000",
+            "serverId": "2,000"
+          },
+          "4": {
+            "rawValue": 3000,
+            "label": "₹3,000",
+            "serverId": "3,000"
+          },
+          "5": {
+            "rawValue": 4000,
+            "label": "₹4,000",
+            "serverId": "4,000"
+          },
+          "6": {
+            "rawValue": 5000,
+            "label": "₹5,000",
+            "serverId": "5,000"
+          },
+          "7": {
+            "rawValue": 6000,
+            "label": "₹6,000",
+            "serverId": "6,000"
+          },
+          "8": {
+            "rawValue": 7000,
+            "label": "₹7,000",
+            "serverId": "7,000"
+          },
+          "9": {
+            "rawValue": 8000,
+            "label": "₹8,000",
+            "serverId": "8,000"
+          },
+          "10": {
+            "rawValue": 9000,
+            "label": "₹9,000",
+            "serverId": "9,000"
+          },
+          "11": {
+            "rawValue": 10000,
+            "label": "₹10,000",
+            "serverId": "10,000"
+          },
+          "12": {
+            "rawValue": 11000,
+            "label": "₹11,000",
+            "serverId": "11,000"
+          },
+          "13": {
+            "rawValue": 12000,
+            "label": "₹12,000",
+            "serverId": "12,000"
+          },
+          "14": {
+            "rawValue": 13000,
+            "label": "₹13,000",
+            "serverId": "13,000"
+          },
+          "15": {
+            "rawValue": 14000,
+            "label": "₹14,000",
+            "serverId": "14,000"
+          },
+          "16": {
+            "rawValue": 15000,
+            "label": "₹15,000",
+            "serverId": "15,000"
+          },
+          "17": {
+            "rawValue": 16000,
+            "label": "₹16,000",
+            "serverId": "16,000"
+          },
+          "18": {
+            "rawValue": 17000,
+            "label": "₹17,000",
+            "serverId": "17,000"
+          },
+          "19": {
+            "rawValue": 18000,
+            "label": "₹18,000",
+            "serverId": "18,000"
+          },
+          "20": {
+            "rawValue": 19000,
+            "label": "₹19,000",
+            "serverId": "19,000"
+          },
+          "21": {
+            "rawValue": 20000,
+            "label": "₹20,000",
+            "serverId": "20,000"
+          },
+          "22": {
+            "rawValue": 21000,
+            "label": "₹21,000",
+            "serverId": "21,000"
+          },
+          "23": {
+            "rawValue": 22000,
+            "label": "₹22,000",
+            "serverId": "22,000"
+          },
+          "24": {
+            "rawValue": 23000,
+            "label": "₹23,000",
+            "serverId": "23,000"
+          },
+          "25": {
+            "rawValue": 24000,
+            "label": "₹24,000",
+            "serverId": "24,000"
+          },
+          "26": {
+            "rawValue": 25000,
+            "label": "₹25,000",
+            "serverId": "25,000"
+          },
+          "27": {
+            "rawValue": 26000,
+            "label": "₹26,000",
+            "serverId": "26,000"
+          },
+          "28": {
+            "rawValue": 27000,
+            "label": "₹27,000",
+            "serverId": "27,000"
+          },
+          "29": {
+            "rawValue": 28000,
+            "label": "₹28,000",
+            "serverId": "28,000"
+          },
+          "30": {
+            "rawValue": 29000,
+            "label": "₹29,000",
+            "serverId": "29,000"
+          },
+          "31": {
+            "rawValue": 30000,
+            "label": "₹30,000",
+            "serverId": "30,000"
+          },
+          "32": {
+            "rawValue": 35000,
+            "label": "₹35,000",
+            "serverId": "35,000"
+          },
+          "33": {
+            "rawValue": 40000,
+            "label": "₹40,000",
+            "serverId": "40,000"
+          },
+          "34": {
+            "rawValue": 45000,
+            "label": "₹45,000",
+            "serverId": "45,000"
+          },
+          "35": {
+            "rawValue": 50000,
+            "label": "₹50,000",
+            "serverId": "50,000"
+          },
+          "36": {
+            "rawValue": 55000,
+            "label": "₹55,000",
+            "serverId": "55,000"
+          },
+          "37": {
+            "rawValue": 60000,
+            "label": "₹60,000",
+            "serverId": "60,000"
+          },
+          "38": {
+            "rawValue": 65000,
+            "label": "₹65,000",
+            "serverId": "65,000"
+          },
+          "39": {
+            "rawValue": 70000,
+            "label": "₹70,000",
+            "serverId": "70,000"
+          },
+          "40": {
+            "rawValue": 75000,
+            "label": "₹75,000",
+            "serverId": "75,000"
+          },
+          "41": {
+            "rawValue": 80000,
+            "label": "₹80,000",
+            "serverId": "80,000"
+          },
+          "42": {
+            "rawValue": 850000,
+            "label": "₹85,000",
+            "serverId": "85,000"
+          },
+          "43": {
+            "rawValue": 90000,
+            "label": "₹90,000",
+            "serverId": "90,000"
+          },
+          "44": {
+            "rawValue": 95000,
+            "label": "₹95,000",
+            "serverId": "95,000"
+          },
+          "45": {
+            "rawValue": 100000,
+            "label": "₹1 Lac",
+            "serverId": "1 Lac"
+          },
+          "46": {
+            "rawValue": 110000,
+            "label": "₹1.1 Lacs",
+            "serverId": "1.1 Lacs"
+          },
+          "47": {
+            "rawValue": 120000,
+            "label": "₹1.2 Lacs",
+            "serverId": "1.2 Lacs"
+          },
+          "48": {
+            "rawValue": 130000,
+            "label": "₹1.3 Lacs",
+            "serverId": "1.3 Lacs"
+          },
+          "49": {
+            "rawValue": 140000,
+            "label": "₹1.4 Lacs",
+            "serverId": "1.4 Lacs"
+          },
+          "50": {
+            "rawValue": 150000,
+            "label": "₹1.5 Lacs",
+            "serverId": "1.5 Lacs"
+          },
+          "51": {
+            "rawValue": 160000,
+            "label": "₹1.6 Lacs",
+            "serverId": "1.6 Lacs"
+          },
+          "52": {
+            "rawValue": 170000,
+            "label": "₹1.7 Lacs",
+            "serverId": "1.7 Lacs"
+          },
+          "53": {
+            "rawValue": 180000,
+            "label": "₹1.8 Lacs",
+            "serverId": "1.8 Lacs"
+          },
+          "54": {
+            "rawValue": 190000,
+            "label": "₹1.9 Lacs",
+            "serverId": "1.9 Lacs"
+          },
+          "55": {
+            "rawValue": 200000,
+            "label": "₹2 Lacs",
+            "serverId": "2 Lacs"
+          },
+          "56": {
+            "rawValue": 225000,
+            "label": "₹2.25 Lacs",
+            "serverId": "2.25 Lacs"
+          },
+          "57": {
+            "rawValue": 250000,
+            "label": "₹2.50 Lacs",
+            "serverId": "2.5 Lacs"
+          },
+          "58": {
+            "rawValue": 275000,
+            "label": "₹2.75 Lacs",
+            "serverId": "2.75 Lacs"
+          },
+          "59": {
+            "rawValue": 300000,
+            "label": "₹3 Lacs",
+            "serverId": "3 Lacs"
+          },
+          "60": {
+            "rawValue": 325000,
+            "label": "₹3.25 Lacs",
+            "serverId": "3.25 Lacs"
+          },
+          "61": {
+            "rawValue": 350000,
+            "label": "₹3.50 Lacs",
+            "serverId": "3.5 Lacs"
+          },
+          "62": {
+            "rawValue": 375000,
+            "label": "₹3.75 Lacs",
+            "serverId": "3.75 Lacs"
+          },
+          "63": {
+            "rawValue": 400000,
+            "label": "₹4 Lacs",
+            "serverId": "4 Lacs"
+          },
+          "64": {
+            "rawValue": 425000,
+            "label": "₹4.25 Lacs",
+            "serverId": "4.25 Lacs"
+          },
+          "65": {
+            "rawValue": 450000,
+            "label": "₹4.50 Lacs",
+            "serverId": "4.5 Lacs"
+          },
+          "66": {
+            "rawValue": 475000,
+            "label": "₹4.75 Lacs",
+            "serverId": "4.75 Lacs"
+          },
+          "67": {
+            "rawValue": 500000,
+            "label": "₹5 Lacs",
+            "serverId": "5 Lacs"
+          },
+          "68": {
+            "rawValue": 600000,
+            "label": "₹6 Lacs",
+            "serverId": "6 Lacs"
+          },
+          "69": {
+            "rawValue": 700000,
+            "label": "₹7 Lacs",
+            "serverId": "7 Lacs"
+          },
+          "70": {
+            "rawValue": 800000,
+            "label": "₹8 Lacs",
+            "serverId": "8 Lacs"
+          },
+          "71": {
+            "rawValue": 900000,
+            "label": "₹9 Lacs",
+            "serverId": "9 Lacs"
+          },
+          "72": {
+            "rawValue": 1000000,
+            "label": "₹10 Lacs",
+            "serverId": "10 Lacs"
+          },
+          "73": {
+            "rawValue": 1000001,
+            "label": "₹10+ Lacs",
+            "serverId": "10+Lacs"
+          }
+        }
+      }
+    },
+    "BUDGET_CL": {
+      "title": "Budget",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 1,
+        "maxValue": 16,
+        "buckets": {
+          "1": {
+            "rawValue": 0,
+            "label": "₹0",
+            "serverId": "0"
+          },
+          "2": {
+            "rawValue": 10000,
+            "label": "₹10,000",
+            "serverId": "10,000"
+          },
+          "3": {
+            "rawValue": 20000,
+            "label": "₹20,000",
+            "serverId": "20,000"
+          },
+          "4": {
+            "rawValue": 30000,
+            "label": "₹30,000",
+            "serverId": "30,000"
+          },
+          "5": {
+            "rawValue": 40000,
+            "label": "₹40,000",
+            "serverId": "40,000"
+          },
+          "6": {
+            "rawValue": 50000,
+            "label": "₹50,000",
+            "serverId": "50,000"
+          },
+          "7": {
+            "rawValue": 60000,
+            "label": "₹60,000",
+            "serverId": "60,000"
+          },
+          "8": {
+            "rawValue": 70000,
+            "label": "₹70,000",
+            "serverId": "70,000"
+          },
+          "9": {
+            "rawValue": 80000,
+            "label": "₹80,000",
+            "serverId": "80,000"
+          },
+          "10": {
+            "rawValue": 90000,
+            "label": "₹90,000",
+            "serverId": "90,000"
+          },
+          "11": {
+            "rawValue": 100000,
+            "label": "₹1 Lac",
+            "serverId": "1 Lac"
+          },
+          "12": {
+            "rawValue": 150000,
+            "label": "₹1.5 Lacs",
+            "serverId": "1.5 Lacs"
+          },
+          "13": {
+            "rawValue": 200000,
+            "label": "₹2 Lacs",
+            "serverId": "2 Lacs"
+          },
+          "14": {
+            "rawValue": 300000,
+            "label": "₹3 Lacs",
+            "serverId": "3 Lacs"
+          },
+          "15": {
+            "rawValue": 1000000,
+            "label": "₹10 Lacs",
+            "serverId": "10 Lacs"
+          },
+          "16": {
+            "rawValue": 1000000,
+            "label": "₹10+ Lacs",
+            "serverId": "10+Lacs"
+          }
+        }
+      }
+    },
+    "BUILDING_AMENITIES": {
+      "title": "Building Amenities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "PL",
+          "label": "Passenger Lift"
+        },
+        {
+          "serverId": "SL",
+          "label": "Service Lift"
+        },
+        {
+          "serverId": "OC",
+          "label": "Occupancy Certificate"
+        },
+        {
+          "serverId": "FN",
+          "label": "Fire NOC"
+        },
+        {
+          "serverId": "SS",
+          "label": "Security Staff"
+        },
+        {
+          "serverId": "MS",
+          "label": "Maintenance Staff"
+        },
+        {
+          "serverId": "CS",
+          "label": "CCTV Surveillance"
+        },
+        {
+          "serverId": "FC",
+          "label": "Food Outlets"
+        }
+      ]
+    },
+    "COMMERCIAL_CATEGORY": {
+      "title": "Type of property",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "OS",
+          "label": "Office Spaces"
+        },
+        {
+          "serverId": "CS",
+          "label": "Other Commercial Spaces"
+        },
+        {
+          "serverId": "PL",
+          "label": "Plot/Land"
+        }
+      ]
+    },
+    "COMMERCIAL_SPACE_SUB_TYPES": {
+      "title": "Type of other commercial spaces",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "6",
+          "label": "Commercial Shops"
+        },
+        {
+          "serverId": "82",
+          "label": "Commercial Showrooms"
+        },
+        {
+          "serverId": "10",
+          "label": "Hotel/Resorts"
+        },
+        {
+          "serverId": "83",
+          "label": "Guest-House/Banquette-Halls"
+        },
+        {
+          "serverId": "12",
+          "label": "Space in Retail Mall"
+        },
+        {
+          "serverId": "15",
+          "label": "Ware House"
+        },
+        {
+          "serverId": "17",
+          "label": "Cold Storage"
+        },
+        {
+          "serverId": "18",
+          "label": "Factory"
+        },
+        {
+          "serverId": "19",
+          "label": "Manufacturing"
+        },
+        {
+          "serverId": "80",
+          "label": "Other"
+        }
+      ]
+    },
+    "DOORS": {
+      "title": "Doors",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "Y",
+          "label": "Yes"
+        },
+        {
+          "serverId": "N",
+          "label": "No"
+        }
+      ]
+    },
+    "FACILITIES": {
+      "title": "Facilities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "5678",
+          "label": "Reception Area"
+        },
+        {
+          "serverId": "2",
+          "label": "Centralized AC"
+        },
+        {
+          "serverId": "5",
+          "label": "UPS"
+        },
+        {
+          "serverId": "4",
+          "label": "Oxygen duct"
+        },
+        {
+          "serverId": "6789",
+          "label": "Fire Safety"
+        }
+      ]
+    },
+    "FLOOR_PREFERENCE": {
+      "title": "Floor Preference",
+      "type": "SUB_GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": []
+    },
+    "FLOORING": {
+      "title": "Flooring",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "13",
+          "label": "Concrete"
+        },
+        {
+          "serverId": "14",
+          "label": "Polished Concrete"
+        },
+        {
+          "serverId": "1",
+          "label": "Marble"
+        },
+        {
+          "serverId": "12",
+          "label": "Others"
+        }
+      ]
+    },
+    "FURNISH": {
+      "title": "Furnishing status",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Furnished"
+        },
+        {
+          "serverId": "2",
+          "label": "Unfurnished"
+        },
+        {
+          "serverId": "4",
+          "label": "Semi-furnished"
+        }
+      ]
+    },
+    "GIRLS_PG_ONLY": {
+      "title": "Are you looking for girls only PG ?",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "G",
+        "unSelected": ""
+      }
+    },
+    "HIDE_SEEN": {
+      "title": "Hide already seen",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "true",
+        "unSelected": "false"
+      }
+    },
+    "KEY_OFFICE_SPECIFICATION": {
+      "title": "Key Office Specification",
+      "type": "SUB_GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Meeting rooms"
+        },
+        {
+          "serverId": "4",
+          "label": "Conference room"
+        },
+        {
+          "serverId": "3",
+          "label": "Pantry"
+        }
+      ]
+    },
+    "LOCALITIES": {
+      "title": "Localities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": true,
+        "isMultipleSelectable": true
+      },
+      "groupValues": []
+    },
+    "LOCATED_ON": {
+      "title": "Located On",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "G",
+          "label": "Ground floor"
+        },
+        {
+          "serverId": "T",
+          "label": "Top floor"
+        },
+        {
+          "serverId": "O",
+          "label": "Other floors"
+        }
+      ]
+    },
+    "MORE_FILTER": {
+      "title": "Looking for something specific ?",
+      "sub_title": "Add More Filters",
+      "type": "MORE_FILTER"
+    },
+    "NO_OF_CABINS": {
+      "title": "Number of Cabins",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1+"
+        },
+        {
+          "serverId": "2",
+          "label": "2+"
+        },
+        {
+          "serverId": "3",
+          "label": "3+"
+        },
+        {
+          "serverId": "4",
+          "label": "4+"
+        },
+        {
+          "serverId": "5",
+          "label": "5+"
+        }
+      ]
+    },
+    "NO_OF_SEATS": {
+      "title": "Number of Seats (Office Capacity)",
+      "type": "INPUT_TEXT",
+      "inputProperties": {
+        "inputType": "NUM",
+        "maxDigit": 7,
+        "placeholder": "Seat Count"
+      }
+    },
+    "NO_OF_WASHROOMS": {
+      "title": "Number of Washrooms",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1+"
+        },
+        {
+          "serverId": "2",
+          "label": "2+"
+        },
+        {
+          "serverId": "3",
+          "label": "3+"
+        },
+        {
+          "serverId": "4",
+          "label": "4+"
+        },
+        {
+          "serverId": "5",
+          "label": "5+"
+        }
+      ]
+    },
+    "NEW_BOOKING_ONLY": {
+      "title": "Looking for New Bookings ?",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "N",
+          "label": "Yes"
+        },
+        {
+          "serverId": "",
+          "label": "No"
+        }
+      ]
+    },
+    "OFFICE_SPACE_SUB_TYPES": {
+      "title": "Type of office spaces",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "91",
+          "label": "Ready to move"
+        },
+        {
+          "serverId": "92",
+          "label": "Bare Shell"
+        },
+        {
+          "serverId": "93",
+          "label": "Co-working"
+        }
+      ]
+    },
+    "OFFICE_SPREAD_OVER": {
+      "title": "Office Spread Over",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1 floor"
+        },
+        {
+          "serverId": "2",
+          "label": "2 floors"
+        },
+        {
+          "serverId": "2+",
+          "label": "2+ floors"
+        }
+      ]
+    },
+    "PARKING": {
+      "title": "Parking",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "Y",
+          "label": "Yes"
+        },
+        {
+          "serverId": "N",
+          "label": "No"
+        }
+      ]
+    },
+    "PG_PREFERENCE": {
+      "title": "Show PG Only",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "P",
+        "unSelected": "R"
+      }
+    },
+    "PG_SERVICES": {
+      "title": "PG Services",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "104",
+          "label": "Food Service"
+        },
+        {
+          "serverId": "103",
+          "label": "AC Rooms"
+        },
+        {
+          "serverId": "105",
+          "label": "WiFi"
+        },
+        {
+          "serverId": "106",
+          "label": "Laundry Available"
+        },
+        {
+          "serverId": "102",
+          "label": "Pet Friendly"
+        },
+        {
+          "serverId": "101",
+          "label": "Wheelchair Friendly"
+        }
+      ]
+    },
+    "POSTED_BY": {
+      "title": "Posted By",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "O",
+          "label": "Owner"
+        },
+        {
+          "serverId": "B",
+          "label": "Builder"
+        },
+        {
+          "serverId": "A",
+          "label": "Dealer"
+        },
+        {
+          "serverId": "F",
+          "label": "Featured Dealer"
+        }
+      ]
+    },
+    "PREFERENCE": {
+      "title": "Looking to",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "S",
+          "label": "Buy"
+        },
+        {
+          "serverId": "R",
+          "label": "Rent / PG"
+        },
+        {
+          "serverId": "P",
+          "label": "Rent / PG"
+        },
+        {
+          "serverId": "L",
+          "label": "Lease"
+        }
+      ]
+    },
+    "PROPERTY_AGE": {
+      "title": "Age of Property",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "6",
+          "label": "0-1 years old"
+        },
+        {
+          "serverId": "1",
+          "label": "1-5 years old"
+        },
+        {
+          "serverId": "2",
+          "label": "5-10 years old"
+        },
+        {
+          "serverId": "3",
+          "label": "10-20 years old"
+        },
+        {
+          "serverId": "4",
+          "label": "20+ years old"
+        }
+      ]
+    },
+    "PROPERTY_TYPES": {
+      "title": "Type of property",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "91",
+          "label": "Ready to move office space"
+        },
+        {
+          "serverId": "9,16,20",
+          "label": "Plot/Land"
+        },
+        {
+          "serverId": "682",
+          "label": "Shops and Retail"
+        },
+        {
+          "serverId": "92",
+          "label": "Bare Shell office space"
+        },
+        {
+          "serverId": "9",
+          "label": "Commercial Land/Inst. Land"
+        },
+        {
+          "serverId": "20",
+          "label": "Agricultural/Farm Land"
+        },
+        {
+          "serverId": "16",
+          "label": "Industrial Lands/Plots"
+        },
+        {
+          "serverId": "15",
+          "label": "Ware House"
+        },
+        {
+          "serverId": "17",
+          "label": "Cold Storage"
+        },
+        {
+          "serverId": "18",
+          "label": "Factory"
+        },
+        {
+          "serverId": "19",
+          "label": "Manufacturing"
+        },
+        {
+          "serverId": "10",
+          "label": "Hotel/Resorts"
+        },
+        {
+          "serverId": "83",
+          "label": "Guest-House/Banquet-Hall"
+        },
+        {
+          "serverId": "80",
+          "label": "Others"
+        },
+        {
+          "serverId": "93",
+          "label": "Co-working office space"
+        },
+        {
+          "serverId": "1",
+          "label": "Residential Apartment"
+        },
+        {
+          "serverId": "2",
+          "label": "Independent House/Villa"
+        },
+        {
+          "serverId": "3",
+          "label": "Plot/Land"
+        },
+        {
+          "serverId": "4",
+          "label": "Builder Floor"
+        },
+        {
+          "serverId": "5",
+          "label": "Farm House"
+        },
+        {
+          "serverId": "6",
+          "label": "Commercial Shops"
+        },
+        {
+          "serverId": "22",
+          "label": "Serviced Apartment"
+        },
+        {
+          "serverId": "82",
+          "label": "Commercial Showrooms"
+        },
+        {
+          "serverId": "90",
+          "label": "1 RK/ Studio Apartment"
+        },
+        {
+          "serverId": "12",
+          "label": "Space in Retail Mall"
+        },
+        {
+          "serverId": "94",
+          "label": "Food Courts"
+        },
+        {
+          "serverId": "98",
+          "label": "Multiplexes"
+        },
+        {
+          "serverId": "95",
+          "label": "Game Zone"
+        },
+        {
+          "serverId": "93",
+          "label": "Co-working"
+        },
+        {
+          "serverId": "21",
+          "label": "Business Center"
+        },
+        {
+          "serverId": "96",
+          "label": "Restaurants"
+        }
+      ]
+    },
+    "APPROVED_FOR_INDUSTRY": {
+      "title": "Approved for Industry Type",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 4,
+        "maxTags": 5,
+        "isVerticalOrientation": true,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Automobiles"
+        },
+        {
+          "serverId": "2",
+          "label": "Biotechnology"
+        },
+        {
+          "serverId": "3",
+          "label": "Capital Goods"
+        },
+        {
+          "serverId": "4",
+          "label": "Chemicals"
+        },
+        {
+          "serverId": "5",
+          "label": "Construction"
+        },
+        {
+          "serverId": "6",
+          "label": "Defence and Aerospace Manufacturing"
+        },
+        {
+          "serverId": "7",
+          "label": "Electronics Hardware"
+        },
+        {
+          "serverId": "8",
+          "label": "Engineering"
+        },
+        {
+          "serverId": "9",
+          "label": "Food Processing"
+        },
+        {
+          "serverId": "10",
+          "label": "Gems and Jewellery"
+        },
+        {
+          "serverId": "11",
+          "label": "Handicrafts"
+        },
+        {
+          "serverId": "12",
+          "label": "IT and ITeS"
+        },
+        {
+          "serverId": "13",
+          "label": "Leather"
+        },
+        {
+          "serverId": "14",
+          "label": "Manufacturing"
+        },
+        {
+          "serverId": "15",
+          "label": "Medical devices"
+        },
+        {
+          "serverId": "16",
+          "label": "Metals"
+        },
+        {
+          "serverId": "17",
+          "label": "Mixed"
+        },
+        {
+          "serverId": "18",
+          "label": "Petroleum"
+        },
+        {
+          "serverId": "19",
+          "label": "Pharmaceuticals"
+        },
+        {
+          "serverId": "20",
+          "label": "Renewable Energy"
+        },
+        {
+          "serverId": "21",
+          "label": "Software"
+        },
+        {
+          "serverId": "22",
+          "label": "Textiles"
+        }
+      ]
+    },
+    "INVESTMENT_OPTIONS": {
+      "title": "Investment options",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "isPreLeased",
+          "label": "Pre-leased Spaces"
+        },
+        {
+          "serverId": "2",
+          "label": "New Launches"
+        },
+        {
+          "serverId": "94",
+          "label": "Food Courts"
+        },
+        {
+          "serverId": "96",
+          "label": "Restaurants"
+        },
+        {
+          "serverId": "98",
+          "label": "Multiplexes"
+        },
+        {
+          "serverId": "95",
+          "label": "Game Zone"
+        },
+        {
+          "serverId": "93",
+          "label": "Co-working"
+        },
+        {
+          "serverId": "21",
+          "label": "Business Center"
+        }
+      ]
+    },
+    "PLOT_PREFERENCE": {
+      "title": "Preferred Plot / Land type",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 2,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Corner Property"
+        },
+        {
+          "serverId": "2",
+          "label": "Gated Society"
+        }
+      ]
+    },
+    "TYPES_PLOT_LANDS": {
+      "title": "Types of Plots / Lands",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 3,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId":"9",
+          "label": "Commercial Land/Inst. Land"
+        },
+        {
+          "serverId": "16",
+          "label": "Industrial Lands/Plots"
+        },
+        {
+          "serverId": "20",
+          "label": "Agricultural/Farm Land"
+        }
+      ]
+    },
+    "FACING_DIRECTION": {
+      "title": "Facing Direction",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 8,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "North"
+        },
+        {
+          "serverId": "3",
+          "label": "East"
+        },
+        {
+          "serverId": "5",
+          "label": "North-East"
+        },
+        {
+          "serverId": "7",
+          "label": "South-East"
+        },
+        {
+          "serverId": "6",
+          "label": "North-West"
+        },
+        {
+          "serverId": "4",
+          "label": "West"
+        },
+        {
+          "serverId": "2",
+          "label": "South"
+        },
+        {
+          "serverId": "8",
+          "label": "South-West"
+        }
+      ]
+    },
+    "OWNERSHIP_TYPE": {
+      "title": "Ownership Type",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Freehold"
+        },
+        {
+          "serverId": "2",
+          "label": "Leasehold"
+        },
+        {
+          "serverId": "3",
+          "label": "Co-operative Society"
+        },
+        {
+          "serverId": "4",
+          "label": "Power of attorney"
+        }
+      ]
+    },
+    "WIDTH_OF_FACING_ROAD": {
+      "title": "Width of Facing Road",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "0:10",
+          "label": "10 ft"
+        },
+        {
+          "serverId": "10:20",
+          "label": "10 - 20 ft"
+        },
+        {
+          "serverId": "20:50",
+          "label": "20 - 50 ft"
+        },
+        {
+          "serverId": "50:1000",
+          "label": "50+ ft"
+        }
+      ]
+    },
+    "APPROVED_BY_AUTHORITY":{
+      "title": "Approved by Authority",
+      "type": "GROUP",
+      "infoIcon": true,
+      "sub_title": "*This information is as provided by the property advertiser",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 5,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+    "groupValues": [
+      {
+        "id": "1",
+        "label": "GHMC",
+        "description": "Greater Hyderabad Municipal Corporation"
+      },
+      {
+        "id": "2",
+        "label": "HMDA",
+        "description": "Hyderabad Metropolitan Development Authority"
+      },
+      {
+        "id": "3",
+        "label": "DTCP",
+        "description": "Directorate of Town and Country Planning"
+      },
+      {
+        "id": "4",
+        "label": "CMDA",
+        "description": "Chennai Metropolitan Development Authority"
+      },
+      {
+        "id": "5",
+        "label": "TNHB",
+        "description": "Tamilnadu Housing Board"
+      },
+      {
+        "id": "6",
+        "label": "YEIDA",
+        "description": "Yamuna Expressway Industrial Development Authority"
+      },
+      {
+        "id": "7",
+        "label": "UPAVP",
+        "description": "UP Awas Vikas Yojana"
+      },
+      {
+        "id": "8",
+        "label": "GNIDA",
+        "description": "Greater Noida Industrial Development Authority"
+      },
+      {
+        "id": "9",
+        "label": "HHB",
+        "description": "Haryana Housing Board"
+      },
+      {
+        "id": "10",
+        "label": "HUDA",
+        "description": "Haryana Urban Development Authority"
+      },
+      {
+        "id": "11",
+        "label": "HSIIDC",
+        "description": "Haryana State Industrial and Infrastructure Development Corporation"
+      },
+      {
+        "id": "12",
+        "label": "BMRDA",
+        "description": "Bengaluru Metropolitan Region Development Authority"
+      },
+      {
+        "id": "13",
+        "label": "BBMP",
+        "description": "Bruhat Bengaluru Mahanagara Palike"
+      },
+      {
+        "id": "14",
+        "label": "BMICAP",
+        "description": "Bangalore Mysore Infrastructure Corridor Area Planning Authority"
+      },
+      {
+        "id": "15",
+        "label": "CUDA",
+        "description": "Chitradurga Urban Development Authority"
+      },
+      {
+        "id": "16",
+        "label": "NPA",
+        "description": "Nelamangala Planning Authority"
+      },
+      {
+        "id": "17",
+        "label": "BDA",
+        "description": "Bangalore Development Authority"
+      },
+      {
+        "id": "18",
+        "label": "DPA",
+        "description": "Doddaballapura Planning Authority"
+      },
+      {
+        "id": "19",
+        "label": "BIAAPA",
+        "description": "Bangalore International Airport Area Planning Authority"
+      },
+      {
+        "id": "20",
+        "label": "DDA",
+        "description": "Delhi Development Authority"
+      },
+      {
+        "id": "21",
+        "label": "MCD",
+        "description": "Muncipal Corporation of Delhi"
+      },
+      {
+        "id": "22",
+        "label": "NDMC",
+        "description": "North Delhi Municipal Corporation"
+      },
+      {
+        "id": "23",
+        "label": "MMRDA",
+        "description": "Mumbai Metropolitan Region Development Authority"
+      },
+      {
+        "id": "24",
+        "label": "MCGM",
+        "description": "Brihanmumbai Municipal Corporation"
+      },
+      {
+        "id": "25",
+        "label": "RCUDA",
+        "description": "Ramanagaram-Channapatna Urban Development Authority"
+      },
+      {
+        "id": "26",
+        "label": "CIDC",
+        "description": "Construction Industry Development Council"
+      },
+      {
+        "id": "27",
+        "label": "NMMC",
+        "description": "Navi Mumbai Municipal Corporation"
+      },
+      {
+        "id": "28",
+        "label": "BMC",
+        "description": "Bidhannagar Municipal Corporation"
+      },
+      {
+        "id": "29",
+        "label": "NTKDA",
+        "description": "New Town Kolkata Development Authority"
+      },
+      {
+        "id": "30",
+        "label": "WBIDCL",
+        "description": "West Bengal Industrial Development Corporation Limited"
+      },
+      {
+        "id": "31",
+        "label": "KMDA",
+        "description": "Kolkata Metropolitan Development Authority"
+      },
+      {
+        "id": "32",
+        "label": "KMC",
+        "description": "Kolkata Municipal Corporation"
+      },
+      {
+        "id": "33",
+        "label": "PCNTDA",
+        "description": "Pimpri Chinchwad New Town Development Authority"
+      },
+      {
+        "id": "34",
+        "label": "PMRDA",
+        "description": "Pune Metropolitan Region Development Authority"
+      },
+      {
+        "id": "35",
+        "label": "AMC",
+        "description": "Amdavad Municipal Corporation"
+      },
+      {
+        "id": "36",
+        "label": "AUDA",
+        "description": "Ahmedabad Urban Development Authority"
+      },
+      {
+        "id": "37",
+        "label": "GDA",
+        "description": "Gandhidham Development Authority"
+      },
+      {
+        "id": "38",
+        "label": "NOIDA",
+        "description": "NOIDA"
+      },
+      {
+        "id": "39",
+        "label": "Local Authority",
+        "description": "Please select ‘Local Authority’ if your property is approved by any authority within your city or municipality area."
+      }
+    ]
+    },
+    "SHOP_SHOWROOM_SUBTYPE": {
+      "title": "Shops & Retail subtypes",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 3,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "6",
+          "label": "Shop"
+        },
+        {
+          "serverId": "82",
+          "label": "Showrooms"
+        },
+        {
+          "serverId": "97",
+          "label": "Kiosk"
+        }
+      ]
+    },
+    "READY_TO_MOVE_ONLY": {
+      "title": "Looking for \"Ready to Move\" properties?",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "R",
+          "label": "Yes"
+        },
+        {
+          "serverId": "",
+          "label": "No"
+        }
+      ]
+    },
+    "RERA_APPROVED": {
+      "title": "RERA Approved",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "PROP",
+          "label": "RERA approved properties"
+        },
+        {
+          "serverId": "AGENT",
+          "label": "RERA registered agents"
+        }
+      ]
+    },
+    "ROOM_SHARING": {
+      "title": "Sharing",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Private Rooms"
+        },
+        {
+          "serverId": "2",
+          "label": "2 Per Room"
+        },
+        {
+          "serverId": "2+",
+          "label": "More than 2 Per Room"
+        }
+      ]
+    },
+    "TRANSACT_TYPE": {
+      "title": "Purchase type",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "R",
+          "label": "Resale"
+        },
+        {
+          "serverId": "N",
+          "label": "New Booking"
+        }
+      ]
+    },
+    "TOTAL_CAPACITY": {
+      "title": "Total Capacity",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "1-2 Guests"
+        },
+        {
+          "serverId": "3",
+          "label": "2-4 Guests"
+        },
+        {
+          "serverId": "5",
+          "label": "4-10 Guests"
+        },
+        {
+          "serverId": "10+",
+          "label": "10+ Guests"
+        }
+      ]
+    },
+    "SOCITIES": {
+      "title": "New Projects / Societies",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": true,
+        "isMultipleSelectable": true
+      },
+      "groupValues": []
+    },
+    "SUGGESTIONS": {
+      "title": "",
+      "type": "SEARCH",
+      "searchValues": {
+        "placeholder": "Search Locality,Projects,Landmarks.."
+      }
+    },
+    "VERIFIED_ONLY": {
+      "title": "Verified Properties",
+      "infoIcon": true,
+      "subTitleLeftIcon": "ic_verified_tag",
+      "sub_title": "by 99acres verification team",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "Y",
+        "unSelected": ""
+      }
+    },
+    "WALLS": {
+      "title": "Walls",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 2,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "No Walls"
+        },
+        {
+          "serverId": "2",
+          "label": "Brick Walls"
+        },
+        {
+          "serverId": "3",
+          "label": "Cemented Walls"
+        },
+        {
+          "serverId": "4",
+          "label": "Plastered Walls"
+        }
+      ]
+    },
+    "WITH_VIDEOS": {
+      "title": "Properties with videos",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "V",
+        "unSelected": ""
+      }
+    },
+    "WITH_PHOTOS": {
+      "title": "Properties with photos",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "I",
+        "unSelected": ""
+      }
+    },
+    "LAST_POSTED": {
+      "title": "Filter by recently posted",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 1,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "4h",
+          "label": "Last 4 Hours"
+        },
+        {
+          "serverId": "12h",
+          "label": "Last 12 Hours"
+        },
+        {
+          "serverId": "24h",
+          "label": "Last 24 Hours"
+        },
+        {
+          "serverId": "3d",
+          "label": "Last 3 Days"
+        },
+        {
+          "serverId": "7d",
+          "label": "Last 7 Days"
+        },
+        {
+          "serverId": "15d",
+          "label": "Last 15 Days"
+        }
+      ]
+    },
+    "PRE_LEASED": {
+      "title": "View Pre-Leased Properties",
+      "infoIcon": true,
+      "titleEndIcon": "ic_new_tag",
+      "sub_title": "Buy already rented out properties & earn monthly rentals",
+      "type": "TOGGLE",
+      "toggleValues": {
+        "selected": "Y",
+        "unSelected": ""
+      }
+    },
+    "ACTIVITIES": {
+      "title": "Activities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "24",
+          "label": "Recreational activities"
+        },
+        {
+          "serverId": "25",
+          "label": "Relax zones"
+        },
+        {
+          "serverId": "26",
+          "label": "Community programs"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "ADDITIONAL_AMENITIES": {
+      "title": "Additional Amenities",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "27",
+          "label": "Restaurants/malls nearby"
+        },
+        {
+          "serverId": "28",
+          "label": "Washrooms"
+        },
+        {
+          "serverId": "29",
+          "label": "Pick up and drop"
+        },
+        {
+          "serverId": "30",
+          "label": "Visitor management"
+        },
+        {
+          "serverId": "31",
+          "label": "Creche (managed)"
+        },
+        {
+          "serverId": "32",
+          "label": "Event spaces"
+        },
+        {
+          "serverId": "33",
+          "label": "AV Rooms / Projectors"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "BUDGET_CL_CW": {
+      "title": "Budget Range",
+      "type": "RANGE",
+      "rangeValue": {
+        "minValue": 1,
+        "maxValue": 82,
+        "buckets": {
+          "1": {
+            "rawValue": 0,
+            "label": "₹0",
+            "serverId": "0"
+          },
+          "2": {
+            "rawValue": 100,
+            "label": "₹100",
+            "serverId": "100"
+          },
+          "3": {
+            "rawValue": 200,
+            "label": "₹200",
+            "serverId": "200"
+          },
+          "4": {
+            "rawValue": 300,
+            "label": "₹300",
+            "serverId": "300"
+          },
+          "5": {
+            "rawValue": 400,
+            "label": "₹400",
+            "serverId": "400"
+          },
+          "6": {
+            "rawValue": 500,
+            "label": "₹500",
+            "serverId": "500"
+          },
+          "7": {
+            "rawValue": 600,
+            "label": "₹600",
+            "serverId": "600"
+          },
+          "8": {
+            "rawValue": 700,
+            "label": "₹700",
+            "serverId": "700"
+          },
+          "9": {
+            "rawValue": 800,
+            "label": "₹800",
+            "serverId": "800"
+          },
+          "10": {
+            "rawValue": 900,
+            "label": "₹900",
+            "serverId": "900"
+          },
+          "11": {
+            "rawValue": 1000,
+            "label": "₹1,000",
+            "serverId": "1000"
+          },
+          "12": {
+            "rawValue": 2000,
+            "label": "₹2,000",
+            "serverId": "2000"
+          },
+          "13": {
+            "rawValue": 3000,
+            "label": "₹3,000",
+            "serverId": "3000"
+          },
+          "14": {
+            "rawValue": 4000,
+            "label": "₹4,000",
+            "serverId": "4000"
+          },
+          "15": {
+            "rawValue": 5000,
+            "label": "₹5,000",
+            "serverId": "5000"
+          },
+          "16": {
+            "rawValue": 6000,
+            "label": "₹6,000",
+            "serverId": "6000"
+          },
+          "17": {
+            "rawValue": 7000,
+            "label": "₹7,000",
+            "serverId": "7000"
+          },
+          "18": {
+            "rawValue": 8000,
+            "label": "₹8,000",
+            "serverId": "8000"
+          },
+          "19": {
+            "rawValue": 9000,
+            "label": "₹9,000",
+            "serverId": "9000"
+          },
+          "20": {
+            "rawValue": 10000,
+            "label": "₹10,000",
+            "serverId": "10000"
+          },
+          "21": {
+            "rawValue": 11000,
+            "label": "₹11,000",
+            "serverId": "11000"
+          },
+          "22": {
+            "rawValue": 12000,
+            "label": "₹12,000",
+            "serverId": "12000"
+          },
+          "23": {
+            "rawValue": 13000,
+            "label": "₹13,000",
+            "serverId": "13000"
+          },
+          "24": {
+            "rawValue": 14000,
+            "label": "₹14,000",
+            "serverId": "14000"
+          },
+          "25": {
+            "rawValue": 15000,
+            "label": "₹15,000",
+            "serverId": "15000"
+          },
+          "26": {
+            "rawValue": 16000,
+            "label": "₹16,000",
+            "serverId": "16000"
+          },
+          "27": {
+            "rawValue": 17000,
+            "label": "₹17,000",
+            "serverId": "17000"
+          },
+          "28": {
+            "rawValue": 18000,
+            "label": "₹18,000",
+            "serverId": "18000"
+          },
+          "29": {
+            "rawValue": 19000,
+            "label": "₹19,000",
+            "serverId": "19000"
+          },
+          "30": {
+            "rawValue": 20000,
+            "label": "₹20,000",
+            "serverId": "20000"
+          },
+          "31": {
+            "rawValue": 21000,
+            "label": "₹21,000",
+            "serverId": "21000"
+          },
+          "32": {
+            "rawValue": 22000,
+            "label": "₹22,000",
+            "serverId": "22000"
+          },
+          "33": {
+            "rawValue": 23000,
+            "label": "₹23,000",
+            "serverId": "23000"
+          },
+          "34": {
+            "rawValue": 24000,
+            "label": "₹24,000",
+            "serverId": "24000"
+          },
+          "35": {
+            "rawValue": 25000,
+            "label": "₹25,000",
+            "serverId": "25000"
+          },
+          "36": {
+            "rawValue": 26000,
+            "label": "₹26,000",
+            "serverId": "26000"
+          },
+          "37": {
+            "rawValue": 27000,
+            "label": "₹27,000",
+            "serverId": "27000"
+          },
+          "38": {
+            "rawValue": 28000,
+            "label": "₹28,000",
+            "serverId": "28000"
+          },
+          "39": {
+            "rawValue": 29000,
+            "label": "₹29,000",
+            "serverId": "29000"
+          },
+          "40": {
+            "rawValue": 30000,
+            "label": "₹30,000",
+            "serverId": "30000"
+          },
+          "41": {
+            "rawValue": 35000,
+            "label": "₹35,000",
+            "serverId": "35000"
+          },
+          "42": {
+            "rawValue": 40000,
+            "label": "₹40,000",
+            "serverId": "40000"
+          },
+          "43": {
+            "rawValue": 45000,
+            "label": "₹45,000",
+            "serverId": "45000"
+          },
+          "44": {
+            "rawValue": 50000,
+            "label": "₹50,000",
+            "serverId": "50000"
+          },
+          "45": {
+            "rawValue": 55000,
+            "label": "₹55,000",
+            "serverId": "55000"
+          },
+          "46": {
+            "rawValue": 60000,
+            "label": "₹60,000",
+            "serverId": "60000"
+          },
+          "47": {
+            "rawValue": 65000,
+            "label": "₹65,000",
+            "serverId": "65000"
+          },
+          "48": {
+            "rawValue": 70000,
+            "label": "₹70,000",
+            "serverId": "70000"
+          },
+          "49": {
+            "rawValue": 75000,
+            "label": "₹75,000",
+            "serverId": "75000"
+          },
+          "50": {
+            "rawValue": 80000,
+            "label": "₹80,000",
+            "serverId": "80000"
+          },
+          "51": {
+            "rawValue": 850000,
+            "label": "₹85,000",
+            "serverId": "85000"
+          },
+          "52": {
+            "rawValue": 90000,
+            "label": "₹90,000",
+            "serverId": "90000"
+          },
+          "53": {
+            "rawValue": 95000,
+            "label": "₹95,000",
+            "serverId": "95000"
+          },
+          "54": {
+            "rawValue": 100000,
+            "label": "₹1 Lac",
+            "serverId": "100000"
+          },
+          "55": {
+            "rawValue": 110000,
+            "label": "₹1.1 Lacs",
+            "serverId": "110000"
+          },
+          "56": {
+            "rawValue": 120000,
+            "label": "₹1.2 Lacs",
+            "serverId": "120000"
+          },
+          "57": {
+            "rawValue": 130000,
+            "label": "₹1.3 Lacs",
+            "serverId": "130000"
+          },
+          "58": {
+            "rawValue": 140000,
+            "label": "₹1.4 Lacs",
+            "serverId": "140000"
+          },
+          "59": {
+            "rawValue": 150000,
+            "label": "₹1.5 Lacs",
+            "serverId": "150000"
+          },
+          "60": {
+            "rawValue": 160000,
+            "label": "₹1.6 Lacs",
+            "serverId": "160000"
+          },
+          "61": {
+            "rawValue": 170000,
+            "label": "₹1.7 Lacs",
+            "serverId": "170000"
+          },
+          "62": {
+            "rawValue": 180000,
+            "label": "₹1.8 Lacs",
+            "serverId": "180000"
+          },
+          "63": {
+            "rawValue": 190000,
+            "label": "₹1.9 Lacs",
+            "serverId": "190000"
+          },
+          "64": {
+            "rawValue": 200000,
+            "label": "₹2 Lacs",
+            "serverId": "200000"
+          },
+          "65": {
+            "rawValue": 225000,
+            "label": "₹2.25 Lacs",
+            "serverId": "225000"
+          },
+          "66": {
+            "rawValue": 250000,
+            "label": "₹2.50 Lacs",
+            "serverId": "250000"
+          },
+          "67": {
+            "rawValue": 275000,
+            "label": "₹2.75 Lacs",
+            "serverId": "275000"
+          },
+          "68": {
+            "rawValue": 300000,
+            "label": "₹3 Lacs",
+            "serverId": "300000"
+          },
+          "69": {
+            "rawValue": 325000,
+            "label": "₹3.25 Lacs",
+            "serverId": "325000"
+          },
+          "70": {
+            "rawValue": 350000,
+            "label": "₹3.50 Lacs",
+            "serverId": "350000"
+          },
+          "71": {
+            "rawValue": 375000,
+            "label": "₹3.75 Lacs",
+            "serverId": "375000"
+          },
+          "72": {
+            "rawValue": 400000,
+            "label": "₹4 Lacs",
+            "serverId": "400000"
+          },
+          "73": {
+            "rawValue": 425000,
+            "label": "₹4.25 Lacs",
+            "serverId": "425000"
+          },
+          "74": {
+            "rawValue": 450000,
+            "label": "₹4.50 Lacs",
+            "serverId": "450000"
+          },
+          "75": {
+            "rawValue": 475000,
+            "label": "₹4.75 Lacs",
+            "serverId": "475000"
+          },
+          "76": {
+            "rawValue": 500000,
+            "label": "₹5 Lacs",
+            "serverId": "500000"
+          },
+          "77": {
+            "rawValue": 600000,
+            "label": "₹6 Lacs",
+            "serverId": "600000"
+          },
+          "78": {
+            "rawValue": 700000,
+            "label": "₹7 Lacs",
+            "serverId": "700000"
+          },
+          "79": {
+            "rawValue": 800000,
+            "label": "₹8 Lacs",
+            "serverId": "800000"
+          },
+          "80": {
+            "rawValue": 900000,
+            "label": "₹9 Lacs",
+            "serverId": "900000"
+          },
+          "81": {
+            "rawValue": 1000000,
+            "label": "₹10 Lacs",
+            "serverId": "1000000"
+          },
+          "82": {
+            "rawValue": 1000001,
+            "label": "₹10+ Lacs",
+            "serverId": ""
+          }
+        }
+      }
+    },
+    "COVID_READINESS": {
+      "title": "Covid Readiness",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "34",
+          "label": "Frequently sanitized"
+        },
+        {
+          "serverId": "35",
+          "label": "Distanced seating arrangement"
+        },
+        {
+          "serverId": "37",
+          "label": "Masks provided"
+        },
+        {
+          "serverId": "36",
+          "label": "Reduced touchable items"
+        },
+        {
+          "serverId": "38",
+          "label": "PPE kits available"
+        },
+        {
+          "serverId": "39",
+          "label": "Temperature screening"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "FOOD_AND_DRINKS": {
+      "title": "Food and Drinks",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "13",
+          "label": "Coffee machine"
+        },
+        {
+          "serverId": "14",
+          "label": "Cafeteria"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "INTERNET_AND_ELECTRICITY": {
+      "title": "Internet and Electricity",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "20",
+          "label": "High-speed WiFi"
+        },
+        {
+          "serverId": "21",
+          "label": "High-speed Broadband"
+        },
+        {
+          "serverId": "22",
+          "label": "Power backup"
+        },
+        {
+          "serverId": "23",
+          "label": "Air conditioning"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "OFFICE_SUPPLIES": {
+      "title": "Office Supplies",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "7",
+          "label": "Printer"
+        },
+        {
+          "serverId": "8",
+          "label": "Scanner"
+        },
+        {
+          "serverId": "9",
+          "label": "Photocopier"
+        },
+        {
+          "serverId": "10",
+          "label": "Projector"
+        },
+        {
+          "serverId": "11",
+          "label": "Office stationery"
+        },
+        {
+          "serverId": "12",
+          "label": "Lockable drawers"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "OTHER_FILTERS": {
+      "title": "Other Filters",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Covid Ready"
+        },
+        {
+          "serverId": "2",
+          "label": "24/7 operational"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "PLANS_AND_BUDGET": {
+      "title": "Plans and Pricing",
+      "type": "SUB_GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "h",
+          "label": "Hourly"
+        },
+        {
+          "serverId": "d",
+          "label": "Daily"
+        },
+        {
+          "serverId": "w",
+          "label": "Weekly"
+        },
+        {
+          "serverId": "m",
+          "label": "Monthly"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "SEAT_TYPE": {
+      "title": "Seat Type",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "Hot Desk"
+        },
+        {
+          "serverId": "3",
+          "label": "Dedicated Desk"
+        },
+        {
+          "serverId": "4",
+          "label": "Private Cabin"
+        },
+        {
+          "serverId": "2",
+          "label": "Meeting Room"
+        },
+        {
+          "serverId": "5",
+          "label": "Private Office"
+        },
+        {
+          "serverId": "6",
+          "label": "Multi Utility Space"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "SEATS_COUNT_RANGE": {
+      "title": "Number of seats (Team Size)",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": false
+      },
+      "groupValues": [
+        {
+          "serverId": "1:1",
+          "label": "1"
+        },
+        {
+          "serverId": "2:5",
+          "label": "2-5"
+        },
+        {
+          "serverId": "6:10",
+          "label": "6-10"
+        },
+        {
+          "serverId": "11:20",
+          "label": "11-20"
+        },
+        {
+          "serverId": "21:50",
+          "label": "21-50"
+        },
+        {
+          "serverId": "51:100",
+          "label": "51-100"
+        },
+        {
+          "serverId": "101:500",
+          "label": "101-500"
+        },
+        {
+          "serverId": "501:",
+          "label": "500+"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "SERVICES": {
+      "title": "Services",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "1",
+          "label": "IT support"
+        },
+        {
+          "serverId": "2",
+          "label": "Catering"
+        },
+        {
+          "serverId": "3",
+          "label": "Housekeeping"
+        },
+        {
+          "serverId": "4",
+          "label": "Reception"
+        },
+        {
+          "serverId": "5",
+          "label": "Runner services"
+        },
+        {
+          "serverId": "6",
+          "label": "Courier services"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    },
+    "SPACE_ACCESS": {
+      "title": "Space Access",
+      "type": "GROUP",
+      "uiProperties": {
+        "maxLines": 0,
+        "maxTags": 4,
+        "isVerticalOrientation": false,
+        "isMultipleSelectable": true
+      },
+      "groupValues": [
+        {
+          "serverId": "15",
+          "label": "Conference room access"
+        },
+        {
+          "serverId": "16",
+          "label": "Meeting room access"
+        },
+        {
+          "serverId": "17",
+          "label": "Calling booth"
+        },
+        {
+          "serverId": "25",
+          "label": "Relax zones"
+        },
+        {
+          "serverId": "18",
+          "label": "Car parking"
+        },
+        {
+          "serverId": "19",
+          "label": "Bike parking"
+        }
+      ],
+      "validity": {
+        "startAppVersionIOS": 174,
+        "startAppVersionAndroid": 431
+      }
+    }
+  },
+  "forms_V1": {
+    "R_S_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "3",
+            "2",
+            "4",
+            "22",
+            "90",
+            "5"
+          ]
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "READY_TO_MOVE_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "NEW_BOOKING_ONLY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BATHROOM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "RERA_APPROVED",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "R_R_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PG_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "4",
+            "22",
+            "90",
+            "5"
+          ]
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FOR",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "FA",
+            "SW",
+            "SM"
+          ]
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BATHROOM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "I",
+            "30"
+          ]
+        }
+      ]
+    },
+    "R_P_SF": {
+      "threshold": 7,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "P"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PG_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "ROOM_SHARING",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "4",
+            "22",
+            "90"
+          ]
+        },
+        {
+          "id": "GIRLS_PG_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "A",
+            "Y",
+            "F"
+          ]
+        },
+        {
+          "id": "PG_SERVICES",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "TOTAL_CAPACITY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "ATTACHED_BATHROOM",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_S_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "91",
+            "92",
+            "682",
+            "9,16,20",
+            "15",
+            "17",
+            "18",
+            "19",
+            "10",
+            "83",
+            "80"
+          ]
+        },
+        {
+          "id":"TYPES_PLOT_LANDS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": ["9","16","20"]
+        },
+        {
+          "id": "INVESTMENT_OPTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "isPreLeased",
+            "94",
+            "96",
+            "98",
+            "95",
+            "93",
+            "21"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": ["1"]
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "READY_TO_MOVE_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "NEW_BOOKING_ONLY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        }
+      ]
+    },
+    "C_L_SF": {
+      "threshold": -1,
+      "defaultFormKey": "C_L_OS_R2M_SF",
+      "ordering": []
+    },
+    "C_L_OS_CW_SF": {
+      "threshold": 7,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "93"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "PROPERTY_AGE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "SEATS_COUNT_RANGE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "SEAT_TYPE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "PLANS_AND_BUDGET",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "BUDGET_CL_CW",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "OTHER_FILTERS",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SERVICES",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "OFFICE_SUPPLIES",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SPACE_ACCESS",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "INTERNET_AND_ELECTRICITY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "FOOD_AND_DRINKS",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "ACTIVITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "ADDITIONAL_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "COVID_READINESS",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "C_L_OS_R2M_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "91"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "NO_OF_SEATS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "I",
+            "30",
+            "after30"
+          ],
+          "title": "Availablity"
+        },
+        {
+          "id": "KEY_OFFICE_SPECIFICATION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "NO_OF_CABINS",
+              "values": []
+            },
+            {
+              "id": "NO_OF_WASHROOMS",
+              "values": []
+            },
+            {
+              "id": "PARKING",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "FACILITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "BUILDING_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FLOOR_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "LOCATED_ON",
+              "values": []
+            },
+            {
+              "id": "OFFICE_SPREAD_OVER",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        }
+      ]
+    },
+    "C_L_PL_SF": {
+      "threshold": 0,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues":[
+            "PL"
+          ]
+        },
+        {
+          "id":"TYPES_PLOT_LANDS",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": true,
+          "values": [],
+          "defaultValues": [
+            "9","16","20"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": true,
+          "values": ["1"]
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        }
+      ]
+    },
+    "C_L_OS_BS_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "92"
+          ]
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "I",
+            "30",
+            "after30"
+          ],
+          "title": "Availablity"
+        },
+        {
+          "id": "KEY_OFFICE_SPECIFICATION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": null,
+          "defaultSubFilterOrdering": [
+            {
+              "id": "NO_OF_WASHROOMS",
+              "values": []
+            },
+            {
+              "id": "WALLS",
+              "values": []
+            },
+            {
+              "id": "FLOORING",
+              "values": []
+            },
+            {
+              "id": "DOORS",
+              "values": []
+            },
+            {
+              "id": "PARKING",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "FACILITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "2",
+            "6789",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "BUILDING_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FLOOR_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "LOCATED_ON",
+              "values": []
+            },
+            {
+              "id": "OFFICE_SPREAD_OVER",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        }
+      ]
+    },
+    "C_L_CS_SF": {
+      "threshold": 6,
+      "ordering": [
+        {
+          "id": "PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "L"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "CS"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SUGGESTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_AGE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "R_S_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "22",
+            "90"
+          ]
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABILITY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "OWNERSHIP_TYPE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "APPROVED_BY_AUTHORITY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "TRANSACT_TYPE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "WIDTH_OF_FACING_ROAD",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BATHROOM",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "RERA_APPROVED",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "R_S_FF_XID": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "5",
+            "22",
+            "90"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABILITY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "TRANSACT_TYPE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BATHROOM",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "RERA_APPROVED",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "R_R_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LAST_POSTED",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "4",
+            "22",
+            "90",
+            "5"
+          ]
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FOR",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "FA",
+            "SW",
+            "SM",
+            "CL"
+          ]
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "BATHROOM",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "R_P_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "ATTACHED_BATHROOM",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FOR",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "WP",
+            "STU",
+            "B",
+            "G"
+          ]
+        },
+        {
+          "id": "ROOM_SHARING",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "FURNISH",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "1",
+            "2",
+            "4",
+            "22",
+            "90"
+          ]
+        },
+        {
+          "id": "PG_SERVICES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "TOTAL_CAPACITY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BHK",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "shouldShow": false,
+          "values": ["1"]
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_S_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "91",
+            "92",
+            "682",
+            "9,16,20",
+            "15",
+            "17",
+            "18",
+            "19",
+            "10",
+            "83",
+            "80"
+          ]
+        },
+        {
+          "id": "TYPES_PLOT_LANDS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": ["9", "16", "20"],
+          "shouldShow":false
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "INVESTMENT_OPTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "isPreLeased",
+            "94",
+            "96",
+            "98",
+            "95",
+            "93",
+            "21"
+          ]
+        },
+        {
+          "id": "SHOP_SHOWROOM_SUBTYPE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "6",
+            "82",
+            "97"
+          ]
+        },
+        {
+          "id": "AVAILABILITY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "TRANSACT_TYPE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "APPROVED_BY_AUTHORITY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "APPROVED_FOR_INDUSTRY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "shouldShow":false
+        },
+        {
+          "id": "OWNERSHIP_TYPE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "WIDTH_OF_FACING_ROAD",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_S_FF_XID": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "91",
+            "92",
+            "93",
+            "6",
+            "82",
+            "9",
+            "16",
+            "20",
+            "10",
+            "83",
+            "12",
+            "15",
+            "17",
+            "18",
+            "19",
+            "80"
+          ]
+        },
+        {
+          "id": "AVAILABILITY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "TRANSACT_TYPE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_L_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [],
+          "showWarning": true
+        },
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "C_L_OS_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "showWarning": true,
+          "values": []
+        },
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "C_L_OS_CW_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "93"
+          ]
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "PROPERTY_AGE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "endAppVersionIOS": 173,
+            "endAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "SEATS_COUNT_RANGE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "SEAT_TYPE",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "PLANS_AND_BUDGET",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "BUDGET_CL_CW",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "OTHER_FILTERS",
+          "isExpandable": false,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "startAppVersionIOS": 174,
+            "startAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "startAppVersionIOS": 174,
+            "startAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "validity": {
+            "startAppVersionIOS": 174,
+            "startAppVersionAndroid": 431
+          }
+        },
+        {
+          "id": "SERVICES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "OFFICE_SUPPLIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "SPACE_ACCESS",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "INTERNET_AND_ELECTRICITY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FOOD_AND_DRINKS",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "ACTIVITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "ADDITIONAL_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "COVID_READINESS",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        }
+      ]
+    },
+    "C_L_CS_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "CS"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_RENT",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "PROPERTY_AGE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "4",
+            "21",
+            "2",
+            "29",
+            "1",
+            "12",
+            "3",
+            "6",
+            "9",
+            "101",
+            "102"
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_L_OS_R2M_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "91"
+          ]
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "COWORKING_OPTIONS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "NO_OF_SEATS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "AREA_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "I",
+            "30",
+            "after30"
+          ],
+          "title": "Availablity"
+        },
+        {
+          "id": "KEY_OFFICE_SPECIFICATION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "NO_OF_CABINS",
+              "values": []
+            },
+            {
+              "id": "NO_OF_WASHROOMS",
+              "values": []
+            },
+            {
+              "id": "PARKING",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "FACILITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "BUILDING_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FLOOR_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "LOCATED_ON",
+              "values": []
+            },
+            {
+              "id": "OFFICE_SPREAD_OVER",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_L_OS_BS_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "OS"
+          ]
+        },
+        {
+          "id": "OFFICE_SPACE_SUB_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "92"
+          ]
+        },
+        {
+          "id": "DISTANCE",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "VERIFIED_ONLY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "BUDGET_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "AREA_CL",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AVAILABLE_FROM",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "I",
+            "30",
+            "after30"
+          ],
+          "title": "Availablity"
+        },
+        {
+          "id": "KEY_OFFICE_SPECIFICATION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": null,
+          "defaultSubFilterOrdering": [
+            {
+              "id": "NO_OF_WASHROOMS",
+              "values": []
+            },
+            {
+              "id": "WALLS",
+              "values": []
+            },
+            {
+              "id": "FLOORING",
+              "values": []
+            },
+            {
+              "id": "DOORS",
+              "values": []
+            },
+            {
+              "id": "PARKING",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "FACILITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "2",
+            "6789",
+            "4",
+            "5"
+          ]
+        },
+        {
+          "id": "BUILDING_AMENITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "FLOOR_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [],
+          "defaultSubFilterOrdering": [
+            {
+              "id": "LOCATED_ON",
+              "values": []
+            },
+            {
+              "id": "OFFICE_SPREAD_OVER",
+              "values": []
+            }
+          ]
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    },
+    "C_L_PL_FF": {
+      "threshold": -1,
+      "ordering": [
+        {
+          "id": "COMMERCIAL_CATEGORY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [],
+          "defaultValues": [
+            "PL"
+          ]
+        },
+        {
+          "id": "HIDE_SEEN",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [
+            "S",
+            "R"
+          ]
+        },
+        {
+          "id": "PROPERTY_TYPES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": [
+            "91",
+            "92",
+            "682",
+            "9,16,20",
+            "15",
+            "17",
+            "18",
+            "19",
+            "10",
+            "83",
+            "80"
+          ]
+        },
+        {
+          "id": "TYPES_PLOT_LANDS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "defaultValues": ["9", "16", "20"],
+          "shouldShow":false
+        },
+        {
+          "id": "BUDGET_BUY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "AREA",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "POSTED_BY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "values": [
+            "O",
+            "B",
+            "A",
+            "F"
+          ]
+        },
+        {
+          "id": "PLOT_PREFERENCE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+
+        {
+          "id": "LOCALITIES",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "SOCITIES",
+          "isExpandable": true,
+          "isExpanded": false,
+          "values": []
+        },
+        {
+          "id": "APPROVED_BY_AUTHORITY",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "APPROVED_FOR_INDUSTRY",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": [],
+          "shouldShow":false
+        },
+
+        {
+          "id": "OWNERSHIP_TYPE",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "FACING_DIRECTION",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "WIDTH_OF_FACING_ROAD",
+          "isExpandable": true,
+          "isExpanded": true,
+          "shouldShow": false,
+          "values": []
+        },
+        {
+          "id": "WITH_PHOTOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        },
+        {
+          "id": "WITH_VIDEOS",
+          "isExpandable": false,
+          "isExpanded": true,
+          "values": []
+        }
+      ]
+    }
+  }
+}

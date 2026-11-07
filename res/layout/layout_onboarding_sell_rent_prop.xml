@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="I want to" style="@style/OnBoardHeadingStyle" />
+    <RadioGroup android:id="@id/radioGroupPPFSelection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonPostRes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_post_residential" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonPostCom" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_post_commercial" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonManageListing" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_manage_edit_listing" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonViewResponses" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_view_responses" style="@style/onboardRadiobuttonStyle" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/Ng700" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/update_description_about" style="@style/completedPlaceholderN" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/P500" android:id="@id/tvReview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_even" android:layout_marginTop="@dimen/large_even" android:text="Review" app:event_type="CLICK" app:identifier="UPDATE_AMENITIES_REVIEW" style="@style/buttonTextMedium" />
+    <androidx.appcompat.widget.AppCompatEditText android:textColor="@color/Ng700" android:textColorHint="@color/Ng400" android:gravity="top" android:id="@id/updatePropertyDescription" android:background="@drawable/shape_rectangle_ng300_corners_radius_2_white_background" android:paddingLeft="@dimen/medium_even" android:paddingTop="@dimen/medium_even" android:paddingRight="@dimen/medium_even" android:paddingBottom="@dimen/small_even" android:visibility="gone" android:scrollbars="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even" android:minHeight="120.0dip" android:inputType="textMultiLine" style="@style/PlaceholderText" />
+    <LinearLayout android:layout_gravity="right" android:id="@id/showDescriptionLength" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <TextView android:id="@id/currentDescriptionLength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:text="0" style="@style/inactiveCounterText" />
+        <TextView android:id="@id/charLengthTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:text=" / 1000 (Min. 30 characters)" style="@style/inactiveCounterText" />
+    </LinearLayout>
+    <TextView android:id="@id/error" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" style="@style/errorCounterText" />
+</LinearLayout>

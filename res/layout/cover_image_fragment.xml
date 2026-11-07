@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/gridContainer" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_select" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/select_an_image_for_cover_photo" android:layout_marginStart="@dimen/large" style="@style/semibold_list_header" />
+    <TextView android:id="@id/tv_first_photo" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:text="@string/cover_photo_is_the_first_photo_of_the_property_that_the_buyer_s_see" android:layout_below="@id/tv_select" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/propertyOption" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/albumGrid" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/large" android:layout_below="@id/tv_first_photo" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/large" app:layoutManager="androidx.recyclerview.widget.GridLayoutManager" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_cover_image" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:gravity="center_horizontal" android:id="@id/tv_cover_image" android:background="@drawable/shape_primary_active_button" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" android:text="@string/use_as_cover_photo" android:fontFamily="@font/open_sans_bold" style="@style/whiteLabels" />
+    </LinearLayout>
+</RelativeLayout>

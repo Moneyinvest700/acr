@@ -1,0 +1,217 @@
+.class public Lcom/beloo/widget/chipslayoutmanager/util/log/Log;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+    }
+.end annotation
+
+
+# static fields
+.field private static log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+.field private static logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 1
+
+    new-instance v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    invoke-direct {v0}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;-><init>()V
+
+    sput-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    new-instance v0, Lcom/beloo/widget/chipslayoutmanager/util/log/SilentLog;
+
+    invoke-direct {v0}, Lcom/beloo/widget/chipslayoutmanager/util/log/SilentLog;-><init>()V
+
+    sput-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method public static d(Ljava/lang/String;Ljava/lang/String;)I
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    invoke-interface {v0, p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static d(Ljava/lang/String;Ljava/lang/String;I)I
+    .locals 1
+
+    .line 2
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    invoke-virtual {v0, p2}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;->isEnabled(I)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    invoke-static {p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->d(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public static e(Ljava/lang/String;Ljava/lang/String;)I
+    .locals 1
+
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    invoke-interface {v0, p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;->e(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static i(Ljava/lang/String;Ljava/lang/String;)I
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    invoke-interface {v0, p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static i(Ljava/lang/String;Ljava/lang/String;I)I
+    .locals 1
+
+    .line 2
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    invoke-virtual {v0, p2}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;->isEnabled(I)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    invoke-static {p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->i(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public static v(Ljava/lang/String;Ljava/lang/String;)I
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    invoke-interface {v0, p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static v(Ljava/lang/String;Ljava/lang/String;I)I
+    .locals 1
+
+    .line 2
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    invoke-virtual {v0, p2}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;->isEnabled(I)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    invoke-static {p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->v(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public static w(Ljava/lang/String;Ljava/lang/String;)I
+    .locals 1
+
+    .line 1
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->log:Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;
+
+    invoke-interface {v0, p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/LogWrapper;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    return p0
+.end method
+
+.method public static w(Ljava/lang/String;Ljava/lang/String;I)I
+    .locals 1
+
+    .line 2
+    sget-object v0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    invoke-virtual {v0, p2}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;->isEnabled(I)Z
+
+    move-result p2
+
+    if-eqz p2, :cond_0
+
+    invoke-static {p0, p1}, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->w(Ljava/lang/String;Ljava/lang/String;)I
+
+    move-result p0
+
+    goto :goto_0
+
+    :cond_0
+    const/4 p0, 0x0
+
+    :goto_0
+    return p0
+.end method
+
+.method public static with(Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;)V
+    .locals 0
+
+    sput-object p0, Lcom/beloo/widget/chipslayoutmanager/util/log/Log;->logSwitcher:Lcom/beloo/widget/chipslayoutmanager/util/log/Log$LogSwitcher;
+
+    return-void
+.end method

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:id="@id/container" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/footer" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/steps" android:layout_width="fill_parent" android:layout_height="60.0dip" layout="@layout/ppf_m1_steps" />
+            <include android:id="@id/actionType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="16.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/steps" layout="@layout/ppf_edit_m1_actiontype" />
+            <include android:id="@id/propType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="8.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/actionType" layout="@layout/ppf_edit_m1_proptype" />
+            <include android:id="@id/transact_typeholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_below="@id/propType" layout="@layout/edit_scale_type_options" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/numberprop" android:focusable="true" android:focusableInTouchMode="true" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_below="@id/transact_typeholder">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/numberofpropContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                    <EditText android:textSize="15.0sp" android:id="@id/num_of_prop" android:hint="Number of properties" android:maxLength="3" android:inputType="number" style="@style/MaterialEditTextStyle" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <include android:id="@id/type_office_space" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/numberprop" layout="@layout/ppf_m1_office_space" />
+            <include android:id="@id/photoWidget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/type_office_space" layout="@layout/ppf_m1_photowidget" />
+            <include android:id="@id/fslAddress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/photoWidget" layout="@layout/ppf_m1_propertyaddressfsl" />
+        </RelativeLayout>
+    </ScrollView>
+    <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" />
+</RelativeLayout>

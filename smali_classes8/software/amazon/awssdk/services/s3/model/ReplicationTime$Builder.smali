@@ -1,0 +1,76 @@
+.class public interface abstract Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lsoftware/amazon/awssdk/core/SdkPojo;
+.implements Lsoftware/amazon/awssdk/utils/builder/CopyableBuilder;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x609
+    name = "Builder"
+.end annotation
+
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Ljava/lang/Object;",
+        "Lsoftware/amazon/awssdk/core/SdkPojo;",
+        "Lsoftware/amazon/awssdk/utils/builder/CopyableBuilder<",
+        "Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;",
+        "Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime;",
+        ">;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract status(Ljava/lang/String;)Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+.end method
+
+.method public abstract status(Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeStatus;)Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+.end method
+
+.method public time(Ljava/util/function/Consumer;)Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/function/Consumer<",
+            "Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue$Builder;",
+            ">;)",
+            "Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;"
+        }
+    .end annotation
+
+    .line 1
+    invoke-static {}, Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue;->builder()Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue$Builder;
+
+    move-result-object v0
+
+    invoke-interface {v0, p1}, Lsoftware/amazon/awssdk/utils/builder/SdkBuilder;->applyMutation(Ljava/util/function/Consumer;)Lsoftware/amazon/awssdk/utils/builder/SdkBuilder;
+
+    move-result-object p1
+
+    check-cast p1, Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue$Builder;
+
+    invoke-interface {p1}, Lsoftware/amazon/awssdk/utils/builder/SdkBuilder;->build()Ljava/lang/Object;
+
+    move-result-object p1
+
+    check-cast p1, Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue;
+
+    invoke-interface {p0, p1}, Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;->time(Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue;)Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public abstract time(Lsoftware/amazon/awssdk/services/s3/model/ReplicationTimeValue;)Lsoftware/amazon/awssdk/services/s3/model/ReplicationTime$Builder;
+.end method

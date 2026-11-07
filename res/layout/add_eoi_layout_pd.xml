@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/user_details_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/contentRoot" android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/header" android:background="@color/Ng200" android:layout_width="fill_parent" android:layout_height="160.0dip">
+                <ImageView android:textColor="@android:color/white" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:src="@drawable/ic_pd_eoi_arrow_left" android:paddingStart="12.0dip" android:layout_alignParentStart="true" />
+                <ImageView android:textColor="@android:color/white" android:id="@id/iv_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="60.0dip" android:src="@drawable/ic_group_eoi" android:paddingEnd="@dimen/large" android:layout_alignParentEnd="true" />
+                <TextView android:id="@id/tv_title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/edit_your_details" android:layout_below="@id/back" android:layout_marginStart="20.0dip" style="@style/bold_list_header" />
+                <TextView android:id="@id/add_eoi_Layer_Heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="@string/eoi_heading" android:layout_below="@id/tv_title" android:layout_marginStart="20.0dip" android:layout_marginEnd="@dimen/small" android:layout_toStartOf="@id/iv_group" style="@style/semibold_list_header" />
+            </RelativeLayout>
+            <RelativeLayout android:orientation="horizontal" android:id="@id/rl_seller_container" android:background="@drawable/eoi_seller_detil_bkg" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_marginTop="120.0dip" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+                <com.nnacres.app.ui.CircularImageView android:id="@id/eoi_seller_image" android:layout_width="@dimen/xxxx_large" android:layout_height="@dimen/xxxx_large" android:src="@null" android:scaleType="fitCenter" android:layout_centerVertical="true" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+                <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" android:layout_toEndOf="@id/eoi_seller_image">
+                    <TextView android:id="@id/eoi_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/semibold_label" />
+                    <TextView android:id="@id/eoi_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/captionStrongMedium" />
+                </LinearLayout>
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/add_eoi_LayerRoot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_below="@id/rl_seller_container">
+                <TextView android:textSize="14.0sp" android:layout_gravity="start" android:id="@id/eoi_msg" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip" android:text="@string/bwf_eoi_fill_call_msg" android:layout_marginStart="5.0dip" />
+                <include android:id="@id/eoiFormRoot" layout="@layout/eoi_buyer_detail_layout_pd" />
+                <LinearLayout android:orientation="vertical" android:id="@id/actionButtonParent" android:padding="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_medium_even" android:layout_marginEnd="@dimen/large_medium_even">
+                    <requestFocus />
+                    <Button android:id="@id/eoi_button_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" android:textAllCaps="false" android:backgroundTint="@color/P500" style="@style/ActionButtonBlue" />
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

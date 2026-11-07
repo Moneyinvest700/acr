@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_extra_extra_large_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/ppfChipGroupFieldView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:containerStartPadding="0.0dip" />
+    <TextView android:ellipsize="end" android:id="@id/selectedBhkPlanHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:lines="1" android:layout_marginStart="@dimen/medium" style="@style/semibold_label" />
+    <TextView android:ellipsize="end" android:id="@id/selectedBhkPlanSubHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:lines="1" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/small" style="@style/captionSubduedMedium" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNRecyclerView android:orientation="horizontal" android:id="@id/configs" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:paddingStart="@dimen/medium" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

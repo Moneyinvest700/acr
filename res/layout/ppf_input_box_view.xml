@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/inputBoxRootView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_extra_extra_large_even" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/userInput" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="@dimen/small" android:textColor="@color/Ng400" android:id="@id/example" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textFontWeight="600" />
+</LinearLayout>

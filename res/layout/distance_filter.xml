@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/distance_filter" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:layout_marginBottom="@dimen/medium" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small" android:text="Show Properties within" style="@style/bold_section_header" />
+    <com.google.android.material.slider.Slider android:id="@id/discreteSlider" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stepSize="2.0" android:valueFrom="0.0" android:valueTo="6.0" android:layout_marginStart="-5.0dip" app:haloColor="@color/transparent" app:labelBehavior="gone" app:labelStyle="@style/accentButton" app:tickColorActive="@color/blue" app:tickColorInactive="@color/grey_100" app:trackColorActive="@color/P500" app:trackColorInactive="@color/Ng200" app:trackHeight="4.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/distanceLL" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="#b8000000" android:id="@id/distanceView1" android:paddingRight="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="1 km" style="@style/captionSubduedSmall" />
+        <TextView android:textColor="#b8000000" android:id="@id/distanceView" android:paddingRight="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="3 km" style="@style/captionSubduedSmall" />
+        <TextView android:textColor="#b8000000" android:id="@id/distanceView5" android:paddingRight="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="5 km" style="@style/captionSubduedSmall" />
+        <TextView android:textColor="#b8000000" android:id="@id/distanceView10" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="10 km" style="@style/captionSubduedSmall" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.ui.NNacresCheckBox android:id="@id/eoi_advertiser_checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/custom_checkbox_design" android:drawablePadding="5.0dip" style="@style/AdvertiserMediumText"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

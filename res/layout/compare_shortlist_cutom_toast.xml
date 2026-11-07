@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="vertical" android:background="@drawable/shape_rectangle_corners_radius_4_ng800_bg" android:paddingTop="@dimen/dp_12" android:paddingBottom="@dimen/dp_12" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" android:paddingStart="@dimen/dp_16" android:elevation="@dimen/small" android:outlineSpotShadowColor="#ff1f5ca3" android:outlineAmbientShadowColor="#ff1f5ca3">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/ic_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_circle_prop_alert" android:layout_marginEnd="8.0dip" />
+            <TextView android:id="@id/heading" style="@style/toast_success_msg" />
+            <LinearLayout android:gravity="end" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/dp_9">
+                <ImageView android:id="@id/close" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/close" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_marginStart="24.0dip">
+            <TextView android:id="@id/subHeading" style="@style/subtext_toast_success_msg" />
+            <TextView android:textSize="@dimen/dp_12" android:textColor="#ff80bce9" android:id="@id/compareNow" android:layout_width="fill_parent" android:textAlignment="textStart" android:layout_marginStart="4.0dip" android:layout_marginEnd="@dimen/payu_dimen_7dp" style="@style/toast_success_msg" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

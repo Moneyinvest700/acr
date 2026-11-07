@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:background="@drawable/shape_rectangle_light_grey_corner_radius_4" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/s" android:layout_marginBottom="@dimen/s" android:layout_marginStart="@dimen/s" android:layout_marginEnd="@dimen/small_even" app:cardElevation="@dimen/xs"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/pd_key_highlight_item" android:background="@drawable/shape_rectangle_solid_white_corners_radius_stroke_grey" android:paddingTop="@dimen/large_even" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="fill_parent" android:paddingStart="@dimen/medium_even" android:paddingEnd="@dimen/large" app:event_type="ALL" app:identifier="KEY_HIGHLIGHTS" app:topmost="true">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_header_tuple" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_header_image" android:layout_width="@dimen/large" android:layout_height="@dimen/large" android:src="@drawable/ic_swimming_pool" android:adjustViewBounds="true" />
+            <TextView android:id="@id/tv_header_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small_even" style="@style/bodySmall12" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/usp_item_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

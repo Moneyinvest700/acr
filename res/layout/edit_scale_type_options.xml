@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/transactTypeLabel" android:text="Sale Type" style="@style/ppf_heading" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/resale_or_nb" android:tag="@string/rb_scale_type" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/ppf_radiogroup_height">
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/resale_rb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Resale" />
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/newbooking_rb" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="60.0dip" android:text="New Booking" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_webinar" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+        <include layout="@layout/toolbar_white" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <FrameLayout android:id="@id/error_layout_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/fl" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_webinarDetail" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng100" android:layout_gravity="bottom" android:id="@id/tv_book_seat" android:layout_width="fill_parent" android:layout_height="@dimen/extra_extra_extra_large" android:layout_margin="@dimen/large" android:text="@string/book_your_seat" android:fontFamily="@font/open_sans_bold" app:event_type="CLICK" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" style="@style/primaryDefaultButton" />
+        <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/webinar_detail_shimmer" />
+    </FrameLayout>
+</LinearLayout>

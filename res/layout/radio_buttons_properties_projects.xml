@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:gravity="end" android:orientation="horizontal" android:id="@id/rgPropertyProject" android:paddingLeft="@dimen/large" android:paddingTop="@dimen/medium" android:paddingRight="@dimen/large" android:paddingBottom="@dimen/extra_small" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="14.0dip" android:id="@id/localitiesButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Localities" android:layout_marginEnd="@dimen/medium" />
+    <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="14.0dip" android:id="@id/propertyButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="@string/property_text" android:layout_marginEnd="@dimen/medium" />
+    <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="14.0dip" android:id="@id/projectButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project_text_" android:layout_marginEnd="@dimen/medium" />
+</RadioGroup>

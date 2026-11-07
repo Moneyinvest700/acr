@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:theme="@style/ThemeOverlay.MaterialComponents.Dark.ActionBar" android:id="@id/toolbar" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/backButton" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_ppf_back" />
+    </androidx.appcompat.widget.Toolbar>
+    <TextView android:id="@id/ppfFormHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" android:layout_marginStart="@dimen/large" style="@style/bodyExtraBoldLarge" />
+    <TextView android:id="@id/ppfFormSubHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ppfFormHeading" android:layout_marginStart="@dimen/large" style="@style/bodyRegularSmall" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_amenity" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/tv_add" android:layout_below="@id/ppfFormSubHeading" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <TextView android:id="@id/tv_add" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_extra_large" android:text="Add" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/primaryActiveButton" />
+</RelativeLayout>

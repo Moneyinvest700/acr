@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/detail_layout_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:wheel="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.ui.ObservableScrollView android:id="@id/detailPageScrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:orientation="vertical" android:id="@id/detail_layout" android:background="@color/white" android:paddingBottom="@dimen/height_xid_footer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/includeGallery" layout="@layout/xid_gallery_layout" />
+            <include android:id="@id/top_deal_label" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_below="@id/includeGallery" layout="@layout/top_deal_label" />
+            <include android:id="@id/xidDetailRootView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/top_deal_label" layout="@layout/xid_detail_layout" />
+            <include android:id="@id/img_pager_footer" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="160.0dip" android:layout_alignParentRight="true" android:layout_alignParentEnd="true" layout="@layout/xid_pic_index_layout" />
+        </RelativeLayout>
+    </com.nnacres.app.ui.ObservableScrollView>
+    <LinearLayout android:id="@id/detailFooterParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <include android:id="@id/xid_detailFooterParent" android:visibility="visible" layout="@layout/detail_page_footer" />
+    </LinearLayout>
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/detail_layout_progress" android:visibility="visible" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_marginTop="310.0dip" android:layout_centerHorizontal="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" />
+    <FrameLayout android:id="@id/fl_error_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</RelativeLayout>

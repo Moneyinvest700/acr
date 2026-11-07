@@ -1,0 +1,27 @@
+.class public final Lcom/appsflyer/internal/AFa1pSDK;
+.super Lcom/appsflyer/internal/AFh1tSDK;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    sget-object v0, Ljava/lang/Boolean;->FALSE:Ljava/lang/Boolean;
+
+    const/4 v1, 0x0
+
+    invoke-direct {p0, v1, v1, v0}, Lcom/appsflyer/internal/AFh1tSDK;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/Boolean;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getMediationNetwork()Lcom/appsflyer/internal/AFe1uSDK;
+    .locals 1
+
+    sget-object v0, Lcom/appsflyer/internal/AFe1uSDK;->component1:Lcom/appsflyer/internal/AFe1uSDK;
+
+    return-object v0
+.end method

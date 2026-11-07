@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:paddingBottom="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="ALL" app:identifier="STICKY.REGISTER_NOW" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/pd_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/pd_section_header" />
+    <LinearLayout android:orientation="vertical" android:id="@id/usp_item_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_eoi" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_medium" android:layout_marginBottom="@dimen/extra_small" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <Button android:id="@id/eoi_button" android:background="@drawable/shape_rectangle_corner_radius_4_dark_blue_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" style="@style/white_bold_text" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

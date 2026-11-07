@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/user_details_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="@dimen/bwf_header_height">
+        <ImageView android:textColor="@android:color/white" android:id="@id/back" android:background="@drawable/navigation_cancel" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="17.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/add_eoi_Layer_Heading" android:paddingLeft="16.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" android:text="Heading" android:layout_toLeftOf="@id/back" android:paddingStart="10.0dip" android:layout_toStartOf="@id/back" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/contentRoot" android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <LinearLayout android:orientation="vertical" android:id="@id/actionButtonParent" android:padding="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+            <requestFocus />
+            <Button android:id="@id/eoi_button_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/ActionButtonBlue" />
+        </LinearLayout>
+        <ScrollView android:id="@id/scrollView1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip" android:layout_above="@id/actionButtonParent">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/add_eoi_LayerRoot" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/eoi_seller_basic_info_container" android:paddingTop="8.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:id="@id/eoi_seller_image" android:background="@drawable/ic_dealer" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" android:layout_centerVertical="true" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/eoi_seller_image" android:layout_centerVertical="true">
+                        <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/eoi_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                        <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/material_gray_800" android:id="@id/eoi_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+                    </LinearLayout>
+                </RelativeLayout>
+                <View android:background="@color/material_gray_300" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginBottom="8.0dip" />
+                <TextView android:textSize="14.0sp" android:layout_gravity="left" android:id="@id/eoi_msg" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="5.0dip" android:text="@string/bwf_eoi_fill_call_msg" />
+                <include android:id="@id/eoiFormRoot" layout="@layout/eoi_buyer_detail_layout" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_tagsParent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/scrollView1" android:layout_alignLeft="@id/scrollView1" />
+    </RelativeLayout>
+</RelativeLayout>

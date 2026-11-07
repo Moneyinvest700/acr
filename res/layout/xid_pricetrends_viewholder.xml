@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/price_trends_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintTop_toTopOf="parent" layout="@layout/xid_section_header" />
+    <include android:id="@id/xid_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:layout_constraintTop_toBottomOf="@id/price_trends_header" layout="@layout/xid_error_layout" />
+    <com.nnacres.app.pricetrends.views.PriceTrendsView android:id="@id/xid_pricetrends_view" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/price_trends_header" />
+</androidx.constraintlayout.widget.ConstraintLayout>

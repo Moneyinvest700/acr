@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="ALL" app:identifier="OVERALL_RATING"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ratingChip" layout="@layout/rating_chip_small" />
+    <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/Ng100" android:id="@id/review" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/ratingChip" android:layout_marginStart="@dimen/extra_small_even" android:layout_toEndOf="@id/ratingChip" style="@style/inactiveAssistive" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/divider" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="3.0dip" android:src="@drawable/review_dashed_line" android:layout_below="@id/review" android:layout_alignStart="@id/review" android:layout_alignEnd="@id/review" android:layout_marginHorizontal="@dimen/extra_small_even" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ratingsInfoIcon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.5dip" android:src="@drawable/info_outline_24px_5_" android:layout_toEndOf="@id/review" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/ratingsInfoIconXid" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="2.5dip" android:src="@drawable/info_outline_24px_6_" android:layout_toEndOf="@id/review" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

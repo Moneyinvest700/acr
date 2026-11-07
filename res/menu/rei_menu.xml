@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@null" android:id="@id/rei_search" android:orderInCategory="1" android:title="Search" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_shortlist_inactive" android:id="@id/rei_shortlist" android:orderInCategory="2" android:title="Shortlist" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_share_srp" android:id="@id/rei_share" android:orderInCategory="3" android:title="Share" app:showAsAction="ifRoom" />
+</menu>

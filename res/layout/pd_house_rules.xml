@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/house_rules_image" android:layout_width="@dimen/xxxx_large" android:layout_height="@dimen/static_map_header_height" android:src="@drawable/furnish_washing_machine" android:scaleType="fitXY" android:adjustViewBounds="true" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/house_rules_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small">
+            <TextView android:id="@id/title" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/house_rules" android:layout_toEndOf="@id/house_rules_image" style="@style/bold_medium_label" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/house_rules_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_below="@id/title" android:layout_toEndOf="@id/house_rules_image">
+                <TextView android:textColor="@color/Ng500" android:ellipsize="end" android:id="@id/sub_title" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="7.0" android:layout_marginEnd="@dimen/large" style="@style/bodyRegularSmall" />
+                <TextView android:id="@id/right_arrow_house_rules" android:background="@drawable/grey_arrow" android:visibility="gone" android:layout_width="@dimen/small" android:layout_height="@dimen/small" android:layout_marginTop="@dimen/extra_small" android:layout_marginBottom="@dimen/extra_small" android:layout_weight="1.0" android:layout_marginEnd="@dimen/medium" android:backgroundTint="@color/Ng500" />
+            </LinearLayout>
+            <include android:id="@id/divider_under_house_rules" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/small_medium_even" android:layout_below="@id/house_rules_container" layout="@layout/line_divider_layout" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+    </LinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/house_rules_list_holder" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium" />
+</LinearLayout>

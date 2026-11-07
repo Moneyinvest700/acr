@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSinceAny" android:text="Anytime" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSinceYesterday" android:text="Yesterday" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSince3Days" android:text="Last 3 Days" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSince7Days" android:text="Last Week" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSince15Days" android:text="Last 2 Weeks" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/postedSince30Days" android:text="Last Month" android:onClick="postedSinceClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</RadioGroup>

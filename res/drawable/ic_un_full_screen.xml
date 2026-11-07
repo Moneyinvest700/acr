@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="30.0dip" android:width="40.0dip" android:viewportWidth="40.0" android:viewportHeight="30.0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <path android:fillColor="@drawable/$ic_un_full_screen__0" android:pathData="M6,0L34,0A6,6 0,0 1,40 6L40,24A6,6 0,0 1,34 30L6,30A6,6 0,0 1,0 24L0,6A6,6 0,0 1,6 0z" />
+    <group>
+        <clip-path android:pathData="M18,13l-5,-0l-0,-5l5,-0z" />
+        <path android:fillColor="#ffffffff" android:pathData="M16.333,5.5L18,5.5L18,1.333L13.833,1.333L13.833,3L16.333,3L16.333,5.5ZM18,8.833L16.333,8.833L16.333,11.333L13.833,11.333L13.833,13L18,13L18,8.833ZM8,3L10.5,3L10.5,1.333L6.333,1.333L6.333,5.5L8,5.5L8,3ZM10.5,13L10.5,11.333L8,11.333L8,8.833L6.333,8.833L6.333,13L10.5,13Z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M22,17h5v5h-5z" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.667,24.5L22,24.5L22,28.667L26.167,28.667L26.167,27L23.667,27L23.667,24.5ZM22,21.167L23.667,21.167L23.667,18.667L26.167,18.667L26.167,17L22,17L22,21.167ZM32,27L29.5,27L29.5,28.667L33.667,28.667L33.667,24.5L32,24.5L32,27ZM29.5,17L29.5,18.667L32,18.667L32,21.167L33.667,21.167L33.667,17L29.5,17Z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M22,13l5,-0l-0,-5l-5,0z" />
+        <path android:fillColor="#ffffffff" android:pathData="M23.667,5.5L22,5.5L22,1.333L26.167,1.333L26.167,3L23.667,3L23.667,5.5ZM22,8.833L23.667,8.833L23.667,11.333L26.167,11.333L26.167,13L22,13L22,8.833ZM32,3L29.5,3L29.5,1.333L33.667,1.333L33.667,5.5L32,5.5L32,3ZM29.5,13L29.5,11.333L32,11.333L32,8.833L33.667,8.833L33.667,13L29.5,13Z" />
+    </group>
+    <group>
+        <clip-path android:pathData="M18,17l-5,0l0,5l5,-0z" />
+        <path android:fillColor="#ffffffff" android:pathData="M16.333,24.5L18,24.5L18,28.667L13.833,28.667L13.833,27L16.333,27L16.333,24.5ZM18,21.167L16.333,21.167L16.333,18.667L13.833,18.667L13.833,17L18,17L18,21.167ZM8,27L10.5,27L10.5,28.667L6.333,28.667L6.333,24.5L8,24.5L8,27ZM10.5,17L10.5,18.667L8,18.667L8,21.167L6.333,21.167L6.333,17L10.5,17Z" />
+    </group>
+</vector>

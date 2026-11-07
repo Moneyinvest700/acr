@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/toggle_buttons" android:background="@drawable/shape_pg_rules_background" android:layout_width="wrap_content" android:layout_height="25.0dip" android:layout_marginTop="@dimen/small" android:layout_marginRight="@dimen/small" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textColor="@color/material_gray_600" android:gravity="center" android:id="@id/btn_toggle_yes" android:background="@android:color/transparent" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="Yes" />
+    <View android:background="@color/material_gray_600" android:layout_width="1.0dip" android:layout_height="fill_parent" />
+    <TextView android:textSize="12.0dip" android:textColor="@color/material_gray_600" android:gravity="center" android:id="@id/btn_toggle_no" android:background="@android:color/transparent" android:layout_width="50.0dip" android:layout_height="fill_parent" android:text="No" android:layout_toRightOf="@id/btn_toggle_yes" />
+</LinearLayout>

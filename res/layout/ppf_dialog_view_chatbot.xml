@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="@dimen/display" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppf_dialog_title" style="@style/bold_section_header" />
+    <TextView android:id="@id/tv_subtitle" android:paddingTop="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppf_dialog_subtitle" android:layout_below="@id/tv_title" style="@style/captionStrongNormal" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_whats" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_below="@id/tv_subtitle">
+        <TextView android:textColor="@color/Ng400" android:paddingTop="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Stuck? Post via" android:drawablePadding="@dimen/extra_small" android:drawableStart="@drawable/ic_lightbulb_outline_24px" style="@style/captionStrongSmall" />
+        <ImageView android:layout_gravity="center_vertical" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/whatsapp_icon" android:scaleType="fitCenter" android:layout_marginStart="@dimen/extra_small" android:layout_marginEnd="@dimen/extra_small" />
+        <TextView android:textColor="@color/Ng400" android:paddingTop="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Whatsapp" style="@style/hyperlinkXSmall" />
+    </LinearLayout>
+    <ImageView android:id="@id/iv_quit" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:src="@drawable/ic_ppf_dialog_quit_btn" android:layout_below="@id/ll_whats" android:layout_alignParentEnd="true" />
+</RelativeLayout>

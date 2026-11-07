@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bodySmallRegular" />
+    <com.nnacres.app.utils.FlowLayout android:orientation="horizontal" android:id="@id/rentTuple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

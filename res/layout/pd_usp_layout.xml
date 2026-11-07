@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/extra_small" android:layout_marginEnd="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_usp_bkg" android:background="@drawable/ic_pd_key_specification_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/xid_usp_background_height" android:layout_marginBottom="@dimen/extra_large_even">
+        <ImageView android:id="@id/usp_header_image" android:layout_width="@dimen/new_gallery_grid_tuple_width" android:layout_height="@dimen/new_gallery_grid_tuple_width" android:src="@drawable/ic_pd_oval_usp" android:layout_alignParentTop="true" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/extra_large_even" android:layout_marginEnd="@dimen/medium_even">
+            <include layout="@layout/pd_section_header" />
+        </LinearLayout>
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/usp_item_holder" android:background="@drawable/shape_rectangle_solid_white_corners_radius_stroke_grey" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/width_moreamenity_btn" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" android:layout_marginStart="@dimen/medium_even" android:layout_marginEnd="@dimen/extra_large_even" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

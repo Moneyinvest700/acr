@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" app:event_type="CLICK" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.card.MaterialCardView android:layout_width="220.0dip" android:layout_height="130.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:strokeColor="@color/Ng300" app:strokeWidth="1.0dip">
+        <ImageView android:id="@id/zoneIamge" android:background="@color/Ng200" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+    </com.google.android.material.card.MaterialCardView>
+    <TextView android:ellipsize="end" android:id="@id/zoneTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="19.0dip" android:lines="1" style="@style/bold_list_header" />
+    <TextView android:ellipsize="end" android:id="@id/zoneSubtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:maxLines="2" style="@style/captionStrongMedium" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

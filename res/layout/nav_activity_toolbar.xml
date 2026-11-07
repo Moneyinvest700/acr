@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="10.0dip" android:elevation="4.0dip" android:contentInsetStartWithNavigation="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:titleTextAppearance="@style/BottomNavToolbarTextAppearance" app:titleTextColor="@color/material_gray_900"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="#ff42526e" android:gravity="center_vertical" android:id="@id/toolbar_search_box" android:background="@drawable/hp_search_bar" android:padding="@dimen/small_even" android:layout_width="fill_parent" android:layout_height="36.0dip" android:foreground="?android:selectableItemBackground" android:text="@string/text_search" android:includeFontPadding="false" android:drawableEnd="@drawable/ic_search_vector_grey" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" />
+</androidx.appcompat.widget.Toolbar>

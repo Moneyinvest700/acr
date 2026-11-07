@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/xid_about_builder_wrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/extra_extra_large" android:layout_marginRight="@dimen/small" app:event_type="ALL" app:identifier="ABOUT_BUILDER" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/xid_about_builder_linear_layout" android:background="@drawable/shape_rounded_rectangle_with_gradient_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/xid_about_builder_background_height">
+        <ImageView android:layout_width="74.0dip" android:layout_height="74.0dip" android:layout_marginTop="-3.0dip" android:src="@drawable/xid_corner_circle" />
+        <include android:id="@id/xid_about_builder_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-50.0dip" android:layout_marginStart="@dimen/extra_large_even" layout="@layout/xid_section_header" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/xid_about_builder_card_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_even" android:layout_marginTop="80.0dip" android:layout_marginRight="@dimen/medium_even" android:layout_marginBottom="@dimen/extra_small_even" android:elevation="@dimen/extra_small_even" app:cardCornerRadius="@dimen/small_even">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/extra_large_even" android:paddingBottom="24.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even">
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/iv_about_builder_logo" android:background="@drawable/rounded" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/small_even" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/small_even" android:layout_width="@dimen/xid_about_builder_logo_width" android:layout_height="@dimen/xid_about_builder_logo_height" android:scaleType="fitXY" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small_even">
+                    <TextView android:id="@id/tv_about_builder_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small_even" style="@style/semibold_list_header" />
+                    <TextView android:id="@id/tv_about_builder_rera_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/tv_about_builder_title" style="@style/captionStrongMedium" />
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/ll_exp_projs" android:layout_width="@dimen/xid_about_builder_spec_width" android:layout_height="@dimen/xid_about_builder_spec_height" android:layout_marginTop="@dimen/ll_years_projects_container">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_experience" android:padding="@dimen/small_even" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_about_builder_years" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/semibold_title" />
+                    <TextView android:layout_width="fill_parent" android:layout_height="16.0dip" android:text="@string/xid_year_of_experience" style="@style/captionStrongMedium" />
+                </LinearLayout>
+                <View android:layout_gravity="center" android:id="@id/line" android:background="@color/Ng300" android:layout_width="1.0dip" android:layout_height="@dimen/xid_about_builder_spec_height" android:layout_weight="0.0" android:layout_marginEnd="@dimen/small_even" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_num_projs" android:padding="@dimen/small_even" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_weight="1.0">
+                    <TextView android:id="@id/tv_about_builder_projects" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/semibold_title" />
+                    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/xid_projects_completed" style="@style/captionStrongMedium" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/small_even" layout="@layout/xid_view_more" />
+            <TextView android:id="@id/contact_builder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="24.0dip" style="@style/secondaryDefaultButton" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

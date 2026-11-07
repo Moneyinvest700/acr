@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/toolbar" />
+    <ScrollView android:id="@id/mainContainer" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/stickyFooter" android:layout_below="@id/toolbar">
+        <RelativeLayout android:id="@id/containerLayout" android:paddingBottom="20.0dip" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/topPart" android:paddingLeft="@dimen/ppf_material_left_margin" android:paddingRight="@dimen/ppf_material_left_margin" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="18.0sp" android:textColor="@color/green" android:gravity="center|left" android:id="@id/congratulations" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Congratulations! Property Ad posted successfully" android:maxLines="2" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/green" android:gravity="center|left" android:id="@id/propertyCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="Property Code: XXXXXX" android:layout_below="@id/congratulations" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/percentageCompletionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Your property listing is " android:layout_below="@id/propertyCode" />
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/material_gray_800" android:id="@id/percentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="60% " android:layout_toRightOf="@id/percentageCompletionText" android:layout_alignTop="@id/percentageCompletionText" android:layout_alignBottom="@id/percentageCompletionText" />
+                <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/remaining" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="complete" android:layout_toRightOf="@id/percentage" android:layout_alignTop="@id/percentageCompletionText" android:layout_alignBottom="@id/percentageCompletionText" />
+                <ProgressBar android:id="@id/percentageCompletionBar" android:layout_width="fill_parent" android:layout_height="3.0dip" android:layout_marginTop="6.0dip" android:progress="60" android:progressDrawable="@drawable/custom_progressbar_drawable" android:layout_below="@id/percentageCompletionText" style="?android:progressBarStyleHorizontal" />
+                <TextView android:textSize="18.0sp" android:textColor="@color/material_gray_800" android:id="@id/optionalText" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Add more details for better response (optional):" android:layout_below="@id/percentageCompletionBar" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/bottomPart" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/topPart">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/flooringTypeSelectContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/amenitiesContainer" android:layout_alignWithParentIfMissing="true" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                    <EditText android:id="@id/flooringTypeSelect" android:tag="@string/flooring" android:hint="Type of Flooring" style="@style/SearchFormDialogueInputCity" />
+                </com.google.android.material.textfield.TextInputLayout>
+                <RelativeLayout android:id="@id/facingBalconyContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/flooringTypeSelectContainer" android:layout_alignWithParentIfMissing="true">
+                    <com.google.android.material.textfield.TextInputLayout android:id="@id/facingDirectionSelectContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                        <EditText android:id="@id/facingDirectionSelect" android:tag="@string/facing" android:hint="Facing" style="@style/SearchFormDialogueInputCity" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </RelativeLayout>
+                <RelativeLayout android:id="@id/additionalInfoContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/facingBalconyContainer" android:layout_alignWithParentIfMissing="true">
+                    <LinearLayout android:orientation="horizontal" android:id="@id/bookingAmountLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignWithParentIfMissing="true">
+                        <com.google.android.material.textfield.TextInputLayout android:id="@id/bookingAmountContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                            <EditText android:id="@id/bookingAmount" android:tag="@string/booking_amount" android:hint="Booking Amount (₹)" android:maxLength="7" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="horizontal" android:id="@id/annualDuesLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/bookingAmountLayout" android:layout_alignLeft="@id/bookingAmountLayout" android:layout_alignWithParentIfMissing="true">
+                        <com.google.android.material.textfield.TextInputLayout android:id="@id/annualDuesContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                            <EditText android:id="@id/annualDues" android:tag="@string/annual_due" android:hint="Annual Dues (₹)" android:maxLength="6" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+                        </com.google.android.material.textfield.TextInputLayout>
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_features" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/annualDuesLayout" android:layout_alignLeft="@id/bookingAmountLayout" android:layout_alignWithParentIfMissing="true">
+                        <TextView android:textSize="16.0dip" android:textColor="@color/material_gray_800" android:id="@id/tv_feature" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="25.0dip" android:text="Some features about your property:" />
+                        <com.nnacres.app.ui.NNacresCheckBox android:id="@id/wheelchair" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="Wheelchair Friendly" android:layout_below="@id/tv_feature" android:layout_alignParentLeft="true" android:layout_alignWithParentIfMissing="true" style="@style/ppf_material_checkbox_style" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </RelativeLayout>
+            <View android:id="@id/seprator_call" android:background="#ffdadada" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/bottomPart" />
+            <LinearLayout android:orientation="vertical" android:id="@id/maskContactViewGroup" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/seprator_call" android:layout_alignWithParentIfMissing="true">
+                <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/callrefrences" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="Call Preferences" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <com.nnacres.app.ui.NNacresCheckBox android:id="@id/maskcontacts" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/hidecontact" style="@style/ppf_material_checkbox_style" />
+                    <Button android:id="@id/help_mask_contact" android:background="@drawable/help_icon" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="12.0dip" android:layout_marginTop="3.0dip" android:layout_toRightOf="@id/maskcontacts" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+    <LinearLayout android:id="@id/stickyFooter" android:layout_width="fill_parent" android:layout_height="@dimen/action_button_height" android:layout_alignParentBottom="true">
+        <FrameLayout android:id="@id/footer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </LinearLayout>
+</RelativeLayout>

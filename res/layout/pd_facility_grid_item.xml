@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_facility" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/extra_extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/image" android:layout_width="@dimen/large" android:layout_height="@dimen/large" android:adjustViewBounds="true" />
+    <TextView android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small" android:lineHeight="@dimen/large_even" style="@style/captionStrongMedium" />
+</LinearLayout>

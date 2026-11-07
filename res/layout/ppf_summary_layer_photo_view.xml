@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="@dimen/ppf_summary_layer_photo_view_width" android:layout_height="@dimen/ppf_summary_layer_photo_view_width" android:layout_marginEnd="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/photo" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="6.0dip" android:textColor="@color/white" android:id="@id/cover" android:background="@color/black_70_transparent" android:padding="@dimen/xs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Cover Photo" android:includeFontPadding="false" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="8.0dip" android:textColor="@color/white" android:id="@id/bottom_cover" android:background="@color/black_70_transparent" android:padding="@dimen/xs" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:layout_marginBottom="@dimen/small_medium_even" android:text="Under Screening" android:includeFontPadding="false" android:layout_alignParentBottom="true" />
+</RelativeLayout>

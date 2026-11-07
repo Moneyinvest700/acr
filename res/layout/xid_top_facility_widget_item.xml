@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@drawable/shape_top_facility_1_bg" android:layout_width="97.0dip" android:layout_height="104.0dip" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_top_facility_item_icon" android:layout_width="56.0dip" android:layout_height="56.0dip" android:layout_marginBottom="8.0dip" android:src="@drawable/ic_bank" android:layout_marginStart="12.0dip" />
+    <TextView android:gravity="left" android:id="@id/tv_xid_top_faclity_item_name" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Lawn tennis Court" android:maxLines="2" android:layout_below="@id/iv_top_facility_item_icon" android:paddingStart="@dimen/medium_even" android:paddingEnd="@dimen/medium_even" style="@style/captionStrongMedium" />
+</RelativeLayout>

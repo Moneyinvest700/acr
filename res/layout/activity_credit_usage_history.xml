@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/activity_credit_usage_history" android:background="@color/material_gray_100" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/toolbar" />
+    <ListView android:id="@id/list_creditUsageHistory" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:divider="@null" />
+</LinearLayout>

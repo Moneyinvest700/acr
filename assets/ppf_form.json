@@ -1,0 +1,3560 @@
+{
+  "constants": {
+    "PREFERENCE": [
+      {
+        "id": "S",
+        "label": "Sell"
+      },
+      {
+        "id": "R",
+        "label": "Rent/Lease"
+      },
+      {
+        "id": "L",
+        "label": "Rent/Lease"
+      },
+      {
+        "id": "P",
+        "label": "Paying Guest"
+      }
+    ],
+    "EDITPPF_CARD": [],
+    "RES_COM": [
+      {
+        "id": "R",
+        "label": "Residential"
+      },
+      {
+        "id": "C",
+        "label": "Commercial"
+      }
+    ],
+    "PROP_TYPE": [
+      {
+        "id": "1",
+        "label": "Apartment",
+        "superCategory": "Apartment/Flat/Builder Floor"
+      },
+      {
+        "id": "2",
+        "label": "Independent House/Villa",
+        "superCategory": "House/Villa"
+      },
+      {
+        "id": "4",
+        "label": "Independent/Builder Floor",
+        "superCategory": "Apartment/Flat/Builder Floor"
+      },
+      {
+        "id": "7",
+        "label": "Office",
+        "superCategory": ""
+      },
+      {
+        "id": "1000",
+        "label": "Retail",
+        "superCategory": ""
+      },
+      {
+        "id": "3",
+        "label": "Plot / Land",
+        "superCategory": "Residential Land"
+      },
+      {
+        "id": "90",
+        "label": "1 RK/ Studio Apartment",
+        "superCategory": "Apartment/Flat/Builder Floor"
+      },
+      {
+        "id": "22",
+        "label": "Serviced Apartment",
+        "superCategory": "Apartment/Flat/Builder Floor"
+      },
+      {
+        "id": "5",
+        "label": "Farmhouse",
+        "superCategory": "House/Villa"
+      },
+      {
+        "id": "80",
+        "label": "Other",
+        "superCategory": "Others"
+      },
+      {
+        "id": "1001",
+        "label": "Storage",
+        "superCategory": ""
+      },
+      {
+        "id": "1002",
+        "label": "Industry",
+        "superCategory": ""
+      },
+      {
+        "id": "1003",
+        "label": "Hospitality",
+        "superCategory": ""
+      },
+      {
+        "id": "81",
+        "label": "Other",
+        "superCategory": "Others"
+      }
+    ],
+    "OFFICE_PROP_TYPE": [
+      {
+        "id": "91",
+        "label": "Ready to move"
+      },
+      {
+        "id": "92",
+        "label": "BareShell"
+      },
+      {
+        "id": "93",
+        "label": "Co-working"
+      }
+    ],
+    "RETAIL_PROP_TYPE": [
+      {
+        "id": "6",
+        "label": "Commercial Shops",
+        "superCategory": "Retail"
+      },
+      {
+        "id": "82",
+        "label": "Commercial Showrooms",
+        "superCategory": "Retail"
+      }
+    ],
+    "LAND_PROP_TYPE": [
+      {
+        "id": "9",
+        "label": "Commercial Land/Inst. Land",
+        "superCategory": "Land"
+      },
+      {
+        "id": "20",
+        "label": "Agricultural/Farm Land",
+        "superCategory": "Land"
+      },
+      {
+        "id": "16",
+        "label": "Industrial Lands/Plots",
+        "superCategory": "Land"
+      }
+    ],
+    "STORAGE_PROP_TYPE": [
+      {
+        "id": "15",
+        "label": "Ware House",
+        "superCategory": "Storage"
+      },
+      {
+        "id": "17",
+        "label": "Cold Storage",
+        "superCategory": "Storage"
+      }
+    ],
+    "INDUSTRY_PROP_TYPE": [
+      {
+        "id": "18",
+        "label": "Factory",
+        "superCategory": "Industry"
+      },
+      {
+        "id": "19",
+        "label": "Manufacturing",
+        "superCategory": "Industry"
+      }
+    ],
+    "HOSPITALITY_PROP_TYPE": [
+      {
+        "id": "10",
+        "label": "Hotel/Resorts",
+        "superCategory": "Hospitality"
+      },
+      {
+        "id": "83",
+        "label": "Guest-House/Banquet-Halls",
+        "superCategory": "Hospitality"
+      }
+    ],
+    "NO_OF_BEDROOM": [
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      },
+      {
+        "id": "10",
+        "label": "10"
+      }
+    ],
+    "NO_OF_BATHROOM": [
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      }
+    ],
+    "NO_OF_BALCONY": [
+      {
+        "id": "0",
+        "label": "0"
+      },
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "More than 3"
+      }
+    ],
+    "NO_OF_WASHROOM": [
+      {
+        "id": "-1",
+        "label": "None"
+      },
+      {
+        "id": "-2",
+        "label": "Shared"
+      },
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      },
+      {
+        "id": "10",
+        "label": "10"
+      }
+    ],
+    "TYPE_OF_ROOMS": [
+      {
+        "id": "1",
+        "label": "Private"
+      },
+      {
+        "id": "2",
+        "label": "Sharing"
+      }
+    ],
+    "NO_OF_SHAREABLE_ROOMS": [
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "4+"
+      }
+    ],
+    "RESERVED_PARKING": [
+      {
+        "id": "C",
+        "label": "No. Covered Parking",
+        "icon": "ic_covered_parking",
+        "min": 0,
+        "max": 10
+      },
+      {
+        "id": "O",
+        "label": "No. of Open Parking",
+        "icon": "ic_open_parking",
+        "min": 0,
+        "max": 10
+      }
+    ],
+    "PROPERTY_AGE": [
+      {
+        "id": "6",
+        "label": "0-1 Years"
+      },
+      {
+        "id": "1",
+        "label": "1-5 Years"
+      },
+      {
+        "id": "2",
+        "label": "5-10 Years"
+      },
+      {
+        "id": "3",
+        "label": "10+ Years"
+      }
+    ],
+    "AVAILABLE_FOR_PG": [
+      {
+        "id": "G",
+        "label": "Girls"
+      },
+      {
+        "id": "B",
+        "label": "Boys"
+      },
+      {
+        "id": "A",
+        "label": "All"
+      }
+    ],
+    "AVAILABLE_FOR_RENT": [
+      {
+        "id": "FA",
+        "label": "Family"
+      },
+      {
+        "id": "SW",
+        "label": "Single women"
+      },
+      {
+        "id": "SM",
+        "label": "Single men"
+      }
+    ],
+    "OWNER_RESPONSE_PREFERENCE": [
+      {
+        "id": "TURN_ON_BROKER_RESPONSE",
+        "label": "Yes"
+      },
+      {
+        "id": "TURN_OFF_BROKER_RESPONSE",
+        "label": "No"
+      }
+    ],
+    "SUITABLE_FOR": [
+      {
+        "id": "STU",
+        "label": "Students"
+      },
+      {
+        "id": "WP",
+        "label": "Professionals"
+      }
+    ],
+    "ADDITIONAL_ROOM": [
+      {
+        "id": "1",
+        "label": "Pooja Room"
+      },
+      {
+        "id": "2",
+        "label": "Study Room"
+      },
+      {
+        "id": "3",
+        "label": "Servant Room"
+      },
+      {
+        "id": "4",
+        "label": "Others"
+      }
+    ],
+    "AVAILABILITY": [
+      {
+        "id": "R",
+        "label": "Ready to Move"
+      },
+      {
+        "id": "UC",
+        "label": "Under Construction"
+      }
+    ],
+    "BOUNDARY_WALL": [
+      {
+        "id": "Y",
+        "label": "Yes"
+      },
+      {
+        "id": "N",
+        "label": "No"
+      }
+    ],
+    "NO_OF_OPEN_SIDES": [
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "3+"
+      }
+    ],
+    "ANY_CONSTRUCTION_DONE": [
+      {
+        "id": "Y",
+        "label": "Yes"
+      },
+      {
+        "id": "N",
+        "label": "No"
+      }
+    ],
+    "TYPE_OF_CONSTRUCTION_DONE": [
+      {
+        "id": "1",
+        "label": "Shed"
+      },
+      {
+        "id": "2",
+        "label": "Room(s)"
+      },
+      {
+        "id": "3",
+        "label": "Washroom"
+      },
+      {
+        "id": "4",
+        "label": "Other"
+      }
+    ],
+    "FIRE_SAFETY": [
+      {
+        "id": "6",
+        "label": "Fire Extinguisher"
+      },
+      {
+        "id": "7",
+        "label": "Fire Sensors"
+      },
+      {
+        "id": "8",
+        "label": "Sprinklers"
+      },
+      {
+        "id": "9",
+        "label": "Firehose"
+      }
+    ],
+    "WALLS_CONSTRUCTION_STATUS": [
+      {
+        "id": "1",
+        "label": "No walls"
+      },
+      {
+        "id": "2",
+        "label": "Brick walls"
+      },
+      {
+        "id": "3",
+        "label": "Cemented Walls"
+      },
+      {
+        "id": "4",
+        "label": "Plastered Walls"
+      }
+    ],
+    "DOORS_CONSTRUCTION_STATUS": [
+      {
+        "id": "Y",
+        "label": "Yes"
+      },
+      {
+        "id": "N",
+        "label": "No"
+      }
+    ],
+    "AC_STATUS": [
+      {
+        "id": "2",
+        "label": "Available"
+      },
+      {
+        "id": "0",
+        "label": "Not available"
+      },
+      {
+        "id": "3",
+        "label": "Duct only"
+      }
+    ],
+    "QUALITY_RATING": [
+      {
+        "id": "0",
+        "label": "No Rating"
+      },
+      {
+        "id": "1",
+        "label": "1 Star"
+      },
+      {
+        "id": "2",
+        "label": "2 Star"
+      },
+      {
+        "id": "3",
+        "label": "3 Star"
+      },
+      {
+        "id": "4",
+        "label": "4 Star"
+      },
+      {
+        "id": "5",
+        "label": "5 Star"
+      },
+      {
+        "id": "6",
+        "label": "6 Star"
+      },
+      {
+        "id": "7",
+        "label": "7 Star"
+      }
+    ],
+    "NO_OF_STAIRCASE": [
+      {
+        "id": "0",
+        "label": "0"
+      },
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      },
+      {
+        "id": "10",
+        "label": "10"
+      }
+    ],
+    "SERVICE_LIFT": [
+      {
+        "id": "0",
+        "label": "0"
+      },
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      },
+      {
+        "id": "10",
+        "label": "10"
+      }
+    ],
+    "PASSENGER_LIFT": [
+      {
+        "id": "0",
+        "label": "0"
+      },
+      {
+        "id": "1",
+        "label": "1"
+      },
+      {
+        "id": "2",
+        "label": "2"
+      },
+      {
+        "id": "3",
+        "label": "3"
+      },
+      {
+        "id": "4",
+        "label": "4"
+      },
+      {
+        "id": "5",
+        "label": "5"
+      },
+      {
+        "id": "6",
+        "label": "6"
+      },
+      {
+        "id": "7",
+        "label": "7"
+      },
+      {
+        "id": "8",
+        "label": "8"
+      },
+      {
+        "id": "9",
+        "label": "9"
+      },
+      {
+        "id": "10",
+        "label": "10"
+      }
+    ],
+    "OWNERSHIP": [
+      {
+        "id": "1",
+        "label": "Freehold"
+      },
+      {
+        "id": "2",
+        "label": "Leasehold"
+      },
+      {
+        "id": "3",
+        "label": "Co-operative Society"
+      },
+      {
+        "id": "4",
+        "label": "Power of Attorney"
+      }
+    ],
+    "AUTHORITY_APPROVED": [
+      {
+        "id": "1",
+        "label": "GHMC",
+        "description": "Greater Hyderabad Municipal Corporation"
+      },
+      {
+        "id": "2",
+        "label": "HMDA",
+        "description": "Hyderabad Metropolitan Development Authority"
+      },
+      {
+        "id": "3",
+        "label": "DTCP",
+        "description": "Directorate of Town and Country Planning"
+      },
+      {
+        "id": "4",
+        "label": "CMDA",
+        "description": "Chennai Metropolitan Development Authority"
+      },
+      {
+        "id": "5",
+        "label": "TNHB",
+        "description": "Tamilnadu Housing Board"
+      },
+      {
+        "id": "6",
+        "label": "YEIDA",
+        "description": "Yamuna Expressway Industrial Development Authority"
+      },
+      {
+        "id": "7",
+        "label": "UPAVP",
+        "description": "UP Awas Vikas Yojana"
+      },
+      {
+        "id": "8",
+        "label": "GNIDA",
+        "description": "Greater Noida Industrial Development Authority"
+      },
+      {
+        "id": "9",
+        "label": "HHB",
+        "description": "Haryana Housing Board"
+      },
+      {
+        "id": "10",
+        "label": "HUDA",
+        "description": "Haryana Urban Development Authority"
+      },
+      {
+        "id": "11",
+        "label": "HSIIDC",
+        "description": "Haryana State Industrial and Infrastructure Development Corporation"
+      },
+      {
+        "id": "12",
+        "label": "BMRDA",
+        "description": "Bengaluru Metropolitan Region Development Authority"
+      },
+      {
+        "id": "13",
+        "label": "BBMP",
+        "description": "Bruhat Bengaluru Mahanagara Palike"
+      },
+      {
+        "id": "14",
+        "label": "BMICAP",
+        "description": "Bangalore Mysore Infrastructure Corridor Area Planning Authority"
+      },
+      {
+        "id": "15",
+        "label": "CUDA",
+        "description": "Chitradurga Urban Development Authority"
+      },
+      {
+        "id": "16",
+        "label": "NPA",
+        "description": "Nelamangala Planning Authority"
+      },
+      {
+        "id": "17",
+        "label": "BDA",
+        "description": "Bangalore Development Authority"
+      },
+      {
+        "id": "18",
+        "label": "DPA",
+        "description": "Doddaballapura Planning Authority"
+      },
+      {
+        "id": "19",
+        "label": "BIAAPA",
+        "description": "Bangalore International Airport Area Planning Authority"
+      },
+      {
+        "id": "20",
+        "label": "DDA",
+        "description": "Delhi Development Authority"
+      },
+      {
+        "id": "21",
+        "label": "MCD",
+        "description": "Muncipal Corporation of Delhi"
+      },
+      {
+        "id": "22",
+        "label": "NDMC",
+        "description": "North Delhi Municipal Corporation"
+      },
+      {
+        "id": "23",
+        "label": "MMRDA",
+        "description": "Mumbai Metropolitan Region Development Authority"
+      },
+      {
+        "id": "24",
+        "label": "MCGM",
+        "description": "Brihanmumbai Municipal Corporation"
+      },
+      {
+        "id": "25",
+        "label": "RCUDA",
+        "description": "Ramanagaram-Channapatna Urban Development Authority"
+      },
+      {
+        "id": "26",
+        "label": "CIDC",
+        "description": "Construction Industry Development Council"
+      },
+
+      {
+        "id": "27",
+        "label": "NMMC",
+        "description": "Navi Mumbai Municipal Corporation"
+      },
+      {
+        "id": "28",
+        "label": "BMC",
+        "description": "Bidhannagar Municipal Corporation"
+      },
+      {
+        "id": "29",
+        "label": "NTKDA",
+        "description": "New Town Kolkata Development Authority"
+      },
+      {
+        "id": "30",
+        "label": "WBIDCL",
+        "description": "West Bengal Industrial Development Corporation Limited"
+      },
+      {
+        "id": "31",
+        "label": "KMDA",
+        "description": "Kolkata Metropolitan Development Authority"
+      },
+      {
+        "id": "32",
+        "label": "KMC",
+        "description": "Kolkata Municipal Corporation"
+      },
+      {
+        "id": "33",
+        "label": "PCNTDA",
+        "description": "Pimpri Chinchwad New Town Development Authority"
+      },
+      {
+        "id": "34",
+        "label": "PMRDA",
+        "description": "Pune Metropolitan Region Development Authority"
+      },
+      {
+        "id": "35",
+        "label": "AMC",
+        "description": "Amdavad Municipal Corporation"
+      },
+      {
+        "id": "36",
+        "label": "AUDA",
+        "description": "Ahmedabad Urban Development Authority"
+      },
+      {
+        "id": "37",
+        "label": "GDA",
+        "description": "Gandhidham Development Authority"
+      },
+      {
+        "id": "38",
+        "label": "NOIDA",
+        "description": "NOIDA"
+      },
+      {
+        "id": "39",
+        "label": "Local Authority",
+        "description": "Please select ‘Local Authority’ if your property is approved by any authority within your city or municipality area."
+      }
+    ],
+    "INDUSTRY_TYPES": [
+       {
+          "id": "1",
+          "label": "Automobiles"
+        },
+        {
+          "id": "2",
+          "label": "Biotechnology"
+        },
+        {
+          "id": "3",
+          "label": "Capital Goods"
+        },
+        {
+          "id": "4",
+          "label": "Chemicals"
+        },
+        {
+          "id": "5",
+          "label": "Construction"
+        },
+        {
+          "id": "6",
+          "label": "Defence and Aerospace Manufacturing"
+        },
+        {
+          "id": "7",
+          "label": "Electronics Hardware"
+        },
+        {
+          "id": "8",
+          "label": "Engineering"
+        },
+        {
+          "id": "9",
+          "label": "Food Processing"
+        },
+        {
+          "id": "10",
+          "label": "Gems and Jewellery"
+        },
+        {
+          "id": "11",
+          "label": "Handicrafts"
+        },
+        {
+          "id": "12",
+          "label": "IT and ITeS"
+        },
+        {
+          "id": "13",
+          "label": "Leather"
+        },
+        {
+          "id": "14",
+          "label": "Manufacturing"
+        },
+        {
+          "id": "15",
+          "label": "Medical devices"
+        },
+        {
+          "id": "16",
+          "label": "Metals"
+        },
+        {
+          "id": "17",
+          "label": "Mixed"
+        },
+        {
+          "id": "18",
+          "label": "Petroleum"
+        },
+        {
+          "id": "19",
+          "label": "Pharmaceuticals"
+        },
+        {
+          "id": "20",
+          "label": "Renewable Energy"
+        },
+        {
+          "id": "21",
+          "label": "Software"
+        },
+        {
+          "id": "22",
+          "label": "Textiles"
+        }
+    ],
+    "AGREEMENT_TYPE": [
+      {
+        "id": "CL",
+        "label": "Company Lease"
+      },
+      {
+        "id": "A",
+        "label": "Any"
+      }
+    ],
+    "NOTICE_MONTH": [
+      {
+        "id": "0",
+        "label": "None"
+      },
+      {
+        "id": "1",
+        "label": "1 Month"
+      },
+      {
+        "id": "2",
+        "label": "2 Months"
+      },
+      {
+        "id": "3",
+        "label": "3 Months"
+      },
+      {
+        "id": "4",
+        "label": "4 Months"
+      },
+      {
+        "id": "5",
+        "label": "5 Months"
+      },
+      {
+        "id": "6",
+        "label": "6 Months"
+      }
+    ],
+    "NOC_CERTIFIED": [
+      {
+        "id": "Y",
+        "label": "Yes"
+      },
+      {
+        "id": "N",
+        "label": "No"
+      }
+    ],
+    "OCCUPANCY_CERTIFICATE": [
+      {
+        "id": "Y",
+        "label": "Yes"
+      },
+      {
+        "id": "N",
+        "label": "No"
+      }
+    ],
+    "WATER_SOURCE": [
+      {
+        "id": "1",
+        "label": "Municipal corporation"
+      },
+      {
+        "id": "2",
+        "label": "Borewell/Tank"
+      },
+      {
+        "id": "3",
+        "label": "24*7 Water"
+      }
+    ],
+    "OVERLOOKING": [
+      {
+        "id": "1",
+        "label": "Park/Garden"
+      },
+      {
+        "id": "2",
+        "label": "Main Road"
+      },
+      {
+        "id": "3",
+        "label": "Club"
+      },
+      {
+        "id": "4",
+        "label": "Pool"
+      },
+      {
+        "id": "5",
+        "label": "Others"
+      },
+      {
+        "id": "7",
+        "label": "Sea facing"
+      }
+    ],
+    "POWER_BACKUP": [
+      {
+        "id": "N",
+        "label": "None"
+      },
+      {
+        "id": "P",
+        "label": "Partial"
+      },
+      {
+        "id": "F",
+        "label": "Full"
+      }
+    ],
+    "OFFICE_PREV_USED": [
+      {
+        "id": "1",
+        "label": "Call Center/BPO"
+      },
+      {
+        "id": "2",
+        "label": "Coaching Center"
+      },
+      {
+        "id": "3",
+        "label": "Private Consulting"
+      },
+      {
+        "id": "4",
+        "label": "Doctor Clinic"
+      },
+      {
+        "id": "5",
+        "label": "Pathology"
+      },
+      {
+        "id": "6",
+        "label": "IT/ITES and Related"
+      },
+      {
+        "id": "7",
+        "label": "Studio/Production house"
+      },
+      {
+        "id": "8",
+        "label": "Private Office"
+      },
+      {
+        "id": "9",
+        "label": "Health Care"
+      },
+      {
+        "id": "10",
+        "label": "Corporate Office Setup"
+      },
+      {
+        "id": "11",
+        "label": "Women Safety"
+      },
+      {
+        "id": "12",
+        "label": "Private Company"
+      },
+      {
+        "id": "13",
+        "label": "Individual Business"
+      },
+      {
+        "id": "14",
+        "label": "Self Employed Business"
+      },
+      {
+        "id": "15",
+        "label": "Boutique"
+      },
+      {
+        "id": "16",
+        "label": "Departmental Clinic"
+      },
+      {
+        "id": "17",
+        "label": "Cake Shop"
+      },
+      {
+        "id": "18",
+        "label": "Mobile Service Center"
+      },
+      {
+        "id": "19",
+        "label": "R&D center"
+      },
+      {
+        "id": "20",
+        "label": "Research Center"
+      },
+      {
+        "id": "21",
+        "label": "High Security Setup"
+      },
+      {
+        "id": "22",
+        "label": "Sales/Marketing Office"
+      },
+      {
+        "id": "23",
+        "label": "Back office"
+      },
+      {
+        "id": "24",
+        "label": "Front Office"
+      },
+      {
+        "id": "25",
+        "label": "Tuition"
+      },
+      {
+        "id": "26",
+        "label": "Education"
+      },
+      {
+        "id": "27",
+        "label": "Lounge"
+      },
+      {
+        "id": "28",
+        "label": "Cafe"
+      },
+      {
+        "id": "29",
+        "label": "IT Training Center"
+      },
+      {
+        "id": "30",
+        "label": "Non IT training center"
+      },
+      {
+        "id": "31",
+        "label": "Logistics Back Office"
+      },
+      {
+        "id": "32",
+        "label": "Banks"
+      },
+      {
+        "id": "33",
+        "label": "Shipment"
+      },
+      {
+        "id": "34",
+        "label": "Packaging Back office"
+      },
+      {
+        "id": "35",
+        "label": "Advertising"
+      },
+      {
+        "id": "36",
+        "label": "Travel Agency"
+      },
+      {
+        "id": "37",
+        "label": "Backend Office"
+      },
+      {
+        "id": "38",
+        "label": "Advocate"
+      },
+      {
+        "id": "39",
+        "label": "Frontend Office"
+      },
+      {
+        "id": "40",
+        "label": "Advocate Office"
+      },
+      {
+        "id": "41",
+        "label": "Architect Office"
+      },
+      {
+        "id": "42",
+        "label": "Small Office Purpose"
+      },
+      {
+        "id": "43",
+        "label": "ATM"
+      },
+      {
+        "id": "44",
+        "label": "Bank Branch"
+      },
+      {
+        "id": "45",
+        "label": "Banking"
+      },
+      {
+        "id": "46",
+        "label": "Finance"
+      },
+      {
+        "id": "47",
+        "label": "Banks and NBFC"
+      },
+      {
+        "id": "48",
+        "label": "Insurance and Mutual Fund Companies"
+      },
+      {
+        "id": "49",
+        "label": "Share Brokers"
+      },
+      {
+        "id": "50",
+        "label": "Banquet Hall"
+      },
+      {
+        "id": "51",
+        "label": "Bar & Resturant"
+      },
+      {
+        "id": "52",
+        "label": "Boutique Office"
+      },
+      {
+        "id": "53",
+        "label": "Events and Promotion"
+      },
+      {
+        "id": "54",
+        "label": "Builder and Architect"
+      },
+      {
+        "id": "55",
+        "label": "Builder and Developer"
+      },
+      {
+        "id": "56",
+        "label": "CA Office"
+      },
+      {
+        "id": "57",
+        "label": "Traders Office"
+      },
+      {
+        "id": "58",
+        "label": "Self Employed Professionals"
+      },
+      {
+        "id": "59",
+        "label": "Start Ups"
+      },
+      {
+        "id": "60",
+        "label": "Lawyers"
+      },
+      {
+        "id": "61",
+        "label": "Tax Consultants"
+      },
+      {
+        "id": "62",
+        "label": "Law Chamber"
+      },
+      {
+        "id": "63",
+        "label": "Company Head Office"
+      },
+      {
+        "id": "64",
+        "label": "Company Regional Office"
+      },
+      {
+        "id": "65",
+        "label": "Company Marketing Office"
+      },
+      {
+        "id": "66",
+        "label": "Educational Registration Office"
+      },
+      {
+        "id": "67",
+        "label": "Area Sales Office"
+      },
+      {
+        "id": "68",
+        "label": "Charted Account Office"
+      },
+      {
+        "id": "69",
+        "label": "Law Company"
+      },
+      {
+        "id": "70",
+        "label": "Online Marketing Office"
+      },
+      {
+        "id": "71",
+        "label": "Digital Marketing Office"
+      },
+      {
+        "id": "72",
+        "label": "Recruitemnts Company"
+      },
+      {
+        "id": "73",
+        "label": "Business Operations Office"
+      },
+      {
+        "id": "74",
+        "label": "Job Consulting"
+      },
+      {
+        "id": "75",
+        "label": "Computer Training"
+      },
+      {
+        "id": "76",
+        "label": "Construction Office"
+      },
+      {
+        "id": "77",
+        "label": "E-Commerce"
+      },
+      {
+        "id": "78",
+        "label": "GYM/ Fitness Centre"
+      },
+      {
+        "id": "79",
+        "label": "Hospital"
+      },
+      {
+        "id": "80",
+        "label": "Hotel"
+      },
+      {
+        "id": "81",
+        "label": "Showroom"
+      },
+      {
+        "id": "82",
+        "label": "Guest House"
+      },
+      {
+        "id": "83",
+        "label": "Insurance Company"
+      },
+      {
+        "id": "84",
+        "label": "Multi Speciality Hospital"
+      },
+      {
+        "id": "85",
+        "label": "Training Institute"
+      },
+      {
+        "id": "86",
+        "label": "Tours and Travels"
+      }
+    ],
+    "FLOORING_TYPE": [
+      {
+        "id": "9",
+        "label": "Vitrified"
+      },
+      {
+        "id": "13",
+        "label": "Concrete"
+      },
+      {
+        "id": "14",
+        "label": "Polished concrete"
+      },
+      {
+        "id": "4",
+        "label": "Mosaic"
+      },
+      {
+        "id": "8",
+        "label": "Wood"
+      },
+      {
+        "id": "2",
+        "label": "Granite"
+      },
+      {
+        "id": "10",
+        "label": "Spartex"
+      },
+      {
+        "id": "5",
+        "label": "Cement"
+      },
+      {
+        "id": "6",
+        "label": "Stone"
+      },
+      {
+        "id": "7",
+        "label": "Vinyl"
+      },
+      {
+        "id": "11",
+        "label": "IPSFinish"
+      },
+      {
+        "id": "12",
+        "label": "Others"
+      }
+    ],
+    "EXPECTED_PRICE": [
+      {
+        "id": "44",
+        "label": "Facing Club",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "45",
+        "label": "Facing East",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "31",
+        "label": "Furnished",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "32",
+        "label": "Premium Flooring done",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "33",
+        "label": "Modular Kitchen",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "34",
+        "label": "Wardrobes",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "35",
+        "label": "Lower Floor",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "36",
+        "label": "Higher Floor",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "37",
+        "label": "Extra Parking",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "38",
+        "label": "Near Popular landmark",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "39",
+        "label": "Corner Property",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "40",
+        "label": "Higher open area",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "41",
+        "label": "More premium amenities",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "42",
+        "label": "Facing Pool",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "43",
+        "label": "Facing Park",
+        "type": "highPricingReasons"
+      },
+      {
+        "id": "51",
+        "label": "Owner moving abroad",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "52",
+        "label": "Lower Floor",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "53",
+        "label": "Higher Floor",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "54",
+        "label": "Road Facing",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "56",
+        "label": "Raw/bare flat",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "57",
+        "label": "For Bank Auction",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "58",
+        "label": "High Density of flats",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "59",
+        "label": "No open area",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "60",
+        "label": "Fewer Amenities",
+        "type": "lowPricingReasons"
+      },
+      {
+        "id": "61",
+        "label": "Urgent Sale",
+        "type": "lowPricingReasons"
+      }
+    ],
+    "PROPERTY_FACING": [
+      {
+        "id": "1",
+        "label": "North"
+      },
+      {
+        "id": "5",
+        "label": "North - East"
+      },
+      {
+        "id": "3",
+        "label": "East"
+      },
+      {
+        "id": "4",
+        "label": "West"
+      },
+      {
+        "id": "2",
+        "label": "South"
+      },
+      {
+        "id": "7",
+        "label": "South - East"
+      },
+      {
+        "id": "8",
+        "label": "South - West"
+      },
+      {
+        "id": "6",
+        "label": "North - West"
+      }
+    ],
+    "OTHER_FEATURES": [
+      {
+        "id": "GS",
+        "label": "Gated society"
+      },
+      {
+        "id": "MRF",
+        "label": "Main Road Facing"
+      },
+      {
+        "id": "CP",
+        "label": "Corner property"
+      },
+      {
+        "id": "PF",
+        "label": "Pet friendly"
+      },
+      {
+        "id": "WCF",
+        "label": "Wheel chair friendly"
+      }
+    ],
+    "RENT_SERVICES": [
+      {
+        "id": "WC",
+        "label": "Water Charges"
+      },
+      {
+        "id": "L",
+        "label": "Laundry"
+      },
+      {
+        "id": "HK",
+        "label": "House Keeping"
+      },
+      {
+        "id": "WF",
+        "label": "WiFi"
+      },
+      {
+        "id": "D",
+        "label": "DTH"
+      },
+      {
+        "id": "E",
+        "label": "Electricity"
+      },
+      {
+        "id": "N",
+        "label": "None of the above"
+      }
+    ],
+    "PRE_LEASE": [
+      {
+        "id": "true",
+        "label": "Yes"
+      },
+      {
+        "id": "false",
+        "label": "No"
+      }
+    ],
+    "LOCATION_ADVANTAGE": [
+      {
+        "id": "7",
+        "label": "Close to metro station"
+      },
+      {
+        "id": "8",
+        "label": "Close to School"
+      },
+      {
+        "id": "9",
+        "label": "Close to Hospital"
+      },
+      {
+        "id": "10",
+        "label": "Close to market"
+      },
+      {
+        "id": "12",
+        "label": "Close to railway station"
+      },
+      {
+        "id": "60",
+        "label": "Close to airport"
+      },
+      {
+        "id": "61",
+        "label": "Close to mall"
+      },
+      {
+        "id": "66",
+        "label": "Close to highway"
+      }
+    ]
+  },
+  "fields": {
+    "PROP_TYPE": {
+      "heading": "Select Property Type",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "propertyType",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OFFICE_PROP_TYPE": {
+      "heading": "What kind of Office is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "RETAIL_PROP_TYPE": {
+      "heading": "What kind of retail is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "LAND_PROP_TYPE": {
+      "heading": "What kind of land is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "STORAGE_PROP_TYPE": {
+      "heading": "What kind of storage is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "INDUSTRY_PROP_TYPE": {
+      "heading": "What kind of industry is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "HOSPITALITY_PROP_TYPE": {
+      "heading": "What kind of hospitality is it?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "PROP_TYPE",
+      "errorMessage": "Please select the type of property you wish to advertise",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "CONTACT_DETAILS": {
+      "heading": "Your contact details",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "LOGIN_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PREFERENCE": {
+      "heading": "You're looking to?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "preference",
+      "errorMessage": "Select Intent to continue",
+      "type": "GROUP",
+      "csSectionName": "BUSINESS_SEGMENT",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 10,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "RES_COM": {
+      "heading": "What Kind Of Property?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Select kind of property",
+      "serverKey": "resCom",
+      "type": "GROUP",
+      "csSectionName": "RES_COM",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 10,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "LOCATION": {
+      "heading": "Where is it located?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "CITY_WORKFLOW",
+      "errorMessage": "Please enter the city name",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FLOOR_PLAN": {
+      "heading": "Select your floor plan",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "FLOOR_PLAN_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ADD_ROOM_DETAIL": {
+      "heading": "Add room details",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "ADD_ROOM_DETAIL_WORKFLOW",
+      "errorMessage": "All fields are required",
+      "children": [
+        {
+          "heading": "No. of rooms",
+          "subFieldName": "NO_OF_ROOM",
+          "isOptional": false,
+          "subHeading": "",
+          "infoAvailable": false,
+          "errorMessage": "Please specify the number of rooms",
+          "serverKey": "totalRooms",
+          "inputBoxLayoutInfo": {
+            "id": "C",
+            "placeHolder": "No. of rooms",
+            "image": "",
+            "minValue": 1,
+            "maxValue": 999
+          },
+          "type": "INPUT_BOX"
+        },
+        {
+          "heading": "No. of Washrooms",
+          "subFieldName": "NO_OF_WASHROOM",
+          "isOptional": false,
+          "subHeading": "",
+          "infoAvailable": false,
+          "errorMessage": "Please specify washroom count",
+          "serverKey": "washroomNumber",
+          "type": "GROUP_ADDITIONAL",
+          "groupAdditionalLayoutInfo": {
+            "threshold": 7,
+            "thresholdLabel": "4+",
+            "bottomSheetHeading": "Select no. of washrooms",
+            "bottomSheetMoreLabel": "More than 10 washrooms",
+            "bottomSheetPlaceholderText": "Enter no. of washrooms",
+            "bottomSheetButtonText": "Done",
+            "minValue": 1,
+            "maxValue": 99
+          }
+        },
+        {
+          "heading": "No. of bedrooms",
+          "subFieldName": "NO_OF_BEDROOM",
+          "isOptional": false,
+          "subHeading": "",
+          "infoAvailable": false,
+          "errorMessage": "Please specify bedroom count",
+          "serverKey": "bedroomNum",
+          "csSectionName": "CONFIG_BEDROOM",
+          "type": "GROUP_ADDITIONAL",
+          "groupAdditionalLayoutInfo": {
+            "threshold": 6,
+            "thresholdLabel": "5+",
+            "bottomSheetHeading": "Select no. of bedrooms",
+            "bottomSheetMoreLabel": "More than 10 Bedrooms",
+            "bottomSheetPlaceholderText": "Enter no. of bedrooms",
+            "bottomSheetButtonText": "Done",
+            "minValue": 1,
+            "maxValue": 99
+          }
+        },
+        {
+          "heading": "No. of Bathrooms",
+          "subFieldName": "NO_OF_BATHROOM",
+          "isOptional": false,
+          "subHeading": "",
+          "infoAvailable": false,
+          "errorMessage": "Please specify bathroom count",
+          "serverKey": "bathroomNum",
+          "csSectionName": "CONFIG_BATHROOM",
+          "type": "GROUP_ADDITIONAL",
+          "groupAdditionalLayoutInfo": {
+            "threshold": 5,
+            "thresholdLabel": "4+",
+            "bottomSheetHeading": "Select no. of bathrooms",
+            "bottomSheetMoreLabel": "More than 10 Bathrooms",
+            "bottomSheetPlaceholderText": "Enter no. of bathrooms",
+            "bottomSheetButtonText": "Done",
+            "minValue": 1,
+            "maxValue": 99
+          }
+        },
+        {
+          "heading": "No. of balconies",
+          "subFieldName": "NO_OF_BALCONY",
+          "isOptional": false,
+          "subHeading": "",
+          "infoAvailable": false,
+          "errorMessage": "Please specify balconies count",
+          "serverKey": "balconyNum",
+          "csSectionName": "CONFIG_BALCONY",
+          "type": "GROUP",
+          "groupLayoutInfo": {
+            "isVerticalOrientation": false,
+            "isMultiSelectable": false,
+            "threshold": 10,
+            "maxLine": 1
+          }
+        }
+      ],
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "TYPE_OF_ROOMS": {
+      "heading": "Type of rooms",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please select an option",
+      "serverKey": "sharingCount",
+      "csSectionName": "PG_OCCUPANCY_PREF",
+      "type": "GROUP",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 10,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "NO_OF_SHAREABLE_ROOMS": {
+      "heading": "How many people can share this room",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please select the sharing count",
+      "serverKey": "sharingCount",
+      "csSectionName": "PG_SHARE_COUNT",
+      "type": "GROUP",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 10,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "CAPACITY_AND_AVAILABILITY": {
+      "heading": "Capacity and availability",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "All fields are required",
+      "infoAvailable": false,
+      "type": "CAPACITY_AND_AVAILABILITY_WORKFLOW",
+      "capacityAndAvailabilityLayoutInfo": {
+        "totalBeds": {
+          "id": "C",
+          "placeHolder": "Total no of beds in PG",
+          "errorMessage": "Please enter total no. of beds",
+          "image": "",
+          "minValue": 1,
+          "maxValue": 99
+        },
+        "availableBeds": {
+          "id": "C",
+          "placeHolder": "No. of available beds",
+          "errorMessage": "Please enter no. of beds available",
+          "image": "",
+          "minValue": 1,
+          "maxValue": 99
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AREA": {
+      "heading": "Area Details",
+      "isOptional": false,
+      "subHeading": "Atleast one area type is mandatory",
+      "errorMessage": "Atleast one area type is mandatory",
+      "infoAvailable": true,
+      "type": "AREA_WORKFLOW",
+      "areaLayoutInfo": {
+        "carpetArea": {
+          "id": "C",
+          "placeHolder": "Carpet Area",
+          "image": "",
+          "minValue": 1.0,
+          "maxValue": 9999999.99,
+          "errorMessage": ""
+        },
+        "builtUpArea": {
+          "id": "C",
+          "placeHolder": "Builtup Area",
+          "image": "",
+          "minValue": 1.0,
+          "maxValue": 9999999.99,
+          "errorMessage": ""
+        },
+        "superBuiltUpArea": {
+          "id": "C",
+          "placeHolder": "Super Built-up Area",
+          "image": "",
+          "minValue": 1.0,
+          "maxValue": 9999999.99,
+          "errorMessage": ""
+        },
+        "plotArea": {
+          "id": "C",
+          "placeHolder": "Plot Area",
+          "image": "",
+          "minValue": 1.0,
+          "maxValue": 9999999.99,
+          "errorMessage": ""
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "RESERVED_PARKING": {
+      "heading": "Reserved Parking",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "",
+      "serverKey": "reservedParking",
+      "csSectionName": "RESERVED_PARKING",
+      "type": "STEPPERS",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FLOOR_DETAILS": {
+      "heading": "Floor Details",
+      "isOptional": false,
+      "subHeading": "Total no of floors and your floor details",
+      "errorMessage": "All fields are required",
+      "infoAvailable": false,
+      "floorDetailsLayoutInfo": {
+        "totalFloor": {
+          "id": "C",
+          "placeHolder": "Total Floors",
+          "errorMessage": "Please enter the total floor count",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 90
+        }
+      },
+      "type": "FLOOR_DETAILS_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PROPERTY_AGE": {
+      "heading": "Age of property",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "age",
+      "type": "GROUP",
+      "errorMessage": "Please select age of property",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AVAILABLE_FROM": {
+      "heading": "Available from",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "availabilityDate",
+      "type": "DATE",
+      "errorMessage": "Please select availability from of the property",
+      "dateLayoutInfo": {
+        "format": "yyyy-MM-dd",
+        "placeHolder": "Select Date"
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AVAILABLE_FOR_PG": {
+      "heading": "Available for",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "availableFor",
+      "type": "GROUP",
+      "csSectionName": "PG_GENDER_PREF",
+      "errorMessage": "Please select one of the options",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AVAILABLE_FOR_RENT": {
+      "heading": "Available for",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "availableFor",
+      "type": "GROUP",
+      "csSectionName": "PREFFERED_TENANT",
+      "errorMessage": "Please select atleast one options",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OWNER_RESPONSE_PREFERENCE": {
+      "heading": "Are you ok with brokers contacting you?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": true,
+      "serverKey": "rentalContactSharing",
+      "type": "GROUP",
+      "csSectionName": "OWNER_RESPONSE_PREFERENCE",
+      "errorMessage": "This field is required",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 2,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "SUITABLE_FOR": {
+      "heading": "Your PG is best suited for",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "availableFor",
+      "type": "GROUP",
+      "csSectionName": "PG_SUITABLE_FOR",
+      "errorMessage": "Please select atleast one options",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ADDITIONAL_ROOM": {
+      "heading": "Are there any other Rooms ?",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "additionalRooms",
+      "csSectionName": "OTHER_ROOMS",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AVAILABILITY": {
+      "heading": "Availability",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "availability",
+      "csSectionName": "AVAILABILITY_STATUS",
+      "type": "GROUP",
+      "errorMessage": "Please select the availability status",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PROPERTY_DIMENSION": {
+      "heading": "Property Dimensions",
+      "isOptional": true,
+      "subHeading": "",
+      "errorMessage": "All fields are required",
+      "infoAvailable": false,
+      "serverKey": "Reserved_Parking",
+      "type": "PROPERTY_DIMENSION_WORKFLOW",
+      "propertyDimensionLayoutInfo": {
+        "lengthOfPlot": {
+          "id": "C",
+          "placeHolder": "Length of Plot (in ft.)",
+          "errorMessage": "Please enter length of Plot",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 99.99
+        },
+        "breadthOfPlot": {
+          "id": "C",
+          "placeHolder": "Breadth of Plot (in ft.)",
+          "errorMessage": "Please enter breadth of plot",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 99.00
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "BOUNDARY_WALL": {
+      "heading": "Is there a boundary wall around the plot?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please specify if this land has a boundary wall",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "NO_OF_OPEN_SIDES":   {
+      "heading": "No. of open sides",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": true,
+      "errorMessage": "Please select the No. of Open Sides",
+      "serverKey": "numberOfOpenSides",
+      "csSectionName": "OPEN_SIDE_NUM",
+      "type": "GROUP",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 4,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ANY_CONSTRUCTION_DONE": {
+      "heading": "Any construction done on this property?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": true,
+      "csSectionName": "ANY_CONSTRUCTION_DONE",
+      "type": "GROUP",
+      "errorMessage": "Please tell us if any construction is done on the property",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "TYPE_OF_CONSTRUCTION_DONE": {
+      "heading": "What type of construction has been done?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": true,
+      "serverKey": "constructionOnProperty",
+      "csSectionName": "CONSTRUCTION_TYPE",
+      "type": "GROUP",
+      "errorMessage": "Please select the type of construction been done",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OFFICE_SETUP": {
+      "heading": "Your Office set up",
+      "isOptional": false,
+      "subHeading": "Select features and facilities included in the office",
+      "errorMessage": "Select features and facilities included in the office",
+      "infoAvailable": false,
+      "type": "OFFICE_SETUP_WORKFLOW",
+      "officeSetupLayoutInfo": {
+        "noOfCabin": {
+          "id": "C",
+          "placeHolder": "No. of Cabins",
+          "errorMessage": "Please specify no. of Cabins",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999
+        },
+        "noOfMeetingRoom": {
+          "id": "C",
+          "placeHolder": "No. of Meeting rooms",
+          "errorMessage": "Please specify no. of Meeting rooms",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999
+        },
+        "noOfMinSeat": {
+          "id": "C",
+          "placeHolder": "No. of mini. seats",
+          "errorMessage": "Please specify no. of mini. Seats",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999999
+        },
+        "noOfMaxSeat": {
+          "id": "C",
+          "placeHolder": "No. of max. seats (optional)",
+          "errorMessage": "Please specify no. of max. Seats",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999999
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AVAILABLE_FEATURES": {
+      "heading": "Mark the available features ",
+      "isOptional": false,
+      "subHeading": "Switch sliders for facilities in your office space ",
+      "errorMessage": "All fields are required",
+      "infoAvailable": false,
+      "type": "AVAILABLE_FEATURES_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FIRE_SAFETY": {
+      "heading": "Fire safety measures",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "This field is required",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PARKING_TYPE": {
+      "heading": "Parking Type",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please select parking type",
+      "infoAvailable": false,
+      "type": "PARKING_TYPE_WORKFLOW",
+      "parkingTypeLayoutInfo": {
+        "noOfParking": {
+          "id": "C",
+          "placeHolder": "No. of Parking (Optional)",
+          "errorMessage": "Please specify no. of Parking",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 9999
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "SALEABLE_AREA": {
+      "heading": "Minimum Saleable Area",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please enter Saleable area",
+      "infoAvailable": false,
+      "type": "PLOT_AREA_WORKFLOW",
+      "plotAreaLayoutInfo": {
+        "plotArea": {
+          "id": "C",
+          "placeHolder": "Area of your property",
+          "errorMessage": "",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 9999999
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "WALLS_CONSTRUCTION_STATUS": {
+      "heading": "Construction status of walls",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please select status of walls",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "DOORS_CONSTRUCTION_STATUS": {
+      "heading": "Are doors constructed",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please specify if doors are constructed",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AC_STATUS": {
+      "heading": "Air Conditioning status",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please select air conditioning status",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "LEASEABLE_AREA": {
+      "heading": "Minimum Leasable Area",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please enter Leasable area",
+      "infoAvailable": false,
+      "type": "PLOT_AREA_WORKFLOW",
+      "plotAreaLayoutInfo": {
+        "plotArea": {
+          "id": "C",
+          "placeHolder": "Please enter plot area",
+          "errorMessage": "Please enter Leasable area",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 9999999
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FURNISHING": {
+      "heading": "Furnishing Details",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "FURNISHING_WORKFLOW",
+      "errorMessage": "Please select atleast one furnishing",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "QUALITY_RATING": {
+      "heading": "Quality Rating",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please select a rating",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 3
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ALLOWED_FLOORS": {
+      "heading": "Floor allowed for construction",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "All fields are required",
+      "serverKey": "Reserved_Parking",
+      "inputBoxLayoutInfo": {
+        "id": "C",
+        "placeHolder": "Total Number of Floors allowed",
+        "errorMessage": "",
+        "image": "",
+        "minValue": 0,
+        "maxValue": 91
+      },
+      "type": "INPUT_BOX",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "POSSESSION_TIME": {
+      "heading": "Expected time of Possession",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please select the possession date",
+      "serverKey": "Reserved_Parking",
+      "possessionTimeLayoutInfo": {
+        "maxYear": 7
+      },
+      "type": "POSSESSION_TIME_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "NO_OF_STAIRCASE": {
+      "heading": "No. of staircase",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "",
+      "serverKey": "bedroom_num",
+      "type": "GROUP_ADDITIONAL",
+      "isParentShowingError": true,
+      "groupAdditionalLayoutInfo": {
+        "threshold": 7,
+        "thresholdLabel": "5+",
+        "bottomSheetHeading": "Select no. of Staircases",
+        "bottomSheetMoreLabel": "More than 10 Staircases",
+        "bottomSheetPlaceholderText": "Enter no. of staircases",
+        "bottomSheetButtonText": "Done",
+        "minValue": 1,
+        "maxValue": 99
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PASSENGER_LIFT": {
+      "heading": "No. of Passenger Lifts",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please select no. of passenger lift",
+      "infoAvailable": false,
+      "groupAdditionalLayoutInfo": {
+        "threshold": 7,
+        "thresholdLabel": "5+",
+        "bottomSheetHeading": "Select no. of passenger lifts",
+        "bottomSheetMoreLabel": "More than 10 passenger lifts",
+        "bottomSheetPlaceholderText": "Enter no. of passenger lifts",
+        "bottomSheetButtonText": "Done",
+        "minValue": 1,
+        "maxValue": 99
+      },
+      "type": "LIFT_GROUP_ADDITIONAL_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "SERVICE_LIFT": {
+      "heading": "No. of Service Lifts",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please select no. of service lift",
+      "infoAvailable": false,
+      "groupAdditionalLayoutInfo": {
+        "threshold": 7,
+        "thresholdLabel": "5+",
+        "bottomSheetHeading": "Select no. of service lifts",
+        "bottomSheetMoreLabel": "More than 10 service lifts",
+        "bottomSheetPlaceholderText": "Enter no. of service lifts",
+        "bottomSheetButtonText": "Done",
+        "minValue": 1,
+        "maxValue": 99
+      },
+      "type": "LIFT_GROUP_ADDITIONAL_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PROPERTY_DESCRIPTION": {
+      "heading": "What makes your property unique?",
+      "isOptional": false,
+      "subHeading": "Adding description will increase your listing visibility",
+      "errorMessage": "Please fill in the description",
+      "infoAvailable": false,
+      "type": "PROPERTY_DESCRIPTION_WORKFLOW",
+      "propertyDescriptionLayoutInfo": {
+        "minChar": 30,
+        "maxChar": 5000
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ADD_PHOTO": {
+      "heading": "Add property photos",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "ADD_PHOTO_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ADD_VIDEO": {
+      "heading": "Add one property video",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "ADD_VIDEO_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AMENITIES": {
+      "heading": "Amenities & USP's",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "amenities",
+      "type": "AMENITIES_WORKFLOW",
+      "errorMessage": "Select amenities",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OWNERSHIP": {
+      "heading": "Ownership",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": true,
+      "serverKey": "prop_type",
+      "csSectionName": "OWNERSHIP",
+      "type": "GROUP",
+      "errorMessage": "Please select the ownership detail",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AUTHORITY_APPROVED": {
+      "heading": "Which authority the property is approved by?",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": true,
+      "serverKey": "approvedByAuthorities",
+      "csSectionName": "APPROVED_AUTHORITY",
+      "type": "GROUP",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "INDUSTRY_TYPES": {
+      "heading": "Approved Industry Type",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": true,
+      "serverKey": "approvedForIndustries",
+      "csSectionName": "APPROVED_INDUSTRY",
+      "type": "INDUSTRY_TYPE",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "EXPECTED_PRICE": {
+      "heading": "",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "EXPECTED_PRICE_WORKFLOW",
+      "expectedPriceLayoutInfo": {
+        "expectedPrice": {
+          "id": "C",
+          "placeHolder": "Expected price",
+          "errorMessage": "Please specify the price",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 9999999999
+        },
+        "pricePerSqft": {
+          "id": "C",
+          "placeHolder": "Price per sq.ft.",
+          "errorMessage": "",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 9999999999
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AGREEMENT_TYPE": {
+      "heading": "Preferred Agreement Type",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "csSectionName": "AGREEMENT_TYPE",
+      "errorMessage": "Please select the agreement type",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "SECURITY_DEPOSIT": {
+      "heading": "Security deposit",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "SECURITY_DEPOSIT_WORKFLOW",
+      "securityDepositLayoutInfo": {
+        "forFixedGroupValue": {
+          "id": "A",
+          "placeHolder": "Deposit Value",
+          "errorMessage": "Please enter a value for deposit",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999999999
+        },
+        "forMultipleOfRentGroupValue": {
+          "id": "B",
+          "placeHolder": "No. of months (Max 30)",
+          "errorMessage": "Please enter a value",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 30
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AGREEMENT_DURATION": {
+      "heading": "Duration of Agreement",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "AGREEMENT_DURATION_WORKFLOW",
+      "agreementDurationLayoutInfo": {
+        "maxMonth": 36
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "NOTICE_MONTH": {
+      "heading": "Months of Notice",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "MONTHS_OF_NOTICE",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "RENT_SERVICES": {
+      "heading": "Select services included in rent",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please select an option",
+      "infoAvailable": false,
+      "type": "RENT_SERVICES_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FOOD_DETAILS": {
+      "heading": "Food Details",
+      "isOptional": true,
+      "subHeading": "",
+      "errorMessage": "Please select an option",
+      "infoAvailable": false,
+      "type": "FOOD_DETAILS_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "EARLY_LEAVING": {
+      "heading": "Early Leaving Charges",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "EARLY_LEAVING_WORKFLOW",
+      "earlyLeavingLayoutInfo": {
+        "forFixedGroupValue": {
+          "id": "A",
+          "placeHolder": "Deposit Value",
+          "errorMessage": "Please enter a value for deposit",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 10000
+        },
+        "forMultipleOfRentGroupValue": {
+          "id": "B",
+          "placeHolder": "No. of months (6)",
+          "errorMessage": "Please enter a value",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 6
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "HOUSE_RULES": {
+      "heading": "Some house rules",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "HOUSE_RULES_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "BROKERAGE_CHARGES": {
+      "heading": "Your brokerage charges",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "BROKERAGE_CHARGES_WORKFLOW",
+      "brokerageChargesLayoutInfo": {
+        "forFixedGroupValue": {
+          "id": "A",
+          "placeHolder": "Enter brokerage here (in ₹)",
+          "errorMessage": "Please specify the brokerage amount",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 10000
+        },
+        "forPercentageValue": {
+          "id": "B",
+          "placeHolder": "Enter brokerage here (in %)",
+          "errorMessage": "Please specify the brokerage amount",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 99
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "NOC_CERTIFIED": {
+      "heading": "Is your office NOC certified?",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please enter the availability of Fire NOC",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OCCUPANCY_CERTIFICATE": {
+      "heading": "Occupancy Certificate",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "GROUP",
+      "errorMessage": "Please enter the availability of Occupancy certificate",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OFFICE_PREV_USED": {
+      "heading": "Office previously used for",
+      "isOptional": true,
+      "subHeading": "*Select upto 3",
+      "errorMessage": "*Select upto 3",
+      "infoAvailable": false,
+      "type": "OFFICE_PREVIOUSLY_USED_WORKFLOW",
+      "officePrevUsedLayoutInfo": {
+        "maxValue": 3
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "LOCK_IN_PERIOD": {
+      "heading": "Lock - In Period",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please enter lock in period",
+      "serverKey": "Reserved_Parking",
+      "inputBoxLayoutInfo": {
+        "id": "C",
+        "placeHolder": "Select duration in months",
+        "image": "",
+        "minValue": 0,
+        "maxValue": 99
+      },
+      "type": "INPUT_BOX",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "YEARLY_INCREASE_RENT": {
+      "heading": "Yearly rent is expected to increase by",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please enter the yearly rent appreciation",
+      "serverKey": "Reserved_Parking",
+      "inputBoxLayoutInfo": {
+        "id": "C",
+        "placeHolder": "% of increase by",
+        "image": "",
+        "minValue": 0,
+        "maxValue": 99
+      },
+      "type": "INPUT_BOX",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "WATER_SOURCE": {
+      "heading": "Water source",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "WATER_SOURCE",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OVERLOOKING": {
+      "heading": "Overlooking",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "OVERLOOKING",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "OTHER_FEATURES": {
+      "heading": "Other Features",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "OTHER_FEATURES",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": true,
+        "isMultiSelectable": true,
+        "threshold": 5,
+        "maxLine": -1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "POWER_BACKUP": {
+      "heading": "Power Backup",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "POWER_BACK_UP",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 1
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PROPERTY_FACING": {
+      "heading": "Property Facing",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "PROPERTY_FACING",
+      "type": "GROUP",
+      "errorMessage": "Please select the property facing direction",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 0
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FLOORING_TYPE": {
+      "heading": "Type of Flooring",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "FLOORING_TYPE_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ROAD_WIDTH": {
+      "heading": "Width of Facing Road",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please specify width of the road",
+      "infoAvailable": false,
+      "type": "ROAD_WIDTH_WORKFLOW",
+      "csSectionName": "WIDTH_OF_FACING_ROAD_VALUE",
+      "roadWidthLayoutInfo": {
+        "roadWidth": {
+          "id": "C",
+          "placeHolder": "Enter width of the road",
+          "errorMessage": "",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999.9
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "ROAD_WIDTH_RES": {
+      "heading": "Width of Facing Road",
+      "isOptional": false,
+      "subHeading": "",
+      "errorMessage": "Please specify width of the road",
+      "infoAvailable": false,
+      "type": "ROAD_WIDTH_RES_WORKFLOW",
+      "roadWidthLayoutInfo": {
+        "roadWidth": {
+          "id": "C",
+          "placeHolder": "Enter width of the road",
+          "errorMessage": "",
+          "image": "",
+          "minValue": 0,
+          "maxValue": 999.9
+        }
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "LOCATION_ADVANTAGE": {
+      "heading": "Location advantages",
+      "isOptional": false,
+      "subHeading": "Highlight the nearby landmarks*",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "type": "LOCATION_ADVANTAGE_WORKFLOW",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "maxAllowedSelection": 4,
+        "isMultiSelectable": true,
+        "threshold": 11,
+        "maxLine": 3
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "SUGGESTED_USP": {
+      "heading": "Suggest a Property Feature",
+      "isOptional": true,
+      "subHeading": "That you want us to add in the form",
+      "infoAvailable": false,
+      "type": "SUGGESTED_USP_WORKFLOW",
+      "inputBoxLayoutInfo": {
+        "placeHolder": "Enter your USP’s here"
+      },
+      "errorMessage": "",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "USP": {
+      "heading": "USPs of your property",
+      "isOptional": false,
+      "subHeading": "*Select upto 3 usps",
+      "infoAvailable": false,
+      "serverKey": "prop_type",
+      "csSectionName": "USP_OF_PROPERTY",
+      "type": "GROUP",
+      "errorMessage": "",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": true,
+        "maxAllowedSelection": 3,
+        "threshold": 8,
+        "maxLine": 3
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "UPDATE_DESCRIPTION": {
+      "heading": "Update Description",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "errorMessage": "Please fill in the description",
+      "type": "UPDATE_DESCRIPTION_WORKFLOW",
+      "propertyDescriptionLayoutInfo": {
+        "minChar": 30,
+        "maxChar": 5000
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "AMENITES_LESS_PICTURE_ALERT": {
+      "heading": "",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "AMENITES_LESS_PICTURE_PROGRESS_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "FORM_PROGRESS": {
+      "heading": "",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "FORM_PROGRESS_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+
+    "LISTING_REACH": {
+      "heading": "",
+      "isOptional": true,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "LISTING_REACH_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+
+    "UPLOAD_PHOTO": {
+      "heading": "Upload some photos",
+      "isOptional": true,
+      "subHeading": "Most buyers look for photos, for better visibility you can upload photos or choose a cover photo from the options available with us:",
+      "infoAvailable": false,
+      "type": "UPLOAD_PHOTO_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PRE_LEASE": {
+      "heading": "Is it Pre-leased/ Pre-rented?",
+      "isOptional": false,
+      "subHeading": "for properties that are already rented out",
+      "infoAvailable": true,
+      "serverKey": "isPreLeased",
+      "type": "GROUP",
+      "csSectionName": "PRE_LEASE",
+      "errorMessage": "This field is required",
+      "groupLayoutInfo": {
+        "isVerticalOrientation": false,
+        "isMultiSelectable": false,
+        "threshold": 5,
+        "maxLine": 2
+      },
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PRE_LEASE_DETAIL": {
+      "heading": "Pre-leased / Pre-Rented Details",
+      "isOptional": false,
+      "subHeading": "for properties that are already rented out",
+      "infoAvailable": true,
+      "type": "PRE_LEASE_DETAIL_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "EDITPPF_CARD": {
+      "heading": "It’s almost done!",
+      "isOptional": true,
+      "subHeading": "Add the missing details with our efficient process. Just a few steps and you are good to go.",
+      "infoAvailable": false,
+      "type": "EDITPPF_WORKFLOW",
+      "errorMessage": "",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "EXPECTED_ANNUAL_RETURN": {
+      "heading": "Expected Annual Returns",
+      "isOptional": false,
+      "subHeading": "Based on cost of the property & monthly rent",
+      "infoAvailable": true,
+      "errorMessage": "Please specify the expected annual returns",
+      "serverKey": "preLeasedAnnualReturns",
+      "inputBoxLayoutInfo": {
+        "id": "C",
+        "placeHolder": "Expected Annual Returns in %",
+        "errorMessage": "",
+        "image": "",
+        "minValue": 0,
+        "maxValue": 29.99
+      },
+      "type": "EXPECTED_ANNUAL_RETURN_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PRE_LEASE_BANNER": {
+      "heading": "",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "PRE_LEASE_BANNER_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    },
+    "PLOTS_LANDS_MISSING_BANNER": {
+      "heading": "",
+      "isOptional": false,
+      "subHeading": "",
+      "infoAvailable": false,
+      "type": "PLOTS_LANDS_MISSING_WORKFLOW",
+      "startAppVersionIOS":-1,
+      "startAppVersionAndroid":-1
+    }
+  },
+  "formData": {
+    "BASIC_DETAIL": {
+      "csPage": "BASIC_DETAILS",
+      "heading": "Add Basic Details",
+      "tabHeading": "Basic Details",
+      "subHeading": "Your Intent, Property type & contact details"
+    },
+    "PROPERTY_DETAIL": {
+      "csPage": "PROP_DETAILS",
+      "heading": "Add Property Details",
+      "tabHeading": "Property Details",
+      "subHeading": "Location, Room details, Area, Furnishings etc"
+    },
+    "PHOTO_PRICING": {
+      "csPage": "PHOTOS_AND_PRICING",
+      "heading": "Add Media & Pricing",
+      "tabHeading": "Add Media & Pricing",
+      "subHeading": "Media, Ownership Details, Price and a Brief Description"
+    },
+    "ADD_AMENITIES": {
+      "csPage": "AMENITIES",
+      "heading": "Add Amenities",
+      "tabHeading": "Amenities",
+      "subHeading": "Amenities, Features and USPs of your property"
+    },
+    "POST_FOR_RENT": {
+      "csPage": "SELL_TO_RENT",
+      "heading": "It would be super quick",
+      "tabHeading": "Sell To rent",
+      "subHeading": "Just 1 step…and you're done"
+    },
+    "POST_FOR_SELL": {
+      "csPage": "RENT_TO_SELL",
+      "heading": "It would be super quick",
+      "tabHeading": "Rent to sell",
+      "subHeading": "Add below details"
+    },
+    "LEASE_TO_SELL": {
+      "csPage": "LEASE_TO_SELL",
+      "heading": "It would be super quick",
+      "tabHeading": "Lease To Sell",
+      "subHeading": "Add below details"
+    },
+    "SELL_TO_LEASE": {
+      "csPage": "SELL_TO_LEASE",
+      "heading": "It would be super quick",
+      "tabHeading": "Sell To Lease",
+      "subHeading": "Add below details"
+    },
+    "DEEPLINK_FORM": {
+      "csPage": "DEEPLINK_FORM",
+      "heading": "It would be super quick",
+      "tabHeading": "Sell To Lease",
+      "subHeading": "Add below details"
+    }
+  },
+  "dropOffInfo": {
+    "assistanceNumber": "1800 41 99099",
+    "idleTimeSec": 600
+  },
+  "upgradeListingInfo": {
+    "heading": "Upgrade your listing for 1003/- only"
+  }
+}

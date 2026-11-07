@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="47.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/photo_tips" style="@style/bodyExtraBoldLarge" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:layout_marginTop="@dimen/extra_small_even" android:src="@drawable/ic_star_new" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/quality_and_quantity_helps" android:lineSpacingExtra="@dimen/extra_extra_extra_small" android:layout_marginStart="@dimen/small_even" style="@style/secondaryRegularLabel" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:layout_marginTop="@dimen/extra_small_even" android:src="@drawable/ic_landscape_mode" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/capture_photos_text" android:lineSpacingExtra="@dimen/extra_extra_extra_small" android:layout_marginStart="@dimen/small_even" style="@style/secondaryRegularLabel" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:layout_marginTop="@dimen/extra_small_even" android:src="@drawable/ic_sunny_new" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/click_photo_during_day" android:lineSpacingExtra="@dimen/extra_extra_extra_small" android:layout_marginStart="@dimen/small_even" style="@style/secondaryRegularLabel" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:layout_marginTop="@dimen/extra_small_even" android:src="@drawable/ic_include_all" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/take_in_full" android:lineSpacingExtra="@dimen/extra_extra_extra_small" android:layout_marginStart="@dimen/small_even" style="@style/secondaryRegularLabel" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/wrapper_parent" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.customviews.ChipGroupWithHeaderView android:id="@id/chips_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.customviews.CheckBoxGroupWithHeaderView android:id="@id/checkbox_view" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/helperText" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:paddingStart="@dimen/large" app:event_type="CLICK" app:identifier="ABOUT_PROJECT" app:topmost="true" style="@style/hyperlinkSmall" />
+</LinearLayout>

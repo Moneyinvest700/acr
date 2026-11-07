@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/medium" android:paddingRight="@dimen/medium" android:paddingBottom="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/small" android:text="@string/activate_top_dealer" android:fontFamily="@font/open_sans_bold" />
+    <TextView android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/tv_charge_brokerage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/medium" android:text="@string/top_dealer_listing" android:fontFamily="@font/open_sans_bold" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rg_yes_no_top_dealer" android:tag="@string/top_dealer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/extra_small" android:layout_marginRight="@dimen/large" android:layout_below="@id/rl_number_container">
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_yes" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_no" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_extra_large" android:text="@string/no" />
+    </RadioGroup>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_listing_pack" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/tv_top_dealer_subscription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/small" android:text="Choose the Top Dealer subscription pack:" android:fontFamily="@font/open_sans" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/listing_pack_top_dealer_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="10.0dip" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+            <EditText android:id="@id/et_listing_pack" android:tag="@string/top_dealer_pack" android:paddingRight="3.0dip" android:hint="Choose Listing" style="@style/SearchFormDialogueInputCity" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+</LinearLayout>

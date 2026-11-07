@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/imageSection" android:layout_width="120.0dip" android:layout_height="104.0dip" android:layout_marginTop="@dimen/hp_cards_elevation" android:layout_marginBottom="@dimen/hp_cards_elevation" android:foreground="?android:selectableItemBackground" android:layout_marginStart="@dimen/hp_cards_elevation" android:layout_marginEnd="@dimen/small_even" app:cardCornerRadius="@dimen/hp_cards_radius" app:cardElevation="@dimen/hp_cards_elevation" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even">
+        <ImageView android:id="@id/iv_prop_verified" android:layout_width="24.0dip" android:layout_height="24.0dip" android:scaleType="fitCenter" />
+        <TextView android:id="@id/tv_verified_head" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" app:layout_constraintEnd_toEndOf="@id/recent_search_filter_image" app:layout_constraintStart_toStartOf="@id/recent_search_filter_image" app:layout_constraintTop_toBottomOf="@id/recent_search_filter_image" style="@style/AppHeadingStyle" />
+        <TextView android:id="@id/tv_verfied_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/recent_search_filter_image" app:layout_constraintStart_toStartOf="@id/recent_search_filter_image" app:layout_constraintTop_toBottomOf="@id/recent_search_filter_result" style="@style/AppHeading3Style" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

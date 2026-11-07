@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_gravity="center" android:background="@color/white" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:id="@id/suspiciousMessage" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="Your Ad contains some suspicious content. It will not be visible till it has been reviewed by our team. This may take upto 24 hours." android:minLines="4" android:drawableLeft="@drawable/alerts_and_states_error" android:drawablePadding="5.0dip" />
+    <RelativeLayout android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/suspiciousMessage">
+        <TextView android:textSize="20.0sp" android:textColor="@drawable/custom_text_color_black_white" android:gravity="center" android:id="@id/okTextView" android:background="@drawable/text_view_middle_selector_gray_black" android:layout_width="fill_parent" android:layout_height="45.0dip" android:text="Ok" android:layout_centerHorizontal="true" />
+    </RelativeLayout>
+</RelativeLayout>

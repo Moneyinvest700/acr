@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pricerangerr" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/RangeSeekBar_container" android:layout_below="@id/titleresidential" style="@style/refine_res_buy_card_content">
+        <RelativeLayout android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:id="@id/price_min" android:layout_marginLeft="12.0dip" android:text="0" style="@style/PriceRange" />
+            <TextView android:id="@id/price_max" android:layout_marginRight="12.0dip" android:text="50+ Crores" android:layout_alignParentRight="true" style="@style/PriceRange" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/priceRangeSeekBarLayout" style="@style/rangeseekbar_ll_style" />
+    </LinearLayout>
+</RelativeLayout>

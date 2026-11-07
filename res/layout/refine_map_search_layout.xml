@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineView" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/submit_reset_button" android:layout_below="@id/toolbar">
+        <ScrollView android:background="@color/white" android:scrollbars="none" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="46.0dip" android:fillViewport="true" android:layout_weight="0.3">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <LinearLayout android:orientation="horizontal" android:id="@id/PriceAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:layout_marginTop="0.0dip" android:text="Price" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/AvailabilityAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/availabilty_text" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/LocalityAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="Locality" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/BedroomAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/bedroom_text_refine" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/PropertyTypeAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/property_type_text_refine" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/FurnishingAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/furnishing_text" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/SaleTypeAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/sale_type_text" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/PostedByAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/posted_by_text" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@id/MediaAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+                    <ImageView style="@style/RefineAttributDotStyleNew" />
+                    <TextView android:text="@string/media_text" style="@style/RefineAttributeStyleNew" />
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+        <View android:background="@color/material_gray_300" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.002" />
+        <LinearLayout android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="46.0dip" android:layout_weight="0.728">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/LocalityDetail" android:visibility="gone" layout="@layout/refine_locality_layout" />
+                <include android:id="@id/PriceDetail" layout="@layout/refine_price_layout" />
+                <include android:id="@id/BedroomDetail" android:visibility="gone" layout="@layout/refine_bedroom_layout" />
+                <include android:id="@id/PropertyTypeDetail" android:visibility="gone" layout="@layout/refine_property_layout" />
+                <include android:id="@id/FurnishingDetail" android:visibility="gone" layout="@layout/refine_furnishing_layout" />
+                <include android:id="@id/AvailabilityDetail" android:visibility="gone" layout="@layout/refine_availability_layout" />
+                <include android:id="@id/SaleTypeDetail" android:visibility="gone" layout="@layout/refine_saletype_layout" />
+                <include android:id="@id/PostedByDetail" android:visibility="gone" layout="@layout/refine_postedby_layout" />
+                <include android:id="@id/MediaDetail" android:visibility="gone" layout="@layout/refine_media_layout" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/submit_reset_button" />
+</RelativeLayout>

@@ -1,0 +1,344 @@
+[
+  {
+    "locationId": "228_LOCATION",
+    "label": "Andhra Pradesh",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 78.65112,
+      "y": 16.46769
+    }
+  },
+  {
+    "locationId": "317_LOCATION",
+    "label": "Andaman & Nicobar",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 92.5,
+      "y": 10.7449
+
+    }
+  },
+  {
+    "locationId": "229_LOCATION",
+    "label": "Arunachal Pradesh",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 88.38584,
+      "y": 22.69371
+    }
+  },
+  {
+    "locationId": "230_LOCATION",
+    "label": "Assam",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 92.71362,
+      "y": 26.48041
+    }
+  },
+  {
+    "locationId": "231_LOCATION",
+    "label": "Bihar",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 85.5219,
+      "y": 25.19801
+    }
+  },
+  {
+    "locationId": "232_LOCATION",
+    "label": "Chattisgarh",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 82.01294,
+      "y": 22.15688
+    }
+  },
+  {
+    "locationId": "233_LOCATION",
+    "label": "Goa",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 73.87207,
+      "y": 15.34776
+    }
+  },
+  {
+    "locationId": "225_LOCATION",
+    "label": "Gujarat",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 70.89478,
+      "y": 23.09994
+    }
+  },
+  {
+    "locationId": "234_LOCATION",
+    "label": "Haryana",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 76.0856,
+      "y": 29.05878
+    }
+  },
+  {
+    "locationId": "235_LOCATION",
+    "label": "Himachal Pradesh",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 77.03613,
+      "y": 31.93352
+    }
+  },
+  {
+    "locationId": "236_LOCATION",
+    "label": "Jammu & Kashmir",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 74.85703,
+      "y": 32.7266
+    }
+  },
+  {
+    "locationId": "237_LOCATION",
+    "label": "Jharkhand",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 85.27994,
+      "y": 23.61018
+    }
+  },
+  {
+    "locationId": "224_LOCATION",
+    "label": "Karnataka",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 75.79468,
+      "y": 14.78551
+    }
+  },
+  {
+    "locationId": "238_LOCATION",
+    "label": "Kerala",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 76.50879,
+      "y": 9.31899
+    }
+  },
+  {
+    "locationId": "1104473_LOCATION",
+    "label": "Ladakh",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 77.5619,
+      "y": 34.2268
+    }
+  },
+  {
+    "locationId": "239_LOCATION",
+    "label": "Madhya Pradesh",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 77.15698,
+      "y": 23.44309
+    }
+  },
+  {
+    "locationId": "223_LOCATION",
+    "label": "Maharashtra",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 75.60791,
+      "y": 19.47695
+    }
+  },
+  {
+    "locationId": "240_LOCATION",
+    "label": "Manipur",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 93.76831,
+      "y": 24.61706
+    }
+  },
+  {
+    "locationId": "241_LOCATION",
+    "label": "Meghalaya",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 91.0437,
+      "y": 25.6019
+    }
+  },
+  {
+    "locationId": "242_LOCATION",
+    "label": "Mizoram",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 92.83447,
+      "y": 23.42293
+    }
+  },
+  {
+    "locationId": "243_LOCATION",
+    "label": "Nagaland",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 94.56244,
+      "y": 26.15844
+    }
+  },
+  {
+    "locationId": "244_LOCATION",
+    "label": "Orissa",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 84.22119,
+      "y": 20.48877
+    }
+  },
+  {
+    "locationId": "245_LOCATION",
+    "label": "Punjab",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 75.11353,
+      "y": 30.27804
+    }
+  },
+  {
+    "locationId": "246_LOCATION",
+    "label": "Rajasthan",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 73.63037,
+      "y": 26.78485
+    }
+  },
+  {
+    "locationId": "247_LOCATION",
+    "label": "Sikkim",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 88.51222,
+      "y": 27.53297
+    }
+  },
+  {
+    "locationId": "227_LOCATION",
+    "label": "Tamil Nadu",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 78.68408,
+      "y": 11.57691
+    }
+  },
+  {
+    "locationId": "870732_LOCATION",
+    "label": "Telangana",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 79.240416,
+      "y": 17.864173
+    }
+  },
+  {
+    "locationId": "248_LOCATION",
+    "label": "Tripura",
+    "entityType": "STATE",
+    "selectable": true,
+    "highlighted": false,
+    "longLat": {
+      "x": 91.75781,
+      "y": 23.66465
+    }
+  },
+  {
+    "locationId": "249_LOCATION",
+    "label": "Uttar Pradesh",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 79.72778,
+      "y": 27.81964
+    }
+  },
+  {
+    "locationId": "250_LOCATION",
+    "label": "Uttarakhand",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 79.0193,
+      "y": 30.06675
+    }
+  },
+  {
+    "locationId": "226_LOCATION",
+    "label": "West Bengal",
+    "entityType": "STATE",
+    "selectable": false,
+    "highlighted": true,
+    "longLat": {
+      "x": 87.1875,
+      "y": 22.79644
+    }
+  }
+]

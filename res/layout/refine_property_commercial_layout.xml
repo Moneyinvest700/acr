@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/custom_button_com_office" android:text="@string/commercial_office" android:onClick="commercialOfficeButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_land" android:text="@string/commercial_land" android:onClick="commercialLandButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_agriLand" android:text="@string/commercial_agriland" android:onClick="commercialAgrilandButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_factory" android:text="@string/commercial_factory" android:onClick="commercialFactoryButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_indusLand" android:text="@string/commercial_land_plots" android:onClick="commercialInduslandButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_shop" android:text="@string/commercial_shop" android:onClick="commercialShopButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_showroom" android:text="@string/commercial_showrooms" android:onClick="commercialShowroomButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_com_warehouse" android:text="@string/commercial_warehouse" android:onClick="commercialWarehouseButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

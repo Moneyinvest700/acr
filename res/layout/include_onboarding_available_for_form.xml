@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/text_prop_avail_for" style="@style/OnBoardHeadingStyle" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkboxSingleMen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_single_men" style="@style/onboardCheckboxConstructionStatus" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkboxSingleWomen" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_single_women" style="@style/onboardCheckboxConstructionStatus" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkboxFamily" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_family" style="@style/onboardCheckboxConstructionStatus" />
+</LinearLayout>

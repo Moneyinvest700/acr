@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:clipChildren="false" android:clipToPadding="false" android:layout_width="270.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.customviews.CircularCutEdgeCardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_extra_small" app:cardElevation="@dimen/extra_extra_small" app:cutOutEdge="start|end" app:cutOutPosition="0.68" app:cutoutRadius="6.0dip">
+        <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/offer_icon" android:layout_width="28.0dip" android:layout_height="28.0dip" android:layout_marginStart="@dimen/medium" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/offer_heading" />
+            <TextView android:ellipsize="end" android:id="@id/offer_heading" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginStart="@dimen/medium_even" android:layout_marginEnd="@dimen/medium_even" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/offer_icon" app:layout_constraintTop_toTopOf="parent" style="@style/semibold_label" />
+            <TextView android:id="@id/offer_by_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" app:layout_constraintStart_toStartOf="@id/offer_heading" app:layout_constraintTop_toBottomOf="@id/offer_heading" style="@style/captionSubduedSmall" />
+            <ImageView android:id="@id/divider" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_marginTop="83.0dip" android:src="@drawable/shape_dash_line_ng300" android:layerType="software" android:layout_marginStart="@dimen/small_medium_even" android:layout_marginEnd="@dimen/small_medium_even" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/medium_even" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/divider">
+                <TextView android:id="@id/call_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/hyperlinkXSmall" />
+                <TextView android:id="@id/offer_expires_text" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/captionSubduedXtraSmall" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </com.nnacres.app.customviews.CircularCutEdgeCardView>
+</FrameLayout>

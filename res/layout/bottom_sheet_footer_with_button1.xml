@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatButton android:id="@id/buttonDone" android:layout_marginLeft="@dimen/filter_form_section_left_right_margin" android:layout_marginTop="@dimen/medium" android:layout_marginRight="@dimen/filter_form_section_left_right_margin" android:layout_marginBottom="@dimen/medium" android:text="@string/explore_office_space" style="@style/AppActionButtonStyle" />
+</LinearLayout>

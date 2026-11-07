@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation android:id="@id/ppf_navigation"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFEditListingSummaryFragment" android:id="@id/edit_listing_summary" />
+    <action android:id="@id/action_global_edit_close" app:destination="@id/edit_close_dialog" />
+    <action android:id="@id/action_global_photo_review" app:destination="@id/photo_upload" />
+    <dialog android:name="com.nnacres.app.bottomSheet.BasicTextBottomSheet" android:id="@id/edit_close_dialog" />
+    <action android:id="@id/action_global_edit_saved" app:destination="@id/edit_saved_bottom_sheet" />
+    <action android:id="@id/action_global_bos_bottom_sheet" app:destination="@id/bos_bottom_sheet" />
+    <dialog android:name="com.nnacres.app.bottomSheet.BasicTextBottomSheet" android:id="@id/edit_saved_bottom_sheet" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.LocationDenyBottomSheet" android:id="@id/location_deny_bottom_sheet" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.CameraDenyBottomSheet" android:id="@id/camera_deny_bottom_sheet" />
+    <dialog android:name="com.nnacres.app.registerAndLoginBottomSheet.view.SuccessfullyRegisteredBottomSheet" android:id="@id/successfully_registered" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFBasicDetailFragment" android:id="@id/basic_detail">
+        <action android:id="@id/action_basic_detail_to_property_detail" app:destination="@id/property_detail" />
+        <action android:id="@id/action_basic_detail_to_register" app:destination="@id/register" />
+        <action android:id="@id/action_basic_detail_to_login" app:destination="@id/login" />
+        <action android:id="@id/action_basic_detail_to_changeAccount" app:destination="@id/changeAccount" />
+        <action android:id="@id/action_basic_detail_to_otp" app:destination="@id/otp" />
+        <action android:id="@id/action_basic_detail_to_user_class" app:destination="@id/user_class" />
+        <action android:id="@id/action_basic_detail_to_success_register" app:destination="@id/successfully_registered" />
+        <action android:id="@id/action_basic_detail_to_coworking_thankyou" app:destination="@id/thankyou_coworking" />
+        <action android:id="@id/action_basic_detail_to_photo_pricing" app:destination="@id/photo_pricing" />
+        <action android:id="@id/action_basic_detail_to_add_amenities" app:destination="@id/add_amenities_form" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFPropertyDetailFragment" android:id="@id/property_detail">
+        <action android:id="@id/action_property_detail_to_photo_pricing" app:destination="@id/photo_pricing" />
+        <action android:id="@id/action_property_detail_to_furnishing_detail" app:destination="@id/furnishing_detail" />
+        <action android:id="@id/action_property_detail_to_group_addition" app:destination="@id/group_addition" />
+        <action android:id="@id/action_property_detail_self" app:destination="@id/property_detail" />
+        <action android:id="@id/action_property_detail_bos_bottom_sheet" app:destination="@id/bos_bottom_sheet" />
+        <action android:id="@id/action_property_detail_to_area_tips" app:destination="@id/area_tips" />
+        <action android:id="@id/action_property_detail_to_simple_tooltip" app:destination="@id/simple_tooltip" />
+        <action android:id="@id/action_property_detail_to_location_deny_bottomsheet" app:destination="@id/location_deny_bottom_sheet" />
+        <action android:id="@id/action_property_detail_to_add_amenities" app:destination="@id/add_amenities_form" />
+        <action android:id="@id/action_property_detail_to_basic_details" app:destination="@id/basic_detail" />
+    </fragment>
+    <dialog android:name="com.nnacres.app.bottomSheet.BasicTextBottomSheet" android:id="@id/bos_bottom_sheet" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFAddPhotoAndPricingFragment" android:id="@id/photo_pricing">
+        <action android:id="@id/action_photo_pricing_to_thankyou" app:destination="@id/thankyou" />
+        <action android:id="@id/action_photo_pricing_to_add_photo" app:destination="@id/photo_upload" />
+        <action android:id="@id/action_photo_pricing_to_price_estimate" app:destination="@id/price_estimate" />
+        <action android:id="@id/action_photo_pricing_to_add_amenities_form" app:destination="@id/add_amenities_form" />
+        <action android:id="@id/action_photo_pricing_to_pricing_detail" app:destination="@id/pricing_detail" />
+        <action android:id="@id/action_photo_pricing_to_add_rent_services" app:destination="@id/add_services" />
+        <action android:id="@id/action_photo_pricing_to_photo_tips" app:destination="@id/photo_tips" />
+        <action android:id="@id/action_photo_pricing_to_price_tips" app:destination="@id/price_tips" />
+        <action android:id="@id/action_photo_pricing_to_ownership_tips" app:destination="@id/ownership_tips" />
+        <action android:id="@id/action_pricing_detail_to_camera_deny_bottomsheet" app:destination="@id/camera_deny_bottom_sheet" />
+        <action android:id="@id/action_photo_pricing_to_prop_detail" app:destination="@id/property_detail" />
+        <action android:id="@id/action_photo_pricing_to_basic_detail" app:destination="@id/basic_detail" />
+        <action android:id="@id/action_photo_pricing_to_pre_lease_tip" app:destination="@id/pre_lease_tip" />
+        <action android:id="@id/action_photo_pricing_to_annual_return_tip" app:destination="@id/annual_return_tip" />
+        <action android:id="@id/action_photo_pricing_to_pre_lease_detail_tip" app:destination="@id/pre_lease_detail_tip" />
+        <action android:id="@id/action_photo_pricing_to_simple_tooltip" app:destination="@id/simple_tooltip" />
+        <action android:id="@id/action_photo_pricing_to_authority_approved_tip" app:destination="@id/authority_approved_tip" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFAddAmenitiesFormFragment" android:id="@id/add_amenities_form">
+        <action android:id="@id/action_add_amenities_form_to_amenities_detail" app:destination="@id/amenities_detail" />
+        <action android:id="@id/action_add_amenities_form_to_add_photo" app:destination="@id/photo_upload" />
+        <action android:id="@id/action_add_amenities_form_to_photo_tips" app:destination="@id/photo_tips" />
+        <action android:id="@id/action_add_amenities_form_to_broker_registration" app:destination="@id/broker_registration" />
+        <action android:id="@id/action_add_amenities_form_to_select_listing_pack" app:destination="@id/selectListingPack" />
+        <action android:id="@id/action_add_amenities_form_to_zero_free_listing" app:destination="@id/zero_free_listing" />
+        <action android:id="@id/action_add_amenities_form_to_replace_listing" app:destination="@id/replace_listing" />
+        <action android:id="@id/action_add_amenities_form_to_add_top_usp" app:destination="@id/add_top_usp" />
+        <action android:id="@id/action_add_amenities_form_to_prop_details" app:destination="@id/property_detail" />
+        <action android:id="@id/action_add_amenities_form_to_photo_pricing" app:destination="@id/photo_pricing" />
+        <action android:id="@id/action_add_amenities_form_to_basic_detail" app:destination="@id/basic_detail" />
+        <action android:id="@id/action_add_amenity_to_photo_upload" app:destination="@id/photo_upload" />
+    </fragment>
+    <dialog android:name="com.nnacres.app.bottomSheet.BasicTextBottomSheet" android:id="@id/zero_free_listing" />
+    <dialog android:name="com.nnacres.app.bottomSheet.CustomFooterBottomSheetWithHeader" android:id="@id/replace_listing" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFSubscriptionPackListingFragment" android:id="@id/selectListingPack">
+        <action android:id="@id/action_listing_to_selected_pack" app:destination="@id/selectedListingPack" />
+        <argument android:name="resCom" app:argType="string" />
+        <argument android:name="cityId" app:argType="string" />
+        <argument android:name="localityId" app:argType="string" app:nullable="true" />
+        <argument android:name="preference" app:argType="string" />
+        <argument android:name="pageIdentifierModel" app:argType="com.nnacres.app.model.PageIdentifierModel" app:nullable="true" />
+        <argument android:name="subscriptionPackResponse" app:argType="com.nnacres.app.ppf_revamp.model.subscriptionpacks.PPFSubscriptionPackResponse" app:nullable="true" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFSelectedPackFragment" android:id="@id/selectedListingPack" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.RentServicesDetailFragment" android:id="@id/add_services">
+        <argument android:name="rentServicesData" app:argType="com.nnacres.app.ppf_revamp.model.RentServicesFragmentData" />
+    </fragment>
+    <dialog android:name="com.nnacres.app.bottomSheet.CustomFooterBottomSheetWithHeader" android:id="@id/price_estimate" />
+    <dialog android:name="com.nnacres.app.bottomSheet.CustomFooterBottomSheetWithHeader" android:id="@id/group_addition" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFThankYouActivity" android:id="@id/thankyou" />
+    <dialog android:name="com.nnacres.app.registerAndLoginBottomSheet.view.RegisterBottomSheet" android:id="@id/register">
+        <argument android:name="bottomSheetData" app:argType="com.nnacres.app.bottomSheet.BottomSheetUiData$BaseData" />
+        <argument android:name="showFocusOnMobile" android:defaultValue="false" app:argType="boolean" />
+        <argument android:name="containsNavController" android:defaultValue="true" app:argType="boolean" />
+        <argument android:name="btnText" android:defaultValue="Sign-up to Post" app:argType="string" />
+        <argument android:name="keyPageIdentifierModel" android:defaultValue="@null" app:argType="com.nnacres.app.model.PageIdentifierModel" app:nullable="true" />
+    </dialog>
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.ChangeAccountBottomSheet" android:id="@id/changeAccount">
+        <argument android:name="bottomSheetData" app:argType="com.nnacres.app.bottomSheet.BottomSheetUiData$BaseData" />
+        <argument android:name="userName" app:argType="string" />
+    </dialog>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.AmenitiesDetailFragment" android:id="@id/amenities_detail" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PricingDetailFragment" android:id="@id/pricing_detail">
+        <argument android:name="pricingData" app:argType="com.nnacres.app.ppf_revamp.model.PricingDetailFragmentData" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFAddTopUspFragment" android:id="@id/add_top_usp">
+        <argument android:name="uspList" app:argType="com.nnacres.app.ppf_revamp.model.uspdata.UspTuple[]" />
+        <argument android:name="topUspList" app:argType="com.nnacres.app.ppf_revamp.model.PPFRequest$Listing$TopUsp[]" />
+        <argument android:name="isEdit" app:argType="boolean" />
+    </fragment>
+    <dialog android:name="com.nnacres.app.registerAndLoginBottomSheet.view.EmailOrUsernameLoginBottomSheet" android:id="@id/login">
+        <argument android:name="bottomSheetData" app:argType="com.nnacres.app.bottomSheet.BottomSheetUiData$BaseData" />
+        <argument android:name="loginMode" android:defaultValue="0" />
+        <argument android:name="emailOrUsername" app:argType="string" app:nullable="true" />
+        <argument android:name="pageIdentifierModel" app:argType="com.nnacres.app.model.PageIdentifierModel" app:nullable="true" />
+        <argument android:name="containsNavController" android:defaultValue="true" app:argType="boolean" />
+    </dialog>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.FurnishingDetailFragment" android:id="@id/furnishing_detail">
+        <argument android:name="furnish" app:argType="string" />
+        <argument android:name="selectedFurnish" app:argType="com.nnacres.app.ppf_revamp.model.FurnishModel[]" app:nullable="true" />
+        <argument android:name="isCommonAreaFurnishing" app:argType="boolean" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PhotoUploadFragment" android:id="@id/photo_upload">
+        <action android:id="@id/action_photo_upload_to_change_cover_image" app:destination="@id/cover_image" />
+        <action android:id="@id/action_photo_upload_to_open_image" app:destination="@id/open_image" />
+        <action android:id="@id/action_photo_upload_to_replace_bottomsheet" app:destination="@id/replace_bottomsheet" />
+        <argument android:name="images" app:argType="com.nnacres.app.MultiPhotoPicker.model.ImageModel[]" />
+        <argument android:name="isRedirectingToUpload" app:argType="boolean" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.CoverImageFragment" android:id="@id/cover_image">
+        <argument android:name="images" app:argType="com.nnacres.app.MultiPhotoPicker.model.ImageModel[]" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.ImageFragment" android:id="@id/open_image">
+        <action android:id="@id/action_image_fragment_to_replace_bottomsheet" app:destination="@id/replace_bottomsheet" />
+        <argument android:name="position" app:argType="integer" />
+    </fragment>
+    <dialog android:name="com.nnacres.app.fragment.OtpBottomSheetFragment" android:id="@id/otp" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.UserClassBottomSheet" android:id="@id/user_class">
+        <argument android:name="bottomSheetData" app:argType="com.nnacres.app.bottomSheet.BottomSheetUiData$BaseData" />
+        <argument android:name="profileId" app:argType="string" />
+        <argument android:name="checksum" app:argType="string" />
+    </dialog>
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.PhotoTipsBottomSheet" android:id="@id/photo_tips" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.FslReplaceBottomsheet" android:id="@id/replace_bottomsheet">
+        <argument android:name="referrer" app:argType="string" />
+    </dialog>
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.AllInclusivePriceBottomSheet" android:id="@id/price_tips" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.OwnershipBottomSheet" android:id="@id/ownership_tips" />
+    <dialog android:name="com.nnacres.app.pd_revamp.bottomsheet.PDAreaInfoBottomSheet" android:id="@id/area_tips" />
+    <dialog android:name="com.nnacres.app.pd_revamp.bottomsheet.PDSimpleTextTooltip" android:id="@id/simple_tooltip" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.AuthorityApprovedBottomSheet" android:id="@id/authority_approved_tip" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.PreLeasedBottomSheet" android:id="@id/pre_lease_tip" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.PreLeasedDetailBottomSheet" android:id="@id/pre_lease_detail_tip" />
+    <dialog android:name="com.nnacres.app.ppf_revamp.views.helpBottomSheets.AnnualReturnsBottomSheet" android:id="@id/annual_return_tip" />
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFBrokerRegistrationForm" android:id="@id/broker_registration">
+        <action android:id="@id/action_broker_registration_to_thankyou" app:destination="@id/thankyou" />
+        <action android:id="@id/action_broker_registration_to_subscription" app:destination="@id/selectListingPack" />
+        <argument android:name="resCom" app:argType="string" />
+        <argument android:name="cityId" app:argType="string" />
+        <argument android:name="localityId" app:argType="string" />
+        <argument android:name="preference" app:argType="string" />
+    </fragment>
+    <fragment android:name="com.nnacres.app.ppf_revamp.views.PPFCoWorkingFragment" android:id="@id/thankyou_coworking" />
+    <dialog android:name="com.nnacres.app.bottomSheet.BasicTextBottomSheet" android:id="@id/reset_data_bottom_sheet" />
+    <action android:id="@id/action_global_reset_data_bottom_sheet" app:destination="@id/reset_data_bottom_sheet" />
+</navigation>

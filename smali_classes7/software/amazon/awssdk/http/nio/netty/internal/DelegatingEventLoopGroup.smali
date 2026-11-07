@@ -1,0 +1,680 @@
+.class public abstract Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lio/netty/channel/EventLoopGroup;
+
+
+# annotations
+.annotation build Lsoftware/amazon/awssdk/annotations/SdkInternalApi;
+.end annotation
+
+
+# instance fields
+.field private final delegate:Lio/netty/channel/EventLoopGroup;
+
+
+# direct methods
+.method protected constructor <init>(Lio/netty/channel/EventLoopGroup;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+    .locals 1
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2, p3}, Ljava/util/concurrent/ExecutorService;->awaitTermination(JLjava/util/concurrent/TimeUnit;)Z
+
+    move-result p1
+
+    return p1
+.end method
+
+.method public execute(Ljava/lang/Runnable;)V
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/Executor;->execute(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method public getDelegate()Lio/netty/channel/EventLoopGroup;
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    return-object v0
+.end method
+
+.method public invokeAll(Ljava/util/Collection;)Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;)",
+            "Ljava/util/List<",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Ljava/util/List<",
+            "Ljava/util/concurrent/Future<",
+            "TT;>;>;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAll(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/util/List;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;)TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;,
+            Ljava/util/concurrent/ExecutionException;
+        }
+    .end annotation
+
+    .line 1
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/Collection<",
+            "+",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")TT;"
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Throws;
+        value = {
+            Ljava/lang/InterruptedException;,
+            Ljava/util/concurrent/ExecutionException;,
+            Ljava/util/concurrent/TimeoutException;
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Ljava/util/concurrent/ExecutorService;->invokeAny(Ljava/util/Collection;JLjava/util/concurrent/TimeUnit;)Ljava/lang/Object;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public isShutdown()Z
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isShutdown()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isShuttingDown()Z
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/util/concurrent/EventExecutorGroup;->isShuttingDown()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public isTerminated()Z
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Ljava/util/concurrent/ExecutorService;->isTerminated()Z
+
+    move-result v0
+
+    return v0
+.end method
+
+.method public iterator()Ljava/util/Iterator;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/Iterator<",
+            "Lio/netty/util/concurrent/EventExecutor;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/util/concurrent/EventExecutorGroup;->iterator()Ljava/util/Iterator;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public next()Lio/netty/channel/EventLoop;
+    .locals 1
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/channel/EventLoopGroup;->next()Lio/netty/channel/EventLoop;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public bridge synthetic next()Lio/netty/util/concurrent/EventExecutor;
+    .locals 1
+
+    .line 1
+    invoke-virtual {p0}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->next()Lio/netty/channel/EventLoop;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public register(Lio/netty/channel/Channel;)Lio/netty/channel/ChannelFuture;
+    .locals 1
+
+    .line 1
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Lio/netty/channel/EventLoopGroup;->register(Lio/netty/channel/Channel;)Lio/netty/channel/ChannelFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public register(Lio/netty/channel/Channel;Lio/netty/channel/ChannelPromise;)Lio/netty/channel/ChannelFuture;
+    .locals 1
+
+    .line 3
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2}, Lio/netty/channel/EventLoopGroup;->register(Lio/netty/channel/Channel;Lio/netty/channel/ChannelPromise;)Lio/netty/channel/ChannelFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public register(Lio/netty/channel/ChannelPromise;)Lio/netty/channel/ChannelFuture;
+    .locals 1
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Lio/netty/channel/EventLoopGroup;->register(Lio/netty/channel/ChannelPromise;)Lio/netty/channel/ChannelFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Runnable;",
+            "J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Lio/netty/util/concurrent/ScheduledFuture<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 3
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Lio/netty/util/concurrent/EventExecutorGroup;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<V:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Callable<",
+            "TV;>;J",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Lio/netty/util/concurrent/ScheduledFuture<",
+            "TV;>;"
+        }
+    .end annotation
+
+    .line 4
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2, p3, p4}, Lio/netty/util/concurrent/EventExecutorGroup;->schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1, p2, p3, p4}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->schedule(Ljava/lang/Runnable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2, p3, p4}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->schedule(Ljava/util/concurrent/Callable;JLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Runnable;",
+            "JJ",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Lio/netty/util/concurrent/ScheduledFuture<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    move-object v1, p1
+
+    move-wide v2, p2
+
+    move-wide v4, p4
+
+    move-object v6, p6
+
+    invoke-interface/range {v0 .. v6}, Lio/netty/util/concurrent/EventExecutorGroup;->scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 0
+
+    .line 1
+    invoke-virtual/range {p0 .. p6}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->scheduleAtFixedRate(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+    .locals 7
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Runnable;",
+            "JJ",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Lio/netty/util/concurrent/ScheduledFuture<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    move-object v1, p1
+
+    move-wide v2, p2
+
+    move-wide v4, p4
+
+    move-object v6, p6
+
+    invoke-interface/range {v0 .. v6}, Lio/netty/util/concurrent/EventExecutorGroup;->scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Ljava/util/concurrent/ScheduledFuture;
+    .locals 0
+
+    .line 1
+    invoke-virtual/range {p0 .. p6}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->scheduleWithFixedDelay(Ljava/lang/Runnable;JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/ScheduledFuture;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public shutdown()V
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/util/concurrent/EventExecutorGroup;->shutdown()V
+
+    return-void
+.end method
+
+.method public shutdownGracefully()Lio/netty/util/concurrent/Future;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/netty/util/concurrent/Future<",
+            "*>;"
+        }
+    .end annotation
+
+    const-wide/16 v3, 0xf
+
+    .line 1
+    sget-object v5, Ljava/util/concurrent/TimeUnit;->SECONDS:Ljava/util/concurrent/TimeUnit;
+
+    const-wide/16 v1, 0x2
+
+    move-object v0, p0
+
+    invoke-virtual/range {v0 .. v5}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->shutdownGracefully(JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/Future;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public shutdownGracefully(JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/Future;
+    .locals 6
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(JJ",
+            "Ljava/util/concurrent/TimeUnit;",
+            ")",
+            "Lio/netty/util/concurrent/Future<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 2
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    move-wide v1, p1
+
+    move-wide v3, p3
+
+    move-object v5, p5
+
+    invoke-interface/range {v0 .. v5}, Lio/netty/util/concurrent/EventExecutorGroup;->shutdownGracefully(JJLjava/util/concurrent/TimeUnit;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public shutdownNow()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Ljava/lang/Runnable;",
+            ">;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/util/concurrent/EventExecutorGroup;->shutdownNow()Ljava/util/List;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public submit(Ljava/lang/Runnable;)Lio/netty/util/concurrent/Future;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/lang/Runnable;",
+            ")",
+            "Lio/netty/util/concurrent/Future<",
+            "*>;"
+        }
+    .end annotation
+
+    .line 4
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Lio/netty/util/concurrent/EventExecutorGroup;->submit(Ljava/lang/Runnable;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public submit(Ljava/lang/Runnable;Ljava/lang/Object;)Lio/netty/util/concurrent/Future;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/lang/Runnable;",
+            "TT;)",
+            "Lio/netty/util/concurrent/Future<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 5
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1, p2}, Lio/netty/util/concurrent/EventExecutorGroup;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public submit(Ljava/util/concurrent/Callable;)Lio/netty/util/concurrent/Future;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "<T:",
+            "Ljava/lang/Object;",
+            ">(",
+            "Ljava/util/concurrent/Callable<",
+            "TT;>;)",
+            "Lio/netty/util/concurrent/Future<",
+            "TT;>;"
+        }
+    .end annotation
+
+    .line 6
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0, p1}, Lio/netty/util/concurrent/EventExecutorGroup;->submit(Ljava/util/concurrent/Callable;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic submit(Ljava/lang/Runnable;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    .line 1
+    invoke-virtual {p0, p1}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->submit(Ljava/lang/Runnable;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic submit(Ljava/lang/Runnable;Ljava/lang/Object;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    .line 2
+    invoke-virtual {p0, p1, p2}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->submit(Ljava/lang/Runnable;Ljava/lang/Object;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public bridge synthetic submit(Ljava/util/concurrent/Callable;)Ljava/util/concurrent/Future;
+    .locals 0
+
+    .line 3
+    invoke-virtual {p0, p1}, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->submit(Ljava/util/concurrent/Callable;)Lio/netty/util/concurrent/Future;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public terminationFuture()Lio/netty/util/concurrent/Future;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lio/netty/util/concurrent/Future<",
+            "*>;"
+        }
+    .end annotation
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/http/nio/netty/internal/DelegatingEventLoopGroup;->delegate:Lio/netty/channel/EventLoopGroup;
+
+    invoke-interface {v0}, Lio/netty/util/concurrent/EventExecutorGroup;->terminationFuture()Lio/netty/util/concurrent/Future;
+
+    move-result-object v0
+
+    return-object v0
+.end method

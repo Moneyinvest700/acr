@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="5.0dip" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/col1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.4">
+            <TextView android:textSize="10.0dip" android:textColor="@color/hp_regular_content" android:id="@id/label_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="Action" />
+            <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/hp_tuple_main_line" android:id="@id/tv_action" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Credit Update" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/material_blue_500" android:id="@id/tv_productID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="P6328722" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/col2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.4">
+            <TextView android:textSize="10.0dip" android:textColor="@color/hp_regular_content" android:id="@id/label_transactionID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="8.0dip" android:text="Transaction ID" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/material_gray_450" android:id="@id/tv_transactionID" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="2518280" />
+            <TextView android:textSize="13.0dip" android:textColor="@color/material_gray_450" android:id="@id/tv_transactionDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:text="20/10/2107" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" />
+        </LinearLayout>
+        <LinearLayout android:orientation="vertical" android:id="@id/col3" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.2">
+            <TextView android:textSize="10.0dip" android:textColor="@color/hp_regular_content" android:id="@id/label_creditUsed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Credit Used" />
+            <TextView android:textSize="15.0dip" android:textColor="@color/credit_red" android:gravity="center_vertical" android:id="@id/tv_creditUsed" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="-455" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

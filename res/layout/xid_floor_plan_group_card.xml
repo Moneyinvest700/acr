@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/card_floor_plan" android:layout_width="270.0dip" android:layout_height="239.0dip" android:layout_marginTop="@dimen/extra_small" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/small_even" android:elevation="@dimen/extra_small_even" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/m"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/iv_default" android:layout_width="172.0dip" android:layout_height="134.0dip" android:layout_marginTop="@dimen/medium" android:src="@drawable/xid_floor_plan_grouping" />
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" android:layout_marginBottom="@dimen/large_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/extra_large">
+        <TextView android:id="@id/more_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="3 more options" android:layout_weight="2.0" style="@style/bold_list_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/view_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="View All" android:layout_weight="1.0" app:event_type="CLICK" app:identifier="OTHERS" style="@style/hyperlinkSmall" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

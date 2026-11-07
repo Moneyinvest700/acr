@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="@dimen/society_tv_width_hide_checkbox" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xid_heading_margin_top" android:paddingStart="@dimen/pd_card_padding" android:paddingEnd="@dimen/large_medium_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/Ng200" android:layout_width="@dimen/top_dealer_srp_company_logo_height" android:layout_height="@dimen/top_dealer_srp_company_logo_height" android:layout_marginBottom="@dimen/home_search_icon_padding" />
+    <LinearLayout android:orientation="vertical" android:layout_width="240.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/top_dealer_section_spacing">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/searchform_autosuggestor_padding_horizonatal" android:layout_width="fill_parent" android:layout_height="@dimen/top_dealer_srp_company_logo_width">
+            <View android:background="@color/Ng200" android:layout_width="@dimen/height_xid_footer" android:layout_height="@dimen/pd_card_padding" />
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/large_medium_even" android:layout_marginTop="@dimen/hp_cards_elevation">
+                <View android:id="@id/property" android:background="@color/Ng200" android:layout_width="@dimen/prop_recom_tuple_height" android:layout_height="fill_parent" />
+                <View android:background="@color/Ng200" android:layout_width="@dimen/large_medium_even" android:layout_height="@dimen/large_medium_even" android:layout_marginStart="@dimen/seekbar_thumb_width" android:layout_toEndOf="@id/property" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <View android:background="@color/Ng200" android:layout_width="@dimen/prop_recom_tuple_height" android:layout_height="@dimen/top_dealer_section_spacing" android:layout_marginTop="@dimen/hp_cards_elevation" />
+        </LinearLayout>
+        <View android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+    </LinearLayout>
+</LinearLayout>

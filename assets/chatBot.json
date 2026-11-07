@@ -1,0 +1,24 @@
+{
+  "visibility": true,
+  "chatClient": {
+    "baseUrl": "https://chatclient.99acres.com/assistant",
+    "queryParams": {
+      "workflow": "bos"
+    }
+  },
+  "isSellerHP": true,
+  "initialTimerInSec": 1,
+  "assistantLayer": {
+    "text1": "Hi, I’m 99acres Assistant",
+    "text2": "Allow me to help you find your dream home.",
+    "button1": "Let’s Begin",
+    "button2": "No Thanks,later"
+  },
+  "popups": [
+    {
+      "heading": " Hey, Looking to improve responses, Ask us how?",
+      "id": "POPUP_1",
+      "retentionTimerInSec": 5000
+    }
+  ]
+}

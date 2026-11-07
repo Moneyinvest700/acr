@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/buyListingPack" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/small" android:text="@string/buy_listing_pack" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/AppActionButtonStyle" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:textColor="@color/P500" android:id="@id/replaceListing" android:layout_width="fill_parent" android:layout_height="36.0dip" android:layout_marginBottom="@dimen/small" android:text="@string/replace_with_current_listing" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/AppActionButtonBorderlessStyle" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/chipGroupRootView" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ppfFieldHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_ppf_field_heading" />
+    <com.nnacres.app.customviews.ChipGroupView android:id="@id/chipGroupView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:containerEndPadding="0.0dip" app:containerStartPadding="0.0dip" />
+</LinearLayout>

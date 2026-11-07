@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/mapPhotoGalley" android:background="#ffffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="230.0dip" android:scrollingCache="false" android:elevation="7.0dip">
+        <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/progressPhotoGallery" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nnacres.app.ui.GalleryPager android:id="@id/image_pager" android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <View android:background="@drawable/gradient_light_black_to_dark_black" android:layout_width="fill_parent" android:layout_height="70.0dip" android:layout_alignBottom="@id/image_pager" />
+        </RelativeLayout>
+        <ImageView android:id="@id/play_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/play_video_icon_big" android:layout_centerInParent="true" />
+        <View android:id="@id/anchor" android:layout_width="fill_parent" android:layout_height="@dimen/npdetail_parallax_image_height" android:minHeight="@dimen/npdetail_parallax_image_height" />
+    </RelativeLayout>
+    <include android:id="@id/projectInfoContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="190.0dip" layout="@layout/np_project_name_and_location_layout" />
+</RelativeLayout>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.webinar.view.WebinarView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" app:event_type="ALL" app:identifier="WEBINAR_RECOMMENDATION" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

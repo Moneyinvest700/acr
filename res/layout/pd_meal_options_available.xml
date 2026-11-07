@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textColor="@color/Ng800" android:id="@id/meal_options_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/meal_options_available" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.0" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/bold_medium_label" />
+        <HorizontalScrollView android:id="@id/trends_scrollview" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginEnd="@dimen/medium" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/meal_options_title">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/meal_options_tuple_container" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </HorizontalScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/meal_options_bullet_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/meal_options_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even">
+        <TextView android:textColor="@color/Ng500" android:ellipsize="end" android:id="@id/description" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:layout_weight="7.0" android:layout_marginEnd="@dimen/large" style="@style/bodyRegularSmall" />
+        <TextView android:id="@id/right_arrow" android:background="@drawable/grey_arrow" android:layout_width="@dimen/small" android:layout_height="@dimen/small" android:layout_marginTop="@dimen/extra_small" android:layout_marginBottom="@dimen/extra_small" android:layout_weight="1.0" android:layout_marginEnd="@dimen/medium" android:backgroundTint="@color/Ng500" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/furnishing_scroll_view" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <include android:id="@id/toolbar" layout="@layout/toolbar_white" />
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/xxs" layout="@layout/line_divider_layout" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_furnishing_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="@dimen/top_dealer_srp_company_logo_width" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    </ScrollView>
+    <include android:gravity="center" android:layout_gravity="bottom" android:id="@id/detailFooterParent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_marginBottom="@dimen/small" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small" layout="@layout/eoi_detail_page_footer" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout>

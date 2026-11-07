@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@null" android:id="@id/search_menuitem" android:visible="false" android:menuCategory="secondary" android:orderInCategory="1" android:title="Search" app:showAsAction="always" />
+    <item android:icon="@null" android:id="@id/map_menuitem" android:visible="false" android:menuCategory="secondary" android:orderInCategory="2" android:title="Map" app:showAsAction="always" />
+</menu>

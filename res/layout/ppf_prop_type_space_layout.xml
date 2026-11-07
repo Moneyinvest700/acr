@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/app_bottom_sheet_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large">
+        <include android:layout_gravity="center" android:id="@id/bottom_sheet_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/extra_extra_large" layout="@layout/bottom_sheet_bar" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small">
+            <ImageView android:id="@id/prop_type_space_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ppf_prop_type_space_icon" />
+            <TextView android:id="@id/title" android:layout_width="@dimen/xid_brochure_image_height" android:layout_height="wrap_content" android:text="@string/ppf_type_space_bs_title" style="@style/semibold_list_header" />
+        </LinearLayout>
+        <TextView android:textSize="@dimen/txt_small" android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/medium_even" android:text="@string/ppf_type_space_bs_description" android:fontFamily="@font/open_sans_regular" style="@style/semibold_list_header" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_prop_type_space" android:layout_width="fill_parent" android:layout_height="@dimen/parallax_image_height" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_medium" android:layout_marginBottom="@dimen/large">
+            <Button android:id="@id/edit_prop_button" android:background="@drawable/shape_rectangle_corner_radius_4_dark_blue_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/continue_edit_prop" android:textAlignment="center" style="@style/white_bold_text" />
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

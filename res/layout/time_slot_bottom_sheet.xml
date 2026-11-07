@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:theme="@style/MaterialTheme" android:orientation="vertical" android:id="@id/timeSlotBottomSheet" android:background="@drawable/app_bottom_sheet_shape" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/large" android:layout_centerHorizontal="true" layout="@layout/bottom_sheet_bar" />
+    <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/pick_time_slot" android:layout_below="@id/iv_bar" android:fontFamily="@font/open_sans_bold" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="#ff494949" android:id="@id/tvAvailableSlot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_below="@id/heading" />
+    <ScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_below="@id/tvAvailableSlot">
+        <com.nnacres.app.utils.FlowLayout android:id="@id/chipContainerAllTimeSlots" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" app:flowlayout_horizontalPadding="@dimen/small_even" app:flowlayout_verticalPadding="@dimen/large_even" />
+    </ScrollView>
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:id="@id/cardView_creditHistory_timespan" android:layout_width="fill_parent" android:layout_height="wrap_content" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="horizontal" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_startDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_450" android:id="@id/label_startDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/start_date" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/hp_regular_content" android:id="@id/value_startDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/start_date" android:drawableRight="@drawable/ic_calendar_credit" />
+            </LinearLayout>
+            <View android:background="@color/material_gray_300" android:layout_width="1.0dip" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" />
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_endDate" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_450" android:id="@id/label_endDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/end_date" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/hp_regular_content" android:id="@id/value_endDate" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/end_date" android:drawableRight="@drawable/ic_calendar_credit" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView android:id="@id/card_showCreditUasgeHistory" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="16.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <TextView android:textSize="15.0dip" android:textColor="@color/white" android:gravity="center" android:id="@id/btn_showCreditUasgeHistory" android:background="@drawable/btn_bg_blue" android:padding="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/show_history" />
+    </androidx.cardview.widget.CardView>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_creditSummary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/title_creditSummary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginBottom="5.0dip" android:text="@string/credit_usage_summary" />
+        <androidx.cardview.widget.CardView android:id="@id/card_view_balance" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="horizontal" android:paddingLeft="16.0dip" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="13.0dip" android:textColor="@color/material_gray_450" android:gravity="left" android:id="@id/label_balanceCredit" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/balance_credits" android:layout_weight="1.0" android:layout_alignParentRight="true" />
+                <TextView android:textSize="16.0dip" android:textColor="@color/hp_tuple_main_line" android:gravity="right" android:id="@id/value_balanceCredit" android:paddingRight="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="-" android:layout_weight="1.0" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <androidx.cardview.widget.CardView android:id="@id/card_view_summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:layout_below="@id/title_creditSummary" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true"
+          xmlns:android="http://schemas.android.com/apk/res/android" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textSize="10.0dip" android:textColor="@color/hp_regular_content" android:gravity="right" android:id="@id/duration_creditSummary" android:paddingTop="10.0dip" android:paddingRight="16.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="-" android:layout_below="@id/title_creditSummary" android:layout_alignParentRight="true" />
+                <View android:background="@color/material_gray_300" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="0.5dip" />
+                <TableLayout android:orientation="vertical" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <TextView android:id="@id/label_startingCredits" android:text="@string/starting_credits" style="@style/creditSummaryLabel" />
+                        <TextView android:id="@id/label_addedCredits" android:text="@string/added_credits" style="@style/creditSummaryLabel" />
+                        <TextView android:id="@id/label_consumedCredits" android:text="@string/consumed_credits" style="@style/creditSummaryLabel" />
+                    </TableRow>
+                    <TableRow android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="2.0dip">
+                        <TextView android:textColor="@color/hp_regular_content" android:id="@id/value_startingCredits" android:text="-" style="@style/creditSummaryValue" />
+                        <TextView android:textColor="@color/credit_green" android:id="@id/value_addedCredits" android:text="-" style="@style/creditSummaryValue" />
+                        <TextView android:textColor="@color/credit_red" android:id="@id/value_consumedCredits" android:text="-" style="@style/creditSummaryValue" />
+                    </TableRow>
+                </TableLayout>
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+        <TextView android:textSize="13.0dip" android:textStyle="bold" android:textColor="@color/black" android:id="@id/title_transactionHistory" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="5.0dip" android:text="@string/transaction_history" />
+    </LinearLayout>
+</LinearLayout>

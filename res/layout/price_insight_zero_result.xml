@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="22.0sp" android:textStyle="bold" android:textColor="@color/material_gray_600" android:gravity="center" android:layout_gravity="center" android:id="@id/zero_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/no_result_found" android:drawableTop="@drawable/cross" android:drawablePadding="8.0dip" android:layout_above="@id/zero_result_text" />
+    <TextView android:textSize="14.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:layout_gravity="center" android:id="@id/zero_result_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/no_price_insight_data" android:layout_centerInParent="true" />
+</LinearLayout>

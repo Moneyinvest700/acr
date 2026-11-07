@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/webview_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar_white" />
+    <View android:background="@color/Ng300" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout android:id="@id/rl_call_btn" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" app:event_type="ALL" app:topmost="true">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <WebView android:id="@id/webview" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/temp_view" android:layout_below="@id/toolbar" />
+            <com.github.barteksc.pdfviewer.PDFView android:id="@id/pdfview" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/temp_view" android:layout_below="@id/toolbar" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:layout_gravity="bottom|center" android:id="@id/temp_view" android:layout_width="fill_parent" android:layout_height="@dimen/static_map_header_height" android:layout_alignParentBottom="true" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/tv_eoi" android:background="@drawable/shape_primary_active_button" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" android:fontFamily="@font/open_sans_bold" app:event_type="CLICK" app:identifier="INTERESTED" style="@style/whiteLabels" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:layout_gravity="start|bottom|center" android:id="@id/tv_eoi_land" android:background="@drawable/shape_fab_active_button" android:padding="@dimen/medium_even" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" android:drawableStart="@drawable/ic_call" android:fontFamily="@font/open_sans_bold" app:event_type="CLICK" app:identifier="INTERESTED" style="@style/whiteLabels" />
+        <include android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/detailFooterParent" android:padding="@dimen/medium_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/medium" layout="@layout/eoi_detail_page_footer" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNFrameLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

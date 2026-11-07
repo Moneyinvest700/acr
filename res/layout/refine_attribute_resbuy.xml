@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_refineOption" android:background="@color/material_gray_300" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/SortAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgSortAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtSortAttribute" android:text="@string/refine_text_sort_by" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/PriceAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgPriceAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtPriceAttribute" android:text="@string/budget" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/brokerageAttribute" android:visibility="gone" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgBrokerageAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtBrokerageAttribute" android:text="Brokerage" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/AvailabilityAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgAvailabilityAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtAvailabilityAttribute" android:text="@string/availabilty_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/RERARegisteredAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgRERARegisteredAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtRERARegisteredAttribute" android:text="@string/rera_status" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/LocalityAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgLocalityAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtLocalityAttribute" android:text="Locality" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/SocietyAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgSocietyAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtSocietyAttribute" android:text="Society" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/PropertyTypeAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgPropertyTypeAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtPropertyTypeAttribute" android:text="@string/property_type_text_refine" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/BedroomAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgBedroomAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtBedroomAttribute" android:text="@string/bedroom_text_refine" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/AreaAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgAreaAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtAreaAttribute" android:text="@string/area_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/PostedByAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgPostedByAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtPostedByAttribute" android:text="@string/posted_by_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineAttribute_Bathroom" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgBathroom" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtBathroom" android:text="@string/bathroom" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineAttribute_FloorNumber" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgFloorNumber" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtFloorNumber" android:text="@string/floor" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/FurnishingAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgFurnishingAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtFurnishingAttribute" android:text="@string/furnishing_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineAttribute_Amenities" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgAmenities" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtAmenities" android:text="@string/amenities" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineAttribute_ConstructionAge" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgConstructionAge" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtConstructionAge" android:text="@string/construction_age" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/SaleTypeAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgSaleTypeAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtSaleTypeAttribute" android:text="@string/sale_type_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineAttribute_PostedSince" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgPostedSince" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtPostedSince" android:text="@string/posted_since" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/MediaAttribute" style="@style/RefineAttributeParentLayoutStyleNew">
+        <ImageView android:id="@id/imgMediaAttribute" style="@style/RefineAttributDotStyleNew" />
+        <TextView android:id="@id/txtMediaAttribute" android:text="@string/media_text" style="@style/RefineAttributeStyleNew" />
+    </LinearLayout>
+</LinearLayout>

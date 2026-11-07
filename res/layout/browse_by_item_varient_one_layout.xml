@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:layout_width="156.0dip" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_small" app:cardCornerRadius="@dimen/extra_small_even" app:cardElevation="@dimen/extra_small_even" app:event_type="CLICK" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="35.0dip" android:layout_marginBottom="@dimen/medium_even" />
+        <TextView android:ellipsize="end" android:gravity="bottom" android:id="@id/tvHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_even" android:lines="2" style="@style/semibold_list_header" />
+        <TextView android:textSize="@dimen/small" android:id="@id/tvSubHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/text_semi_bold" />
+        <TextView android:textSize="@dimen/txt_small" android:textStyle="bold" android:textColor="@color/P500" android:id="@id/tvCtaAction" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

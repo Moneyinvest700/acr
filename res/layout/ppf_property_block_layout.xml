@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/app_bottom_sheet_shape" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large_medium_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_gravity="center" android:id="@id/bottom_sheet_bar" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/extra_extra_large" layout="@layout/bottom_sheet_bar" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ppf_prop_block_icon" />
+        <TextView android:id="@id/title" android:layout_width="@dimen/xid_brochure_image_height" android:layout_height="wrap_content" android:text="@string/ppf_prop_edit_title" android:layout_marginStart="@dimen/medium_even" style="@style/bold_section_header" />
+    </LinearLayout>
+    <TextView android:textSize="@dimen/txt_small" android:id="@id/tv_description" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/ppf_prop_block_description" style="@style/bodyMedium" />
+    <TextView android:textSize="@dimen/txt_small" android:id="@id/tv_query" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/text_size_medium" android:text="@string/ppf_prop_block_query_text" style="@style/bodyMedium" />
+    <TextView android:textSize="@dimen/txt_small" android:id="@id/button_title" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large_even" android:text="@string/ppf_prop_block_button_title" style="@style/bodySmall" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="@dimen/xxxx_large" android:layout_marginTop="@dimen/extra_extra_large" android:layout_marginBottom="@dimen/large">
+        <TextView android:id="@id/post_prop_button" android:background="@drawable/shape_rectangle_corner_radius_4_dark_blue_bkg" android:paddingTop="@dimen/small" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="Post Property" android:layout_weight="1.0" android:textAlignment="center" style="@style/white_bold_text" />
+        <TextView android:id="@id/no_thanks_button" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="No, thanks" android:layout_weight="1.0" android:textAlignment="center" android:layout_marginStart="@dimen/extra_small_even" style="@style/secondaryDefaultButton" />
+    </LinearLayout>
+</LinearLayout>

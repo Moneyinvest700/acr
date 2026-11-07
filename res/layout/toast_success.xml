@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="20.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/successToastLayout" android:background="@drawable/shape_rectangle_corners_radius_4_ng800_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="12.0dip" android:paddingHorizontal="16.0dip" android:paddingVertical="16.0dip">
+        <ImageView android:id="@id/ic_tick" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/ic_check_circle_prop_alert" android:layout_marginEnd="8.0dip" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/toastMsg" android:text="Property Alerts enabled" android:layout_marginStart="8.0dip" style="@style/toast_success_msg" />
+    </LinearLayout>
+</LinearLayout>

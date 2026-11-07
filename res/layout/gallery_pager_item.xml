@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:gravity="bottom|center" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="ALL" app:identifier="GALLERY" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTouchImageView android:id="@id/imagepageritem" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_centerVertical="true" />
+    <FrameLayout android:orientation="vertical" android:id="@id/play_video_icon_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:layout_gravity="center" android:id="@id/play_video_icon" android:background="@drawable/play_video_icon_big" android:padding="15.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" app:event_type="CLICK" app:identifier="VIDEO" />
+    </FrameLayout>
+    <include android:id="@id/gallery_detail_eoi_card_wrapper" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" layout="@layout/gallery_detail_eoi_card" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

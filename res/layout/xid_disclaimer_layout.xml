@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/lineDivider" android:background="@color/Ng300" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="@dimen/xxs" android:layout_marginEnd="@dimen/large" />
+    <TextView android:id="@id/tv_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/captionSubduedMedium" />
+    <TextView android:id="@id/tv_more" android:paddingRight="40.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hyperlinkSmall" />
+    <TextView android:id="@id/tv_link" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" style="@style/captionSubduedMedium" />
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/xid_copyright_text" style="@style/captionSubduedMedium" />
+    <View android:layout_width="fill_parent" android:layout_height="70.0dip" />
+</LinearLayout>

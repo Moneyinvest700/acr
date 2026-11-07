@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/img_error" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/error_image_top_margin" android:layout_marginBottom="@dimen/extra_extra_large" android:src="@drawable/error_no_internet" />
+    <TextView android:textSize="@dimen/text_size_xx_large" android:textColor="@color/mid_gray" android:gravity="center_horizontal" android:id="@id/tv_error_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_extra_large" android:layout_marginRight="@dimen/extra_extra_large" android:layout_marginBottom="@dimen/extra_extra_large" android:fontFamily="@font/open_sans_bold" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/dark_gray" android:gravity="center_horizontal" android:id="@id/tv_error_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/error_content_horizontal_margin" android:layout_marginRight="@dimen/error_content_horizontal_margin" android:layout_marginBottom="@dimen/extra_extra_large" />
+    <Button android:layout_gravity="center_horizontal" android:id="@id/btn_resolution" android:visibility="gone" android:layout_marginLeft="@dimen/large" android:layout_marginRight="@dimen/large" style="@style/ActionButtonBlue" />
+</LinearLayout>

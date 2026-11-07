@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_furnish" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/m" android:layout_marginBottom="@dimen/m" android:layout_marginEnd="@dimen/small" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tv_furnish_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_toEndOf="@id/iv_furnish" style="@style/captionStrongNormal" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_cb" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/shape_circle_stroke_grey_bg_none" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/list_header" android:layout_alignParentEnd="true" />
+    <com.nnacres.app.customviews.StepperView android:id="@id/step_view" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerVertical="true" />
+</RelativeLayout>

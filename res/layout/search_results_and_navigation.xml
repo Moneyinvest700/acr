@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/rootLayoutSrp" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:id="@id/search_main_layout" android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.appcompat.widget.Toolbar android:gravity="center" android:id="@id/toolbar" android:background="@color/white" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="?android:actionBarSize" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip" app:contentInsetStartWithNavigation="10.0dip" app:layout_scrollFlags="scroll|enterAlways" app:popupTheme="@style/ThemeOverlay.AppCompat.Dark" app:theme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Toolbar.TitleText_Custom_offsite" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            <View android:id="@id/strip" android:background="@color/hp_screen_background" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="#ff666666" android:id="@id/new_notification_criteria_title" android:background="@color/white" android:paddingTop="10.0dip" android:paddingBottom="@dimen/small_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Based on your preferences" android:paddingStart="16.0dip" style="@style/text_semi_bold" />
+            <HorizontalScrollView android:id="@id/hp_pref_strip_hsv" android:background="@color/white" android:paddingTop="@dimen/margin_xsmall" android:paddingBottom="@dimen/small_even" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_root_view" android:paddingRight="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            </HorizontalScrollView>
+            <include android:id="@id/srpQuickFilterLayout" layout="@layout/srp_quick_filter_layout" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/searchResultsList" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <include android:id="@id/zeroResult" android:paddingTop="55.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/zero_results_page" />
+        <include android:id="@id/fab_with_text" layout="@layout/fab_with_text" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/bottom_sheet" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+</FrameLayout>

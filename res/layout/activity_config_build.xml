@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar_config_build" android:background="@color/material_gray_50" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:elevation="2.0dip" app:theme="@style/ThemeOverlay.AppCompat.Light" app:titleTextAppearance="@style/Feedback.Toolbar.TitleText" />
+    <RadioGroup android:orientation="vertical" android:id="@id/rg_build_type" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium" android:layout_marginTop="@dimen/extra_small">
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_dev" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="DEV" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_staging" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="STAGING" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_prod" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROD" />
+    </RadioGroup>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/et_url_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium" android:layout_marginTop="@dimen/small" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/et_url" android:visibility="gone" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/et_clientId_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium" android:layout_marginTop="@dimen/small" android:hint="Client Id" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/et_clientId" android:visibility="gone" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout android:gravity="bottom|center" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+        <TextView android:id="@id/btn_submit" android:text="Done" style="@style/ActionButtonBlue" />
+    </LinearLayout>
+</LinearLayout>

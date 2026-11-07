@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hp_widget">
+        <TextView android:text="@string/trending_projects_string" android:paddingStart="10.0dip" style="@style/XidDetailHeading" />
+        <androidx.recyclerview.widget.RecyclerView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rv_trending_projects" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_marginTop="@dimen/hp_widget_detail_top_margin" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <androidx.viewpager.widget.ViewPager android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/viewTrendingPager" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_marginLeft="@dimen/hp_widget_right_left_margin" android:layout_marginTop="@dimen/hp_widget_detail_top_margin" android:layout_marginRight="@dimen/hp_widget_right_left_margin" />
+    </LinearLayout>
+</FrameLayout>

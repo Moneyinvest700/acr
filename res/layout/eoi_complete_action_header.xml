@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ty_layer_eoi_heading" android:background="#ff989898" android:paddingLeft="15.0dip" android:paddingTop="20.0dip" android:paddingRight="5.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="16.0sp" android:textColor="@color/white" android:layout_gravity="center_vertical" android:id="@id/tvEOICompleteMsg" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/msg_eoi_contact_action_complete" android:layout_weight="8.0" />
+    <ImageView android:layout_gravity="center_vertical" android:id="@id/btnCancelEOIMsg" android:clickable="true" android:layout_width="0.0dip" android:layout_height="wrap_content" android:src="@drawable/navigation_cancel" android:layout_weight="2.0" />
+</LinearLayout>

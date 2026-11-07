@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" app:event_type="ALL" app:identifier="CONSTRUCTION_STATUS" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/construction_status_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/xid_section_header" />
+    <HorizontalScrollView android:id="@id/hv_phase" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/ll_phase_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/medium_even" android:layout_marginStart="@dimen/large" />
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_construction" android:paddingLeft="@dimen/large" android:paddingRight="@dimen/large" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/large" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/xid_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

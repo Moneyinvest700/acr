@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/ll_config" android:paddingTop="@dimen/medium_even" android:paddingBottom="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_small" app:event_type="CLICK" app:identifier="CONFIG_TOGGLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center" android:id="@id/ic_tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_tick" android:layout_marginEnd="@dimen/extra_small_even" />
+    <TextView android:orientation="vertical" android:id="@id/label" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/semibold_label" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

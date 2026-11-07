@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="@dimen/extra_small" />
+    <solid android:color="@color/material_gray_100" />
+    <stroke android:width="1.0dip" android:color="@color/top_dealer_tag_background" />
+    <padding android:left="@dimen/extra_small" android:top="@dimen/extra_small" android:right="@dimen/extra_small" android:bottom="@dimen/extra_small" />
+</shape>

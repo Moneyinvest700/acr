@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/price_trends_key_price_point" android:background="@drawable/shape_grey_bckg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginEnd="@dimen/medium" app:cardCornerRadius="@dimen/s" app:cardElevation="@dimen/s" app:event_type="ALL" app:topmost="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:padding="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/trend_icon" android:layout_width="32.0dip" android:layout_height="32.0dip" />
+        <com.nnacres.app.customviews.AccurateWidthTextView android:textColor="@color/Ng800" android:id="@id/trend_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m" android:maxWidth="232.0dip" android:fontFamily="@font/open_sans_semibold" style="@style/captionStrongMedium" />
+        <com.nnacres.app.customviews.AccurateWidthTextView android:textSize="@dimen/txt_xtra_small" android:textColor="@color/Ng500" android:id="@id/trend_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:maxWidth="232.0dip" android:lines="1" android:fontFamily="@font/open_sans" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/redirection_button" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="View Localities" app:event_type="CLICK" style="@style/primarySmallLabel" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

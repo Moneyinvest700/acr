@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/material_bg_yellow" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+    <TextView android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/notes_title" android:drawableRight="@drawable/ic_edit_grey600" style="@style/XidDetailHeading" />
+    <TextView android:ellipsize="end" android:id="@id/note_textview" android:paddingLeft="20.0dip" android:paddingRight="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="20.0dip" android:maxLines="1" style="@style/DetailContent" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

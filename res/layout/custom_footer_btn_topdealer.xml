@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="CLICK"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:gravity="center" android:layout_gravity="center_horizontal" android:id="@id/buttonDone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_marginBottom="@dimen/small" android:layout_marginStart="@dimen/txt_large" android:layout_marginEnd="@dimen/txt_large" app:event_type="CLICK" style="@style/AppActionButtonStyle">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginBottom="@dimen/medium" android:text="@string/call_dealer" android:drawableLeft="@drawable/ic_call" android:drawablePadding="@dimen/small" style="@style/bold_medium_label" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

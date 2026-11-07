@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large">
+        <include layout="@layout/bottom_sheet_bar" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:text="@string/types_of_ownership" style="@style/bodyExtraBoldLarge" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginBottom="@dimen/extra_small_even" android:text="@string/freehold" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/freehold_text" style="@style/secondaryRegularLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/extra_small_even" android:text="@string/leasehold" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/leasehold_text" style="@style/secondaryRegularLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/extra_small_even" android:text="@string/coopsociety" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/coopsociety_text" style="@style/secondaryRegularLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/extra_small_even" android:text="@string/power_of_attorney" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/power_of_attorney_text" style="@style/secondaryRegularLabel" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

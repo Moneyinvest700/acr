@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:background="@drawable/shape_rectangle_corner_radius_4_blue_bkg" android:padding="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_description" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="30.0">
+            <TextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bold_list_header" />
+            <TextView android:id="@id/summary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/captionStrongMedium" />
+        </LinearLayout>
+        <ImageView android:layout_width="@dimen/min_width_amenity" android:layout_height="fill_parent" android:src="@drawable/ic_notification_icon" android:layout_weight="1.0" android:layout_marginStart="@dimen/extra_large" />
+    </LinearLayout>
+    <TextView android:textColor="@color/P500" android:id="@id/notify_me" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" style="@style/bold_list_header" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

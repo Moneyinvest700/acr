@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:text="@string/text_onboarding_property_looking_for" style="@style/OnBoardHeadingStyle" />
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonApartment" android:layout_width="fill_parent" android:layout_height="wrap_content" android:checked="true" android:text="@string/text_residential_apartment" style="@style/onboardCheckboxConstructionStatus" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonIndependentHouse" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_independent_house_villa" style="@style/onboardCheckboxConstructionStatus" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonResidentialLand" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_residential_land" style="@style/onboardCheckboxConstructionStatus" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonCommercialSpace" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_commercial_space" style="@style/onboardCheckboxConstructionStatus" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:id="@id/radioButtonCommercialLand" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_commercial_land" style="@style/onboardCheckboxConstructionStatus" />
+    </RadioGroup>
+</LinearLayout>

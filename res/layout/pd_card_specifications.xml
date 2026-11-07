@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_pdCard_specifications" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pdCard_specificationsGrid" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pdCard_specificationsSocietyRow" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0">
+        <TextView android:textSize="12.0dip" android:textColor="@color/pd_textcolor_light" android:id="@id/key" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Key" android:layout_alignParentLeft="true" />
+        <TextView android:textSize="14.0dip" android:textColor="@color/pd_textcolor_dark" android:id="@id/value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Value" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_usp_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <View android:background="@color/pd_details_divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+        <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/pd_textcolor_light" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large" android:layout_marginTop="@dimen/small" android:layout_marginRight="@dimen/large" android:text="@string/usp_section_title" />
+        <com.google.android.flexbox.FlexboxLayout android:id="@id/flex_usp_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large" android:layout_marginTop="@dimen/small_even" android:layout_marginRight="@dimen/large" android:layout_marginBottom="@dimen/small" app:flexWrap="wrap" />
+    </LinearLayout>
+</LinearLayout>

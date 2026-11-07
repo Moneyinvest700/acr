@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/extra_extra_extra_extra_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:orientation="vertical" android:id="@id/card" android:layout_width="fill_parent" android:layout_height="208.0dip" android:layout_marginTop="@dimen/xxs" android:layout_marginBottom="@dimen/xxs" android:layout_marginStart="@dimen/xxs" android:layout_marginEnd="@dimen/xxs" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip" app:event_type="ALL" app:topmost="true">
+        <ImageView android:id="@id/image" android:background="@color/Ng300" android:padding="1.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNCardView>
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/shimmerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" android:layout_marginStart="@dimen/large" style="@style/global_shimmer_style" />
+</LinearLayout>

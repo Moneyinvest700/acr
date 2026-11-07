@@ -1,0 +1,40 @@
+.class public final synthetic Lcom/facebook/react/devsupport/k;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/lang/Runnable;
+
+
+# instance fields
+.field public final synthetic a:Z
+
+.field public final synthetic b:Lcom/facebook/react/devsupport/DebugOverlayController;
+
+
+# direct methods
+.method public synthetic constructor <init>(ZLcom/facebook/react/devsupport/DebugOverlayController;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-boolean p1, p0, Lcom/facebook/react/devsupport/k;->a:Z
+
+    iput-object p2, p0, Lcom/facebook/react/devsupport/k;->b:Lcom/facebook/react/devsupport/DebugOverlayController;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final run()V
+    .locals 2
+
+    iget-boolean v0, p0, Lcom/facebook/react/devsupport/k;->a:Z
+
+    iget-object v1, p0, Lcom/facebook/react/devsupport/k;->b:Lcom/facebook/react/devsupport/DebugOverlayController;
+
+    invoke-static {v0, v1}, Lcom/facebook/react/devsupport/DebugOverlayController;->a(ZLcom/facebook/react/devsupport/DebugOverlayController;)V
+
+    return-void
+.end method

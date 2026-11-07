@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/notificationIcon" android:background="?selectableItemBackgroundBorderless" android:layout_width="32.0dip" android:layout_height="32.0dip" app:event_type="CLICK" app:topmost="true"
+      xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <com.airbnb.lottie.LottieAnimationView android:id="@id/lottie_animation" android:padding="2.0dip" android:layout_width="32.0dip" android:layout_height="32.0dip" android:scaleType="centerInside" android:layout_centerInParent="true" app:lottie_autoPlay="false" app:lottie_fileName="data.json" app:lottie_loop="false" />
+        <TextView android:textSize="8.0dip" android:textStyle="bold" android:textColor="@color/white" android:gravity="center" android:id="@id/badge_textView" android:background="@drawable/notification_dot_shape" android:visibility="gone" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="@dimen/extra_small_even" android:maxLines="1" android:layout_alignTop="@id/lottie_animation" android:layout_marginEnd="@dimen/extra_extra_small" android:layout_alignEnd="@id/lottie_animation" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+</FrameLayout>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/rootDownTimeScreen" android:background="#ff3598db" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hook" android:layout_width="wrap_content" android:layout_height="300.0dip" android:layout_marginLeft="15.0dip" android:layout_marginRight="5.0dip" android:src="@drawable/hook" android:layout_alignParentLeft="true" />
+    <LinearLayout android:orientation="vertical" android:id="@id/textLayout" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginRight="12.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true">
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <TextView android:textSize="36.0sp" android:textColor="@android:color/white" android:id="@id/fishingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Gone Fishing" android:layout_toRightOf="@id/hookLayout" android:layout_below="@id/textLayout" android:layout_centerInParent="true" android:layout_toEndOf="@id/hookLayout" />
+        <TextView android:textSize="20.0dip" android:textColor="@android:color/white" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="We'll be back soon." android:layout_toRightOf="@id/textLayout" android:layout_below="@id/rentPrefTV" android:layout_toEndOf="@id/textLayout" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+        <ImageView android:id="@id/logoImage" android:layout_width="150.0dip" android:layout_height="40.0dip" android:src="@drawable/nnacres_site_downlogo" />
+        <TextView android:textSize="14.0dip" android:textColor="@android:color/white" android:id="@id/messageText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/scheduled_maintenance_text" />
+        <View android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0" />
+    </LinearLayout>
+</LinearLayout>

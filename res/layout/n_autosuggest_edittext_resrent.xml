@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/autosuggestParent" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:layout_height="wrap_content" style="@style/suggestor_search_page_res_buy_card_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0sp" android:id="@id/rb_rent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:text="RENT" />
+            <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0sp" android:id="@id/rb_pg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:checked="false" android:text="PG" />
+        </LinearLayout>
+        <RelativeLayout android:id="@id/autosuggestrr" android:background="@drawable/gray_searchbox_boundary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:layout_marginBottom="20.0dip">
+            <ImageView android:id="@id/autosuggestimage" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginLeft="5.0dip" android:src="@null" android:layout_centerVertical="true" />
+            <TextView android:id="@id/selectKeyword" android:layout_toRightOf="@id/autosuggestimage" style="@style/selectkeyword_textview_style" />
+        </RelativeLayout>
+    </LinearLayout>
+</merge>

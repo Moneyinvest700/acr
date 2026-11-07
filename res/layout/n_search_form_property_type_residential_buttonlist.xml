@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/property_res_rr" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/property_type_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROPERTY TYPE" android:layout_weight="1.0" style="@style/search_page_res_buy_card_title_textview" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:layout_gravity="center|right" android:id="@id/property_type_count_value" android:paddingLeft="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:text="0" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:layout_gravity="center|right" android:id="@id/property_type_count_label" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="Selected" />
+    </LinearLayout>
+    <com.nnacres.app.utils.HorizontalScrollViewForMenu android:id="@id/scroller" android:background="@color/white" android:paddingLeft="0.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_below="@id/titleresidential" style="@style/search_page_res_buy_card_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_proptype" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <Button android:id="@id/propertyType_apartment" android:paddingLeft="0.0dip" android:text="@string/residential_apartment" android:drawableTop="@drawable/n_prop_res_apart_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_house_villa" android:text="@string/residential_villa" android:drawableTop="@drawable/n_prop_res_villa_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_land" android:text="@string/residential_land" android:drawableTop="@drawable/n_prop_res_land_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_builder_floor" android:text="@string/residential_builder_floor" android:drawableTop="@drawable/n_prop_res_builderfloor_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_farmhouse" android:text="@string/residential_farmhouse" android:drawableTop="@drawable/n_prop_res_farmhouse_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_service_apartment" android:layout_width="135.0dip" android:text="@string/residential_service_apartment" android:singleLine="true" android:drawableTop="@drawable/n_prop_res_serviceapart_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/propertyType_studio_apartment" android:text="@string/residential_studio_apartment" android:drawableTop="@drawable/n_prop_res_studioapart_selector" style="@style/PropertTypeButton" />
+        </LinearLayout>
+    </com.nnacres.app.utils.HorizontalScrollViewForMenu>
+</RelativeLayout>

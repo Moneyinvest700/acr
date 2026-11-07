@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/user_details_parent" android:background="@color/transparentDarkBlackBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/header" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="@dimen/bwf_header_height">
+        <ImageView android:textColor="@android:color/white" android:id="@id/back" android:background="@drawable/navigation_cancel" android:paddingRight="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/layoutContentView" android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/header">
+        <ScrollView android:id="@id/scrollView1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_margin="10.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/eoiItemContainer" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/eoi_seller_basic_info_container" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="5.0dip">
+                    <ImageView android:id="@id/eoi_seller_image" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                    <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/eoi_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/eoi_seller_image" />
+                    <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/material_gray_800" android:id="@id/eoi_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/eoi_seller_image" android:layout_below="@id/eoi_seller_name" />
+                </RelativeLayout>
+                <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/layerTag" android:padding="2.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Contact Advertisers" />
+            </LinearLayout>
+        </ScrollView>
+        <LinearLayout android:orientation="vertical" android:id="@id/layout_tagsParent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_above="@id/scrollView1" android:layout_alignLeft="@id/scrollView1" />
+    </RelativeLayout>
+</RelativeLayout>

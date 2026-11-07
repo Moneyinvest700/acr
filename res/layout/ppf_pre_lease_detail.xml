@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/monthlyRent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/leaseTenure" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/P500" android:id="@id/addMore" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/txt_large" android:text="@string/add_annual_rent_increament_leased_to" android:drawableLeft="@drawable/ic_plus_blue" android:drawablePadding="@dimen/small_even" android:paddingStart="@dimen/small_even" style="@style/buttonTextSmall" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/rentIncrease" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/leasedTo" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

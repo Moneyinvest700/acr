@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" app:event_type="ALL" app:identifier="BUILDING_AMENITIES" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <include android:id="@id/amenities_header" layout="@layout/pd_section_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_pd_top_amenities_view_all" android:padding="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:maxLines="1" android:layout_alignParentEnd="true" app:event_type="CLICK" app:identifier="VIEW_ALL" style="@style/hyperlinkSmall" />
+    </RelativeLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_pd_top_facility" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:paddingStart="@dimen/large_even" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/pd_amenities_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/cityParentViewGroup" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_onboarding_city_looking_location" style="@style/OnBoardHeadingStyle" />
+    <androidx.appcompat.widget.AppCompatEditText android:gravity="center_vertical" android:id="@id/editTextCity" android:background="@drawable/pressed_effect_onboarding_city" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginLeft="2.0dip" android:layout_marginTop="25.0dip" android:layout_marginRight="2.0dip" android:hint="@string/hint_onboarding_city_enter_city" android:drawableLeft="@drawable/ic_search" android:drawablePadding="5.0dip" android:elevation="3.0dip" style="@style/onBoarding_location_editttext" />
+    <com.nnacres.app.utils.FlowLayout android:id="@id/flowLayoutCityAndLocalities" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" app:flowlayout_horizontalPadding="5.0dip" app:flowlayout_verticalPadding="5.0dip" />
+</LinearLayout>

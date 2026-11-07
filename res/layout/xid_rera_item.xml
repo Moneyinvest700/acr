@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/ll_rera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/tv_rera_phase" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" style="@style/secondarySmallLabel" />
+    <TextView android:id="@id/tv_rera_status" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="3.0" style="@style/completedPlaceholder" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_rera_number_wrapper" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+        <TextView android:ellipsize="end" android:id="@id/tv_rera_number" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/completedPlaceholder" />
+        <TextView android:ellipsize="end" android:id="@id/tv_rera_Qr_Code" android:paddingTop="@dimen/extra_small_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontWeight="400" style="@style/primaryLabelsWithUnderline" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:background="@color/material_gray_200" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ToggleButton android:id="@id/toggleButtonRecommendationExpendCollapse" android:background="@drawable/selector_arrow_up_down" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="25.0dip" android:layout_height="25.0dip" android:layout_marginRight="10.0dip" android:textOn="" android:textOff="" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/toggleButtonRecommendationExpendCollapse" android:layout_centerVertical="true" android:layout_toStartOf="@id/toggleButtonRecommendationExpendCollapse">
+        <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/black" android:ellipsize="end" android:id="@id/textViewRecommendationTag" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_marginBottom="3.0dip" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/open_sans_semibold" />
+        <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/hp_tuple_main_line" android:ellipsize="end" android:id="@id/textViewRecommendationTitle" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:maxLines="1" android:includeFontPadding="false" />
+    </LinearLayout>
+</RelativeLayout>

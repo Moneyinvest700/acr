@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/extra_extra_large_even" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/tvQuestionHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/secondarySmallLabel" />
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/tvSelectionList" android:background="@drawable/shape_rectangle_ng400_corners_radius_2_white_background" android:padding="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="Select from the list" android:maxLines="1" app:drawableEndCompat="@drawable/ic_arrow_down_with_top_padding" style="@style/secondaryLabels" />
+    <TextView android:id="@id/tvQuestionAnswerSectionError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" style="@style/errorAssistive" />
+</LinearLayout>

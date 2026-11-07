@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:layout_behavior="android.support.design.widget.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <ImageView android:id="@id/topImage" android:layout_width="52.0dip" android:layout_height="52.0dip" android:layout_marginBottom="@dimen/m" android:scaleType="center" />
+        <TextView android:id="@id/llheading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m" android:text="Documents you must check" android:layout_marginEnd="@dimen/large" style="@style/bodyExtraBoldLarge" />
+        <TextView android:id="@id/subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:layout_marginBottom="@dimen/extra_extra_large" android:text="Before buying any property" style="@style/captionSubduedMedium" />
+        <LinearLayout android:orientation="vertical" android:id="@id/llContainer" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="@dimen/txt_normal" android:gravity="center" android:id="@id/button" android:padding="@dimen/small_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" app:event_type="CLICK" app:identifier="TEAL_BANNER" app:topmost="true" style="@style/primaryDefaultButton" />
+        <TextView android:id="@id/captionText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/s" android:text="Powered by Terra Economics and Analytics Lab" app:layout_constraintStart_toStartOf="@id/button" app:layout_constraintTop_toBottomOf="@id/button" style="@style/secondaryXtraSmallSemiBoldLabel" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

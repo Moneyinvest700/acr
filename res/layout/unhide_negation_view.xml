@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/txt_xtra_xtra_small" android:paddingEnd="@dimen/extra_small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textColor="@color/subtitle_text_color" android:id="@id/tv_subheader" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even" style="@style/subheader" />
+    <RelativeLayout android:orientation="horizontal" android:id="@id/linear_unhide_properties_tooggle" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/tv_subheader">
+        <androidx.appcompat.widget.SwitchCompat android:id="@id/switchButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/filter_form_section_left_right_margin" android:layout_alignParentEnd="true" app:showText="false" />
+        <TextView android:id="@id/unhideText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/tv_unhide_properties_count" android:layout_centerVertical="true" android:layout_toStartOf="@id/switchButton" style="@style/bold_section_header" />
+    </RelativeLayout>
+    <TextView android:textColor="@color/P500" android:id="@id/tv_select_all" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:text="@string/text_select_all" android:layout_below="@id/linear_unhide_properties_tooggle" style="@style/subheader" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_negation_list" android:paddingBottom="65.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/tv_select_all" />
+</RelativeLayout>

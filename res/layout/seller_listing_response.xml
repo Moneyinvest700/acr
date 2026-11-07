@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xxxx_large" app:event_type="ALL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/homepage_header" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNRecyclerView android:orientation="horizontal" android:id="@id/rv_seller_listing_tuple" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:paddingStart="@dimen/large" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

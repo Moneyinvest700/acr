@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/attached_bath_button" android:text="@string/attached_bathroom" android:onClick="attachedBathroomClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/common_bath_button" android:visibility="gone" android:text="@string/common_bathroom" android:onClick="brokerageClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_400" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

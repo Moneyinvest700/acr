@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <TextView android:textColor="@color/black" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/verify_property_free" style="@style/semibold_list_header" />
+    <TextView android:textColor="@color/Ng500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="@string/get_more_responses" style="@style/normal_text_view" />
+    <TextView android:textColor="@color/Ng400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/buyers_trust_verified" style="@style/normal_text_view_very_small" />
+    <TextView android:textColor="@color/Ng500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="@string/onsite_property_verification" style="@style/normal_text_view" />
+    <TextView android:textColor="@color/Ng400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/our_team_visits" style="@style/normal_text_view_very_small" />
+    <TextView android:textColor="@color/Ng500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="@string/free_video_photo_shoot" style="@style/normal_text_view" />
+    <TextView android:textColor="@color/Ng400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/professional_video_photo_shoot" style="@style/normal_text_view_very_small" />
+    <TextView android:textColor="@color/Ng500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="@string/get_verified_tag" style="@style/normal_text_view" />
+    <TextView android:textColor="@color/Ng400" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/let_your_property_stand_out" style="@style/normal_text_view_very_small" />
+</LinearLayout>

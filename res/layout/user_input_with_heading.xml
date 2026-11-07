@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_rectangle_corners_radius_8_white_bg" android:paddingTop="@dimen/medium" android:paddingBottom="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/anything_else_you_want_to_know" style="@style/secondarySemiBoldLabels" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/usersAnswer" android:background="@null" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:layout_marginBottom="@dimen/margin_xsmall" android:minHeight="50.0dip" android:maxLength="250" style="@style/bodyMedium" />
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:padding="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/manage_listings_bottom_sheet_bar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/selfVerificationPitch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" layout="@layout/self_verification_pitch" />
+</LinearLayout>

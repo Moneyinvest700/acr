@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar_white" />
+    <HorizontalScrollView android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/medium" android:paddingVertical="@dimen/large_even">
+        <LinearLayout android:orientation="horizontal" android:id="@id/rvCommMedium" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvSettings" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</LinearLayout>

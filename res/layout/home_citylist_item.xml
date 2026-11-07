@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tuppleRoot" android:background="@drawable/propertytype_item_bg" android:layout_width="fill_parent" android:layout_height="56.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textColor="@color/material_gray_800" android:id="@id/thumbImage" android:padding="16.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Locality" android:textIsSelectable="false" />
+    <ImageView android:id="@id/tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:src="@drawable/ic_action_accept" android:layout_toRightOf="@id/thumbImage" android:layout_centerVertical="true" />
+</RelativeLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/custom_expended_notification" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/custom_notification_prop_locality" android:id="@id/content_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/open_sans" style="@style/TextAppearance.Compat.Notification.Title" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/custom_notification_prop_locality" android:id="@id/content_sub_title_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:alpha="0.6" android:fontFamily="@font/open_sans_semibold" style="@style/TextAppearance.Compat.Notification.Line2" />
+    <LinearLayout android:orientation="vertical" android:background="@drawable/ic_notification_tuple_bg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:paddingHorizontal="10.0dip" android:paddingVertical="@dimen/l">
+        <LinearLayout android:orientation="horizontal" android:id="@id/notification_big_image" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:id="@id/prop_image" android:layout_width="60.0dip" android:layout_height="60.0dip" android:scaleType="fitXY" />
+            <LinearLayout android:orientation="vertical" android:paddingLeft="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.7">
+                <LinearLayout android:gravity="start|center" android:orientation="horizontal" android:background="@drawable/notification_status_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="4.0dip" android:paddingEnd="16.0dip" android:paddingVertical="4.0dip">
+                    <ImageView android:layout_width="10.0dip" android:layout_height="10.0dip" android:src="@drawable/_99shared_src_assets_imagesrental_payment_failed" />
+                    <TextView android:textSize="11.0sp" android:textStyle="bold" android:textColor="@color/Ng500" android:id="@id/propStatus" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:fontFamily="@font/open_sans" android:layout_marginStart="4.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/Ng600" android:id="@id/number_Bedrooms" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:lines="1" android:fontFamily="@font/open_sans" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/Ng400" android:id="@id/prop_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:singleLine="true" android:fontFamily="@font/open_sans" />
+            </LinearLayout>
+        </LinearLayout>
+        <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/P500" android:gravity="center" android:id="@id/bt_cta_notification" android:background="@drawable/bg_notification_bt" android:padding="12.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:fontFamily="@font/open_sans" />
+    </LinearLayout>
+</LinearLayout>

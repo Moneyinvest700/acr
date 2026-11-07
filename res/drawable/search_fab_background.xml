@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval"
+          xmlns:android="http://schemas.android.com/apk/res/android">
+            <gradient android:startColor="@color/search_icon_gradient_start_color" android:endColor="@color/search_icon_gradient_end_color" android:angle="0.0" android:type="linear" />
+        </shape>
+    </item>
+    <item android:left="@dimen/fab_margin" android:top="@dimen/fab_margin" android:right="@dimen/fab_margin" android:bottom="@dimen/fab_margin">
+        <bitmap android:src="@drawable/search_icon_fab" />
+    </item>
+</layer-list>

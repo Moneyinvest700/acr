@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/uspParent" android:background="@drawable/card_border" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/medium_even" android:backgroundTint="@color/P050" android:layout_marginHorizontal="@dimen/large" />
+    <com.nnacres.app.ui.WrapableGridView android:id="@id/detail_grid" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:listSelector="#00000000" android:numColumns="2" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even" />
+</LinearLayout>

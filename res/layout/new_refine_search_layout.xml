@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/refineRoot" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/refineView" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_above="@id/submit_reset_button" android:layout_below="@id/toolbar">
+        <ScrollView android:id="@id/sv_refineOption" android:background="@color/white" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginBottom="46.0dip" android:fillViewport="true" />
+        <View android:id="@id/blankView" android:background="@color/material_gray_200" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.002" />
+        <FrameLayout android:id="@id/optionDetailLayout" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginBottom="46.0dip" android:layout_weight="1.0">
+            <include android:id="@id/SortDetail" android:visibility="gone" layout="@layout/sort_view_reveal_layout" />
+            <include android:id="@id/PriceDetail" android:visibility="visible" layout="@layout/refine_price_layout" />
+            <include android:id="@id/LocalityDetail" android:visibility="gone" layout="@layout/refine_locality_layout" />
+            <include android:id="@id/SocietyDetail" android:visibility="gone" layout="@layout/refine_society_layout" />
+            <include android:id="@id/AreaDetail" android:visibility="gone" layout="@layout/refine_area_layout" />
+            <include android:id="@id/BrokerageDetail" android:visibility="gone" layout="@layout/refine_brokerage_layout" />
+            <include android:id="@id/SharingDetail" android:visibility="gone" layout="@layout/refine_sharing_layout" />
+            <include android:id="@id/PgServicesDetail" android:visibility="gone" layout="@layout/refine_pg_services_layout" />
+            <include android:id="@id/BedroomDetail" android:visibility="gone" layout="@layout/refine_bedroom_layout" />
+            <include android:id="@id/PropertyTypeDetail" android:visibility="gone" layout="@layout/refine_property_layout" />
+            <include android:id="@id/PropertyTypeCommercialDetail" android:visibility="gone" layout="@layout/refine_property_commercial_layout" />
+            <ViewStub android:id="@id/stub_FurnishingDetailRent" android:layout="@layout/refine_furnishing_attribute_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <ViewStub android:id="@id/stub_FurnishingDetailBuy" android:layout="@layout/refine_furnishing_layout" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+            <include android:id="@id/AvailabilityDetail" android:visibility="gone" layout="@layout/refine_availability_layout" />
+            <include android:id="@id/RERADetail" android:visibility="gone" layout="@layout/refine_rera_layout" />
+            <include android:id="@id/SaleTypeDetail" android:visibility="gone" layout="@layout/refine_saletype_layout" />
+            <include android:id="@id/PostedByDetail" android:visibility="gone" layout="@layout/refine_postedby_layout" />
+            <include android:id="@id/MediaDetail" android:visibility="gone" layout="@layout/refine_media_layout" />
+            <include android:id="@id/PG_tenant" android:visibility="gone" layout="@layout/pg_tenant_filter_layout" />
+            <include android:id="@id/refineDetail_postedSince" android:visibility="gone" layout="@layout/refine_postedsince_layout" />
+            <include android:id="@id/refineDetail_amenities" android:visibility="gone" layout="@layout/refine_amenity_layout" />
+            <include android:id="@id/refineDetail_ConstAge" android:visibility="gone" layout="@layout/refine_constructionage_layout" />
+            <include android:id="@id/refineDetail_AvalFrom" android:visibility="gone" layout="@layout/refine_availablefrom_layout" />
+            <include android:id="@id/refineDetail_Bathroom" android:visibility="gone" layout="@layout/refine_bathroom_layout" />
+            <include android:id="@id/refineDetail_Pg_Bathroom" android:visibility="gone" layout="@layout/refine_pg_bathroom_layout" />
+            <include android:id="@id/refineDetail_total_capacity" android:visibility="gone" layout="@layout/refine_total_capacity_layout" />
+            <include android:id="@id/refineDetail_Floor" android:visibility="gone" layout="@layout/refine_floornumber_layout" />
+        </FrameLayout>
+    </LinearLayout>
+    <include android:id="@id/refineScreenSubitReset" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/submit_reset_button" />
+</RelativeLayout>

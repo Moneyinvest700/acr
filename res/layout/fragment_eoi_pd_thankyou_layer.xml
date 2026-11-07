@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/Ng200" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/top_dealer_cv_photo_height" />
+    <ImageView android:textColor="@android:color/white" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:src="@drawable/ic_arrow_left" android:layout_alignParentStart="true" />
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_below="@id/back">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small">
+                <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:src="@drawable/ic_check_circle_green_vector" android:contentDescription="@string/about_us" android:layout_marginStart="@dimen/hp_cards_radius" />
+                <TextView android:layout_gravity="center_vertical" android:id="@id/tv_thankyou_layer_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/thankyou_layer_msg" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/extra_small" style="@style/bodyNormal" />
+            </LinearLayout>
+            <TextView android:gravity="center" android:id="@id/textMsg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="This owner does not want to share their phone no.​" android:layout_below="@id/linear_msg" />
+            <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/textMsg">
+                <RelativeLayout android:orientation="horizontal" android:id="@id/rl_seller_container" android:background="@drawable/eoi_seller_detil_bkg" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:layout_below="@id/linear_msg" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even">
+                    <com.nnacres.app.ui.CircularImageView android:id="@id/eoi_seller_image" android:layout_width="50.0dip" android:layout_height="50.0dip" android:layout_marginTop="@dimen/large" android:scaleType="fitCenter" android:layout_marginStart="10.0dip" android:layout_alignParentStart="true" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" android:layout_toEndOf="@id/eoi_seller_image">
+                        <TextView android:id="@id/eoi_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/semibold_label" />
+                        <TextView android:id="@id/eoi_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/captionStrongMedium" />
+                    </LinearLayout>
+                    <LinearLayout android:orientation="vertical" android:id="@id/ll_mobile_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/eoi_seller_image" />
+                </RelativeLayout>
+                <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:id="@id/tv_contact_msg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/thank_you_layer_contact_msg" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" style="@style/captionStrongMedium" />
+                    <TextView android:ellipsize="end" android:id="@id/tv_user_info" android:paddingTop="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="280.0dip" android:maxLines="1" android:layout_below="@id/tv_contact_msg" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" android:layout_alignParentStart="true" style="@style/bodyRegularSmall" />
+                    <TextView android:id="@id/tv_edit" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:text="@string/ppf_prop_edit" android:drawablePadding="@dimen/txt_xtra_xtra_small" android:layout_below="@id/tv_contact_msg" android:drawableStart="@drawable/ic_edit" android:paddingEnd="@dimen/small" android:layout_toEndOf="@id/tv_user_info" style="@style/hyperlinkSmall" />
+                    <TextView android:id="@id/tv_similar_prop" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" android:text="@string/titile_text_similar_properties" android:layout_below="@id/rentalAgreement" android:paddingStart="@dimen/large_even" style="@style/bold_section_header" />
+                    <include android:id="@id/rentalAgreement" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_below="@id/tv_user_info" layout="@layout/rental_agreement" />
+                    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_similar_prop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_marginBottom="@dimen/small" android:layout_below="@id/tv_similar_prop" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

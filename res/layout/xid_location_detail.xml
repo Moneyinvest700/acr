@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout android:id="@id/cl_map" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:identifier="LOCATION_DETAIL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location" style="@style/bold_section_header" />
+                <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="#ff0078db" android:gravity="center" android:id="@id/tv_map_icon" android:background="@drawable/new_map_icon" android:paddingTop="@dimen/s" android:paddingBottom="@dimen/s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even" android:layout_marginEnd="@dimen/extra_large_even" android:layout_alignParentEnd="true" app:event_type="CLICK" style="@style/bold_label_header" />
+            </RelativeLayout>
+        </androidx.appcompat.widget.Toolbar>
+        <androidx.fragment.app.FragmentContainerView android:id="@id/google_map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/get_directions" android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginTop="@dimen/large" android:src="@drawable/ic_directions" android:scaleType="centerInside" android:layout_below="@id/toolbar" android:layout_marginEnd="@dimen/large" android:layout_alignParentEnd="true" app:event_type="CLICK" app:identifier="GET_DIRECTIONS" />
+    </RelativeLayout>
+    <FrameLayout android:id="@id/location_fragment_container" android:background="@drawable/shape_location_bottomsheet_bckg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" app:layout_behavior="com.google.android.material.bottomsheet.ViewPagerBottomSheetBehavior" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout>

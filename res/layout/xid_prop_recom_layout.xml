@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hp_widget">
+        <TextView android:id="@id/tv_title" android:text="@string/pref_based_recom_prop_heading" android:paddingStart="10.0dip" style="@style/XidDetailHeading" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_resale_recom" android:scrollbars="none" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/hp_prop_tuple_top_margin" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+        <TextView android:textColor="@color/blue" android:gravity="center" android:id="@id/tv_view_all" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="-10.0dip" android:text="@string/view_all_resale" style="@style/text_semi_bold" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/include_xid_facttable_section" />
+    <include android:id="@id/noteview_layout" android:visibility="gone" layout="@layout/np_noteview_layout" />
+    <include android:id="@id/layoutFloorPlansParent" android:visibility="gone" layout="@layout/np_project_floor_plans_layout" />
+    <include android:id="@id/xid_top_deals_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/hp_top_deals_layout" />
+    <ImageView android:id="@id/bottomPointer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/deal_pointer" android:scaleType="fitXY" />
+    <include android:id="@id/xid_top_deal_offer_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/top_deal_offers_section" />
+    <include android:id="@id/configSlotLayout" android:visibility="gone" layout="@layout/xid_configslot_layout" />
+    <include android:id="@id/amenities_content_parent" android:visibility="gone" layout="@layout/np_project_amenities" />
+    <include android:id="@id/resale_list_container_parent" android:visibility="gone" layout="@layout/xid_prop_recom_layout" />
+    <include android:id="@id/rent_list_container_parent" android:visibility="gone" layout="@layout/xid_prop_recom_layout" />
+    <include android:id="@id/collab_similar_projects_widget" android:visibility="gone" layout="@layout/cf_similar_projects" />
+    <include android:id="@id/np_similar_projects_widget" android:visibility="gone" layout="@layout/similar_projects" />
+    <include android:id="@id/description_widget" android:visibility="gone" layout="@layout/np_project_description_layout" />
+    <include android:id="@id/trending_projects_list_container_parent" android:visibility="gone" layout="@layout/xid_detail_trending_projects" />
+    <include android:id="@id/np_loan_approvals_widget" android:visibility="gone" layout="@layout/np_project_loan_approvals" />
+    <include android:id="@id/properties_in_project_container" android:visibility="gone" layout="@layout/np_project_properties_in_projects" />
+    <include android:id="@id/specification_widget" android:visibility="gone" layout="@layout/np_project_description_layout" />
+    <include android:id="@id/static_map_widget" android:visibility="gone" layout="@layout/static_map_container" />
+    <include android:id="@id/xid_disclaimer_parent" android:visibility="gone" layout="@layout/xid_disclaimer_content" />
+</LinearLayout>

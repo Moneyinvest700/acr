@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" app:event_type="ALL" app:identifier="WHY_YOU_SHOULD_ATTEND" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rounded_rectangle_webinar_gradient_bkg" android:layout_width="fill_parent" android:layout_height="@dimen/xid_usp_background_height">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/medium_even">
+            <ImageView android:id="@id/iv_header_image" android:layout_width="80.0dip" android:layout_height="80.0dip" android:src="@drawable/ic_webinar_usp" />
+            <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" style="@style/bold_section_header" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_item_holder" android:background="@drawable/shape_rectangle_solid_white_corners_radius_stroke_grey" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="70.0dip" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/medium_even" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

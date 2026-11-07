@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <inset android:drawable="@null" android:insetLeft="-5.0dip" android:insetBottom="10.0dip" />
+    </item>
+</selector>

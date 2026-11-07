@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/defaultView" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/ppf_verify_listing_heading" android:drawablePadding="@dimen/extra_small_even" android:drawableEnd="@drawable/ic_rera_verified" style="@style/bodyExtraBoldLarge" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:text="@string/ppf_verify_listing_subheading" style="@style/captionSubduedMedium" />
+        <LinearLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:weightSum="3.0">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_slot_verification" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/txt_small" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/ppf_verify_listing_slot_verification" style="@style/secondaryBadgeLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_even" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_camera" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/txt_small" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/ppf_verify_listing_photo_click" style="@style/secondaryBadgeLarge" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_large_even" android:layout_weight="1.0">
+                <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_property" />
+                <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/txt_small" android:gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/ppf_verify_listing_verify_property" style="@style/secondaryBadgeLarge" />
+            </LinearLayout>
+        </LinearLayout>
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/requestVerification" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="Request Verification" app:event_type="CLICK" app:identifier="BOOK_VERIFICATION" style="@style/inlineFilterButtonStyle" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/onSuccessView" android:background="@drawable/shape_success_subtle" android:padding="@dimen/large" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/img" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_check_green" />
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_medium_even" android:layout_marginBottom="@dimen/extra_small" android:text="@string/ppf_success_verification_heading" android:layout_toRightOf="@id/img" style="@style/bodyNormal" />
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large_medium_even" android:text="@string/ppf_success_verification_subheading" android:layout_toRightOf="@id/img" android:layout_below="@id/heading" style="@style/captionStrongNormal" />
+    </RelativeLayout>
+</LinearLayout>

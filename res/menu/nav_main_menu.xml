@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="none">
+        <item android:icon="@null" android:id="@id/res_sell_rent" android:title="@string/residential_sellrent_property_text" android:checkable="false" />
+        <item android:icon="@null" android:id="@id/com_sell_rent" android:title="@string/commercial_sellrent_property_text" />
+        <item android:icon="@drawable/whatsapp_icon" android:id="@id/action_whats_app" android:title="@string/post_via_whatsapp" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@null" android:id="@id/hambuger_tv_Home" android:title="@string/nav_hamburger_home" android:checkable="true" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_Shortlits" android:title="@string/shortlistheader" android:checkable="true" />
+        <item android:icon="@null" android:id="@id/hambuger_activity_log" android:title="@string/activity_log_hamburger_text" android:checkable="true" />
+        <item android:icon="@drawable/manageboss14" android:id="@id/hamburger_tv_manage_boss" android:visible="false" android:title="@string/manage_boss" />
+        <item android:icon="@null" android:id="@id/hambuger_preferences" android:title="@string/text_nav_drawer_preferences" android:checkable="false" />
+    </group>
+    <group android:id="@id/hambuger_search" android:checkableBehavior="none">
+        <item android:icon="@null" android:id="@id/hambuger_tv_ResidentialSearch" android:title="@string/res_search" />
+        <item android:icon="@drawable/nav_ic_landmark_search" android:id="@id/hambuger_tv_LandmarkSearch" android:visible="false" android:title="@string/land_search" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_CommercialSearch" android:title="@string/com_search" />
+    </group>
+    <group android:id="@id/ham_sel_rent" android:checkableBehavior="none">
+        <item android:icon="@null" android:id="@id/hamburger_tv_buyOurServices" android:title="@string/buy_our_service_string" />
+        <item android:icon="@drawable/post" android:id="@id/hamburger_tv_boss_plans" android:visible="false" android:title="@string/boss_plans_string" />
+        <item android:icon="@drawable/ic_commercial_xpert" android:id="@id/hamburger_tv_commercial_xpert" android:title="@string/commercial_xpert" />
+        <item android:icon="@drawable/ic_fd_hamburger_item" android:id="@id/hamburger_tv_featuredDealer" android:title="@string/featured_dealer_menu_item" />
+        <item android:icon="@drawable/rentalexpert" android:id="@id/hamburger_tv_society_expert" android:visible="false" android:title="@string/society_expert" />
+        <item android:icon="@null" android:id="@id/reviewForm" android:title="@string/review_a_society_or_locality" />
+        <item android:icon="@drawable/rent_payment" android:id="@id/hamburger_tv_rental_payment" android:visible="false" android:title="@string/rental_payment" />
+        <item android:icon="@drawable/vpn_key_24px" android:id="@id/hamburger_tv_rental_services" android:title="@string/rental_services" />
+        <item android:icon="@null" android:id="@id/hambuger_home_loan" android:title="@string/hamburger_home_loan" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_ManageListing" android:title="@string/manage_listings" />
+        <item android:icon="@drawable/ic_self_verified" android:id="@id/hamburger_selfverification" android:title="@string/self_verify_your_property" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_ViewResponses" android:title="@string/view_responses_header" android:checkable="true" />
+        <item android:icon="@null" android:id="@id/hamburger_tv_manage_payment" android:title="@string/manage_payment" />
+        <item android:icon="@null" android:id="@id/hamburger_tv_creditUsageHistory" android:title="@string/credit_usage_history" />
+    </group>
+    <group android:id="@id/rlp_touchpoints" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_icon_hamburger_insights" android:id="@id/hambuger_tv_insights" android:title="@string/insights_text" android:checkable="true" />
+        <item android:icon="@drawable/ic_trending_up" android:id="@id/hambuger_tv_price_trends" android:title="@string/price_trends" />
+        <item android:icon="@drawable/ic_forum" android:id="@id/hambuger_tv_ratings_reviews" android:title="@string/hm_ratings_and_reviews" />
+        <item android:icon="@drawable/ic_location_on_rlp" android:id="@id/hambuger_tv_locality_insights" android:title="@string/locality_insights" />
+        <item android:icon="@drawable/ic_receipt_long" android:id="@id/hambuger_tv_registry_records" android:title="@string/registry_records" />
+    </group>
+    <group android:id="@id/article_touchpoints" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_post" android:id="@id/hambuger_tv_real_estate" android:title="@string/real_estate_articles" />
+        <item android:icon="@drawable/ic_newspaper_variant" android:id="@id/hambuger_tv_latest_news" android:title="@string/latest_news" />
+        <item android:icon="@drawable/ic_import_contacts" android:id="@id/hambuger_tv_user_guides" android:title="@string/user_guides" />
+        <item android:icon="@drawable/ic_content_paste" android:id="@id/hambuger_tv_policies" android:title="@string/policies_gst_rera_pmay_budget" />
+    </group>
+    <group android:checkableBehavior="single">
+        <item android:icon="@drawable/ic_home_24px" android:id="@id/hambuger_tv_all_india" android:title="All India " android:checkable="true" />
+        <item android:icon="@drawable/ic_24px_nri_icon" android:id="@id/hambuger_tv_nri" android:title="NRI Home" android:checkable="true" />
+    </group>
+    <group android:id="@id/ham_about_feedback" android:checkableBehavior="none">
+        <item android:icon="@null" android:id="@id/hambuger_view_profile" android:title="@string/nav_hamburger_view_profile" android:checkable="true" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_customerService" android:title="@string/text_customer_service" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_notification_settings" android:title="@string/profile_communication_settings_string" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_AboutUs" android:title="@string/about_us" />
+        <item android:icon="@drawable/ic_privacypolicy" android:id="@id/hambuger_tv_PrivacyPolicy" android:title="@string/privacy_policy" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_Feedback" android:title="@string/feedback" />
+        <item android:icon="@null" android:id="@id/hambuger_tv_config_build" android:title="@string/config_build" />
+        <item android:icon="@drawable/star_dark" android:id="@id/hambuger_tv_rate_us" android:title="@string/rate_us" />
+    </group>
+</menu>

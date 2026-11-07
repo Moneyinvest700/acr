@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutRootView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+    <ScrollView android:orientation="vertical" android:id="@id/scrollContactUS" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_weight="1.0" android:layout_above="@id/send_request_Button" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:id="@id/scrollChildContactUS" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.cardview.widget.CardView android:gravity="center_vertical" android:id="@id/call_tollfree_Button" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginLeft="1.0dip" android:layout_marginTop="15.0dip" android:layout_marginRight="1.0dip" android:foreground="@drawable/transparent_cardview_selector">
+                <TextView android:textSize="10.0sp" android:textColor="#ff999999" android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:text="Toll Free" android:drawableTop="@null" android:letterSpacing="0.04" />
+                <ImageView android:layout_gravity="center" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@null" />
+                <TextView android:textSize="18.0sp" android:textStyle="bold" android:textColor="#ff333333" android:layout_gravity="center|right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="22.0dip" android:text="1800 41 99099" android:letterSpacing="0.04" />
+            </androidx.cardview.widget.CardView>
+            <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="1.0dip" android:layout_marginTop="7.0dip">
+                <TextView android:textSize="10.0sp" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/labelTime2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/contactus_time_note2" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/heading1" android:paddingLeft="2.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/contactus_note1" />
+            <Spinner android:textSize="10.0dip" android:id="@id/spinner_List" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="20.0dip" style="@style/Base.Widget.AppCompat.Spinner.Underlined" />
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/query_Edit" android:hint="@string/contactus_query" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/email_Edit" android:hint="@string/contactus_email" android:maxLines="1" android:inputType="textEmailAddress" android:imeOptions="actionNext" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/name_Edit" android:hint="@string/contactus_name" android:singleLine="true" android:maxLength="26" android:imeOptions="actionNext" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <RelativeLayout android:id="@id/mobile_strip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip">
+                <EditText android:id="@id/eoi_countryCode" android:layout_width="wrap_content" android:layout_marginTop="10.0dip" android:text="+91" android:singleLine="true" android:drawableRight="@null" android:drawablePadding="2.0dip" android:layout_alignParentLeft="true" android:nextFocusForward="@id/eoi_UserNumber" style="@style/SearchFormDialogueInputCity" />
+                <com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/eoi_countryCode" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                    <EditText android:id="@id/mobile_Edit" android:visibility="visible" android:hint="@string/contactus_mobile" android:singleLine="true" android:maxLength="14" android:inputType="number" android:imeOptions="actionNext" style="@style/MaterialEditTextStyle" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button android:gravity="center" android:id="@id/send_request_Button" android:layout_marginTop="3.0dip" android:text="Send" android:layout_alignParentBottom="true" style="@style/ActionButtonBlue" />
+</RelativeLayout>

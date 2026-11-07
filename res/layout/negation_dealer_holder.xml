@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:paddingTop="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatCheckBox android:id="@id/cb_negation_list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="false" android:layout_centerVertical="true" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_dealer_image" android:background="@drawable/negation_tuple_bkg" android:padding="@dimen/extra_extra_extra_small" android:layout_width="48.0dip" android:layout_height="48.0dip" android:scaleType="centerCrop" android:layout_marginStart="@dimen/extra_extra_small" android:layout_toEndOf="@id/cb_negation_list" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true" android:layout_marginStart="@dimen/medium_even" android:layout_marginEnd="@dimen/extra_extra_small" android:layout_toEndOf="@id/iv_dealer_image">
+        <TextView android:id="@id/tv_fd_dealer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_label_header" />
+        <TextView android:id="@id/tv_company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" style="@style/label" />
+    </LinearLayout>
+</RelativeLayout>

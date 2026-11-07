@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="end|bottom|center" android:orientation="horizontal" android:id="@id/fab_with_text" android:background="@drawable/one_side_rounded_corner" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:paddingEnd="10.0dip" android:elevation="2.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/fab_filter" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_fab_filter" app:backgroundTint="@color/bg_buy_our_service_color" app:borderWidth="0.0dip" app:elevation="0.0dip" app:fabSize="normal" app:pressedTranslationZ="0.0dip" app:rippleColor="@color/bg_buy_our_service_color" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/white" android:id="@id/sf_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/sort_filter_text" android:layout_marginEnd="1.0dip" />
+</LinearLayout>

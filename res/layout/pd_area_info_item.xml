@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container_item_area_help" android:paddingLeft="@dimen/tool_tip_padding" android:paddingTop="@dimen/large" android:paddingRight="@dimen/tool_tip_padding" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/txt_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/hint_super_built_up_area" style="@style/bodyExtraBoldLarge" />
+    <TextView android:id="@id/txt_content" android:layout_width="wrap_content" android:layout_height="65.0dip" android:layout_marginTop="@dimen/large_even" android:text="@string/label_super_built_up_area_help" android:lineSpacingExtra="@dimen/extra_extra_extra_small" style="@style/secondarySmallLabel" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even">
+        <TextView android:layout_gravity="center" android:id="@id/prevPage" android:background="@drawable/ic_baseline_keyboard_arrow_left_24" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <ImageView android:id="@id/imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:src="@drawable/ic_build_up_area" android:scaleType="centerInside" />
+        <TextView android:layout_gravity="center" android:id="@id/nextPage" android:background="@drawable/ic_arrow_right" android:layout_width="wrap_content" android:layout_height="wrap_content" android:backgroundTint="@color/app_rb_deselect_color" />
+    </LinearLayout>
+</LinearLayout>

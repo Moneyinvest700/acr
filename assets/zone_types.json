@@ -1,0 +1,62 @@
+[
+  {
+    "value": 1,
+    "label": "Industrial",
+    "constant": "INDUSTRIAL"
+  },
+  {
+    "value": 2,
+    "label": "Commercial",
+    "constant": "COMMERCIAL"
+  },
+  {
+    "value": 3,
+    "label": "Residential",
+    "constant": "RESIDENTIAL"
+  },
+  {
+    "value": 4,
+    "label": "Transport and Communication",
+    "constant": "TRANSPORT_AND_COMMUNICATION"
+  },
+  {
+    "value": 5,
+    "label": "Public Utilities",
+    "constant": "PUBLIC_UTILITIES"
+  },
+  {
+    "value": 6,
+    "label": "Public and Semi Public Use",
+    "constant": "PUBLIC_AND_SEMI_PUBLIC_USE"
+  },
+  {
+    "value": 7,
+    "label": "Open Spaces",
+    "constant": "OPEN_SPACES"
+  },
+  {
+    "value": 8,
+    "label": "Agricultural Zone",
+    "constant": "AGRICULTURAL_ZONE"
+  },
+  {
+    "value": 9,
+    "label": "Special Economic Zone",
+    "constant": "SPECIAL_ECONOMIC_ZONE"
+  },
+  {
+    "value": 10,
+    "label": "Natural Conservation Zone",
+    "constant": "NATURAL_CONSERVATION_ZONE"
+  },
+  {
+    "value": 11,
+    "label": "Government Use",
+    "constant": "GOVERNMENT_USE"
+  },
+  {
+    "value": 12,
+    "label": "Other",
+    "constant": "OTHER"
+  }
+]

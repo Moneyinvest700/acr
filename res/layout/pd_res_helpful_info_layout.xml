@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/report_listing" android:background="@drawable/shape_rectangle_corner_radius_8_stroke_1_ng300_bkg_white" android:paddingTop="@dimen/large" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="RI_LAYER" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/title" android:layout_width="@dimen/pd_area_info_image_size" android:layout_height="wrap_content" style="@style/bodyNormal" />
+        <ImageView android:layout_gravity="end" android:id="@id/icon" android:layout_width="@dimen/action_bar_height" android:layout_height="@dimen/action_bar_height" android:src="@drawable/ic_report_listing" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_button_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/medium_even">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/yes_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_bold" android:layout_marginEnd="@dimen/extra_large_even" app:event_type="CLICK" app:identifier="YES" style="@style/primaryRegularLabel" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/no_btn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_bold" app:event_type="CLICK" app:identifier="NO" style="@style/primaryRegularLabel" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

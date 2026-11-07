@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="GUIDE_TO_WEBINAR" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:ellipsize="end" android:id="@id/tv_guide_title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/bold_title" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layout_constraintStart_toStartOf="@id/tv_title" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/captionSubduedMedium" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+        <ImageView android:id="@id/iv_logo1" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_small" android:layout_width="45.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" />
+        <TextView android:id="@id/tv_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_toRightOf="@id/iv_logo1" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:id="@id/tv_subtitle1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/xs" android:layout_toRightOf="@id/iv_logo1" android:layout_below="@id/tv_title1" style="@style/captionSubduedSmall" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+        <ImageView android:id="@id/iv_logo2" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_small" android:layout_width="45.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" />
+        <TextView android:id="@id/tv_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_toRightOf="@id/iv_logo2" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:id="@id/tv_subtitle2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/xs" android:layout_toRightOf="@id/iv_logo2" android:layout_below="@id/tv_title2" style="@style/captionSubduedSmall" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+        <ImageView android:id="@id/iv_logo3" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_small" android:layout_width="45.0dip" android:layout_height="40.0dip" android:scaleType="fitXY" />
+        <TextView android:id="@id/tv_title3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_toRightOf="@id/iv_logo3" style="@style/secondaryNormalSemiBoldLabel" />
+        <TextView android:id="@id/tv_subtitle3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/xs" android:layout_toRightOf="@id/iv_logo3" android:layout_below="@id/tv_title3" style="@style/captionSubduedSmall" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="*For Help call us at " style="@style/secondarySmallLabel" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_help" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/hyperlinkSmall" />
+    </LinearLayout>
+</LinearLayout>

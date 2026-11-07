@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="ALL" app:identifier="PRICE_INSIGHT.PRICE_TREND.COMPARE_LOCALITIES" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/bottom_sheet_header" />
+    <TextView android:id="@id/sub_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/header" style="@style/bottom_sheet_subHeader" />
+    <androidx.appcompat.widget.AppCompatEditText android:id="@id/search_bar" android:background="@color/Ng300" android:padding="@dimen/medium" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_marginTop="@dimen/medium" android:hint="@string/rei_filter_localities_text" android:layout_below="@id/sub_header" android:layout_marginHorizontal="@dimen/medium" style="@style/secondaryRegularLabel" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/search_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_alignTop="@id/search_bar" android:layout_alignBottom="@id/search_bar" android:layout_marginStart="-55.0dip" android:layout_toEndOf="@id/search_bar" />
+    <HorizontalScrollView android:id="@id/sticky_header" android:background="@color/Ng100" android:paddingTop="@dimen/medium" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/search_bar" android:elevation="2.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/header_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="10.0dip">
+            <include layout="@layout/xid_sticky_header_item" />
+            <include layout="@layout/xid_sticky_header_item" />
+            <include layout="@layout/xid_sticky_header_item" />
+        </LinearLayout>
+    </HorizontalScrollView>
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/chooserRecycler" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_below="@id/sticky_header" />
+    <TextView android:gravity="center" android:id="@id/tvZrp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="150.0dip" android:text="@string/rei_search_filter_zrp" android:layout_below="@id/search_bar" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

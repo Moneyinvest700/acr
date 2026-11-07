@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="TrackingAttr">
+        <attr name="identifier" format="enum">
+            <enum name="INVALID" value="-1" />
+            <enum name="TOP_GALLERY" value="0" />
+            <enum name="PHOTO" value="1" />
+            <enum name="COUNT" value="2" />
+            <enum name="GALLERY_LIST_VIEW" value="3" />
+            <enum name="VIDEO" value="4" />
+            <enum name="GALLERY" value="5" />
+            <enum name="INTERESTED" value="6" />
+            <enum name="INPAGE_GALLERY" value="7" />
+            <enum name="TUPLE" value="8" />
+            <enum name="SELLER_LIST" value="9" />
+            <enum name="CALL" value="10" />
+            <enum name="VIEW_ALL" value="11" />
+            <enum name="CONFIG_TOGGLE" value="12" />
+            <enum name="SELLER_LIST_DETAIL" value="13" />
+            <enum name="FACILITIES" value="14" />
+            <enum name="VIEW_PHOTOS" value="15" />
+            <enum name="PROJ_DESC" value="16" />
+            <enum name="VIEW_MORE" value="17" />
+            <enum name="SPECIFICATIONS" value="18" />
+            <enum name="SUMMARY_TABLE" value="19" />
+            <enum name="REQUEST_CALLBACK" value="20" />
+            <enum name="FLOOR_PLAN_DETAIL" value="21" />
+            <enum name="FLOOR_PLAN" value="22" />
+            <enum name="RESALE_PROPERTIES" value="23" />
+            <enum name="RENTAL_PROPERTIES" value="24" />
+            <enum name="UNIT_DETAIL" value="25" />
+            <enum name="AREA_UNIT_TOGGLE" value="26" />
+            <enum name="USP" value="27" />
+            <enum name="FACILITIES_DETAIL" value="28" />
+            <enum name="PROJ_DESC_DETAIL" value="29" />
+            <enum name="BROCHURE" value="30" />
+            <enum name="INFO_ICON" value="31" />
+            <enum name="DOWNLOAD" value="32" />
+            <enum name="BROCHURE_DETAIL" value="33" />
+            <enum name="LOCATION" value="34" />
+            <enum name="VIEW_MAP" value="35" />
+            <enum name="VIEW_LANDMARKS" value="36" />
+            <enum name="LOCATION_DETAIL" value="37" />
+            <enum name="NEARBY_PROJECTS" value="38" />
+            <enum name="LANDMARKS" value="39" />
+            <enum name="LANMARKS_TUPLE" value="40" />
+            <enum name="PROJECT_TUPLE" value="41" />
+            <enum name="PROJECT_CALL" value="42" />
+            <enum name="GET_DIRECTIONS" value="43" />
+            <enum name="VIEW_DISTANCES_TIME" value="44" />
+            <enum name="VIEW_MORE_LANDMARKS" value="45" />
+            <enum name="CONSTRUCTION_STATUS" value="46" />
+            <enum name="ABOUT_BUILDER" value="47" />
+            <enum name="ABOUT_BUILDER_DETAIL" value="48" />
+            <enum name="CONTACT_BUILDER" value="49" />
+            <enum name="PROJECTS_BY_BUILDER" value="50" />
+            <enum name="BANKS" value="51" />
+            <enum name="HOME_LOANS_SECTION" value="52" />
+            <enum name="FAQ" value="53" />
+            <enum name="TRENDPROJ" value="54" />
+            <enum name="VSPROJ" value="55" />
+            <enum name="COLLABPROJ" value="56" />
+            <enum name="SHORTLIST" value="57" />
+            <enum name="GALLERY_GRID_BUTTON" value="58" />
+            <enum name="GALLERY_LIST_BUTTON" value="59" />
+            <enum name="SHARE" value="60" />
+            <enum name="OTHERS" value="61" />
+            <enum name="VIEW_PRICE_BREAKUP" value="62" />
+            <enum name="VIEW_SELLERS" value="63" />
+            <enum name="FILTER_SEARCH_NUDGE" value="64" />
+            <enum name="NEGATE_ELLIPSIS" value="65" />
+            <enum name="MORE_FILTER" value="66" />
+            <enum name="SEARCH" value="67" />
+            <enum name="STICKY_BUTTON.BOOK_FREE_SLOT" value="107" />
+            <enum name="WEBINAR_AND_PROJECT_HIGHLIGHT" value="108" />
+            <enum name="PANELISTS" value="112" />
+            <enum name="ABOUT_PROJECT" value="116" />
+            <enum name="WHY_YOU_SHOULD_ATTEND" value="119" />
+            <enum name="GUIDE_TO_WEBINAR" value="120" />
+            <enum name="WEBINAR_RECOMMENDATION" value="124" />
+            <enum name="STICKY.REGISTER_NOW" value="125" />
+            <enum name="REVIEW_PAYTM_BANNER.HP_PAYTM_CASHBACK" value="127" />
+            <enum name="WRITE_A_REVIEW" value="128" />
+            <!--PD PRICE_INSIGHTS-->
+            <enum name="PRICEESTIMATOR" value="68" />
+            <enum name="FEEDBACK" value="69" />
+            <enum name="THUMBSUP" value="70" />
+            <enum name="THUMBSDOWN" value="71" />
+            <enum name="MOREINSIGHTS" value="72" />
+            <enum name="PRICEINSIGHTS" value="73" />
+            <enum name="CLEAR_ALL" value="74" />
+            <enum name="LOCATION_SEARCH_FORM" value="75" />
+            <enum name="DONE" value="76" />
+            <enum name="UNHIDE" value="77" />
+            <enum name="UNHIDE_LAYER" value="78" />
+            <enum name="SORT" value="79" />
+            <enum name="FILTER" value="80" />
+            <enum name="APPLY" value="81" />
+            <enum name="TOP_DEALER" value="82" />
+            <enum name="VIEW" value="83" />
+            <enum name="UNGROUPED" value="84" />
+            <enum name="ZRP_LAYER" value="85" />
+            <enum name="BUDGET_CALCULATOR" value="86" />
+            <enum name="LOCATION_DETECTION" value="87" />
+
+            <!--PD PAGE-->
+            <enum name="PD_NUDGE" value="88" />
+            <enum name="GALLERY_GRID" value="89" />
+            <enum name="SEARCH_BAR" value="90" />
+            <enum name="TOP_NAV_PROPERTY_POSTING" value="91" />
+            <enum name="PERSONALIZE_HP_TOGGLE" value="93" />
+            <enum name="ACTIVITY" value="94" />
+            <enum name="RECENT_SEARCHES" value="95" />
+            <enum name="PROP_IN_PROJ" value="96" />
+            <enum name="DEALER_DETAIL" value="97" />
+            <enum name="RTOV" value="98" />
+            <enum name="EOI" value="99" />
+            <enum name="VIEW_PROPERTIES" value="100" />
+            <enum name="NOTIFY_ME" value="101" />
+            <enum name="PROJECT_INVESTMENT_OPTIONS" value="102" />
+            <enum name="PROPERTIES_POSTED.MANAGE_PROPERTY" value="103" />
+            <enum name="BOS" value="104" />
+            <enum name="GET_VERIFIED" value="105" />
+            <enum name="MANAGE_PROPERTY" value="106" />
+            <enum name="BASIC_DETAIL_LAYER" value="107" />
+            <enum name="BUILDING_DETAIL" value="108" />
+            <enum name="SUMMARY_LAYER" value="109" />
+            <enum name="ABOUT_PROPERTY" value="110" />
+            <enum name="BUILDING_AMENITIES" value="111" />
+            <enum name="NAME" value="112" />
+            <enum name="SUBMIT" value="113" />
+            <enum name="WEBINAR_THANK_YOU" value="114" />
+            <enum name="PROP_ALERT" value="115"/>
+            <enum name="RES_PREFERENCE_CHANGE" value="116"/>
+            <enum name="LOCATION_HIGHLIGHTS" value="117"/>
+            <enum name="DEACTIVATE_LISTING" value="118"/>
+            <enum name="UPDATE" value="119"/>
+            <enum name="WHATSAPP_ICON" value="120"/>
+            <enum name="BACK_BUTTON" value="121"/>
+            <enum name="REQUEST_PHOTOS" value="122"/>
+            <enum name="KEY_HIGHLIGHTS" value="123"/>
+            <enum name="MAP_SECTION" value="124"/>
+            <enum name="KEY_HIGHLIGHTS_BOTTOM" value="125"/>
+
+            <!-- HOME_PAGE-->
+            <enum name="OWNER_SERVICES" value="126"/>
+            <enum name="OWN_AD_INVENTORY" value="127"/>
+            <enum name="INLINE_BANNER" value="128"/>
+            <enum name="TEAL_BANNER" value="129"/>
+            <enum name="OVERALL_RATING" value="130"/>
+            <!-- REI -->
+            <enum name="PRICE_INSIGHT" value="199"/>
+            <enum name="PRICE_INSIGHT.PRICE_TREND" value="200" />
+            <enum name="COMPARE_LOCALITIES" value="201"/>
+            <enum name="PRICE_INSIGHT.PRICE_TREND.COMPARE_LOCALITIES" value="202"/>
+            <enum name="VIEW_ALL_PROPERTIES_LOCALITY" value="203" />
+            <enum name="UNIT_OPTIONS" value="204" />
+            <enum name="RESIDENTIAL_ZONES_RECOMMENDATION" value="205" />
+            <enum name="VIEW_LOCALITY_INSIGHT" value="206" />
+
+            <!-- New PPF-->
+            <enum name="CURRENT_LOCATION" value="207"/>
+            <enum name="AVAILABLE_FROM" value="208"/>
+            <enum name="ADD_MORE_PRICING_DETAILS" value="209"/>
+            <enum name="UPDATE_AMENITIES_REVIEW" value="210"/>
+            <enum name="THANK_YOU" value="211"/>
+            <enum name="BOOK_VERIFICATION" value="212"/>
+            <enum name="SUBSCRIPTION_UPGRADE" value="213"/>
+            <enum name="ADD_MORE_DETAILS" value="214"/>
+            <enum name="PROFILE" value="215"/>
+            <enum name="PROFILE_RERA_GRANT_DATE" value="216"/>
+            <enum name="PROFILE_RERA_EXPIRY_DATE" value="217"/>
+            <enum name="PROFILE_FINAL_SUBMIT_BUTTON" value="218"/>
+            <enum name="CONFIG_FLOOR_PLAN" value="219"/>
+            <enum name="LOGIN_REGISTER" value="220"/>
+            <enum name="UPLOAD_PHOTOS_CLICK" value="221"/>
+            <enum name="ALL_INCLUSIVE_PRICE" value="222"/>
+            <enum name="TAX_GOVT_CHARGES" value="223"/>
+            <enum name="PRICE_NEGOTIABLE" value="224"/>
+            <enum name="SPEC_BAND" value="225"/>
+            <enum name="USER_ACTION" value="226"/>
+            <enum name="LOCATION_DETAILS" value="227"/>
+            <enum name="SELLER" value="228"/>
+            <enum name="EMI_CALCULATOR" value="229"/>
+            <enum name="RI_LAYER" value="230"/>
+            <enum name="YES" value="231"/>
+            <enum name="NO" value="232"/>
+            <enum name="RENTAL_AGREEMENT_BANNER" value="233"/>
+            <enum name="SELL_TO_RENT_CARD" value="234"/>
+            <enum name="PAYMENT_PLAN" value="235"/>
+
+            <!--SV-->
+            <enum name="CANCEL" value="400"/>
+            <enum name="LOCATION_VERIFICATION" value="401"/>
+            <enum name="PHOTOS_VERIFICATION" value="402"/>
+            <enum name="CALL_FOR_HELP" value="403"/>
+            <enum name="COMPLETE_VERIFICATION" value="404"/>
+            <enum name="PROPERTY_DASHBOARD_VERIFY_NOW" value="405"/>
+            <enum name="VERIFY_NOW" value="406"/>
+            <enum name="SELF_VERIFICATION" value="407"/>
+            <enum name="MANUAL_VERIFICATION" value="408"/>
+            <enum name="BEWARE_QR" value="236"/>
+
+            <!-- Chatbot-->
+            <enum name="CHATBOT_SHEET" value="237"/>
+            <enum name="LETS_BEGIN" value="238"/>
+            <enum name="NO_THANKS" value="239"/>
+            <enum name="CHATBOT_ICON" value="240"/>
+            <enum name="CHATBOT_WINDOW" value="241"/>
+            <enum name="CLOSE" value="242"/>
+            <enum name="USP_BAND" value="243"/>
+            <enum name ="GOVT_CHARGES_LABEL" value="244"/>
+            <enum name="SELLER_DISCLAIMER.GOVT_CHARGES_LABEL" value="246"/>
+            <enum name="PPF_BRIDGE" value="247"/>
+            <enum name="OPEN_FULL_FORM" value="248"/>
+
+            <enum name="DS_RECOM_PROJ_INTEREST_APP" value="249"/>
+            <enum name="VIEW_LOCALITY_INSIGHTS" value="250"/>
+            <enum name="LANDMARK_BOTTOMSHEET" value="251"/>
+            <enum name="LANDMARK" value="252"/>
+            <enum name="NEAR_ME_SEARCH" value="253"/>
+            <enum name="LANDMARK_VIEW_ALL" value="254"/>
+            <enum name="RENT_PAYMENT_BANNER" value="255"/>
+
+            <enum name="CW_CONFIRM" value="256"/>
+            <enum name="EXPLORE_LISTING_ON_WHATSAPP" value="257"/>
+            <enum name="IMPROVE_RESPONSES_ON_CALL" value="258"/>
+            <enum name="IMPROVE_RESPONSES_ON_WHATSAPP" value="259"/>
+
+            <enum name="CHATBOT_POPUP1" value="260"/>
+            <enum name="CHATBOT_POPUP2" value="261"/>
+            <enum name="REMIND_LATER" value="262"/>
+            <enum name="TOMORROW" value="263"/>
+            <enum name="NEXT_WEEK" value="264"/>
+            <enum name="NEVER" value="265"/>
+            <enum name="VOICE_CROSS_TAPPED" value="266"/>
+            <enum name="VOICE_TRY_ANOTHER_WAY" value="267"/>
+            <enum name="VOICE_VIEW_MORE" value="268"/>
+            <enum name="MIC_TAPPED" value="269"/>
+            <enum name="RLP_PRICE_TOUCHPOINT" value="270"/>
+            <enum name="VIDEO_FULL_SCREEN_ICON" value="271"/>
+            <enum name="VIDEO_CLOSE_ICON" value="272"/>
+            <enum name="VIDEO_WINDOWED_ICON" value="273"/>
+        </attr>
+
+        <attr name="topmost" format="boolean" />
+        <attr name="event_type" format="flags">
+            <flag name="NONE" value="0" />
+            <flag name="CLICK" value="1" />
+            <flag name="IMPRESSION" value="2" />
+            <flag name="ALL" value="3" />
+        </attr>
+    </declare-styleable>
+</resources>

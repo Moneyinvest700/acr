@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/essential_facilities" layout="@layout/pd_facilities_layout" />
+    <include android:id="@id/unique_facilities" layout="@layout/pd_building_amenities_layout" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

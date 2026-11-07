@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/propety_on_map_heading" android:padding="@dimen/xid_inside_margin_top" android:layout_width="fill_parent" android:text="Location" style="@style/XidDetailHeading" />
+        <include layout="@layout/pd_card_staticmap" />
+    </LinearLayout>
+</FrameLayout>

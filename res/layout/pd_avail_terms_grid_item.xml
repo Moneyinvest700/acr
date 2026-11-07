@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="@dimen/filter_form_rv_bottom_gab"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:textAlignment="center">
+        <TextView android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello" style="@style/captionSubduedMedium" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/info_symbol" android:visibility="gone" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@drawable/info_outline_grey" android:tint="#0000008a" android:baselineAlignBottom="true" android:alpha="0.54" android:layout_marginStart="4.0dip" android:tintMode="screen" />
+    </LinearLayout>
+    <com.nnacres.app.utils.FlowLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even">
+        <TextView android:textSize="@dimen/medium_even" android:id="@id/subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Hello" android:fontFamily="@font/open_sans_bold" style="@style/secondaryBadgeLarge" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:textSize="@dimen/txt_xtra_small" android:id="@id/area_subtext" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small_even" android:layout_marginTop="@dimen/extra_extra_extra_small" android:text="subText" style="@style/captionStrong" />
+        </LinearLayout>
+    </com.nnacres.app.utils.FlowLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textSize="@dimen/txt_xtra_small" android:textColor="@color/Ng600" android:ellipsize="end" android:id="@id/item_subText" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Layout" style="@style/AssistiveText" />
+</LinearLayout>

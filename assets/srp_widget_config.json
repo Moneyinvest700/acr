@@ -1,0 +1,778 @@
+{
+  "srp_widget_config": {
+    "property_alert": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "npsrp": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "crossell": {
+      "position": 20,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    },
+    "coworking": {
+      "position": 3,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COWORKING_WIDGET"
+    },
+    "zone_suggestions": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "LOCALITY_INSIGHTS"
+    },
+    "popular_projects": {
+      "position": 5,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "locality_zone_suggestion": {
+      "position": 4,
+      "page_size": 20,
+      "cta": "",
+      "tracking_section": "LOCALITY_TUPLES"
+    },
+    "featured_projects": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "new_launch_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "webinars": {
+      "position": 26,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "offer": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "OFFER"
+    },
+    "r2m_projects": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "last_posted_inline_filter": {
+      "options": [
+        {
+          "id": "1",
+          "label": "Last 24 Hours"
+        },
+        {
+          "id": "3",
+          "label": "Last 3 days"
+        },
+        {
+          "id": "7",
+          "label": "Last 7 days"
+        },
+        {
+          "id": "15",
+          "label": "Last 15 days"
+        }
+      ]
+    },
+    "fraud_alert_v1": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    },
+    "fraud_alert_v2": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    }
+  },
+  "R_S": {
+    "npsrp": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "crossell": {
+      "position": 20,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    },
+    "property_alert": {
+      "position": 6,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "popular_projects": {
+      "position": 5,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "rei_rating_review": {
+      "position": 6,
+      "page_size": 10,
+      "cta": ""
+    },
+    "featured_projects": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "new_launch_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "webinars": {
+      "position": 26,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "offer": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "OFFER"
+    },
+    "r2m_projects": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "commercial_investment": {
+      "position": 29,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COMMERCIAL_INVESTMENT"
+    }
+  },
+
+  "R_S_CITY": {
+    "boc": {
+      "position": 3,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "npsrp": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "popular_projects": {
+      "position": 8,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "new_launch_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "r2m_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "featured_projects": {
+      "position": 23,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "crossell": {
+      "position": 26,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    },
+    "rei_rating_review": {
+      "position": 21,
+      "page_size": 10,
+      "cta": ""
+    },
+    "commercial_investment": {
+      "position": 38,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COMMERCIAL_INVESTMENT"
+    },
+    "offer": {
+      "position": 41,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "OFFER"
+    },
+    "property_alert": {
+      "position": 46,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "zone_suggestions": {
+      "position": 27,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "LOCALITY_INSIGHTS"
+    },
+    "rental_expert": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "",
+      "tracking_section": "RENTAL_PAYMENT"
+    }
+  },
+
+  "R_S_LOCALITY": {
+    "boc": {
+      "position": 3,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "npsrp": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "popular_projects": {
+      "position": 8,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "featured_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "r2m_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "new_launch_projects": {
+      "position": 23,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "crossell": {
+      "position": 26,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    },
+    "rei_rating_review": {
+      "position": 28,
+      "page_size": 10,
+      "cta": ""
+    },
+    "FD_WIDGET": {
+      "position": 29,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "commercial_investment": {
+      "position": 35,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COMMERCIAL_INVESTMENT"
+    },
+    "offer": {
+      "position": 38,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "OFFER"
+    },
+    "property_alert": {
+      "position": 47,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "rental_expert": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "",
+      "tracking_section": "RENTAL_PAYMENT"
+    }
+  },
+
+  "R_R": {
+    "property_alert": {
+      "position": 6,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "rei_rating_review": {
+      "position": 6,
+      "page_size": 10,
+      "cta": ""
+    },
+    "rental_services": {
+      "position": 10,
+      "page_size": 10,
+      "cta": "",
+      "tracking_section": "RENTAL_SERVICES"
+    },
+    "rental_payment": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "",
+      "tracking_section": "RENTAL_PAYMENT"
+    },
+    "rental_expert": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "",
+      "tracking_section": "RENTAL_PAYMENT"
+    },
+    "last_posted_inline_filter": {
+      "options": [
+        {
+          "id": "1",
+          "label": "Last 24 Hours"
+        },
+        {
+          "id": "3",
+          "label": "Last 3 days"
+        },
+        {
+          "id": "7",
+          "label": "Last 7 days"
+        },
+        {
+          "id": "15",
+          "label": "Last 15 days"
+        }
+      ]
+    },
+    "fraud_alert_v1": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    },
+    "fraud_alert_v2": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    }
+  },
+  "R_P": {
+    "fresh_listings": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRESH_LISTINGS"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "last_posted_inline_filter": {
+      "options": [
+        {
+          "id": "1",
+          "label": "Last 24 Hours"
+        },
+        {
+          "id": "3",
+          "label": "Last 3 days"
+        },
+        {
+          "id": "7",
+          "label": "Last 7 days"
+        },
+        {
+          "id": "15",
+          "label": "Last 15 days"
+        }
+      ]
+    },
+    "fraud_alert_v1": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    },
+    "fraud_alert_v2": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FRAUD_ALERT"
+    }
+  },
+  "C_S": {
+    "npsrp": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "property_alert": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "crossell": {
+      "position": 20,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    },
+    "popular_projects": {
+      "position": 5,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "featured_projects": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "new_launch_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "webinars": {
+      "position": 26,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "offer": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "OFFER"
+    },
+    "r2m_projects": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    }
+  },
+
+  "C_S_LOCALITY": {
+    "boc": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "r2m_projects": {
+      "position": 9,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "npsrp": {
+      "position": 13,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "featured_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "popular_projects": {
+      "position": 21,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "FD_WIDGET": {
+      "position": 22,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "property_alert": {
+      "position": 29,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    }
+  },
+  "C_S_CITY": {
+    "boc": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "r2m_projects": {
+      "position": 9,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "npsrp": {
+      "position": 13,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "featured_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "popular_projects": {
+      "position": 21,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    }
+  },
+  
+  "C_L": {
+    "property_alert": {
+      "position": 6,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "coworking": {
+      "position": 3,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COWORKING_WIDGET"
+    }
+  },
+  "C_L_CITY": {
+    "boc": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "property_alert": {
+      "position": 10,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "coworking": {
+      "position": 9,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COWORKING_WIDGET"
+    }
+  },
+  "C_L_LOCALITY": {
+    "boc": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "BOC_WIDGET"
+    },
+    "property_alert": {
+      "position": 15,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "FD_WIDGET": {
+      "position": 7,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "coworking": {
+      "position": 12,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "COWORKING_WIDGET"
+    }
+  },
+  "C_S_OSS": {
+    "property_alert": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "npsrp": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "popular_projects": {
+      "position": 5,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "featured_projects": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All"
+    },
+    "in_demand_projects": {
+      "position": 11,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "IN_DEMAND_PROJECTS"
+    },
+    "r2m_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "R2M_PROJECTS"
+    },
+    "rental_yield_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "HIGH_RENTAL_PROJECTS"
+    },
+    "new_launch_projects": {
+      "position": 20,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    }
+  },
+  "C_S_O": {
+    "property_alert": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "PROPERTY_ALERT"
+    },
+    "npsrp": {
+      "position": 2,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NPSRP_WIDGET"
+    },
+    "FD_WIDGET": {
+      "position": 4,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FD_TUPLE"
+    },
+    "in_demand_projects": {
+      "position": 5,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "IN_DEMAND_PROJECTS"
+    },
+    "featured_projects": {
+      "position": 8,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "FEATURED_PROJECTS"
+    },
+    "popular_projects": {
+      "position": 11,
+      "page_size": 20,
+      "cta": "View All",
+      "tracking_section": "POPULAR_PROJECTS"
+    },
+    "rental_yield_projects": {
+      "position": 14,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "HIGH_RENTAL_PROJECTS"
+    },
+    "new_launch_projects": {
+      "position": 17,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "NEW_LAUNCH_PROJECTS"
+    },
+    "assured_returns_projects": {
+      "position": 20,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "ASSURED_PROJECTS"
+    },
+    "crossell": {
+      "position": 23,
+      "page_size": 10,
+      "cta": "View All",
+      "tracking_section": "CROSS_SELL_PROJECTS"
+    }
+  },
+  "searchAnchorCities": "1,2,3,4,5,6,7,8,9,10,220,222,16,17,274,275,218,219,12,13,14,15,19,20,21,22,23,217,252,32,33,34,35,36,25,26,27,28,29,30"
+
+}

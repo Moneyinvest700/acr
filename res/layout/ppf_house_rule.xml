@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <RelativeLayout android:id="@id/tv_pets_allowed" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Pets allowed" android:layout_centerVertical="true" style="@style/captionStrongNormal" />
+        <include layout="@layout/radio_button_option" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tv_visitors_allowed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Visitors allowed" android:layout_centerVertical="true" style="@style/captionStrongNormal" />
+        <include layout="@layout/radio_button_option" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tv_smoking_allowed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Smoking allowed" android:layout_centerVertical="true" style="@style/captionStrongNormal" />
+        <include layout="@layout/radio_button_option" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tv_alcohol_allowed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Alcohol allowed" android:layout_centerVertical="true" style="@style/captionStrongNormal" />
+        <include layout="@layout/radio_button_option" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/tv_events_allowed" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even">
+        <androidx.appcompat.widget.AppCompatTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Party/Event allowed" android:layout_centerVertical="true" style="@style/captionStrongNormal" />
+        <include android:id="@id/radioButtonOption" layout="@layout/radio_button_option" />
+    </RelativeLayout>
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/entryTime" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even" app:floatingHint="Last entry time" />
+    <androidx.appcompat.widget.AppCompatTextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="Got some other rules" style="@style/semibold_section_header" />
+    <androidx.appcompat.widget.AppCompatEditText android:textColorHint="@color/Ng400" android:gravity="top" android:id="@id/otherRules" android:background="@drawable/shape_rectangle_ng300_corners_radius_2_white_background" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="80.0dip" android:layout_marginTop="@dimen/small_even" style="@style/captionStrongNormal" />
+</LinearLayout>

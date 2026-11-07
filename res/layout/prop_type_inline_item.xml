@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingBottom="@dimen/large" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/large">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/propTypeLogo" android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:layout_marginTop="@dimen/large" android:src="@drawable/apartment" />
+        <TextView android:ellipsize="end" android:id="@id/propTypeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="@dimen/propTypeInlineMaxWidth" android:maxLines="1" android:layout_below="@id/propTypeLogo" android:layout_marginEnd="@dimen/large" style="@style/semibold_label" />
+        <TextView android:ellipsize="end" android:id="@id/propTypeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2343 properties" android:maxLines="1" android:layout_below="@id/propTypeName" android:layout_marginEnd="@dimen/large" style="@style/captionStrongSmall" />
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkbox" android:visibility="gone" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toEndOf="@id/propTypeName" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

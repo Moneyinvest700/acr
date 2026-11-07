@@ -1,0 +1,25 @@
+.class public final Ldx/l0;
+.super Ldx/n0;
+.source "SourceFile"
+
+
+# direct methods
+.method public constructor <init>(Lbx/e;)V
+    .locals 1
+
+    const/4 v0, 0x0
+
+    invoke-direct {p0, p1, v0}, Ldx/n0;-><init>(Lbx/e;Lkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public h()Ljava/lang/String;
+    .locals 1
+
+    const-string v0, "kotlin.collections.LinkedHashSet"
+
+    return-object v0
+.end method

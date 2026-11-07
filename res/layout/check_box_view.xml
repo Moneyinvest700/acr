@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:paddingTop="@dimen/small" android:paddingBottom="@dimen/extra_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/xxl" android:layout_marginEnd="@dimen/xxl"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNCheckbox android:theme="@style/MyCheckBoxStyle" android:textSize="@dimen/txt_small" android:id="@id/checkBox" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_semibold" android:paddingStart="@dimen/small" app:event_type="CLICK" />
+    <View android:id="@id/divider" android:background="@color/Ng300" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/small_even" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

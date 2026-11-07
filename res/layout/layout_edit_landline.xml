@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/edit_landlineField" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/txtInput_CountryCode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Country" android:layout_weight="0.3" app:errorTextAppearance="@style/textInputLayoutErrAppearance" app:hintAnimationEnabled="false">
+        <EditText android:textSize="16.0dip" android:textColor="@color/material_gray_900" android:gravity="left" android:id="@id/edit_Country" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="5" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/txtInput_AreaCode" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Area Code" android:layout_weight="0.4" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:textSize="16.0dip" android:textColor="@color/material_gray_900" android:gravity="left" android:id="@id/edit_area" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="4" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/txtInput_landline" android:layout_width="0.0dip" android:layout_height="wrap_content" android:hint="Landline" android:layout_weight="0.5" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:textSize="16.0dip" android:textColor="@color/material_gray_900" android:gravity="left" android:id="@id/edit_landline" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLength="14" android:inputType="number" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

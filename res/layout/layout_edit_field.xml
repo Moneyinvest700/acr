@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:id="@id/txtInput_profileField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:maxLength="5" app:hintAnimationEnabled="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <EditText android:textSize="16.0dip" android:textColor="@color/material_gray_900" android:gravity="left" android:id="@id/edit_profileField" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Email" android:inputType="textPersonName">
+        <requestFocus />
+    </EditText>
+</com.google.android.material.textfield.TextInputLayout>

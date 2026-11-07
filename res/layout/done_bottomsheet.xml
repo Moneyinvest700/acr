@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/icCheck" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="62.0dip" android:src="@drawable/ic_check_circle_green_vector_small" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="@dimen/large" android:textColor="@color/Ng800" android:id="@id/tvDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:text="Done!" android:fontFamily="@font/open_sans_semibold" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/icCheck" />
+    <TextView android:textColor="@color/Ng700" android:id="@id/tvYouHave" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_medium_even" android:text="You have opted for updates via _Whatsapp" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvDone" />
+</androidx.constraintlayout.widget.ConstraintLayout>

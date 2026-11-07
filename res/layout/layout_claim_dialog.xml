@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical" android:background="#aa000000" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:background="@color/white" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minHeight="200.0dip">
+        <LinearLayout android:gravity="right" android:background="@color/accent_color" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0dip" android:textColor="@color/white" android:layout_gravity="top" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Duplicate Mobile Number" android:layout_weight="1.0" />
+            <ImageView android:textColor="@android:color/white" android:id="@id/btn_back" android:background="@android:color/transparent" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/close_layer" />
+        </LinearLayout>
+        <TextView android:textSize="16.0dip" android:textColor="@color/black" android:gravity="center_vertical" android:layout_gravity="center_vertical" android:id="@id/tv_ErrorMsg" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="mobile already register with ****ga@gmail.com." android:layout_weight="1.0" />
+        <LinearLayout android:gravity="right" android:layout_gravity="bottom" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <Button android:textColor="@color/alerts_fab" android:id="@id/btn_FeedBack" android:background="@color/transparent" android:padding="20.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Feedback" />
+            <Button android:textColor="@color/alerts_fab" android:id="@id/btn_Claim" android:background="@color/transparent" android:padding="20.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Claim Number" />
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small">
+        <ImageView android:id="@id/logo" android:layout_width="20.0dip" android:layout_height="20.0dip" android:src="@drawable/custom_notification_app_logo" />
+        <TextView android:textSize="12.0sp" android:textColor="@color/custom_notification_title" android:layout_gravity="center" android:id="@id/content_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_regular" android:layout_marginStart="@dimen/small" />
+    </LinearLayout>
+    <TextView android:textSize="13.0dip" android:textColor="@color/custom_notification_prop_locality" android:id="@id/content_text" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/extra_small" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small" />
+</LinearLayout>

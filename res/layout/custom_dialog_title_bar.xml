@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/custom_dialog_title_bar" android:background="@color/white" android:paddingLeft="2.0dip" android:paddingTop="10.0dip" android:paddingRight="2.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="18.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:id="@id/dialogTitle" android:paddingLeft="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Dummy" android:layout_alignParentLeft="true" android:layout_centerHorizontal="true" android:layout_centerVertical="true" />
+    <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center" android:id="@id/done" android:background="@drawable/selector_bgred_stroke_black" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:text="Close" android:layout_alignParentRight="true" android:layout_centerInParent="true" />
+</RelativeLayout>

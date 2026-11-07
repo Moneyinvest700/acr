@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_rectangle_ng300_corners_radius_2_white_background" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/medium" android:paddingHorizontal="@dimen/small" android:paddingVertical="@dimen/small_medium_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:id="@id/scollable_size" android:layout_width="135.0dip" android:layout_height="wrap_content" android:text="2BHK Appartment" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/new_project_tuple_area_style" />
+    <TextView android:id="@id/scollable_price" android:layout_width="135.0dip" android:layout_height="wrap_content" android:text="₹50.5 Lac Onwards" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/scollable_size" style="@style/new_project_tuple_cost_style" />
+</LinearLayout>

@@ -1,0 +1,102 @@
+.class public interface abstract Lcom/facebook/react/viewmanagers/RNSVGFilterManagerInterface;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/facebook/react/uimanager/ViewManagerWithGeneratedInterface;
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "<T:",
+        "Landroid/view/View;",
+        ">",
+        "Ljava/lang/Object;",
+        "Lcom/facebook/react/uimanager/ViewManagerWithGeneratedInterface;"
+    }
+.end annotation
+
+
+# virtual methods
+.method public abstract setFilterUnits(Landroid/view/View;Ljava/lang/String;)V
+    .param p2    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setHeight(Landroid/view/View;Lcom/facebook/react/bridge/Dynamic;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/facebook/react/bridge/Dynamic;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setName(Landroid/view/View;Ljava/lang/String;)V
+    .param p2    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setPrimitiveUnits(Landroid/view/View;Ljava/lang/String;)V
+    .param p2    # Ljava/lang/String;
+        .annotation build Landroidx/annotation/Nullable;
+        .end annotation
+    .end param
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Ljava/lang/String;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setWidth(Landroid/view/View;Lcom/facebook/react/bridge/Dynamic;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/facebook/react/bridge/Dynamic;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setX(Landroid/view/View;Lcom/facebook/react/bridge/Dynamic;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/facebook/react/bridge/Dynamic;",
+            ")V"
+        }
+    .end annotation
+.end method
+
+.method public abstract setY(Landroid/view/View;Lcom/facebook/react/bridge/Dynamic;)V
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(TT;",
+            "Lcom/facebook/react/bridge/Dynamic;",
+            ")V"
+        }
+    .end annotation
+.end method

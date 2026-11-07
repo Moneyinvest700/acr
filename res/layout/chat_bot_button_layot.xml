@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout android:id="@id/chatBotIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="3.0dip" app:event_type="ALL" app:identifier="CHATBOT_ICON"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/chatImage" android:layout_width="48.0dip" android:layout_height="48.0dip" android:layout_marginTop="3.0dip" android:src="@drawable/ic_chatbot" android:layout_alignParentTop="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/chatActiveBadge" android:layout_width="16.0dip" android:layout_height="16.0dip" android:src="@drawable/badge_circle" android:scaleType="centerInside" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout>

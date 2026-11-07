@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_price" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <TextView android:textColor="@color/Ng800" android:ellipsize="end" android:id="@id/price_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_title_l" />
+        <TextView android:ellipsize="end" android:id="@id/price_subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_small_even" style="@style/bodyNormal" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title1" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintStart_toStartOf="@id/ll_price" app:layout_constraintTop_toBottomOf="@id/ll_price">
+        <TextView android:ellipsize="end" android:id="@id/title1" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_weight="10.0" style="@style/secondarySmallLabel" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_action" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/s">
+            <TextView android:textSize="@dimen/txt_small" android:ellipsize="end" android:id="@id/actionTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/AppActionableTextView" />
+            <TextView android:layout_gravity="center" android:id="@id/arrow" android:background="@drawable/ic_arrow_right" android:layout_width="@dimen/medium" android:layout_height="@dimen/medium" android:layout_marginTop="@dimen/s" android:layout_marginStart="@dimen/s" android:backgroundTint="@color/P500" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_title2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layout_constraintStart_toStartOf="@id/ll_title1" app:layout_constraintTop_toBottomOf="@id/ll_title1">
+        <TextView android:textColor="@color/black" android:id="@id/title2" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_section_header" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_rating" android:background="@drawable/shape_rectangle_corner_radius_2_rtov_new_color_background" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small_even">
+            <TextView android:layout_gravity="center" android:id="@id/rating" android:padding="@dimen/s" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_bold" style="@style/whiteXtraSmallLabel" />
+            <TextView android:textColor="@color/black" android:layout_gravity="center" android:id="@id/rating_star" android:background="@drawable/ic_star" android:layout_width="@dimen/small" android:layout_height="@dimen/small" android:fontFamily="@font/open_sans_bold" android:layout_marginEnd="@dimen/s" android:backgroundTint="@color/white" style="@style/whiteXtraSmallLabel" />
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/ll_title_3" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layout_constraintStart_toStartOf="@id/ll_title2" app:layout_constraintTop_toBottomOf="@id/ll_title2">
+        <TextView android:id="@id/title3" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/extra_small_even" android:drawableEnd="@drawable/ic_pd_place_24px" style="@style/secondaryRegularLabel" />
+        <include android:id="@id/rating_badge" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignBottom="@id/title3" android:layout_marginStart="@dimen/small_even" android:layout_toEndOf="@id/title3" layout="@layout/rating_and_review_badge" />
+    </RelativeLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

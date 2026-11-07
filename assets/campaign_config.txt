@@ -1,0 +1,2 @@
+{"lastModified":1499081688655,"campainConfig":[{"frequency":"24","threshold":"30","initial_hours":"24","campaign_title":"Fresh Property Alerts","campaign_id":"1","campaign_subtitle":"Get Notified as new properties are available","notification_title":"Fresh properties available","is_campaign_active":"N"},{"frequency":"48","threshold":"5","initial_hours":"25","campaign_title":"Matching Property Alerts","campaign_id":"2","campaign_subtitle":"Get Notified according to your responses","notification_title":"Properties matching your interest","is_campaign_active":"Y"}
+]}

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@color/white" android:descendantFocusability="blocksDescendants" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button android:id="@id/buttonSaveAndSearch" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_save_preferences_layout" android:layout_alignParentBottom="true" android:textAllCaps="false" style="@style/ActionButtonBlue" />
+    <include android:id="@id/toolbar" layout="@layout/preferences_bar" />
+    <ScrollView android:id="@id/scrollView" android:background="@color/white" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:layout_above="@id/buttonSaveAndSearch" android:layout_below="@id/toolbar">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="15.0dip" android:paddingRight="15.0dip" android:paddingBottom="55.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <include android:id="@id/edit_preferences_locality_widget" layout="@layout/edit_preferences_locality_layout" />
+            <include layout="@layout/edit_preferences_layout_property_type_layout" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_onboarding_my_budget" style="@style/preferences_heading_style" />
+                <include layout="@layout/include_onboarding_price_range_bar" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionBedroom" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="0.0dip" android:text="@string/text_onboarding_number_of_bhk" style="@style/preferences_heading_style" />
+                <include android:id="@id/includeLayoutBedroom" android:layout_width="fill_parent" android:layout_height="91.0dip" layout="@layout/n_search_form_bedroom_num_list_button" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionConstructionStatus" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_onboarding_construction_status" style="@style/preferences_heading_style" />
+                <include layout="@layout/preferences_layout_construction_status" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionTransactType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:id="@id/textViewTransactType" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_onboarding_transact_type" android:layout_alignParentTop="true" style="@style/preferences_heading_style" />
+                <include layout="@layout/preferences_layout_transact_type" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionAvailableFor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_prop_avail_for" style="@style/preferences_heading_style" />
+                <include layout="@layout/preferences_layout_available_for" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionFurnishing" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_furnishing_preferences" style="@style/preferences_heading_style" />
+                <include layout="@layout/preferences_layout_furnishing" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

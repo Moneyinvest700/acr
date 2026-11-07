@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/edit_preferences_property_type_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="40.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:id="@id/propertyTypeSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="@dimen/text_size_xxx_small" android:textStyle="normal" android:ellipsize="end" android:id="@id/property_type_count_label" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/text_selected" android:maxLines="1" android:layout_alignParentRight="true" android:layout_marginStart="5.0dip" android:layout_alignParentEnd="true" />
+        <TextView android:textSize="12.0dip" android:id="@id/property_type_count_value" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_toLeftOf="@id/property_type_count_label" android:layout_toStartOf="@id/property_type_count_label" />
+        <TextView android:ellipsize="end" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_onboarding_property_looking_for" android:maxLines="1" android:layout_toLeftOf="@id/property_type_count_label" android:layout_alignParentLeft="true" android:layout_toStartOf="@id/property_type_count_label" android:layout_alignParentStart="true" style="@style/preferences_heading_style" />
+    </RelativeLayout>
+    <include android:id="@id/sectionResidentialPropertyType" layout="@layout/n_search_form_property_type_residential_buttonlist" />
+    <include android:id="@id/sectionCommercialPropertyType" android:visibility="gone" layout="@layout/n_search_form_property_type_commercial_buttonlist" />
+</LinearLayout>

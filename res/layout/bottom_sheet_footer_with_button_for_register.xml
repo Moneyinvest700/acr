@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="10.0sp" android:textColor="@color/Ng500" android:id="@id/gdpr" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/filter_form_section_left_right_margin" android:layout_marginRight="@dimen/filter_form_section_left_right_margin" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/buttonDone" android:layout_marginLeft="@dimen/filter_form_section_left_right_margin" android:layout_marginTop="@dimen/medium" android:layout_marginRight="@dimen/filter_form_section_left_right_margin" android:layout_marginBottom="@dimen/medium" android:text="Apply" style="@style/AppActionButtonStyle" />
+</LinearLayout>

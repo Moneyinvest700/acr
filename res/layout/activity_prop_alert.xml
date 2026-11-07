@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/user_details_parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ScrollView android:id="@id/scrollView1" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <RelativeLayout android:id="@id/contentRoot" android:background="#fffcfcfc" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <RelativeLayout android:id="@id/header" android:background="@color/Ng200" android:layout_width="fill_parent" android:layout_height="160.0dip">
+                <ImageView android:textColor="@android:color/white" android:id="@id/back" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:src="@drawable/ic_arrow_right_back" android:paddingStart="20.0dip" android:layout_alignParentStart="true" />
+                <ImageView android:textColor="@android:color/white" android:id="@id/iv_group" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:src="@drawable/ic_notification_icon_prop_alert" android:layout_centerVertical="true" android:paddingEnd="20.0dip" android:layout_alignParentEnd="true" />
+                <TextView android:id="@id/alert_heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" android:text="@string/alerts_landing_heading" android:layout_below="@id/back" android:layout_marginStart="20.0dip" android:layout_marginEnd="@dimen/small" android:layout_toStartOf="@id/iv_group" style="@style/semibold_list_header" />
+                <TextView android:id="@id/alert_subheading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="@string/alert_landing_subheading" android:layout_below="@id/alert_heading" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/small" android:layout_toStartOf="@id/iv_group" style="@style/bodySmallRegular" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/add_eoi_LayerRoot" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_below="@id/header">
+                <include android:id="@id/eoiFormRoot" layout="@layout/eoi_buyer_detail_layout_pd" />
+                <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/actionButtonParent" android:padding="5.0dip" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_small" android:layout_marginEnd="@dimen/extra_small" app:event_type="CLICK" app:topmost="true">
+                    <requestFocus />
+                    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/prop_alert_button_done" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="" style="@style/ActionButtonBlue" />
+                </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

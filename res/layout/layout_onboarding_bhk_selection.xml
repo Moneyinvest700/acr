@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_onboarding_number_of_bhk" style="@style/OnBoardHeadingStyle" />
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkBox1bhk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_1_bhk" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkBox2bhk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_2_bhk" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkBox3bhk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_3_bhk" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkBox4bhk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_4_bhk" style="@style/onboardRadiobuttonStyle" />
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/checkBox5plusBhk" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_4_plus_bhk" style="@style/onboardRadiobuttonStyle" />
+    </RadioGroup>
+</LinearLayout>

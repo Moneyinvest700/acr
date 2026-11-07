@@ -1,0 +1,130 @@
+.class public final Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;
+.super Lcom/nnacres/app/xid_revamp/model/UiModel/XidUiModel;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/io/Serializable;
+
+
+# annotations
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u0000\u001c\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0010\u000e\n\u0002\u0008\u0006\n\u0002\u0018\u0002\n\u0002\u0008\n\u0018\u00002\u00020\u00012\u00020\u0002B/\u0012\u0008\u0010\u0004\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0005\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0006\u001a\u0004\u0018\u00010\u0003\u0012\u0008\u0010\u0007\u001a\u0004\u0018\u00010\u0003\u00a2\u0006\u0004\u0008\u0008\u0010\tJ\u000f\u0010\u000b\u001a\u00020\nH\u0016\u00a2\u0006\u0004\u0008\u000b\u0010\u000cR$\u0010\u0005\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0005\u0010\r\u001a\u0004\u0008\u000e\u0010\u000f\"\u0004\u0008\u0010\u0010\u0011R$\u0010\u0006\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0086\u000e\u00a2\u0006\u0012\n\u0004\u0008\u0006\u0010\r\u001a\u0004\u0008\u0012\u0010\u000f\"\u0004\u0008\u0013\u0010\u0011\u00a8\u0006\u0014"
+    }
+    d2 = {
+        "Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;",
+        "Ljava/io/Serializable;",
+        "Lcom/nnacres/app/xid_revamp/model/UiModel/XidUiModel;",
+        "",
+        "heading",
+        "disclaimer",
+        "links",
+        "menuTabTitle",
+        "<init>",
+        "(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V",
+        "Lcom/nnacres/app/xid_revamp/xidutils/h;",
+        "getSectionType",
+        "()Lcom/nnacres/app/xid_revamp/xidutils/h;",
+        "Ljava/lang/String;",
+        "getDisclaimer",
+        "()Ljava/lang/String;",
+        "setDisclaimer",
+        "(Ljava/lang/String;)V",
+        "getLinks",
+        "setLinks",
+        "_99acres_prod"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private disclaimer:Ljava/lang/String;
+
+.field private links:Ljava/lang/String;
+
+
+# direct methods
+.method public constructor <init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)V
+    .locals 11
+
+    const/16 v9, 0xf0
+
+    const/4 v10, 0x0
+
+    const/4 v2, 0x0
+
+    const/4 v3, 0x0
+
+    const/4 v5, 0x0
+
+    const/4 v6, 0x0
+
+    const/4 v7, 0x0
+
+    const/4 v8, 0x0
+
+    move-object v0, p0
+
+    move-object v1, p1
+
+    move-object v4, p4
+
+    invoke-direct/range {v0 .. v10}, Lcom/nnacres/app/xid_revamp/model/UiModel/XidUiModel;-><init>(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/util/HashMap;ILkotlin/jvm/internal/DefaultConstructorMarker;)V
+
+    iput-object p2, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->disclaimer:Ljava/lang/String;
+
+    iput-object p3, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->links:Ljava/lang/String;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final getDisclaimer()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->disclaimer:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public final getLinks()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->links:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public getSectionType()Lcom/nnacres/app/xid_revamp/xidutils/h;
+    .locals 1
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    sget-object v0, Lcom/nnacres/app/xid_revamp/xidutils/h;->CONTENT_DISCLAIMER:Lcom/nnacres/app/xid_revamp/xidutils/h;
+
+    return-object v0
+.end method
+
+.method public final setDisclaimer(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->disclaimer:Ljava/lang/String;
+
+    return-void
+.end method
+
+.method public final setLinks(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/nnacres/app/xid_revamp/model/UiModel/UIDisclaimerLayerData;->links:Ljava/lang/String;
+
+    return-void
+.end method

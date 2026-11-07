@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/activitylog_nppd_eoi_base_layout" android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_nppd_eoi" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/np_pd_eoi_default_message" android:layout_centerInParent="true" />
+    <se.emilsjolander.stickylistheaders.StickyListHeadersListView android:id="@id/lv_nppd_eoi" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:dividerHeight="0.0dip" />
+</RelativeLayout>

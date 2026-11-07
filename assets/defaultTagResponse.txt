@@ -1,0 +1,1673 @@
+{
+
+      "1":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":2,
+            "helpText":"You can upload any other relevant pictures of the property - like view from balcony, etc.",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "2":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"House",
+            "addPhotoCount":1,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"HOUSE"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property - like view from balcony, etc.",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "4":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property - like view from balcony, etc.",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "5":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"House",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"HOUSE"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "22":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of  bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property - like view from balcony, etc.",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "80":[
+         {
+            "label":"Property",
+            "addPhotoCount":1,
+            "helpText":"You can upload any relevant picture of the property.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"PROPERTY"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "90":[
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Hall",
+            "addPhotoCount":1,
+            "helpText":"You can upload the hall of the property.",
+            "imgurl":"hall.jpg",
+            "maxPhotos":"",
+            "type":"HALL"
+         },
+         {
+            "label":"Bedroom",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of bed room here.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"BEDROOM"
+         },
+         {
+            "label":"Kitchen",
+            "addPhotoCount":1,
+            "helpText":"You can upload photo of the kitchen here.",
+            "imgurl":"kitchen.jpg",
+            "maxPhotos":"",
+            "type":"KITCHEN"
+         },
+         {
+            "label":"Bathroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the bathrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"BATHROOM"
+         },
+         {
+            "label":"Balcony",
+            "addPhotoCount":1,
+            "helpText":"You can upload the balcony of the property.",
+            "imgurl":"balcony.jpg",
+            "maxPhotos":"",
+            "type":"BALCONY"
+         },
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property - like view from balcony, etc.",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "6":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"showroom-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "7":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"office-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "10":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"rooms.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "11":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "12":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"showroom-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "13":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"office-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "14":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"office-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "15":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "17":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "18":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "19":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "21":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"office-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "81":[
+         {
+            "label":"Property",
+            "addPhotoCount":1,
+            "helpText":"You can upload any relevant picture of the property.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"PROPERTY"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "82":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"showroom-interior.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "83":[
+         {
+            "label":"Building",
+            "addPhotoCount":2,
+            "helpText":"You can upload photos of the building, front and back or areas around the building here.",
+            "imgurl":"office-building.jpg",
+            "maxPhotos":"",
+            "type":"BUILDING"
+         },
+         {
+            "label":"Entrance",
+            "addPhotoCount":1,
+            "helpText":"You can upload the entrance of the property.",
+            "imgurl":"entrance.jpg",
+            "maxPhotos":"",
+            "type":"ENTRANCE"
+         },
+         {
+            "label":"Interior",
+            "addPhotoCount":3,
+            "helpText":"You can upload photos of interior portion of the property.",
+            "imgurl":"officespace.jpg",
+            "maxPhotos":"",
+            "type":"INTERIOR"
+         },
+         {
+            "label":"Washroom",
+            "addPhotoCount":3,
+            "helpText":"You can upload photo of the washrooms here.",
+            "imgurl":"toilet.jpg",
+            "maxPhotos":"",
+            "type":"WASHROOM"
+         },
+         {
+            "label":"Floor Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the floor plan of the property.",
+            "imgurl":"floor-plan.jpg",
+            "maxPhotos":"",
+            "type":"FLOOR_PLAN"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "3":[
+         {
+            "label":"Land",
+            "addPhotoCount":1,
+            "helpText":"You can upload photos of land and neighboring areas here.",
+            "imgurl":"land-image.jpg",
+            "maxPhotos":"",
+            "type":"LAND"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "9":[
+         {
+            "label":"Land",
+            "addPhotoCount":1,
+            "helpText":"You can upload photos of land and neighboring areas here.",
+            "imgurl":"land-image.jpg",
+            "maxPhotos":"",
+            "type":"LAND"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "16":[
+         {
+            "label":"Land",
+            "addPhotoCount":1,
+            "helpText":"You can upload photos of land and neighboring areas here.",
+            "imgurl":"land-image.jpg",
+            "maxPhotos":"",
+            "type":"LAND"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "20":[
+         {
+            "label":"Land",
+            "addPhotoCount":1,
+            "helpText":"You can upload photos of land and neighboring areas here.",
+            "imgurl":"land-image.jpg",
+            "maxPhotos":"",
+            "type":"LAND"
+         },
+         {
+            "label":"Master Plan",
+            "addPhotoCount":1,
+            "helpText":"You can upload the master plan of the property.",
+            "imgurl":"master-plan.jpg",
+            "maxPhotos":"",
+            "type":"MASTER_PLAN"
+         },
+         {
+            "label":"Location Map",
+            "addPhotoCount":1,
+            "helpText":"You can upload the location plan of the property.",
+            "imgurl":"location-plan.jpg",
+            "maxPhotos":"",
+            "type":"LOCATION_MAP"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ],
+      "OTHERS":[
+         {
+            "label":"Property",
+            "addPhotoCount":1,
+            "helpText":"You can upload any relevant picture of the property.",
+            "maxPhotos":"",
+            "type":"PROPERTY"
+         },
+         {
+            "label":"Others",
+            "addPhotoCount":1,
+            "helpText":"You can upload any other relevant pictures of the property",
+            "imgurl":"other.jpg",
+            "maxPhotos":"",
+            "type":"OTHERS"
+         }
+      ]
+
+}

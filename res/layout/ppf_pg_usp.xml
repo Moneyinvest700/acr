@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/usp_lable" android:layout_marginTop="@dimen/small" android:text="USP" style="@style/ppf_heading" />
+    <TextView android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/tv_usp" android:padding="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/small" android:fontFamily="@font/open_sans" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_usp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" />
+    <TextView android:textSize="@dimen/medium" android:textColor="@color/blue" android:id="@id/tv_usp_view_more" android:padding="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/small" android:text="View More" android:fontFamily="@font/open_sans" />
+</LinearLayout>

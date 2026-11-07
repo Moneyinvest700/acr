@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/page" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null" app:layout_constraintTop_toTopOf="parent">
+        <include layout="@layout/toolbar_white" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <com.nnacres.app.customviews.NNReactRootView android:id="@id/reactView" android:layout_width="fill_parent" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintTop_toBottomOf="@id/appbar" />
+    <com.nnacres.app.customviews.ChatbotButton android:id="@id/chatbotButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:layout_marginEnd="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintRight_toRightOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

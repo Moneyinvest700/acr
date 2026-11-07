@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_bottom_sheet_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large" android:layout_marginRight="@dimen/large" app:event_type="CLICK" app:identifier="FLOOR_PLAN_DETAIL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/seller_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/xid_section_header" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_seller" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginStart="@dimen/large" />
+            <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/large">
+                <TextView android:id="@id/tv_sheet_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text=" * Above prices are quoted by sellers and don’t include " app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" style="@style/captionSubduedSmall" />
+                <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:layout_gravity="right" android:id="@id/additional_charges_label" android:layout_width="wrap_content" android:layout_height="wrap_content" app:event_type="CLICK" app:identifier="SELLER_DISCLAIMER.GOVT_CHARGES_LABEL" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toEndOf="@id/tv_sheet_disclaimer" style="@style/chargesAssistive" />
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

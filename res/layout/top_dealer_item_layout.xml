@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:layout_width="@dimen/society_tv_width_hide_checkbox" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xid_heading_margin_top" android:paddingStart="@dimen/pd_card_padding" android:paddingEnd="@dimen/large_medium_even" app:event_type="CLICK" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/image" android:layout_width="@dimen/top_dealer_srp_company_logo_height" android:layout_height="@dimen/top_dealer_srp_company_logo_height" android:src="@null" android:scaleType="fitCenter" android:adjustViewBounds="true" />
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/top_dealer_section_spacing">
+        <LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/searchform_autosuggestor_padding_horizonatal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/name" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/semibold_label" />
+                <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_top_dealer_tag" android:background="@drawable/top_dealer_tag_bkg" android:paddingLeft="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small_even" android:text="@string/lbl_top_dealer" style="@style/bodySmall" />
+            </LinearLayout>
+            <RelativeLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:textColor="@color/Ng500" android:id="@id/property" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/captionSubduedSmall" />
+                <ImageView android:id="@id/navigation" android:layout_width="@dimen/large_medium_even" android:layout_height="@dimen/large_medium_even" android:src="@drawable/navigation_next_item" android:scaleType="fitEnd" android:adjustViewBounds="true" android:layout_toEndOf="@id/property" android:layout_alignParentEnd="true" app:tint="@color/Ng500" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:gravity="center" android:id="@id/tv_tick" android:background="@drawable/tick" android:visibility="gone" android:layout_width="@dimen/small_even" android:layout_height="@dimen/small_medium_even" android:layout_marginTop="@dimen/small" android:layout_marginEnd="@dimen/s" android:backgroundTint="@color/rating_color_succes" />
+                <TextView android:textColor="@color/rating_color_succes" android:gravity="center" android:id="@id/tv_dealer_feedback" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:drawablePadding="@dimen/m" android:fontFamily="@font/open_sans_semibold" style="@style/captionSubduedXtraSmall" />
+                <TextView android:id="@id/member_since" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" style="@style/captionSubduedXtraSmall" />
+            </LinearLayout>
+        </LinearLayout>
+        <View android:id="@id/view_top_divider" android:background="@color/divider" android:layout_width="fill_parent" android:layout_height="@dimen/divider_size" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

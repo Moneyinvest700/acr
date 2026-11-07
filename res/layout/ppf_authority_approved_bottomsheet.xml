@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container_area_help" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <TextView android:textSize="20.0dip" android:id="@id/headerText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="Authority Approval" style="@style/bodyExtraBoldLarge" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:text="Below are the most common approving authorities for your city:" style="@style/captionSubduedMedium" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvAuthority" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="6.0dip" android:layout_marginBottom="10.0dip" />
+</LinearLayout>

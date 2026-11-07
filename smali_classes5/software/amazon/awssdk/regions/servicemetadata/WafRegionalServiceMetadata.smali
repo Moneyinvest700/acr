@@ -1,0 +1,5516 @@
+.class public final Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lsoftware/amazon/awssdk/regions/ServiceMetadata;
+
+
+# annotations
+.annotation build Lsoftware/amazon/awssdk/annotations/SdkPublicApi;
+.end annotation
+
+
+# static fields
+.field private static final DNS_SUFFIXES_BY_PARTITION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/utils/Pair<",
+            "Ljava/lang/String;",
+            "Lsoftware/amazon/awssdk/regions/PartitionEndpointKey;",
+            ">;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final DNS_SUFFIXES_BY_REGION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final ENDPOINT_PREFIX:Ljava/lang/String; = "waf-regional"
+
+.field private static final HOSTNAMES_BY_PARTITION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/utils/Pair<",
+            "Ljava/lang/String;",
+            "Lsoftware/amazon/awssdk/regions/PartitionEndpointKey;",
+            ">;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final HOSTNAMES_BY_REGION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final PARTITIONS:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lsoftware/amazon/awssdk/regions/ServicePartitionMetadata;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final REGIONS:Ljava/util/List;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/List<",
+            "Lsoftware/amazon/awssdk/regions/Region;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final SIGNING_REGIONS_BY_PARTITION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/utils/Pair<",
+            "Ljava/lang/String;",
+            "Lsoftware/amazon/awssdk/regions/PartitionEndpointKey;",
+            ">;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+.field private static final SIGNING_REGIONS_BY_REGION:Ljava/util/Map;
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/Map<",
+            "Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;",
+            "Ljava/lang/String;",
+            ">;"
+        }
+    .end annotation
+.end field
+
+
+# direct methods
+.method static constructor <clinit>()V
+    .locals 78
+
+    const-string v0, "af-south-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v1
+
+    const-string v15, "ap-east-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    const-string v14, "ap-northeast-1"
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    const-string v13, "ap-northeast-2"
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v4
+
+    const-string v12, "ap-northeast-3"
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v5
+
+    const-string v11, "ap-south-1"
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v6
+
+    const-string v7, "ap-south-2"
+
+    invoke-static {v7}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v7
+
+    const-string v10, "ap-southeast-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v8
+
+    const-string v9, "ap-southeast-2"
+
+    invoke-static {v9}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v58, v9
+
+    move-object/from16 v9, v16
+
+    const-string v16, "ap-southeast-3"
+
+    invoke-static/range {v16 .. v16}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v59, v10
+
+    move-object/from16 v10, v16
+
+    const-string v16, "ap-southeast-4"
+
+    invoke-static/range {v16 .. v16}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v60, v11
+
+    move-object/from16 v11, v16
+
+    move-object/from16 v61, v0
+
+    const-string v0, "ca-central-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v62, v12
+
+    move-object/from16 v12, v16
+
+    move-object/from16 v63, v0
+
+    const-string v0, "eu-central-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v64, v13
+
+    move-object/from16 v13, v16
+
+    const-string v16, "eu-central-2"
+
+    invoke-static/range {v16 .. v16}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v65, v14
+
+    move-object/from16 v14, v16
+
+    move-object/from16 v66, v0
+
+    const-string v0, "eu-north-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    move-object/from16 v67, v15
+
+    move-object/from16 v15, v16
+
+    move-object/from16 v68, v0
+
+    const-string v0, "eu-south-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v16
+
+    const-string v17, "eu-south-2"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v17
+
+    move-object/from16 v69, v0
+
+    const-string v0, "eu-west-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v18
+
+    move-object/from16 v70, v0
+
+    const-string v0, "eu-west-2"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v19
+
+    move-object/from16 v71, v0
+
+    const-string v0, "eu-west-3"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v20
+
+    const-string v21, "fips-af-south-1"
+
+    invoke-static/range {v21 .. v21}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v21
+
+    const-string v22, "fips-ap-east-1"
+
+    invoke-static/range {v22 .. v22}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v22
+
+    const-string v23, "fips-ap-northeast-1"
+
+    invoke-static/range {v23 .. v23}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v23
+
+    const-string v24, "fips-ap-northeast-2"
+
+    invoke-static/range {v24 .. v24}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v24
+
+    const-string v25, "fips-ap-northeast-3"
+
+    invoke-static/range {v25 .. v25}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v25
+
+    const-string v26, "fips-ap-south-1"
+
+    invoke-static/range {v26 .. v26}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v26
+
+    const-string v27, "fips-ap-southeast-1"
+
+    invoke-static/range {v27 .. v27}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v27
+
+    const-string v28, "fips-ap-southeast-2"
+
+    invoke-static/range {v28 .. v28}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v28
+
+    const-string v29, "fips-ca-central-1"
+
+    invoke-static/range {v29 .. v29}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v29
+
+    const-string v30, "fips-eu-central-1"
+
+    invoke-static/range {v30 .. v30}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v30
+
+    const-string v31, "fips-eu-north-1"
+
+    invoke-static/range {v31 .. v31}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v31
+
+    const-string v32, "fips-eu-south-1"
+
+    invoke-static/range {v32 .. v32}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v32
+
+    const-string v33, "fips-eu-west-1"
+
+    invoke-static/range {v33 .. v33}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v33
+
+    const-string v34, "fips-eu-west-2"
+
+    invoke-static/range {v34 .. v34}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v34
+
+    const-string v35, "fips-eu-west-3"
+
+    invoke-static/range {v35 .. v35}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v35
+
+    const-string v36, "fips-me-south-1"
+
+    invoke-static/range {v36 .. v36}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v36
+
+    const-string v37, "fips-sa-east-1"
+
+    invoke-static/range {v37 .. v37}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v37
+
+    const-string v38, "fips-us-east-1"
+
+    invoke-static/range {v38 .. v38}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v38
+
+    const-string v39, "fips-us-east-2"
+
+    invoke-static/range {v39 .. v39}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v39
+
+    const-string v40, "fips-us-west-1"
+
+    invoke-static/range {v40 .. v40}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v40
+
+    const-string v41, "fips-us-west-2"
+
+    invoke-static/range {v41 .. v41}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v41
+
+    const-string v42, "il-central-1"
+
+    invoke-static/range {v42 .. v42}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v42
+
+    const-string v43, "me-central-1"
+
+    invoke-static/range {v43 .. v43}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v43
+
+    move-object/from16 v72, v0
+
+    const-string v0, "me-south-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v44
+
+    move-object/from16 v73, v0
+
+    const-string v0, "sa-east-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v45
+
+    move-object/from16 v74, v0
+
+    const-string v0, "us-east-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v46
+
+    move-object/from16 v75, v0
+
+    const-string v0, "us-east-2"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v47
+
+    move-object/from16 v76, v0
+
+    const-string v0, "us-west-1"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v48
+
+    move-object/from16 v77, v0
+
+    const-string v0, "us-west-2"
+
+    invoke-static {v0}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v49
+
+    const-string v50, "cn-north-1"
+
+    invoke-static/range {v50 .. v50}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v50
+
+    const-string v51, "cn-northwest-1"
+
+    invoke-static/range {v51 .. v51}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v51
+
+    const-string v52, "fips-cn-north-1"
+
+    invoke-static/range {v52 .. v52}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v52
+
+    const-string v53, "fips-cn-northwest-1"
+
+    invoke-static/range {v53 .. v53}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v53
+
+    const-string v54, "fips-us-gov-east-1"
+
+    invoke-static/range {v54 .. v54}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v54
+
+    const-string v55, "fips-us-gov-west-1"
+
+    invoke-static/range {v55 .. v55}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v55
+
+    const-string v56, "us-gov-east-1"
+
+    invoke-static/range {v56 .. v56}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v56
+
+    const-string v57, "us-gov-west-1"
+
+    invoke-static/range {v57 .. v57}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v57
+
+    filled-new-array/range {v1 .. v57}, [Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v1
+
+    sput-object v1, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->REGIONS:Ljava/util/List;
+
+    new-instance v1, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;
+
+    const-string v2, "aws"
+
+    const/4 v3, 0x0
+
+    invoke-direct {v1, v2, v3}, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;-><init>(Ljava/lang/String;Lsoftware/amazon/awssdk/regions/Region;)V
+
+    new-instance v2, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;
+
+    const-string v3, "aws-cn"
+
+    const/4 v4, 0x0
+
+    invoke-direct {v2, v3, v4}, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;-><init>(Ljava/lang/String;Lsoftware/amazon/awssdk/regions/Region;)V
+
+    new-instance v3, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;
+
+    const-string v4, "aws-us-gov"
+
+    const/4 v5, 0x0
+
+    invoke-direct {v3, v4, v5}, Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;-><init>(Ljava/lang/String;Lsoftware/amazon/awssdk/regions/Region;)V
+
+    filled-new-array {v1, v2, v3}, [Lsoftware/amazon/awssdk/regions/internal/DefaultServicePartitionMetadata;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Arrays;->asList([Ljava/lang/Object;)Ljava/util/List;
+
+    move-result-object v1
+
+    invoke-static {v1}, Ljava/util/Collections;->unmodifiableList(Ljava/util/List;)Ljava/util/List;
+
+    move-result-object v1
+
+    sput-object v1, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->PARTITIONS:Ljava/util/List;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v61 .. v61}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v2, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v3, v61
+
+    invoke-virtual {v1, v2, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v4
+
+    invoke-interface {v2, v4}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v4, "fips"
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v5
+
+    filled-new-array {v5}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v5
+
+    invoke-interface {v2, v5}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v67 .. v67}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v5
+
+    invoke-interface {v2, v5}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v5, v67
+
+    invoke-virtual {v1, v2, v5}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v5}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v6
+
+    invoke-interface {v2, v6}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v6
+
+    filled-new-array {v6}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v6
+
+    invoke-interface {v2, v6}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v5}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v65 .. v65}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v6
+
+    invoke-interface {v2, v6}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v6, v65
+
+    invoke-virtual {v1, v2, v6}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v6}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v7
+
+    invoke-interface {v2, v7}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v7
+
+    filled-new-array {v7}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v7
+
+    invoke-interface {v2, v7}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v6}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v64 .. v64}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v7
+
+    invoke-interface {v2, v7}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v7, v64
+
+    invoke-virtual {v1, v2, v7}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v7}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v8
+
+    invoke-interface {v2, v8}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v8
+
+    filled-new-array {v8}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v8
+
+    invoke-interface {v2, v8}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v7}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v62 .. v62}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v8
+
+    invoke-interface {v2, v8}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v8, v62
+
+    invoke-virtual {v1, v2, v8}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v8}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v9
+
+    invoke-interface {v2, v9}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v9
+
+    filled-new-array {v9}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v9
+
+    invoke-interface {v2, v9}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v8}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v60 .. v60}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v9
+
+    invoke-interface {v2, v9}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v9, v60
+
+    invoke-virtual {v1, v2, v9}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v9}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v9}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v10, "ap-south-2"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v10, "ap-south-2"
+
+    invoke-virtual {v1, v2, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v10, "ap-south-2"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v10, "ap-south-2"
+
+    invoke-virtual {v1, v2, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v59 .. v59}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v2, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v10, v59
+
+    invoke-virtual {v1, v2, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v11
+
+    invoke-interface {v2, v11}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v11
+
+    filled-new-array {v11}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v11
+
+    invoke-interface {v2, v11}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v58 .. v58}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v11
+
+    invoke-interface {v2, v11}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v11, v58
+
+    invoke-virtual {v1, v2, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    filled-new-array {v12}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-3"
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-3"
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-3"
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    filled-new-array {v12}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-3"
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-4"
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-4"
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-4"
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    filled-new-array {v12}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v12, "ap-southeast-4"
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v63 .. v63}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v2, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v12, v63
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v13
+
+    invoke-interface {v2, v13}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v13
+
+    filled-new-array {v13}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v13
+
+    invoke-interface {v2, v13}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v66 .. v66}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v13
+
+    invoke-interface {v2, v13}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v13, v66
+
+    invoke-virtual {v1, v2, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v14
+
+    filled-new-array {v14}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v14, "eu-central-2"
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v14, "eu-central-2"
+
+    invoke-virtual {v1, v2, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    const-string v14, "eu-central-2"
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v14
+
+    filled-new-array {v14}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    const-string v14, "eu-central-2"
+
+    invoke-virtual {v1, v2, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v68 .. v68}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v14
+
+    invoke-interface {v2, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v14, v68
+
+    invoke-virtual {v1, v2, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v2, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    filled-new-array {v15}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    invoke-interface {v2, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    invoke-virtual {v1, v2, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-static/range {v69 .. v69}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v2, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    invoke-interface {v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v2
+
+    move-object/from16 v15, v69
+
+    invoke-virtual {v1, v2, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v1
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v2
+
+    move-object/from16 v16, v0
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v0
+
+    invoke-interface {v2, v0}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v0
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v0, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v0
+
+    invoke-interface {v0}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v0
+
+    invoke-virtual {v1, v0, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "eu-south-2"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "eu-south-2"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "eu-south-2"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "eu-south-2"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v70 .. v70}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v2, v70
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    filled-new-array {v15}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v71 .. v71}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v15, v71
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v72 .. v72}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v2, v72
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    filled-new-array {v15}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-af-south-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-east-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v5}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-northeast-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v6}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-northeast-2"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v7}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-northeast-3"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v8}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-south-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v9}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-southeast-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ap-southeast-2"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-ca-central-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-eu-central-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-eu-north-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-eu-south-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v15, v69
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-eu-west-1"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v15, v70
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-eu-west-2"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v15, v71
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-eu-west-3"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v15, "fips-me-south-1"
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v15
+
+    invoke-interface {v1, v15}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v15, v73
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-sa-east-1"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v2, v74
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-us-east-1"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v14
+
+    invoke-interface {v1, v14}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v14, v75
+
+    invoke-virtual {v0, v1, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-us-east-2"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v13
+
+    invoke-interface {v1, v13}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v13, v76
+
+    invoke-virtual {v0, v1, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-us-west-1"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v12
+
+    invoke-interface {v1, v12}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v12, v77
+
+    invoke-virtual {v0, v1, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v17, "fips-us-west-2"
+
+    invoke-static/range {v17 .. v17}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v11
+
+    invoke-interface {v1, v11}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    move-object/from16 v11, v16
+
+    invoke-virtual {v0, v1, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v16, "il-central-1"
+
+    invoke-static/range {v16 .. v16}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "il-central-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "il-central-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "il-central-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "me-central-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "me-central-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "me-central-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "me-central-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v15}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v14}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v13}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v12}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    invoke-virtual {v0, v1, v11}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "cn-north-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-north-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "cn-north-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-north-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "cn-northwest-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-northwest-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "cn-northwest-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-northwest-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "fips-cn-north-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-north-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "fips-cn-northwest-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "cn-northwest-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "fips-us-gov-east-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-east-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "fips-us-gov-west-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-west-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-east-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-east-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-east-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-east-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-west-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-west-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-west-1"
+
+    invoke-static {v10}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    filled-new-array {v10}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "us-gov-west-1"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->SIGNING_REGIONS_BY_REGION:Ljava/util/Map;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->SIGNING_REGIONS_BY_PARTITION:Ljava/util/Map;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->DNS_SUFFIXES_BY_REGION:Ljava/util/Map;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->DNS_SUFFIXES_BY_PARTITION:Ljava/util/Map;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v10
+
+    invoke-interface {v1, v10}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v10, "waf-regional.af-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v10}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.af-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v5}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v5}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v6}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-northeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v6}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v7}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-northeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v7}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v8}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-northeast-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v8}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v9}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v9}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-south-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-south-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-south-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-south-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v59 .. v59}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-southeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v59 .. v59}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v58 .. v58}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-southeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v58 .. v58}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-southeast-3"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-southeast-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-southeast-3"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-southeast-4"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ap-southeast-4.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "ap-southeast-4"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-4.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v63 .. v63}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.ca-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v63 .. v63}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ca-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v66 .. v66}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v66 .. v66}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "eu-central-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-central-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "eu-central-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-central-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v68 .. v68}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-north-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v68 .. v68}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-north-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v69 .. v69}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v69 .. v69}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "eu-south-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-south-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "eu-south-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-south-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v70 .. v70}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v70 .. v70}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v71 .. v71}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v71 .. v71}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v72 .. v72}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.eu-west-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static/range {v72 .. v72}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-af-south-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.af-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-east-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-northeast-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-northeast-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-northeast-3"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-northeast-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-south-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-southeast-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ap-southeast-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ap-southeast-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-ca-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.ca-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-north-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-north-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-south-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-west-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-west-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-eu-west-3"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.eu-west-3.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-me-south-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.me-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-sa-east-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.sa-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-us-east-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.us-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-us-east-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.us-east-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-us-west-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.us-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "fips-us-west-2"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.us-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "il-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.il-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "il-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.il-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "me-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.me-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v3, "me-central-1"
+
+    invoke-static {v3}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.me-central-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.me-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v15}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    filled-new-array {v3}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional-fips.me-south-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v3
+
+    invoke-interface {v1, v3}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v3, "waf-regional.sa-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v3}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.sa-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v14}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-east-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v13}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-east-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v12}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v11}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-west-2.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "cn-north-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.cn-north-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "cn-north-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.cn-north-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "cn-northwest-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.cn-northwest-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "cn-northwest-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.cn-northwest-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "fips-cn-north-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.cn-north-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "fips-cn-northwest-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.cn-northwest-1.amazonaws.com.cn"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "fips-us-gov-east-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-gov-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "fips-us-gov-west-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-gov-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "us-gov-east-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-gov-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "us-gov-east-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-gov-east-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "us-gov-west-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional.us-gov-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-static {}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->builder()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    const-string v2, "us-gov-west-1"
+
+    invoke-static {v2}, Lsoftware/amazon/awssdk/regions/Region;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->region(Lsoftware/amazon/awssdk/regions/Region;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-static {v4}, Lsoftware/amazon/awssdk/regions/EndpointTag;->of(Ljava/lang/String;)Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    filled-new-array {v2}, [Lsoftware/amazon/awssdk/regions/EndpointTag;
+
+    move-result-object v2
+
+    invoke-interface {v1, v2}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->tags([Lsoftware/amazon/awssdk/regions/EndpointTag;)Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;
+
+    move-result-object v1
+
+    invoke-interface {v1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey$Builder;->build()Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;
+
+    move-result-object v1
+
+    const-string v2, "waf-regional-fips.us-gov-west-1.amazonaws.com"
+
+    invoke-virtual {v0, v1, v2}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->put(Ljava/lang/Object;Ljava/lang/Object;)Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->HOSTNAMES_BY_REGION:Ljava/util/Map;
+
+    invoke-static {}, Lsoftware/amazon/awssdk/utils/ImmutableMap;->builder()Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;
+
+    move-result-object v0
+
+    invoke-virtual {v0}, Lsoftware/amazon/awssdk/utils/ImmutableMap$Builder;->build()Lsoftware/amazon/awssdk/utils/ImmutableMap;
+
+    move-result-object v0
+
+    sput-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->HOSTNAMES_BY_PARTITION:Ljava/util/Map;
+
+    return-void
+.end method
+
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public endpointFor(Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;)Ljava/net/URI;
+    .locals 4
+
+    sget-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->HOSTNAMES_BY_REGION:Ljava/util/Map;
+
+    sget-object v1, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->HOSTNAMES_BY_PARTITION:Ljava/util/Map;
+
+    invoke-static {p1, v0, v1}, Lsoftware/amazon/awssdk/regions/internal/util/ServiceMetadataUtils;->hostname(Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;
+
+    move-result-object v0
+
+    invoke-virtual {p1}, Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;->region()Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object v1
+
+    invoke-virtual {v1}, Lsoftware/amazon/awssdk/regions/Region;->id()Ljava/lang/String;
+
+    move-result-object v1
+
+    sget-object v2, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->DNS_SUFFIXES_BY_REGION:Ljava/util/Map;
+
+    sget-object v3, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->DNS_SUFFIXES_BY_PARTITION:Ljava/util/Map;
+
+    invoke-static {p1, v2, v3}, Lsoftware/amazon/awssdk/regions/internal/util/ServiceMetadataUtils;->dnsSuffix(Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;Ljava/util/Map;Ljava/util/Map;)Ljava/lang/String;
+
+    move-result-object p1
+
+    const-string v2, "waf-regional"
+
+    invoke-static {v0, v2, v1, p1}, Lsoftware/amazon/awssdk/regions/internal/util/ServiceMetadataUtils;->endpointFor(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Ljava/net/URI;
+
+    move-result-object p1
+
+    return-object p1
+.end method
+
+.method public regions()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lsoftware/amazon/awssdk/regions/Region;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->REGIONS:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public servicePartitions()Ljava/util/List;
+    .locals 1
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/List<",
+            "Lsoftware/amazon/awssdk/regions/ServicePartitionMetadata;",
+            ">;"
+        }
+    .end annotation
+
+    sget-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->PARTITIONS:Ljava/util/List;
+
+    return-object v0
+.end method
+
+.method public signingRegion(Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;)Lsoftware/amazon/awssdk/regions/Region;
+    .locals 2
+
+    sget-object v0, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->SIGNING_REGIONS_BY_REGION:Ljava/util/Map;
+
+    sget-object v1, Lsoftware/amazon/awssdk/regions/servicemetadata/WafRegionalServiceMetadata;->SIGNING_REGIONS_BY_PARTITION:Ljava/util/Map;
+
+    invoke-static {p1, v0, v1}, Lsoftware/amazon/awssdk/regions/internal/util/ServiceMetadataUtils;->signingRegion(Lsoftware/amazon/awssdk/regions/ServiceEndpointKey;Ljava/util/Map;Ljava/util/Map;)Lsoftware/amazon/awssdk/regions/Region;
+
+    move-result-object p1
+
+    return-object p1
+.end method

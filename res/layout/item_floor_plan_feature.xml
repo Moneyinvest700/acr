@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center" android:id="@id/tv_tag" android:background="@drawable/shape_grey_bckg" android:padding="@dimen/extra_extra_small" android:layout_width="70.0dip" android:layout_height="18.0dip" android:layout_margin="@dimen/s" android:text="Large Kitchen" android:fontFamily="@font/open_sans_semibold" style="@style/captionStrongXtraSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

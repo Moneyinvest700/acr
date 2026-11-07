@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/outer_core" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/buySearchFormLayoutParent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ScrollView android:orientation="vertical" android:id="@id/buySearchFormLayout" android:background="@color/white" android:visibility="visible" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true">
+            <LinearLayout android:orientation="vertical" android:id="@id/llFeaturedProject" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RelativeLayout android:id="@id/rlFeaturedProject" android:layout_width="fill_parent" android:layout_height="135.0dip">
+                    <androidx.viewpager.widget.ViewPager android:id="@id/featured_project_image" android:background="#ffffffff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="200.0dip" />
+                    <LinearLayout android:id="@id/featured_project_progreeBar" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true">
+                        <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/progress_wheel" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+                    </LinearLayout>
+                    <TextView android:textColor="@color/material_gray_800" android:id="@id/error_message_np" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Oops! Something went wrong with Network" android:layout_centerInParent="true" />
+                    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/featured_project_title" android:background="@color/transparentBlackBg" android:padding="5.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:text="" android:layout_alignParentBottom="true" />
+                </RelativeLayout>
+                <RadioGroup android:gravity="center" android:orientation="horizontal" android:id="@id/searchOrBrowse" android:background="#ff323232" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <View android:id="@id/blankView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.nnacres.app.ui.NNacresRadioButton android:textColor="@drawable/np_text_color" android:gravity="center" android:id="@id/browseButton" android:background="@drawable/np_search_and_browse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:checked="true" android:button="@null" android:text="@string/browse_text" android:drawableLeft="@drawable/selector_browser_icon" android:drawablePadding="10.0dip" />
+                    <View android:id="@id/blankView1" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <View android:id="@id/blankView2" android:background="@drawable/tab_divider" android:layout_width="0.20000005dip" android:layout_height="fill_parent" android:layout_marginTop="5.0dip" android:layout_marginBottom="5.0dip" />
+                    <View android:id="@id/blankView3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                    <com.nnacres.app.ui.NNacresRadioButton android:textColor="@drawable/np_text_color" android:gravity="center" android:id="@id/searchButton" android:background="@drawable/np_search_and_browse" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:button="@null" android:text="@string/search_text" android:drawableLeft="@drawable/selector_search_icon" android:drawablePadding="10.0dip" />
+                    <View android:id="@id/blankView4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" />
+                </RadioGroup>
+            </LinearLayout>
+        </ScrollView>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/cardView" android:layout_width="wrap_content" android:layout_height="180.0dip" android:layout_marginEnd="@dimen/small_even" app:cardBackgroundColor="@color/post_property_card_background" app:cardCornerRadius="@dimen/small_even" app:cardElevation="0.0dip" app:event_type="ALL" app:identifier="OWNER_SERVICES" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_large_even">
+        <TextView android:id="@id/tvTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="Rental Agreement  " android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/text_guide" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/bodyBoldLarge" />
+        <TextView android:id="@id/tvSubTitle" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="Share basic details online and get door step delivery of your rental agreement" app:layout_constraintEnd_toEndOf="@id/text_guide" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tvTitle" style="@style/captionStrongMedium" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/cardImage" android:layout_width="118.0dip" android:layout_height="140.0dip" android:layout_marginTop="@dimen/large" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/text_guide" app:layout_constraintTop_toTopOf="parent" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" app:layout_constraintStart_toStartOf="@id/tvTitle" app:layout_constraintTop_toBottomOf="@id/tvSubTitle">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/ctaButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Explore Now" style="@style/hyperlinkNormal" />
+            <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:src="@drawable/ic_arrow_right_alt_24px" android:layout_marginStart="@dimen/s" />
+        </LinearLayout>
+        <androidx.constraintlayout.widget.Guideline android:orientation="vertical" android:id="@id/text_guide" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.58" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

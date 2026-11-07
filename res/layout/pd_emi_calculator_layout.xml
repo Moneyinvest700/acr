@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="EMI_CALCULATOR" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bodyNormal" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/ll_emi_tuple" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/icon" android:background="@color/Ng200" android:paddingTop="@dimen/txt_xtra_xtra_xtra_small" android:paddingBottom="@dimen/txt_xtra_xtra_xtra_small" android:layout_width="@dimen/xid_about_builder_card_margin_top" android:layout_height="@dimen/top_dealer_detail_company_logo_height" android:src="@null" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_emi_action" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/large_even">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/title" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/bodyNormal" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small">
+                <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:ellipsize="end" android:id="@id/emiText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginEnd="@dimen/xxxx_large" style="@style/captionStrongMedium" />
+                <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:background="@drawable/ic_arrow_right" android:layout_width="@dimen/large" android:layout_height="@dimen/large" android:layout_centerInParent="true" android:layout_alignParentEnd="true" />
+            </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+            <include android:layout_width="fill_parent" android:layout_height="@dimen/xxs" android:layout_marginTop="@dimen/small" layout="@layout/line_divider_layout" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" app:event_type="ALL" app:identifier="BANKS" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:orientation="horizontal" android:background="@drawable/shape_floor_plan_bkg" android:paddingTop="@dimen/medium" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_bank_layer_holder" android:layout_width="125.0dip" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large">
+            <ImageView android:id="@id/iv_bank" android:layout_width="48.0dip" android:layout_height="48.0dip" android:src="@drawable/ic_bank" />
+            <include android:id="@id/bank_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even" layout="@layout/xid_section_header" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="right" android:orientation="horizontal" android:padding="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:id="@id/tv_date" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/large" style="@style/captionSubduedSmall" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/iv_info" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/info_icon" app:event_type="CLICK" app:identifier="INFO_ICON" />
+        </LinearLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_bank" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/extra_extra_extra_large" android:paddingStart="150.0dip" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/extra_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/small" layout="@layout/xid_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/price_appreciation" android:visibility="visible" android:layout_width="158.0dip" android:layout_height="175.0dip" android:layout_margin="12.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="@dimen/extra_small" android:elevation="@dimen/medium_even" app:cardBackgroundColor="@color/white" app:cardCornerRadius="@dimen/m" app:event_type="ALL" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="16.0dip" android:layout_marginTop="16.0dip" android:layout_marginRight="10.0dip">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/icon" android:layout_width="32.0dip" android:layout_height="32.0dip" android:src="@null" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/appreciation" android:layout_width="@dimen/hp_proj_inv_card_width" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="10.77% appreciation" style="@style/hp_upcoming_localities_title" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/description" android:layout_width="@dimen/hp_proj_inv_card_width" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="in avg. price / sqft in ATS Green Heights in last 1 year" style="@style/new_srp_tuple_heading_style" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

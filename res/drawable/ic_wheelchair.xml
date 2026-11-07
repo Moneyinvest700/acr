@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="48.0dip" android:width="48.0dip" android:viewportWidth="48.0" android:viewportHeight="48.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffffaa3e" android:pathData="M16.7922,4.5H18.7922C19.8968,4.5 20.7922,5.3954 20.7922,6.5V27.5H16.7922V4.5Z" />
+    <path android:fillColor="#ffffaa3e" android:pathData="M33.7922,26.5V24.5C33.7922,23.3954 32.8968,22.5 31.7922,22.5L16.7922,22.5V26.5L33.7922,26.5Z" />
+    <path android:fillColor="#ff656d78" android:pathData="M38.7922,38.5h5v2h-5z" />
+    <path android:fillColor="#ff656d78" android:pathData="M11.1611,4.0978H4.21V1.5H14.1552C15.8121,1.5 17.1552,2.8431 17.1552,4.5V26.635H14.1611V7.0978C14.1611,5.441 12.818,4.0978 11.1611,4.0978Z" />
+    <path android:fillColor="#ff656d78" android:pathData="M23.4386,29.5L18.7922,26.5H37.7922V29.5H23.4386Z" />
+    <path android:fillColor="#ff656d78" android:pathData="M15.7022,46.5C21.5384,46.5 26.2697,41.7688 26.2697,35.9325C26.2697,30.0962 21.5384,25.365 15.7022,25.365C9.8659,25.365 5.1346,30.0962 5.1346,35.9325C5.1346,41.7688 9.8659,46.5 15.7022,46.5ZM15.7022,44.1223C20.2253,44.1223 23.892,40.4556 23.892,35.9325C23.892,31.4094 20.2253,27.7427 15.7022,27.7427C11.179,27.7427 7.5123,31.4094 7.5123,35.9325C7.5123,40.4556 11.179,44.1223 15.7022,44.1223Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff656d78" android:pathData="M31.6229,17.4834H16.8411V14.6213H34.6171C35.7216,14.6213 36.6171,15.5168 36.6171,16.6213V26.4844H33.6229V19.4834C33.6229,18.3788 32.7275,17.4834 31.6229,17.4834Z" />
+    <path android:fillColor="#ff656d78" android:pathData="M33.7922,29.5H36.4341V36.5509H33.7922V29.5Z" />
+    <path android:fillColor="#ff656d78" android:pathData="M35.2922,41m-5.5,0a5.5,5.5 0,1 1,11 0a5.5,5.5 0,1 1,-11 0" />
+    <path android:fillColor="#ff656d78" android:pathData="M15.7922,36m-6,0a6,6 0,1 1,12 0a6,6 0,1 1,-12 0" />
+    <path android:fillColor="#ffffaa3e" android:pathData="M35.2922,40.9m-3,0a3,3 0,1 1,6 0a3,3 0,1 1,-6 0" />
+</vector>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/mapTuple" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:id="@id/multipleproperties_top_stack" android:background="@drawable/map_multipleproperties_tuple_bg" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="110.0dip" android:layout_marginLeft="5.0dip" android:layout_marginRight="5.0dip" android:weightSum="5.0" android:layout_below="@id/multipleproperties_top_stack">
+        <RelativeLayout android:id="@id/leftPart" android:background="@color/white" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="2.0">
+            <ImageView android:id="@id/propImageMultipleProperties" android:layout_width="126.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:contentDescription="@string/emptyString" />
+            <TextView android:id="@id/seenTextViewMap" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Seen" />
+        </RelativeLayout>
+        <RelativeLayout android:layout_gravity="center_vertical" android:id="@id/rightPart" android:background="@drawable/map_viewpager_item" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="3.0" android:layout_toRightOf="@id/leftPart">
+            <LinearLayout android:orientation="vertical" android:id="@id/firstDivider" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/building_price_range" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginRight="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:id="@id/building_society" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="3.0dip" android:singleLine="true" />
+                <TextView android:textSize="12.0sp" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/building_locality" android:paddingBottom="2.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:singleLine="true" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/black" android:ellipsize="end" android:gravity="center|left" android:id="@id/building_no_of_properties" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:lines="1" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+    <ProgressBar android:id="@id/progress_bar" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_centerInParent="true" />
+</RelativeLayout>

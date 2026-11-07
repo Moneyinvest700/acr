@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/availableFromAny" android:text="Anytime" android:onClick="availableFromClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/availableImmediate" android:text="Immediately" android:onClick="availableFromClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/availFrom15Days" android:text="Within 15 days" android:onClick="availableFromClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/availFrom1Month" android:text="1 Month" android:onClick="availableFromClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+        <com.nnacres.app.ui.NNacresRadioButton android:id="@id/availFromAfter1Month" android:text="After 1 Month" android:onClick="availableFromClickHandler" style="@style/RefineDetailRadioBtnStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    </RadioGroup>
+</LinearLayout>

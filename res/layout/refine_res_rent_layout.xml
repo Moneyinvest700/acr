@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/singlewomen" android:text="Single Women" android:onClick="singleWomenClickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/singlemen" android:text="Single Men" android:onClick="singleMenClickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/family" android:text="Family" android:onClick="familyClickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/resrent_compnylease" android:layout_height="wrap_content" android:minHeight="50.0dip" android:text="Tenants with company lease" android:singleLine="false" android:onClick="leaseCompanyClickhandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

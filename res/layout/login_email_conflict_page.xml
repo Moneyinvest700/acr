@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/login_email_root" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/previousEmailConflict" android:layout_marginTop="@dimen/large_even" android:layout_marginStart="@dimen/large_even" style="@style/LoginPreviousButtonStyle" />
+    <ScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true">
+        <LinearLayout android:orientation="vertical" android:padding="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <ImageView android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_marginBottom="@dimen/extra_extra_large" style="@style/LoginPageTagStyle" />
+            <TextView android:textColor="@color/black_with_alpha" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium" android:text="@string/text_multiple_email_conflict" android:maxLines="3" android:drawablePadding="@dimen/small" android:drawableStart="@drawable/ic_yellow_exclamation_sign" />
+            <EditText android:id="@id/etEmailUserName" android:tag="@string/username" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="24.0dip" android:hint="@string/hint_enter_username_email" android:inputType="textEmailAddress|textNoSuggestions" android:imeOptions="actionNext" style="@style/loginEditText" />
+            <EditText android:id="@id/etPassword" android:tag="@string/password" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/medium_even" android:hint="@string/hint_enter_password" android:inputType="textPassword" android:imeOptions="actionGo" android:drawableEnd="@drawable/eye_close" style="@style/loginEditText" />
+            <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/material_blue_600" android:layout_gravity="end" android:id="@id/conflictScreenForgotPassword" android:paddingTop="@dimen/extra_small" android:paddingBottom="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="@string/text_forgot_password" />
+            <include layout="@layout/gdpr_info_layout" />
+            <Button android:textStyle="bold" android:id="@id/conflictScreenLoginButton" android:tag="@string/login" android:layout_width="fill_parent" android:layout_height="48.0dip" android:layout_marginTop="@dimen/extra_large" android:layout_marginBottom="@dimen/extra_extra_large" android:text="@string/text_login" android:textAllCaps="true" style="@style/ActionButtonBlue" />
+            <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/dark_grey" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_not_registered_msg" />
+            <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/material_blue_600" android:id="@id/conflictScreenRegister" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Register here" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/selected_time_slot_shape" android:padding="@dimen/medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/medium_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/black" android:id="@id/tvDate" android:layout_width="wrap_content" android:layout_height="wrap_content" app:fontFamily="@font/open_sans_semibold" />
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/subtitle" android:id="@id/tvSlotAvailable" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

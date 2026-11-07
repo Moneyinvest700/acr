@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:orientation="vertical" android:background="@drawable/shape_rectangle_corners_radius_strokeng300_white_bg" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="1.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.nnacres.app.ui.CircularImageView android:layout_gravity="center" android:id="@id/ivImage" android:layout_width="18.0dip" android:layout_height="12.0dip" android:layout_marginStart="@dimen/small_even" />
+        <TextView android:id="@id/tvTitle" android:paddingTop="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/medium_even" style="@style/bodySmallRegular" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

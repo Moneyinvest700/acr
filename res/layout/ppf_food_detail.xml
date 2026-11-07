@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/foodDetailChips" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/mealType" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/availableWeekdays" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/availableWeekEnds" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupFieldView android:id="@id/foodCharges" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/breakfast" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/extra_small" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/lunch" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:layout_marginBottom="@dimen/extra_small" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/dinner" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/charge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" />
+</LinearLayout>

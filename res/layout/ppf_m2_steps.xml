@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/steps" android:background="@drawable/text_view_nocorners_gray_black" android:layout_width="fill_parent" android:layout_height="60.0dip" android:baselineAligned="false" android:layout_alignParentLeft="true" android:layout_alignParentRight="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:gravity="left" android:id="@id/leftPart" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <ImageView android:gravity="center" android:id="@id/stepOneOval" android:layout_width="@dimen/ppf_oval_size" android:layout_height="@dimen/ppf_oval_size" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:src="@drawable/basic_details_selected" android:layout_alignParentLeft="true" android:layout_centerVertical="true" android:contentDescription="@string/emptyString" />
+        <TextView android:textColor="#ff63c4b1" android:gravity="center|left" android:id="@id/stepOneDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Basic\nInformation" android:layout_toRightOf="@id/stepOneOval" android:layout_alignTop="@id/stepOneOval" android:layout_alignBottom="@id/stepOneOval" style="@style/ppf_steps_text_style" />
+    </RelativeLayout>
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="24.0dip" android:layout_height="24.0dip" android:src="@drawable/center_arrow" />
+    <RelativeLayout android:id="@id/rightPart" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.5">
+        <ImageView android:gravity="center" android:id="@id/stepTwoOval" android:layout_width="@dimen/ppf_oval_size" android:layout_height="@dimen/ppf_oval_size" android:layout_marginLeft="8.0dip" android:src="@drawable/property_details_selected" android:layout_alignParentLeft="true" android:layout_centerInParent="true" />
+        <TextView android:textColor="@color/material_gray_800" android:gravity="center|left" android:id="@id/stepTwoDescription" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="Property\nDetails" android:layout_toRightOf="@id/stepTwoOval" android:layout_alignTop="@id/stepTwoOval" android:layout_alignBottom="@id/stepTwoOval" style="@style/ppf_steps_text_style" />
+    </RelativeLayout>
+</LinearLayout>

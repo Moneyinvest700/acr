@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/grid_item_image" android:background="@null" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+    <TextView android:id="@id/sample_textview_grid" android:layout_width="fill_parent" android:layout_height="15.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" android:layout_centerVertical="true" style="@style/sample_text_view" />
+    <ImageView android:id="@id/play_video_icon" android:background="@drawable/selector_play_icon" android:visibility="gone" android:layout_width="35.0dip" android:layout_height="35.0dip" android:layout_centerInParent="true" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/eoi_expandCollapseLayout" android:background="@drawable/custom_btn_grey1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="8.0dip">
+        <TextView android:textSize="17.0sp" android:textColor="@color/material_gray_800" android:id="@id/eoi_brochureLayerTag" android:paddingTop="5.0dip" android:paddingRight="10.0dip" android:paddingBottom="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="2 Advertizer dealing in this project" android:layout_weight="1.0" />
+        <ImageView android:id="@id/img_expandCollapse" android:background="#00ffffff" android:padding="5.0dip" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/more_option_sign" android:scaleType="centerInside" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/eoi_npMessageAdvertisorContainer" android:background="@drawable/custom_btn_grey1" android:paddingLeft="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" />
+    <TextView android:textSize="13.0dip" android:textColor="@color/material_gray_500" android:id="@id/brochureLayerTag2" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:text="Your interest will be sent to the above advertisers" />
+</LinearLayout>

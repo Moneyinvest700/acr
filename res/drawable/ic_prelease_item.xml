@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="40.0dip" android:width="38.0dip" android:viewportWidth="38.0" android:viewportHeight="40.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ffe0edff" android:pathData="M1.834,33.3026C1.834,32.0861 2.807,31.1003 4.011,31.1003C5.215,31.1003 6.188,32.0861 6.188,33.3026C6.188,34.5183 5.215,35.5045 4.011,35.5045C2.807,35.5045 1.834,34.5183 1.834,33.3026Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffe0edff" android:pathData="M1.3301,38.344H1.8306V35.9294H1.3301V38.344Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffe0edff" android:pathData="M3.7383,38.0509H4.2388V35.4922H3.7383V38.0509Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffe0edff" android:pathData="M0,34.6832C0,33.8004 0.707,33.0842 1.582,33.0842C2.4536,33.0842 3.164,33.8004 3.164,34.6832C3.164,35.5667 2.4536,36.2829 1.582,36.2829C0.707,36.2829 0,35.5667 0,34.6832Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffbcd0f3" android:pathData="M4.7881,38.3451H15.5508V21.3761L4.7881,19.5627V38.3451Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ff0078db" android:pathData="M19.254,3.2486L11.0674,6.87V38.3454H25.4141V4.4075V0.5234L19.254,3.2486Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,10.496H14.6549V8.6826H12.8594V10.496Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,10.496H18.2383V8.6826H16.4463V10.496Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,14.1225H14.6549V12.3091H12.8594V14.1225Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,14.1225H18.2383V12.3091H16.4463V14.1225Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,17.7497H14.6549V15.9363H12.8594V17.7497Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,17.7497H18.2383V15.9363H16.4463V17.7497Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,24.0952H14.6549V22.2815H12.8594V24.0952Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,24.0952H18.2383V22.2815H16.4463V24.0952Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,27.723H14.6549V25.9097H12.8594V27.723Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,27.723H18.2383V25.9097H16.4463V27.723Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,31.3495H14.6549V29.5361H12.8594V31.3495Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,31.3495H18.2383V29.5361H16.4463V31.3495Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M12.8594,34.9767H14.6549V33.1633H12.8594V34.9767Z" android:fillType="evenOdd" />
+    <path android:fillColor="#fff5f7fa" android:pathData="M16.4463,34.9767H18.2383V33.1633H16.4463V34.9767Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M6.5801,23.1903H8.3756V21.377H6.5801V23.1903Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M6.5801,30.4433H8.3756V28.6299H6.5801V30.4433Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M6.5801,34.0697H8.3756V32.2563H6.5801V34.0697Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffe6bc" android:pathData="M38,31C38,35.9702 33.9703,40 29,40C24.0298,40 20,35.9702 20,31C20,26.0297 24.0298,22 29,22C33.9703,22 38,26.0297 38,31Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffab00" android:pathData="M31.3066,28.2485H30.1841C30.3488,28.5063 30.4562,28.8053 30.5063,29.1455H31.5859L31.3013,30.209H30.501C30.4186,30.7425 30.2056,31.1668 29.8618,31.4819C29.5181,31.797 29.0239,32.0173 28.3794,32.1426L30.7266,34.9248V35H28.9487L26.3491,31.9546L26.3438,31.0093H27.6167C28.2791,31.0093 28.6945,30.7425 28.8628,30.209H26.2148L26.4941,29.1455H28.8306C28.6551,28.7122 28.2702,28.492 27.6758,28.4849H26.2148L26.5317,27.1797H31.5859L31.3066,28.2485Z" />
+</vector>

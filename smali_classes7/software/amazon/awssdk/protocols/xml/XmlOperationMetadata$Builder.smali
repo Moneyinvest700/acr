@@ -1,0 +1,58 @@
+.class public Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x9
+    name = "Builder"
+.end annotation
+
+
+# instance fields
+.field private hasStreamingSuccessResponse:Z
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+.method static synthetic access$000(Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;)Z
+    .locals 0
+
+    iget-boolean p0, p0, Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;->hasStreamingSuccessResponse:Z
+
+    return p0
+.end method
+
+
+# virtual methods
+.method public build()Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata;
+    .locals 2
+
+    new-instance v0, Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, p0, v1}, Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata;-><init>(Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$1;)V
+
+    return-object v0
+.end method
+
+.method public hasStreamingSuccessResponse(Z)Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;
+    .locals 0
+
+    iput-boolean p1, p0, Lsoftware/amazon/awssdk/protocols/xml/XmlOperationMetadata$Builder;->hasStreamingSuccessResponse:Z
+
+    return-object p0
+.end method

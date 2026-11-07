@@ -1,0 +1,148 @@
+.class Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/microsoft/codepush/react/m;
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingMethod;
+    value = Lcom/microsoft/codepush/react/CodePushNativeModule$d;->a([Ljava/lang/Void;)Ljava/lang/Void;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x0
+    name = null
+.end annotation
+
+
+# instance fields
+.field private a:Z
+
+.field private b:Lcom/microsoft/codepush/react/l;
+
+.field final synthetic c:Lcom/microsoft/codepush/react/CodePushNativeModule$d;
+
+
+# direct methods
+.method constructor <init>(Lcom/microsoft/codepush/react/CodePushNativeModule$d;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->c:Lcom/microsoft/codepush/react/CodePushNativeModule$d;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    const/4 p1, 0x0
+
+    iput-boolean p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->a:Z
+
+    const/4 p1, 0x0
+
+    iput-object p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->b:Lcom/microsoft/codepush/react/l;
+
+    return-void
+.end method
+
+.method static bridge synthetic b(Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;)Lcom/microsoft/codepush/react/l;
+    .locals 0
+
+    iget-object p0, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->b:Lcom/microsoft/codepush/react/l;
+
+    return-object p0
+.end method
+
+.method static bridge synthetic c(Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;Z)V
+    .locals 0
+
+    iput-boolean p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->a:Z
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public a(Lcom/microsoft/codepush/react/l;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->c:Lcom/microsoft/codepush/react/CodePushNativeModule$d;
+
+    iget-boolean v0, v0, Lcom/microsoft/codepush/react/CodePushNativeModule$d;->b:Z
+
+    if-nez v0, :cond_0
+
+    return-void
+
+    :cond_0
+    iput-object p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->b:Lcom/microsoft/codepush/react/l;
+
+    invoke-virtual {p1}, Lcom/microsoft/codepush/react/l;->b()Z
+
+    move-result p1
+
+    if-eqz p1, :cond_1
+
+    invoke-virtual {p0}, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->d()V
+
+    return-void
+
+    :cond_1
+    iget-boolean p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->a:Z
+
+    if-eqz p1, :cond_2
+
+    return-void
+
+    :cond_2
+    const/4 p1, 0x1
+
+    iput-boolean p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->a:Z
+
+    iget-object p1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->c:Lcom/microsoft/codepush/react/CodePushNativeModule$d;
+
+    iget-object p1, p1, Lcom/microsoft/codepush/react/CodePushNativeModule$d;->d:Lcom/microsoft/codepush/react/CodePushNativeModule;
+
+    invoke-static {p1}, Lcom/microsoft/codepush/react/CodePushNativeModule;->access$000(Lcom/microsoft/codepush/react/CodePushNativeModule;)Lcom/facebook/react/bridge/ReactApplicationContext;
+
+    move-result-object p1
+
+    new-instance v0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a$a;
+
+    invoke-direct {v0, p0}, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a$a;-><init>(Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;)V
+
+    invoke-virtual {p1, v0}, Lcom/facebook/react/bridge/ReactContext;->runOnUiQueueThread(Ljava/lang/Runnable;)V
+
+    return-void
+.end method
+
+.method public d()V
+    .locals 3
+
+    iget-object v0, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->c:Lcom/microsoft/codepush/react/CodePushNativeModule$d;
+
+    iget-object v0, v0, Lcom/microsoft/codepush/react/CodePushNativeModule$d;->d:Lcom/microsoft/codepush/react/CodePushNativeModule;
+
+    invoke-static {v0}, Lcom/microsoft/codepush/react/CodePushNativeModule;->access$100(Lcom/microsoft/codepush/react/CodePushNativeModule;)Lcom/facebook/react/bridge/ReactApplicationContext;
+
+    move-result-object v0
+
+    const-class v1, Lcom/facebook/react/modules/core/DeviceEventManagerModule$RCTDeviceEventEmitter;
+
+    invoke-virtual {v0, v1}, Lcom/facebook/react/bridge/ReactContext;->getJSModule(Ljava/lang/Class;)Lcom/facebook/react/bridge/JavaScriptModule;
+
+    move-result-object v0
+
+    check-cast v0, Lcom/facebook/react/modules/core/DeviceEventManagerModule$RCTDeviceEventEmitter;
+
+    iget-object v1, p0, Lcom/microsoft/codepush/react/CodePushNativeModule$d$a;->b:Lcom/microsoft/codepush/react/l;
+
+    invoke-virtual {v1}, Lcom/microsoft/codepush/react/l;->a()Lcom/facebook/react/bridge/WritableMap;
+
+    move-result-object v1
+
+    const-string v2, "CodePushDownloadProgress"
+
+    invoke-interface {v0, v2, v1}, Lcom/facebook/react/modules/core/DeviceEventManagerModule$RCTDeviceEventEmitter;->emit(Ljava/lang/String;Ljava/lang/Object;)V
+
+    return-void
+.end method

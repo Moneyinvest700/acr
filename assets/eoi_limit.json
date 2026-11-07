@@ -1,0 +1,65 @@
+{
+  "verificationInBg": {
+    "heading": "Verifying your Mobile number securely",
+    "status": "Sending sms...",
+    "noteHeader": "IMPORTANT",
+    "noteIcon": "important",
+    "noteDesc": "Please do not press back or switch to another application while we are verifying your details",
+    "disclaimer": "Standard carrier charges applicable. T& C apply"
+  },
+  "verificationSucces": {
+    "heading": "Thank you for verifying your mobile number  ",
+    "status": "Verification Done !"
+  },
+  "verificationFailure": {
+    "heading": "Mobile number verification Failed",
+    "status": "Verification Failed",
+    "noteHeader": "Sorry! We are unable to verify your phone number. Please ensure following :",
+    "notePoints": [
+      "Your phone has an active network",
+      "Your phone has required balance to send SMS",
+      "The phone number entered is in this device"
+    ],
+    "retryCta": "Try Verifying Again",
+    "editCta": "or, Change Phone number"
+  },
+  "permissionDenial": {
+    "icon": "individual_shield_with_search",
+    "heading": "Verify your account to connect with more owners/brokers",
+    "subHeading": "",
+    "noteIcon": "important",
+    "noteDesc": "Request you to grant access to SMS and Phone permissions to proceed with phone number verification",
+    "cancelCta": "Cancel",
+    "allowCta": "Allow Permission"
+  },
+  "permissionDenialSettings": {
+    "icon": "individual_shield_with_search",
+    "heading": "Verify your account to connect with more owners/brokers",
+    "subHeading": "",
+    "noteIcon": "important",
+    "noteDesc": "Request you to grant access to SMS and Phone permissions from settings tab to proceed with phone number verification",
+    "cancelCta": "Cancel",
+    "allowCta": "Allow Permission"
+  },
+  "simSelectionAndroid": {
+    "heading": "Security verification",
+    "desc": "Please select SIM associated with <phone> to proceed. 99acres will be sending SMS to verify that this SIM is present in your device\n\nThis ensures that no one other than you can access your account",
+    "ctaText": "Proceed with Verification",
+    "disclaimer": "** Standard carrier charges applicable"
+  },
+  "simSelectionIos": {
+    "heading": "Security verification",
+    "desc": "Please select SIM associated with <phone> to proceed. You will have to verify you phone number by sending an SMS from this device\n\nThis ensure that no one other than you can access your account",
+    "ctaText": "Proceed to Send SMS",
+    "disclaimer": "** Standard carrier charges applicable"
+  },
+  "extendedLimitExhausted": {
+    "heading": "Maximum limit to contact sellers reached !",
+    "subHeading": "You just reached the maximum limit to contact sellers on 99acres  ",
+    "noteHeading": "You can <bold>“shortlist”</bold> this listing and try contacting the seller after sometime "
+  },
+  "eoiLimitConstants": {
+    "counterSeconds": 45,
+    "verifyApiCallCount": 10
+  }
+}

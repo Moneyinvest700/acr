@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:paddingBottom="@dimen/large_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="110.0dip" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/icon" android:layout_width="@dimen/medium_even" android:layout_height="@dimen/medium_even" android:src="@drawable/furnish_washing_machine" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/xs" style="@style/bold_label" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/subTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/captionStrongSmall" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

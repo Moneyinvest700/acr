@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_bottomsheet_rounded_corner" android:paddingTop="@dimen/large" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/question" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/m" android:text="@string/wish_to_know_from_webinar" android:maxLines="2" style="@style/bold_list_header" />
+    <androidx.core.widget.NestedScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small">
+        <LinearLayout android:orientation="vertical" android:id="@id/optionsSection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" />
+    </androidx.core.widget.NestedScrollView>
+</LinearLayout>

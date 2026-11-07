@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="CLICK" app:identifier="SUMMARY_TABLE" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/xid_cover_image" />
+    <com.nnacres.app.customviews.NNReactRootView android:id="@id/reactView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <include android:id="@id/xid_basic_detail" layout="@layout/xid_basic_detail" />
+    <include android:id="@id/xid_property_option" layout="@layout/xid_property_option" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

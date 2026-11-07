@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:layout_marginBottom="@dimen/extra_small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/img_bullet" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:src="@drawable/bullet_gray" />
+    <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/dark_gray" android:id="@id/tv_bullet_content" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" />
+</LinearLayout>

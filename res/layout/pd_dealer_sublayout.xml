@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/tuple_dealerInfo" android:background="@drawable/shape_rectangle_solid_white_stroke_grey" android:padding="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/img_dealer" android:background="@drawable/shape_rectangle_solid_grey_rounded_corners" android:padding="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/img_owner_placeholder" android:scaleType="centerCrop" />
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="17.0dip" android:layout_toEndOf="@id/img_dealer">
+        <TextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/text_dark_black" android:ellipsize="end" android:id="@id/txt_dealerName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" android:layout_marginStart="3.0dip" />
+        <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/mid_gray" android:ellipsize="end" android:autoLink="web" android:id="@id/tv_about_dealer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:text="@string/text_about_user_class_placeholder" android:maxLines="2" android:layout_marginStart="3.0dip" />
+    </LinearLayout>
+</RelativeLayout>

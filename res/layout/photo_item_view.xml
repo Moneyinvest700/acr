@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/layout_imageHolder" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <com.google.android.material.card.MaterialCardView android:id="@id/cv_image" android:layout_width="155.0dip" android:layout_height="155.0dip" android:layout_margin="@dimen/small_even" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/Ng400" app:strokeWidth="1.5dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+            <ImageView android:id="@id/iv_item" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/login_bg" android:scaleType="centerCrop" />
+            <ImageView android:id="@id/iv_gradient" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_photo_black_gradient" />
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/progress_wheel" android:layout_width="fill_parent" android:layout_height="fill_parent" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <TextView android:id="@id/tv_retry" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/retry" android:drawableTop="@drawable/ic_retry" style="@style/whiteBadgeLarge" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/fl_cover_image" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:layout_marginStart="@dimen/small">
+                <TextView android:gravity="center_horizontal" android:id="@id/tv_cover_photo" android:background="@drawable/ic_rectangle" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="Cover Photo" style="@style/whiteSmallLabel" />
+            </FrameLayout>
+            <FrameLayout android:layout_gravity="bottom|center" android:id="@id/fl_delete" android:background="@drawable/ic_grey_circle" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:layout_marginStart="55.0dip">
+                <ImageView android:id="@id/iv_delete" android:layout_width="12.0dip" android:layout_height="12.0dip" android:src="@null" />
+            </FrameLayout>
+        </com.google.android.material.card.MaterialCardView>
+        <TextView android:layout_gravity="center" android:id="@id/tv_tag" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableRight="@null" style="@style/propertyOption" />
+    </LinearLayout>
+    <com.google.android.material.card.MaterialCardView android:id="@id/cv_empty" android:visibility="gone" android:layout_width="155.0dip" android:layout_height="155.0dip" android:layout_margin="@dimen/small_even" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip" app:strokeColor="@color/Ng400" app:strokeWidth="1.5dip" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <ImageView android:id="@id/iv_default" android:background="@drawable/shape_rectangle_grey_corner_radius_stroke" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+        <FrameLayout android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Photos" android:drawableTop="@drawable/ic_add_grey_vector" android:drawablePadding="@dimen/extra_small_even" style="@style/propertyOptionTextNormal" />
+        </FrameLayout>
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>

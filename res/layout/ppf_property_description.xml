@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <androidx.appcompat.widget.AppCompatEditText android:textColor="@color/Ng700" android:textColorHint="@color/Ng400" android:gravity="top" android:id="@id/writePropertyDescription" android:background="@drawable/shape_rectangle_ng300_corners_radius_2_white_background" android:paddingLeft="@dimen/medium_even" android:paddingTop="@dimen/medium_even" android:paddingRight="@dimen/medium_even" android:paddingBottom="@dimen/small_even" android:scrollbars="vertical" android:saveEnabled="false" android:layout_width="fill_parent" android:layout_height="120.0dip" android:inputType="textMultiLine" style="@style/PlaceholderText" />
+    <LinearLayout android:layout_gravity="right" android:id="@id/showDescriptionLength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even">
+        <ImageView android:id="@id/showlock" android:visibility="gone" android:layout_width="10.0dip" android:layout_height="10.0dip" android:layout_marginTop="@dimen/extra_extra_extra_small" android:src="@drawable/ic_field_lock" />
+        <TextView android:id="@id/currentDescriptionLength" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="0" style="@style/inactiveCounterText" />
+        <TextView android:id="@id/charLengthTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/inactiveCounterText" />
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/writeForMeView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:layout_width="@dimen/large" android:layout_height="@dimen/large" android:layout_marginTop="@dimen/small_even" android:src="@drawable/ic_tip_off" />
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:text="Need help in writing ? " android:layout_marginStart="@dimen/extra_small_even" style="@style/captionStrongMedium" />
+        <TextView android:textColor="@color/P500" android:id="@id/writeForMe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:text="Yes, Write for me" style="@style/buttonTextSmall" />
+    </LinearLayout>
+    <androidx.cardview.widget.CardView android:id="@id/ppfAutoDescription" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="4.0dip" app:cardCornerRadius="@dimen/auto_desc_card_corner_radius" app:cardElevation="@dimen/auto_desc_card_elevation">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/preFilledDescriptionSuggestion" android:paddingLeft="@dimen/dp_16" android:paddingTop="@dimen/dp_16" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/Ng800" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="An example write up for you, " android:textFontWeight="600" style="@style/hyperlinkSmall" />
+                <TextView android:textSize="@dimen/sp_14" android:textColor="@color/P500" android:id="@id/useThisDesc" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="use this description" android:textFontWeight="600" style="@style/hyperlinkSmall" />
+            </LinearLayout>
+            <TextView android:textSize="@dimen/sp_12" android:textColor="@color/Ng500" android:id="@id/preFilledText" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/dp_16" android:paddingVertical="@dimen/dp_12" android:textFontWeight="400" app:layout_constraintTop_toBottomOf="@id/preFilledDescriptionSuggestion" style="@style/secondaryRegularLabel" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+</LinearLayout>

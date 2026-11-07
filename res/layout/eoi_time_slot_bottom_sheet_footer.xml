@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@color/white" android:padding="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/exclamation" android:layout_width="16.0dip" android:layout_height="16.0dip" android:layout_marginTop="@dimen/xs" android:layout_marginEnd="@dimen/small_even" app:srcCompat="@drawable/ic_circle_exclamation_vector" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_xx_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/conflict_time_slot_guide" android:includeFontPadding="false" android:layout_toEndOf="@id/exclamation" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/small_even" app:srcCompat="@drawable/ic_lock_vector" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_xx_small" android:gravity="center_vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/not_avail_time_slot_guide" android:layout_toEndOf="@id/lock" />
+    </RelativeLayout>
+</LinearLayout>

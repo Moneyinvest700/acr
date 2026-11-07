@@ -1,0 +1,228 @@
+.class public abstract Landroidx/lifecycle/Lifecycle;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/MemberClasses;
+    value = {
+        Landroidx/lifecycle/Lifecycle$Event;,
+        Landroidx/lifecycle/Lifecycle$State;
+    }
+.end annotation
+
+.annotation runtime Lkotlin/Metadata;
+    d1 = {
+        "\u00006\n\u0002\u0018\u0002\n\u0002\u0010\u0000\n\u0002\u0008\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0002\u0008\u0007\n\u0002\u0018\u0002\n\u0002\u0008\u0003\n\u0002\u0018\u0002\n\u0002\u0008\u0006\u0008&\u0018\u00002\u00020\u0001:\u0002\u001b\u001cB\u0007\u00a2\u0006\u0004\u0008\u0002\u0010\u0003J\u0017\u0010\u0007\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\'\u00a2\u0006\u0004\u0008\u0007\u0010\u0008J\u0017\u0010\t\u001a\u00020\u00062\u0006\u0010\u0005\u001a\u00020\u0004H\'\u00a2\u0006\u0004\u0008\t\u0010\u0008RR\u0010\r\u001a\u0016\u0012\u0006\u0012\u0004\u0018\u00010\u00010\nj\n\u0012\u0006\u0012\u0004\u0018\u00010\u0001`\u000b2\u001a\u0010\u000c\u001a\u0016\u0012\u0006\u0012\u0004\u0018\u00010\u00010\nj\n\u0012\u0006\u0012\u0004\u0018\u00010\u0001`\u000b8G@GX\u0087\u000e\u00a2\u0006\u0012\n\u0004\u0008\r\u0010\u000e\u001a\u0004\u0008\u000f\u0010\u0010\"\u0004\u0008\u0011\u0010\u0012R\u0014\u0010\u0016\u001a\u00020\u00138gX\u00a6\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0014\u0010\u0015R\u001a\u0010\u001a\u001a\u0008\u0012\u0004\u0012\u00020\u00130\u00178VX\u0096\u0004\u00a2\u0006\u0006\u001a\u0004\u0008\u0018\u0010\u0019\u00a8\u0006\u001d"
+    }
+    d2 = {
+        "Landroidx/lifecycle/Lifecycle;",
+        "",
+        "<init>",
+        "()V",
+        "Landroidx/lifecycle/LifecycleObserver;",
+        "observer",
+        "",
+        "addObserver",
+        "(Landroidx/lifecycle/LifecycleObserver;)V",
+        "removeObserver",
+        "Ljava/util/concurrent/atomic/AtomicReference;",
+        "Landroidx/lifecycle/AtomicReference;",
+        "<set-?>",
+        "internalScopeRef",
+        "Ljava/util/concurrent/atomic/AtomicReference;",
+        "getInternalScopeRef",
+        "()Ljava/util/concurrent/atomic/AtomicReference;",
+        "setInternalScopeRef",
+        "(Ljava/util/concurrent/atomic/AtomicReference;)V",
+        "Landroidx/lifecycle/Lifecycle$State;",
+        "getCurrentState",
+        "()Landroidx/lifecycle/Lifecycle$State;",
+        "currentState",
+        "Lkw/l0;",
+        "getCurrentStateFlow",
+        "()Lkw/l0;",
+        "currentStateFlow",
+        "Event",
+        "State",
+        "lifecycle-common"
+    }
+    k = 0x1
+    mv = {
+        0x1,
+        0x8,
+        0x0
+    }
+    xi = 0x30
+.end annotation
+
+
+# instance fields
+.field private internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
+    .annotation build Landroidx/annotation/RestrictTo;
+        value = {
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "Ljava/util/concurrent/atomic/AtomicReference<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end field
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 2
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    new-instance v0, Ljava/util/concurrent/atomic/AtomicReference;
+
+    const/4 v1, 0x0
+
+    invoke-direct {v0, v1}, Ljava/util/concurrent/atomic/AtomicReference;-><init>(Ljava/lang/Object;)V
+
+    iput-object v0, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
+
+    return-void
+.end method
+
+.method private static final _get_currentStateFlow_$lambda$0(Lkw/x;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    .locals 0
+
+    invoke-virtual {p2}, Landroidx/lifecycle/Lifecycle$Event;->getTargetState()Landroidx/lifecycle/Lifecycle$State;
+
+    move-result-object p1
+
+    invoke-interface {p0, p1}, Lkw/x;->setValue(Ljava/lang/Object;)V
+
+    return-void
+.end method
+
+.method public static synthetic a(Lkw/x;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+    .locals 0
+
+    invoke-static {p0, p1, p2}, Landroidx/lifecycle/Lifecycle;->_get_currentStateFlow_$lambda$0(Lkw/x;Landroidx/lifecycle/LifecycleOwner;Landroidx/lifecycle/Lifecycle$Event;)V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public abstract addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    .param p1    # Landroidx/lifecycle/LifecycleObserver;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/MainThread;
+    .end annotation
+.end method
+
+.method public abstract getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+    .annotation build Landroidx/annotation/MainThread;
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+.end method
+
+.method public getCurrentStateFlow()Lkw/l0;
+    .locals 2
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Lkw/l0;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    invoke-virtual {p0}, Landroidx/lifecycle/Lifecycle;->getCurrentState()Landroidx/lifecycle/Lifecycle$State;
+
+    move-result-object v0
+
+    invoke-static {v0}, Lkw/n0;->a(Ljava/lang/Object;)Lkw/x;
+
+    move-result-object v0
+
+    new-instance v1, Landroidx/lifecycle/e;
+
+    invoke-direct {v1, v0}, Landroidx/lifecycle/e;-><init>(Lkw/x;)V
+
+    invoke-virtual {p0, v1}, Landroidx/lifecycle/Lifecycle;->addObserver(Landroidx/lifecycle/LifecycleObserver;)V
+
+    invoke-static {v0}, Lkw/i;->c(Lkw/x;)Lkw/l0;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public final getInternalScopeRef()Ljava/util/concurrent/atomic/AtomicReference;
+    .locals 1
+    .annotation build Landroidx/annotation/RestrictTo;
+        value = {
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "()",
+            "Ljava/util/concurrent/atomic/AtomicReference<",
+            "Ljava/lang/Object;",
+            ">;"
+        }
+    .end annotation
+
+    .annotation build Lorg/jetbrains/annotations/NotNull;
+    .end annotation
+
+    iget-object v0, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
+
+    return-object v0
+.end method
+
+.method public abstract removeObserver(Landroidx/lifecycle/LifecycleObserver;)V
+    .param p1    # Landroidx/lifecycle/LifecycleObserver;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/MainThread;
+    .end annotation
+.end method
+
+.method public final setInternalScopeRef(Ljava/util/concurrent/atomic/AtomicReference;)V
+    .locals 0
+    .param p1    # Ljava/util/concurrent/atomic/AtomicReference;
+        .annotation build Lorg/jetbrains/annotations/NotNull;
+        .end annotation
+    .end param
+    .annotation build Landroidx/annotation/RestrictTo;
+        value = {
+            .enum Landroidx/annotation/RestrictTo$Scope;->LIBRARY_GROUP:Landroidx/annotation/RestrictTo$Scope;
+        }
+    .end annotation
+
+    .annotation system Ldalvik/annotation/Signature;
+        value = {
+            "(",
+            "Ljava/util/concurrent/atomic/AtomicReference<",
+            "Ljava/lang/Object;",
+            ">;)V"
+        }
+    .end annotation
+
+    iput-object p1, p0, Landroidx/lifecycle/Lifecycle;->internalScopeRef:Ljava/util/concurrent/atomic/AtomicReference;
+
+    return-void
+.end method

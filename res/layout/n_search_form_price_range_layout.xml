@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/pricerangerr" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:id="@id/labelPriceRange" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="BUDGET" style="@style/search_page_res_buy_card_title_textview" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/RangeSeekBar_container" android:layout_below="@id/titleresidential" style="@style/search_page_res_buy_card_content">
+        <RelativeLayout android:id="@id/tooltipContainer" android:paddingLeft="8.0dip" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip">
+            <TextView android:id="@id/price_min" android:text="12" style="@style/PriceRange" />
+            <TextView android:gravity="right" android:id="@id/price_max" android:text="234" android:layout_alignParentRight="true" style="@style/PriceRange" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/RangeSeekBar" style="@style/rangeseekbar_ll_style" />
+    </LinearLayout>
+</RelativeLayout>

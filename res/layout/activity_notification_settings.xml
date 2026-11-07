@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:background="@color/hp_screen_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/notifications_settings_parent_layout" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include layout="@layout/toolbar_white" />
+        <ListView android:id="@android:id/list" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+        <FrameLayout android:id="@id/pref_content" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar" />
+        <TextView android:textSize="16.0sp" android:textColor="@color/dark_gray" android:id="@id/tv_unsubscribe" android:background="@color/white" android:paddingLeft="@dimen/activity_horizontal_margin" android:paddingTop="20.0dip" android:paddingRight="@dimen/activity_horizontal_margin" android:paddingBottom="20.0dip" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:foreground="?selectableItemBackground" android:text="@string/lbl_unsubscribe_notifications" android:drawableRight="@drawable/ic_arrow_right" android:layout_below="@id/pref_content" />
+    </RelativeLayout>
+</ScrollView>

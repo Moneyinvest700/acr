@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutRootView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/til_eoi_UserName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:hint="@string/hint_name">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/eoi_UserName" style="@style/eoi_form_style" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/til_eoi_UserEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:hint="@string/hint_email" android:layout_below="@id/til_eoi_UserName">
+        <com.google.android.material.textfield.TextInputEditText android:id="@id/eoi_UserEmail" android:maxLength="150" style="@style/eoi_form_style" />
+    </com.google.android.material.textfield.TextInputLayout>
+    <RelativeLayout android:id="@id/rl_number_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/til_eoi_UserEmail">
+        <com.google.android.material.textfield.TextInputEditText android:textSize="12.0dip" android:id="@id/eoi_countryCode" android:layout_width="wrap_content" android:layout_marginTop="3.0dip" android:text="+91" android:singleLine="true" android:drawableRight="@null" android:drawablePadding="2.0dip" android:layout_alignParentLeft="true" android:nextFocusForward="@id/eoi_UserNumber" android:backgroundTint="@color/edittext_line_color" style="@style/SearchFormDialogueInputCity" />
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/til_eoi_UserNumber" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/eoi_countryCode" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/eoi_UserNumber" android:hint="@string/contactus_mobile" android:singleLine="true" android:maxLength="14" android:inputType="number" style="@style/eoi_form_style" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/eoi_query_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:layout_below="@id/eoi_countryCode">
+            <com.google.android.material.textfield.TextInputEditText android:id="@id/eoi_Query" android:singleLine="false" android:maxLength="100" style="@style/eoi_form_style" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/ll_userType_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/rl_number_container">
+        <TextView android:textSize="13.0dip" android:textColor="@color/et_label_color" android:id="@id/tv_user_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_user_intro" />
+        <RadioGroup android:orientation="horizontal" android:id="@id/rg_usertype" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginRight="16.0dip" android:layout_toRightOf="@id/tv_user_intro" android:layout_below="@id/rl_number_container">
+            <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0dip" android:id="@id/eoi_broker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" />
+            <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0dip" android:id="@id/eoi_owner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="30.0dip" android:text="@string/no" />
+        </RadioGroup>
+    </LinearLayout>
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:textSize="10.0dip" android:gravity="center|left" android:id="@id/eoi_buyerPermissionChkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:checked="true" android:text="@string/call_permission_text" android:layout_below="@id/ll_userType_container" android:lineSpacingMultiplier="1.0" />
+    <TextView android:textSize="10.0dip" android:gravity="center|left" android:id="@id/tv_gdpr_info" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/gdpr_info" android:layout_below="@id/eoi_buyerPermissionChkBox" android:fontFamily="@font/open_sans" />
+</RelativeLayout>

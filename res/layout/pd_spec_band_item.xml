@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/spec_item" android:layout_width="85.0dip" android:layout_height="wrap_content" android:paddingStart="10.0dip" android:layout_marginEnd="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/iv_background" android:background="@drawable/image_view_circular_background" android:layout_width="@dimen/xxxx_large" android:layout_height="@dimen/xxxx_large">
+        <ImageView android:layout_gravity="center" android:id="@id/icon" android:layout_width="@dimen/extra_large" android:layout_height="@dimen/extra_large" android:src="@drawable/ic_pd_spec_band_floor" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+    <TextView android:layout_gravity="center" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:textAlignment="center" style="@style/secondaryXtraSmallSemiBoldLabel" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

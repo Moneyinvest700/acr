@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:background="@drawable/prop_alert_bkg" android:padding="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:identifier="PROP_ALERT" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv_notiication" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentTop="true" android:layout_alignParentEnd="true" app:srcCompat="@drawable/ic_notification_icon_prop_alert" />
+    <TextView android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_list_header" />
+    <TextView android:id="@id/tv_sub_title" android:paddingTop="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_title" android:paddingEnd="@dimen/medium_even" android:layout_toStartOf="@id/iv_notiication" style="@style/bodyRegularSmall" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/P500" android:id="@id/tv_action" android:paddingTop="@dimen/medium_even" android:paddingBottom="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@id/tv_sub_title" app:event_type="CLICK" app:identifier="NOTIFY_ME" style="@style/bodyMediumSemibold" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>

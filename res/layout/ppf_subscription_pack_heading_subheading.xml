@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/heading" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/bodyExtraBoldLarge" />
+    <androidx.appcompat.widget.AppCompatTextView android:ellipsize="end" android:id="@id/subheading" android:layout_width="0.0dip" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/heading" app:layout_constraintStart_toStartOf="@id/heading" app:layout_constraintTop_toBottomOf="@id/heading" style="@style/captionSubduedMedium" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:id="@id/scrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:gravity="center_vertical" android:layout_gravity="center" android:orientation="vertical" android:id="@id/sectionExpendableZeroAndPreference" android:paddingTop="95.0dip" android:paddingBottom="30.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/sectionZeroOrExpended" android:paddingBottom="60.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <LinearLayout android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/error_no_result" />
+                    <TextView android:textSize="@dimen/expsearchheading" android:textStyle="bold" android:textColor="@color/material_gray_500" android:gravity="center" android:id="@id/toptextview1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/swipeTextHead" />
+                    <TextView android:textSize="@dimen/expsearchsubheading" android:textColor="@color/material_gray_500" android:gravity="center" android:layout_gravity="center" android:id="@id/toptextview2" android:paddingLeft="5.0dip" android:paddingRight="5.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text="@string/swipeTextSubHead" android:maxLines="2" />
+                </LinearLayout>
+            </LinearLayout>
+            <include android:id="@id/userPrefWidgetOnZRP" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/hp_preferences_widget" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

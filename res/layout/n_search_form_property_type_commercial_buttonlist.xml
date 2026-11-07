@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/property_res_rr" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:layout_gravity="center_vertical" android:id="@id/property_type_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="PROPERTY TYPE" android:layout_weight="1.0" style="@style/search_page_res_buy_card_title_textview" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:layout_gravity="center|right" android:id="@id/property_type_count_value_comm" android:paddingLeft="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:layout_marginLeft="3.0dip" android:text="0" />
+        <TextView android:textSize="11.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:layout_gravity="center|right" android:id="@id/property_type_count_label_comm" android:paddingLeft="3.0dip" android:paddingRight="3.0dip" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="20.0dip" android:text="Selected" />
+    </LinearLayout>
+    <com.nnacres.app.utils.HorizontalScrollViewForMenu android:id="@id/scroller" android:background="@color/white" android:paddingLeft="0.0dip" android:scrollbars="none" android:fadingEdge="none" android:layout_below="@id/titleresidential" style="@style/search_page_res_buy_card_content">
+        <LinearLayout android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/optionContainer" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <Button android:id="@id/commercial_land" android:paddingLeft="0.0dip" android:layout_marginLeft="0.0dip" android:text="@string/commercial_land" android:drawableTop="@drawable/prop_com_industrialland_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button_factory" android:text="@string/commercial_factory" android:drawableTop="@drawable/prop_com_factory_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button6" android:text="@string/commercial_land_plots" android:drawableTop="@drawable/prop_com_inistitute_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button7" android:text="@string/commercial_agriland" android:drawableTop="@drawable/prop_com_agriculture_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button8" android:text="@string/commercial_office" android:drawableTop="@drawable/prop_com_office_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button11" android:text="@string/commercial_shop" android:drawableTop="@drawable/prop_com_shop_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button12" android:text="@string/commercial_showrooms" android:drawableTop="@drawable/prop_com_showroom_selector" style="@style/PropertTypeButton" />
+            <Button android:id="@id/custom_button14" android:text="@string/commercial_warehouse" android:drawableTop="@drawable/prop_com_warehouses_selector" style="@style/PropertTypeButton" />
+        </LinearLayout>
+    </com.nnacres.app.utils.HorizontalScrollViewForMenu>
+</RelativeLayout>

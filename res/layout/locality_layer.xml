@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/rootLocatityLayer" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:autosuggest="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/scrollLayout" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip">
+        <ScrollView android:id="@id/scroll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:fadeScrollbars="false">
+            <LinearLayout android:orientation="vertical" android:id="@id/multiple" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+        </ScrollView>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/contentHolder" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:id="@id/btn_suggester_done" android:padding="5.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5.0dip" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:onClick="onSoftDoneClick">
+            <TextView android:textSize="14.0sp" android:textColor="@color/material_blue_500" android:id="@id/txtDone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Done" />
+            <View android:id="@id/blankView" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+        </LinearLayout>
+        <com.nnacres.app.ui.AutoSuggestEditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/inputSearch" android:background="@null" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:layout_marginTop="5.0dip" android:layout_marginRight="5.0dip" android:hint="Start typing localities or projects" android:singleLine="true" android:maxLength="50" android:digits="-,.abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789 " android:drawableLeft="@null" android:drawablePadding="8.0dip" android:layout_toLeftOf="@id/btn_suggester_done" android:inputType="textCapWords" android:imeOptions="actionDone" android:textCursorDrawable="@null" autosuggest:searchtype="search" />
+        <ProgressBar android:id="@id/selectLocalityProgress" android:visibility="gone" android:layout_width="30.0dip" android:layout_height="30.0dip" android:layout_marginRight="5.0dip" android:indeterminateDrawable="@drawable/progressbar" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <ListView android:id="@id/listView1" android:background="@color/material_gray_200" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="0.0dip" android:divider="@color/material_gray_300" android:dividerHeight="0.30000007dip" android:layout_weight="1.0" android:fadeScrollbars="false" />
+</LinearLayout>

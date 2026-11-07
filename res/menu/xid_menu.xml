@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@id/share_item" android:menuCategory="secondary" android:orderInCategory="2" android:title="Share" app:actionLayout="@layout/share_project" app:showAsAction="ifRoom" />
+    <item android:icon="@drawable/ic_xid_searchicon" android:id="@id/xid_search" android:orderInCategory="1" android:title="Search" app:showAsAction="ifRoom" />
+</menu>

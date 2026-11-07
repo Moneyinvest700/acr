@@ -1,0 +1,112 @@
+{
+  "cta": "OK, Got it",
+  "heading": "A Quick Heads-up",
+  "descShort": [
+    {
+      "value": "The data presented on this site is for Information purpose only. You are adviced to verify the data from relevant RERA website and the builders/advertisers directly. ",
+      "type": "normal"
+    },
+    {
+      "value": "Learn More",
+      "type": "link"
+    }
+  ],
+  "descLong": [
+    {
+      "text": [
+        {
+          "value": "The data (based on the search query performed), on this webpage of 99acres.com has been made available for",
+          "type": "normal"
+        },
+        {
+          "value": " informational purposes only",
+          "type": "bold"
+        },
+        {
+          "value": " and no representation or warranty is expressly or impliedly given as to its "
+        },
+        {
+          "value": "accuracy. ",
+          "type": "bold"
+        }
+      ],
+      "icon": "search"
+    },
+    {
+      "text": [
+        {
+          "value": "Any",
+          "type": "normal"
+        },
+        {
+          "value": " investment decisions",
+          "type": "bold"
+        },
+        {
+          "value": " that you take should be based"
+        },
+        {
+          "value": " not relying solely",
+          "type": "bold"
+        },{
+          "value":" on the information that is available on the website 99acres.com or downloaded from it."
+        }
+      ],
+      "icon": "grow"
+    },    {
+      "text": [
+        {
+          "value": "Nothing contained herein shall be deemed to constitute",
+          "type": "normal"
+        },
+        {
+          "value": " legal advice, solicitation, invitation",
+          "type": "bold"
+        },
+        {
+          "value": " to acquire by the developer/builder or any other entity. "
+        }
+
+      ],
+      "icon": "law"
+    },
+    {
+      "text": [
+        {
+          "value": "You are advised to visit the",
+          "type": "normal"
+        },
+        {
+          "value": " relevant RERA website",
+          "type": "bold"
+        },
+        {
+          "value": " and"
+        }
+        ,{
+          "value":" contact builder/advertisers",
+          "type":"bold"
+        },{
+          "value":" directly to know more about the project before taking any decision based on the contents displayed on the website 99acres.com.  "
+        }
+      ],
+      "icon": "contact"
+    }
+
+  ],
+  "footer": [
+    {
+      "value": "In case of any question or want to share feedback, feel free to write to us at ",
+      "type": "normal"
+    },
+    {
+      "value": "projects-feedback@99acres.com",
+      "type": "link"
+    },
+    {
+      "value": "\n\nTrademarks belong to the respective owners.",
+      "type": "normal"
+    }
+  ],
+  "feedbackMail": "projects-feedback@99acres.com"
+}

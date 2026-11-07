@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/rating_badge_card" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardBackgroundColor="@color/rating_good" app:cardCornerRadius="2.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingHorizontal="4.0dip" android:paddingVertical="2.0dip">
+        <TextView android:textSize="@dimen/small_even" android:id="@id/rating" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/white_bold_text" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/star_img" android:layout_width="@dimen/small_even" android:layout_height="@dimen/small_even" android:src="@drawable/ic_star" android:layout_marginStart="4.0dip" app:tint="@color/white" />
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

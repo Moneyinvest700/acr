@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRootView" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/headerView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="30.0dip" android:layout_marginTop="20.0dip" android:layout_below="@id/toolbar">
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/date" android:layout_weight="1.0" />
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/black" android:gravity="center_horizontal" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/count" android:layout_weight="1.0" />
+    </LinearLayout>
+    <ListView android:id="@id/consolidate_history_list" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:divider="@null" android:layout_above="@id/consolidate_button" android:layout_below="@id/headerView" />
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/no_history_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <ImageView android:layout_width="72.0dip" android:layout_height="72.0dip" android:layout_marginBottom="20.0dip" android:src="@drawable/cross" />
+        <TextView android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/material_gray_700" android:gravity="center" android:id="@id/no_history_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/no_consolidate_history_text" />
+    </LinearLayout>
+    <TextView android:id="@id/consolidate_button" android:text="Consolidate" android:layout_alignParentBottom="true" style="@style/ActionButtonBlue" />
+</RelativeLayout>

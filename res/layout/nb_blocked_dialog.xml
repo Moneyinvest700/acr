@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:padding="20.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dialog_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="" android:fontFamily="@font/open_sans_bold" />
+    <TextView android:id="@id/dialog_body" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="" android:layout_below="@id/dialog_title" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/material_gray_500" android:id="@id/dialog_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="" android:layout_below="@id/dialog_body" android:layout_alignWithParentIfMissing="true" />
+    <TextView android:textColor="@color/white" android:layout_gravity="center" android:id="@id/dialog_button" android:background="@drawable/ripple_material_blue_600" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingRight="20.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/blockNBActionMessage" android:layout_below="@id/dialog_disclaimer" android:layout_centerHorizontal="true" />
+</RelativeLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/addContactLayout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/cancelLayer" android:background="#80000000" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip">
+        <View android:id="@id/blankView1" android:background="#80000000" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="90.0" />
+        <ImageView android:id="@id/cancelAddContactLayer" android:background="#80000000" android:clickable="true" android:layout_width="0.0dip" android:layout_height="fill_parent" android:src="@drawable/navigation_cancel" android:layout_weight="10.0" />
+    </LinearLayout>
+    <ScrollView android:id="@id/addContactScrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_above="@id/layerButtonParent" android:layout_below="@id/cancelLayer">
+        <LinearLayout android:orientation="vertical" android:id="@id/seller_info_layout" android:background="#ffffffff" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <TextView android:textSize="20.0sp" android:textColor="@color/material_gray_900" android:id="@id/detailLayerHeading" android:background="@drawable/text_border_bottom" android:padding="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" />
+            <RelativeLayout android:id="@id/seller_basic_info_ac" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <ImageView android:id="@id/eoi_seller_image" android:clickable="true" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:scaleType="fitXY" android:layout_alignParentLeft="true" />
+                <TextView android:textSize="16.0sp" android:id="@id/eoi_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/eoi_seller_image" />
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:id="@id/eoi_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10.0dip" android:layout_toRightOf="@id/eoi_seller_image" android:layout_below="@id/eoi_seller_name" />
+            </RelativeLayout>
+            <TableLayout android:id="@id/ac_add_details" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip">
+                <TableRow android:id="@id/ac_name_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff9e9e9e" android:id="@id/blankView2" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Name" android:layout_weight="0.3" />
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_name" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_company_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff9e9e9e" android:id="@id/blankView3" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Company" android:layout_weight="0.3" />
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_company" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_mobile_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="16.0sp" android:textColor="#ff9e9e9e" android:id="@id/blankView4" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Mobile" android:layout_weight="0.3" />
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_mobile" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_work_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_work" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_address_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_address" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_city_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_city" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+                <TableRow android:id="@id/ac_website_row" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/ac_website" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionDone" android:textCursorDrawable="@null" />
+                </TableRow>
+            </TableLayout>
+            <TextView android:textSize="15.0sp" android:textColor="@color/material_gray_600" android:id="@id/sendMessageTag" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="5.0dip" android:text="Express interest in this property." />
+            <TableLayout android:id="@id/user_details" android:visibility="gone" style="@style/DetailTable">
+                <TableRow android:id="@id/TableRowMessageUserName" style="@style/DetailTableRow">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/messageUserName" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionNext" android:textCursorDrawable="@null" style="@style/PersonName" />
+                </TableRow>
+                <TableRow android:id="@id/TableRowMessageUserEmail" style="@style/DetailTableRow">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/messageUserEmail" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionNext" android:textCursorDrawable="@null" style="@style/Email" />
+                </TableRow>
+                <TableRow android:id="@id/TableRowMessageUserNumber" style="@style/DetailTableRow">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/messageUserNumber" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:singleLine="true" android:maxLength="14" android:layout_weight="0.7" android:imeOptions="actionNext" android:textCursorDrawable="@null" style="@style/PhoneNumber" />
+                </TableRow>
+                <TableRow android:id="@id/tableRowMessageQuery" android:visibility="visible" style="@style/DetailTableRow">
+                    <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:id="@id/messageQuery" android:background="@drawable/edittext" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="I am interested in this property" android:singleLine="true" android:layout_weight="0.7" android:imeOptions="actionSend" android:textCursorDrawable="@null" />
+                </TableRow>
+            </TableLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/callButtonsWrapper" android:background="#ffffffff" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="90.0" />
+            <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:textColorHint="@color/material_gray_600" android:id="@id/reportEditText" android:background="@drawable/edittext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:hint="Write some details..." android:maxLines="3" android:textCursorDrawable="@null" />
+            <EditText android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:textColorHint="@color/material_gray_600" android:id="@id/reportUserEmail" android:background="@drawable/edittext" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="10.0dip" android:layout_marginRight="10.0dip" android:hint="Email" android:singleLine="true" android:imeOptions="actionSend" android:textCursorDrawable="@null" style="@style/Email" />
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:orientation="vertical" android:id="@id/layerButtonParent" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/addContactToPhonebook" android:background="@drawable/rounded_corner_redbutton" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Add to Contacts" />
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/sendMessageLayerButton" android:background="@drawable/rounded_corner_redbutton" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Send Message" />
+        <Button android:textSize="16.0sp" android:textColor="#ffffffff" android:id="@id/sendReportButton" android:background="@drawable/register_login_button_red_gradient" android:padding="10.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="10.0dip" android:text="Send Report" />
+    </LinearLayout>
+</RelativeLayout>

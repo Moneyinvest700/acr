@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardElevation="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:background="@drawable/white_background_top_rounded" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/P500">
+        <ImageView android:id="@id/iv_profile" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/large_medium_even" android:layout_marginStart="@dimen/extra_large_even" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_account_circle_white" />
+        <TextView android:textSize="@dimen/text_size_x_small" android:textStyle="bold" android:textColor="@color/Ng100" android:id="@id/tv_header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_even" app:layout_constraintStart_toEndOf="@id/iv_profile" app:layout_constraintTop_toTopOf="@id/iv_profile" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:textStyle="bold" android:id="@id/iv_btn" android:focusable="true" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/large" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/ic_chevrons_top" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.cardview.widget.CardView>

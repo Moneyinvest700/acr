@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/tupleView" android:padding="13.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="16.0sp" android:textColor="@color/Ng700" android:id="@id/tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Metro Station" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="20.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="11.0sp" android:textColor="@color/Ng700" android:id="@id/tupleDistance" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:text=" 1.2km" android:drawablePadding="5.0dip" android:fontFamily="@font/open_sans_semibold" android:textAlignment="textStart" android:layout_marginStart="@dimen/large" app:drawableStartCompat="@drawable/ic_arrow" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv" style="@style/text_semi_bold" />
+</androidx.constraintlayout.widget.ConstraintLayout>

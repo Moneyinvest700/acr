@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/ic_blank_notes" android:id="@id/note_menuitem" android:menuCategory="secondary" android:orderInCategory="2" android:title="Note" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_share" android:id="@id/share_menuitem" android:menuCategory="secondary" android:orderInCategory="2" android:title="Share" app:showAsAction="always" />
+    <item android:icon="@drawable/ic_shortlist_inactive_pd" android:id="@id/shortlist_menuitem" android:menuCategory="secondary" android:orderInCategory="2" android:title="Shortlist" app:showAsAction="always" />
+</menu>

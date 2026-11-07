@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@id/ham_recent_shortlist" android:checkableBehavior="none">
+        <item android:icon="@drawable/ic_hambuger_sellrent" android:id="@id/hambuger_tv_ViewProfile" android:title="@string/profile_view" />
+        <item android:icon="@drawable/ic_change_password" android:id="@id/hambuger_tv_changePassword" android:title="@string/changepassword" />
+        <item android:icon="@drawable/logout" android:id="@id/hambuger_tv_logout" android:title="@string/logout" />
+    </group>
+</menu>

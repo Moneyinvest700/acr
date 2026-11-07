@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/inline_header_view" />
+    <ImageView android:id="@id/iv_logo" android:layout_width="@dimen/display_l" android:layout_height="@dimen/display_l" android:layout_marginTop="@dimen/medium_even" android:src="@drawable/ic_inline_budget" android:layout_marginStart="@dimen/large_even" />
+    <TextView android:ellipsize="end" android:gravity="center_vertical" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="What is your budget?" android:maxLines="1" android:layout_marginStart="@dimen/small_even" android:layout_toEndOf="@id/iv_logo" style="@style/semibold_section_header" />
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/small_even" android:layout_below="@id/header" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip">
+        <LinearLayout android:orientation="vertical" android:paddingTop="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even">
+            <RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large">
+                <RadioButton android:id="@id/newBookingHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Booking Properties" style="@style/semibold_list_header" />
+                <TextView android:id="@id/newBookingSubHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:text="Become first time owner of the property " android:layout_marginStart="@dimen/extra_extra_large_even" style="@style/captionStrongSmall" />
+                <RadioButton android:id="@id/resaleHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Booking Properties" style="@style/semibold_list_header" />
+                <TextView android:id="@id/resaleSubHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="-8.0dip" android:text="Become first time owner of the property " android:layout_marginStart="@dimen/extra_extra_large_even" style="@style/captionStrongSmall" />
+            </RadioGroup>
+            <include android:id="@id/interimLayerFooter" layout="@layout/interim_layer_footer_view" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>

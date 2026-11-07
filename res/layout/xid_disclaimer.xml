@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/shape_location_bottomsheet_bckg" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.google.android.material.bottomsheet.BottomSheetBehavior"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <TextView android:textSize="@dimen/medium_even" android:id="@id/tv_disclaimer" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/completedPlaceholder" />
+    <LinearLayout android:gravity="bottom|center" android:id="@id/ll_ok" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium" style="@style/primaryActiveButton">
+        <TextView android:layout_gravity="center" android:id="@id/tv_got_it" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ok, Got it" android:fontFamily="@font/open_sans_bold" style="@style/whiteLabels" />
+    </LinearLayout>
+</LinearLayout>

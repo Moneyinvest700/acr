@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center" android:orientation="vertical" android:id="@id/layoutRootView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="10.0dip" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/eoi_UserName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:inputType="text" app:errorMsg="@string/please_enter_name" app:floatingHint="@string/hint_name" />
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/eoi_UserEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/eoi_UserName" app:errorMsg="@string/enter_email" app:floatingHint="@string/hint_email" />
+    <RelativeLayout android:id="@id/rl_number_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="10.0dip" android:layout_below="@id/eoi_UserEmail">
+        <com.nnacres.app.customviews.materialComponents.MobileInputView android:id="@id/eoi_countryCode" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorMsg="@string/please_enter_mobile" app:floatingHint="@string/contactus_mobile" />
+        <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/eoi_Query" android:visibility="gone" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/eoi_countryCode" style="@style/eoi_form_style" />
+    </RelativeLayout>
+    <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_userType_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_below="@id/rl_number_container" android:layout_marginStart="5.0dip">
+        <TextView android:id="@id/tv_user_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_user_intro" style="@style/semibold_label" />
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="4.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <RadioGroup android:orientation="horizontal" android:id="@id/rg_usertype" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0dip" android:id="@id/eoi_broker" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" />
+                    <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="12.0dip" android:id="@id/eoi_owner" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/no" android:layout_marginStart="@dimen/propTypeInlineMaxWidth" />
+                </RadioGroup>
+                <ImageView android:id="@id/iv_error" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:src="@drawable/ic_editext_error" android:contentDescription="@string/error_invalid_mobile" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textColor="@color/I_error" android:id="@id/tv_error" android:paddingTop="@dimen/extra_extra_small" android:paddingBottom="@dimen/extra_extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/extra_small" style="@style/bodySmall12" />
+        </LinearLayout>
+    </LinearLayout>
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:gravity="start|center" android:id="@id/eoi_buyerPermissionChkBox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16.0dip" android:checked="true" android:text="@string/call_permission_text" android:layout_below="@id/ll_userType_container" android:lineSpacingMultiplier="1.0" style="@style/captionStrongSmall" />
+    <TextView android:gravity="start|center" android:id="@id/termsAndCondition" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/by_submitting_accept" android:layout_below="@id/eoi_buyerPermissionChkBox" style="@style/captionStrongSmall" />
+    <TextView android:gravity="start|center" android:id="@id/tv_gdpr_info" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/gdpr_info" android:layout_below="@id/eoi_buyerPermissionChkBox" style="@style/captionStrongSmall" />
+</RelativeLayout>

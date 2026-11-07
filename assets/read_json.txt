@@ -1,0 +1,40 @@
+{
+  "errors": null,
+  "status": null,
+  "recipientId": "6024847358907842",
+  "notifications":
+    {
+      "id": "5b7bea762236530ceb4a6aee",
+      "notificationType": "PUSH",
+      "created": 1534847606317,
+      "eventType": "OFFSITE_RECOMMENDATION",
+      "eventId": "6024847358907842_1534847449519",
+      "recipientIdType": "CLIENTID",
+      "content": "Don’t miss out on the most popular projects in Sector-135 Noida",
+      "subject": "Most popular projects in Sector-135 Noida",
+      "status": "DELIVERED",
+      "attributes": {
+        "nwsUrl": "notification-service/DataNotifications?ids=59082b7de4b07507f68ced3c",
+        "alert_heading": "Most popular projects in Sector-135 Noida",
+        "recommendationCriteria": "{\"cityId\":null,\"localityId\":[4836],\"resCom\":\"R\",\"preference\":\"S\",\"bedRoomNum\":null,\"propType\":null,\"projectId\":null,\"availability\":null,\"transactType\":null,\"budgetMin\":null,\"budgetMax\":null,\"areaMin\":null,\"areaMax\":null,\"availableFrom\":null,\"availableFromMin\":null,\"availableFromMax\":null,\"furnishType\":null,\"builderId\":null,\"abCookie\":5,\"propertyBucket\":null}",
+        "landingType": "PROJ_REC",
+        "bodyText": "Don’t miss out on the most popular projects in Sector-135 Noida",
+        "campId": "35711",
+        "recommendationAlgorithm": "TRENDING_PROJECTS",
+        "landingVal": "{\"titleText\":\"Most Popular Projects\",\"id\":\"R599,R270000,R756,R10130,R954,R24300,R5408,R4082,R743,R347,\",\"criteria\":[\"Noida\",\"Sector-135 Noida\",\"2 BHK\",\"Independent-house\"]}"
+      },
+      "deliveredAt": 1534847606480,
+      "tag": "TRENDING_PROJECTS",
+      "moduleIdentifier": "5b767a52223653167153cc9f"
+    },
+  "timeInterval": "32400000",
+  "initialTime": "90000000",
+  "metainfo": {
+    "statusCode": "0",
+    "statusMessage": "OK",
+    "processing_time": 0.024055004119873,
+    "99_ab": "91",
+    "session_id": "y%2525252F71qjQUDhdBbZbjskV6PhVyMbKffm1c5THGKnJWXuwDK9SpHJ%2525252B5d4RFwDq7OLl7DjiWPtkfE%2525252FnFh4Bq684M2A%2525253D%2525253D",
+    "X-REQUEST-ID": null
+  }
+}

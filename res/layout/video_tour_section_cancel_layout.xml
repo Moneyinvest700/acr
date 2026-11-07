@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="horizontal" android:id="@id/video_tour_cancel_layout" android:background="@drawable/video_tour_cancel_bkg" android:padding="@dimen/extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/medium_even" android:layout_below="@id/container" android:layout_marginStart="@dimen/medium_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:layout_gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_small" android:src="@drawable/ic_cancelled" android:contentDescription="@string/cancel" android:layout_marginStart="@dimen/extra_small" />
+    <TextView android:layout_gravity="center_vertical" android:paddingLeft="@dimen/extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/video_tour_cancel_label" style="@style/secondaryExtraSmallSemiBoldLabel" />
+</LinearLayout>

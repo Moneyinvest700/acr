@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbar_choices_layout" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="5.0dip">
+        <LinearLayout android:orientation="horizontal" android:id="@id/choices" android:background="@drawable/buy_project_rent_res_com_form" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/line_aboveTabs">
+            <RelativeLayout android:layout_gravity="center" android:id="@id/queriesTab" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="0.33">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/text_color_blue_bg" android:id="@id/queriesText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/queries_tab_text" android:layout_centerVertical="true" android:textAlignment="center" />
+                <View android:id="@id/queriesView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/viewedDetailsTab" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="0.33">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/text_color_blue_bg" android:id="@id/viewDetailsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/viewed_details_tab_text" android:layout_centerVertical="true" android:textAlignment="center" />
+                <View android:id="@id/viewedDetailsView" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:layout_gravity="center" android:id="@id/webinarDetailTab" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="0.33">
+                <TextView android:textSize="14.0sp" android:textColor="@drawable/text_color_blue_bg" android:gravity="center" android:id="@id/webinarDetailsText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/webinar_details_tab_text" android:layout_centerVertical="true" android:textAlignment="center" />
+                <View android:id="@id/webinarDetailsView" android:layout_width="fill_parent" android:layout_height="5.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearParent" android:background="@color/P1100" android:paddingTop="12.0dip" android:paddingBottom="9.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar_choices_layout" android:paddingStart="10.0dip">
+        <TextView android:textSize="14.0sp" android:textColor="@color/Ng500" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Control who can contact you" android:drawablePadding="10.0dip" android:fontFamily="@font/open_sans_regular" app:drawableStartCompat="@drawable/ic_preferences" />
+        <TextView android:textSize="14.0sp" android:textColor="@color/P500" android:id="@id/responseSetting" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text=" Open Settings" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="4.0dip" />
+    </LinearLayout>
+    <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/linearParent">
+        <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/progressBar" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_blue_500" wheel:matProg_progressIndeterminate="true" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+        <com.nnacres.app.ui.NNAcresViewPager android:id="@id/viewPager" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </RelativeLayout>
+    <include android:id="@id/oopsTryAgain" android:visibility="gone" layout="@layout/oops_try_again" />
+    <include android:id="@id/noListings" android:visibility="gone" layout="@layout/manage_listings_no_listings" />
+</RelativeLayout>

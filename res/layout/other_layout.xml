@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/text_input_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="30.0dip" android:layout_marginRight="16.0dip">
+        <EditText android:textSize="13.0sp" android:textColor="#ff666666" android:id="@id/et_msg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Write your own feedback here..." android:maxLength="200" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/reiRootView" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/contentContainer" android:background="@color/white" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:stateListAnimator="@null">
+            <include layout="@layout/toolbar_white" />
+            <include android:id="@id/sticky_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/xid_sticky_header_layout" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/mainRecyclerView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:layout_gravity="bottom|center" android:id="@id/reiFloatingCTA" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large" android:text="@string/view_all_properties_in_this_locality" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even" android:elevation="@dimen/small_even" app:event_type="CLICK" app:identifier="VIEW_ALL_PROPERTIES_LOCALITY" app:topmost="true" style="@style/fabActiveButton" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    <FrameLayout android:id="@id/errorContainer" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/mainShimmer" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/global_shimmer_style">
+        <ImageView android:id="@id/ivShimmer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/locality_zone_shimmer" android:scaleType="centerCrop" android:adjustViewBounds="true" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/secondaryProgress" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" app:matProg_barColor="@color/P500" app:matProg_progressIndeterminate="true" />
+</FrameLayout>

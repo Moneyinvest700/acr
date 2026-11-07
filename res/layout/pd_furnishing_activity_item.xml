@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_furnishing_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:src="@drawable/ic_swimming_pool" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_medium_even" />
+    </LinearLayout>
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/xxs" android:layout_marginTop="@dimen/large_medium_even" layout="@layout/line_divider_layout" />
+</LinearLayout>

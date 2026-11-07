@@ -1,0 +1,68 @@
+.class abstract Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Lcom/beloo/widget/chipslayoutmanager/anchor/IAnchorFactory;
+
+
+# instance fields
+.field private canvas:Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;
+
+.field lm:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+
+# direct methods
+.method constructor <init>(Landroidx/recyclerview/widget/RecyclerView$LayoutManager;Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;->lm:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    iput-object p2, p0, Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;->canvas:Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method createAnchorState(Landroid/view/View;)Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;
+    .locals 3
+
+    new-instance v0, Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;
+
+    iget-object v1, p0, Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;->lm:Landroidx/recyclerview/widget/RecyclerView$LayoutManager;
+
+    invoke-virtual {v1, p1}, Landroidx/recyclerview/widget/RecyclerView$LayoutManager;->getPosition(Landroid/view/View;)I
+
+    move-result v1
+
+    iget-object v2, p0, Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;->canvas:Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;
+
+    invoke-interface {v2, p1}, Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;->getViewRect(Landroid/view/View;)Landroid/graphics/Rect;
+
+    move-result-object p1
+
+    invoke-direct {v0, v1, p1}, Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;-><init>(ILandroid/graphics/Rect;)V
+
+    return-object v0
+.end method
+
+.method public createNotFound()Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;
+    .locals 1
+
+    invoke-static {}, Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;->getNotFoundState()Lcom/beloo/widget/chipslayoutmanager/anchor/AnchorViewState;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method getCanvas()Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;
+    .locals 1
+
+    iget-object v0, p0, Lcom/beloo/widget/chipslayoutmanager/anchor/AbstractAnchorFactory;->canvas:Lcom/beloo/widget/chipslayoutmanager/layouter/ICanvas;
+
+    return-object v0
+.end method

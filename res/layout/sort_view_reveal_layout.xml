@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_relevance" android:text="Relevance" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_priceD" android:text="Price High-Low" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_priceA" android:text="Price Low-High" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_date" android:text="Posted Date" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_rateA" android:text="Rate/sqft Low-High" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_rateD" android:text="Rate/sqft High-Low" style="@style/RefineDetailRadioBtnStyle" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_nameA" android:visibility="gone" android:text="Name Ascending" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/sort_nameD" android:visibility="gone" android:text="Name Descending" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</RadioGroup>

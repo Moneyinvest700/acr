@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="15.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TableRow>
+        <com.nnacres.app.ui.NNacresCheckBox android:textColor="@color/material_gray_500" android:id="@id/single_men" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Single Men" android:layout_weight="0.5" android:fontFamily="@font/open_sans_semibold" />
+        <com.nnacres.app.ui.NNacresCheckBox android:textColor="@color/material_gray_500" android:id="@id/single_women" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Single Women" android:layout_weight="0.5" android:layout_alignParentRight="true" android:fontFamily="@font/open_sans_semibold" />
+    </TableRow>
+    <TableRow>
+        <com.nnacres.app.ui.NNacresCheckBox android:textColor="@color/material_gray_500" android:id="@id/family" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:text="Family" android:layout_below="@id/single_men" android:fontFamily="@font/open_sans_semibold" />
+    </TableRow>
+</TableLayout>

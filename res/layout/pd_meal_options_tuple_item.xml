@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@id/pd_meal_options_tuple_item" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/extra_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/image" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/furnish_washing_machine" app:layout_constraintStart_toStartOf="parent" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="@dimen/small_even" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/medium" app:layout_constraintStart_toEndOf="@id/image" style="@style/bodyMedium" />
+</LinearLayout>

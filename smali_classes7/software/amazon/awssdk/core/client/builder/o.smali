@@ -1,0 +1,38 @@
+.class public final synthetic Lsoftware/amazon/awssdk/core/client/builder/o;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Ljava/util/function/Function;
+
+
+# instance fields
+.field public final synthetic a:Lsoftware/amazon/awssdk/utils/AttributeMap;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lsoftware/amazon/awssdk/utils/AttributeMap;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lsoftware/amazon/awssdk/core/client/builder/o;->a:Lsoftware/amazon/awssdk/utils/AttributeMap;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final apply(Ljava/lang/Object;)Ljava/lang/Object;
+    .locals 1
+
+    iget-object v0, p0, Lsoftware/amazon/awssdk/core/client/builder/o;->a:Lsoftware/amazon/awssdk/utils/AttributeMap;
+
+    check-cast p1, Lsoftware/amazon/awssdk/http/SdkHttpClient$Builder;
+
+    invoke-static {v0, p1}, Lsoftware/amazon/awssdk/core/client/builder/SdkDefaultClientBuilder;->v(Lsoftware/amazon/awssdk/utils/AttributeMap;Lsoftware/amazon/awssdk/http/SdkHttpClient$Builder;)Lsoftware/amazon/awssdk/http/SdkHttpClient;
+
+    move-result-object p1
+
+    return-object p1
+.end method

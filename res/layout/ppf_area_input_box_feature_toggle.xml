@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/Ng600" android:ellipsize="end" android:id="@id/chipGroupHeading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:maxLines="1" />
+    <com.nnacres.app.customviews.materialComponents.AreaInputView android:id="@id/areaInputView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_even" />
+</LinearLayout>

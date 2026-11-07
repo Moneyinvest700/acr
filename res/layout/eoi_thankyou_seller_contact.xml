@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include android:layout_width="fill_parent" android:layout_height="1.0dip" layout="@layout/line_divider_layout" />
+    <RelativeLayout android:id="@id/seller_contact" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:layout_below="@id/divider" android:layout_marginStart="@dimen/medium_even">
+        <TextView android:id="@id/tv_seller_contact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+91-7503762029" style="@style/semibold_label" />
+        <TextView android:id="@id/tv_seller_contact_source" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Mobile" android:layout_below="@id/tv_seller_contact" style="@style/captionSubduedSmall" />
+        <View android:id="@id/line" android:background="@color/Ng300" android:layout_width="1.0dip" android:layout_height="45.0dip" android:layout_toLeftOf="@id/iv_call" />
+        <ImageView android:id="@id/iv_call" android:padding="@dimen/medium_even" android:layout_width="45.0dip" android:layout_height="45.0dip" android:src="@null" android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

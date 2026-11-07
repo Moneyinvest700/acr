@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/area_rr" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:id="@id/property_type_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="AREA (Sq.ft.)" style="@style/search_page_res_buy_card_title_textview" />
+        <TextView android:textSize="15.0sp" android:textColor="@color/material_gray_800" android:gravity="center" android:id="@id/property_type_count_value" android:background="@drawable/property_selection_count_bg" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_marginLeft="5.0dip" android:text="0" android:layout_toRightOf="@id/property_type_lable" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/RangeSeekBar_container" android:layout_width="fill_parent" android:layout_below="@id/titleresidential" style="@style/search_page_res_buy_card_content">
+        <RelativeLayout android:id="@id/helptipContainer" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="11.0dip">
+            <TextView android:id="@id/area_helptip_min" android:layout_marginLeft="5.0dip" android:text="88" style="@style/PriceRange" />
+            <TextView android:id="@id/area_helptip_max" android:layout_marginRight="12.0dip" android:text="88" android:layout_alignParentRight="true" style="@style/PriceRange" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/AreaRangeSeekBar" style="@style/arearangeseekbar_ll_style" />
+    </LinearLayout>
+</RelativeLayout>

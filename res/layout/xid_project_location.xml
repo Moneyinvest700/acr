@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" app:event_type="ALL" app:identifier="LOCATION" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/proj_location_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/large" layout="@layout/xid_section_header" />
+    <FrameLayout android:id="@id/fl_map" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/card_map" android:layout_width="fill_parent" android:layout_height="150.0dip" app:cardCornerRadius="@dimen/s" app:event_type="CLICK" app:identifier="VIEW_MAP">
+            <ImageView android:layout_gravity="center" android:id="@id/iv_map" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/xid_map" android:scaleType="centerCrop" />
+            <TextView android:layout_gravity="center" android:id="@id/tv_view_map" android:background="@drawable/shape_box_white" android:paddingTop="@dimen/small_even" android:paddingBottom="@dimen/small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View Map" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even" style="@style/hyperlinkSmall" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNCardView>
+    </FrameLayout>
+    <include android:id="@id/xid_location_footer" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/xid_view_more" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

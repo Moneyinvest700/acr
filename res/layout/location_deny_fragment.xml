@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:src="@drawable/ic_nearby" />
+    <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="40.0dip" android:text="@string/enable_location_services" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/bodyLargeSemibold" />
+    <TextView android:gravity="center" android:layout_width="272.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/this_helps_us_to_automatically_fetch_the_accurate_location_of_your_property" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/captionStrongNormal" />
+    <TextView android:id="@id/tv_enable_setting" android:layout_width="fill_parent" android:layout_height="@dimen/extra_extra_extra_large_even" android:layout_marginTop="50.0dip" android:text="@string/enable_in_settings" android:layout_marginStart="40.0dip" android:layout_marginEnd="40.0dip" style="@style/primaryActiveButton" />
+    <TextView android:textColor="@color/P500" android:gravity="center" android:id="@id/tv_not_now" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="30.0dip" android:text="@string/not_now" style="@style/buttonTextMedium" />
+</LinearLayout>

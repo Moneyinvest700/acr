@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="#ff091e42" android:gravity="center_vertical" android:id="@id/sticky_header_tv" android:background="@color/white" android:paddingTop="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" app:elevation="3.0dip" />
+    <View android:id="@id/divider" android:background="@color/custom_notification_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

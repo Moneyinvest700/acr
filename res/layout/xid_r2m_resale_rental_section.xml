@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/r2m_root_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" app:event_type="CLICK" app:identifier="PROP_IN_PROJ"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/r2m_properties_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/xxl" layout="@layout/xid_section_header" />
+    <include android:id="@id/shimmer_view" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="@dimen/large" layout="@layout/srp_network_state" />
+    <include android:id="@id/xid_error" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="250.0dip" android:layout_marginTop="@dimen/large" layout="@layout/xid_error_layout" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_resale" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:paddingStart="@dimen/small_even" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_rental" android:visibility="gone" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:paddingStart="@dimen/small_even" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

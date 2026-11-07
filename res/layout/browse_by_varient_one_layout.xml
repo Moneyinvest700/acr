@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout android:id="@id/rootView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/personalized_hp_item_top_margin" app:event_type="ALL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/personalized_hp_item_background" />
+    <LinearLayout android:orientation="vertical" android:id="@id/llHeader" android:layout_width="150.0dip" android:layout_height="fill_parent" android:paddingStart="@dimen/extra_extra_large_even" android:paddingEnd="@dimen/extra_small_even" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+        <ImageView android:id="@id/ivIcon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium_even" />
+        <TextView android:textColor="@color/Ng800" android:id="@id/tvHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_title" />
+    </LinearLayout>
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rvBrowse" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="wrap_content" android:paddingStart="165.0dip" android:nestedScrollingEnabled="false" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout>

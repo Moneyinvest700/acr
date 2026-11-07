@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/text_size_x_small" android:textColor="@color/Ng600" android:ellipsize="end" android:id="@id/chipGroupHeading" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:maxLines="1" android:drawablePadding="@dimen/large_even" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFChipGroupAdditionalView android:id="@id/chipGroupAddition" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+</LinearLayout>

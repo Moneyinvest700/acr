@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/banner" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="@dimen/s" app:cardElevation="0.0dip" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/rlBanner" android:background="@color/P050" android:padding="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/bannerHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:drawablePadding="@dimen/small" android:layout_marginEnd="30.0dip" android:layout_alignParentStart="true" android:layout_alignParentEnd="true" style="@style/semibold_list_header" />
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/cross" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:layout_alignParentEnd="true" />
+        <TextView android:id="@id/bannerSubheading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/bannerHeading" android:layout_marginStart="@dimen/large" style="@style/normal_text_view_small" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

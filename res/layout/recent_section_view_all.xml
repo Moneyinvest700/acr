@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/viewAll" android:background="@drawable/shape_rectangle_corners_radius_strokeng300_white_bg" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="1.0dip" android:layout_marginBottom="1.0dip" android:layout_marginStart="@dimen/small_even" android:layout_marginEnd="@dimen/small_even" app:event_type="CLICK" app:identifier="VIEW_ALL"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="10.0dip" android:textColor="@color/P500" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="View all\nsearches" android:paddingStart="@dimen/medium" android:paddingEnd="@dimen/medium" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

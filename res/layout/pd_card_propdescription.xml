@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/propDescriptionCard" android:paddingLeft="20.0dip" android:paddingTop="20.0dip" android:paddingRight="20.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/property_description_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Property Description" style="@style/pd_detailHeading" />
+    <TextView android:id="@id/property_description_content" android:maxLines="2" android:layout_below="@id/property_description_heading" style="@style/pd_DetailContent" />
+    <TextView android:layout_gravity="center_horizontal" android:id="@id/property_details_more" android:padding="10.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:text="@string/text_read_more" android:drawableRight="@drawable/ic_down_arrow_teal" android:drawablePadding="10.0dip" android:layout_below="@id/property_description_content" android:layout_centerHorizontal="true" android:drawableEnd="@drawable/ic_down_arrow_teal" style="@style/xidDetailButtonStyle" />
+</RelativeLayout>

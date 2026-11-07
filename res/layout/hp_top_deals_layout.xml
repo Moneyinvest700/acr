@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:paddingBottom="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_top_deals_city" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="@string/deals" android:layout_alignParentLeft="true" style="@style/hp_widget_heading_new" />
+    <ImageView android:id="@id/hp_info_icon" android:layout_alignTop="@id/tv_top_deals_city" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" style="@style/AppInfoIcon" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_top_deals" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/tv_top_deals_city" />
+</RelativeLayout>

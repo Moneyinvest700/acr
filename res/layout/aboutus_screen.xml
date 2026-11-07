@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/layoutRootView" android:background="#ffffffff" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/toolbar" />
+    <View android:id="@id/searchPageDividerLineTop" android:background="@color/material_gray_300" android:layout_width="fill_parent" android:layout_height="@dimen/searchform_divider_line_height" />
+    <ScrollView android:orientation="vertical" android:id="@id/ScrollViewAboutus" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:id="@id/ScrollViewAboutusChild" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_gravity="center_horizontal" android:id="@id/imageView1" android:layout_width="200.0dip" android:layout_height="wrap_content" android:layout_marginTop="15.0dip" android:src="@drawable/aboutus_page_logo" />
+            <TextView android:textSize="20.0sp" android:textColor="#ff222222" android:layout_gravity="center_horizontal" android:id="@id/appversion_textView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="" />
+            <TextView android:textSize="16.0sp" android:textColor="#ff444444" android:gravity="left" android:id="@id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginRight="10.0dip" android:text="99acres is India's No. 1 real estate website started in 2005 by Info Edge India Pvt. Ltd. It is a one-stop destination for all the property needs of home buyers, sellers, renters, and real estate agents. The website lists lacs of properties for sale and rent as well as newly launched projects. Users can advertise, search and buy or sell properties. 99acres received the Most Admired Real Estate Portal - CMO ASIA Awards 2012 for services rendered." />
+            <View android:id="@id/dividerLine" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="20.0dip" />
+            <LinearLayout android:id="@id/termcondition_holder" android:background="@drawable/custom_statechange_bg" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Terms and Conditions" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/imageView2" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/accessoryarrow" android:layout_weight="0.0" />
+            </LinearLayout>
+            <View android:id="@id/dividerLine1" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:id="@id/privacy_policy_holder" android:background="@drawable/custom_statechange_bg" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/headingPrivacyPolicy" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Privacy Policy" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/rightNavigation" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/accessoryarrow" android:layout_weight="0.0" />
+            </LinearLayout>
+            <View android:id="@id/dividerLine2" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <LinearLayout android:id="@id/legal_holder" android:background="@drawable/custom_statechange_bg" android:layout_width="fill_parent" android:layout_height="48.0dip">
+                <TextView android:textSize="18.0sp" android:textColor="#ff333333" android:layout_gravity="center_vertical" android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:text="Legal" android:layout_weight="1.0" />
+                <ImageView android:layout_gravity="center_vertical" android:id="@id/rightNavigation1" android:layout_width="18.0dip" android:layout_height="18.0dip" android:layout_marginRight="8.0dip" android:src="@drawable/accessoryarrow" android:layout_weight="0.0" />
+            </LinearLayout>
+            <View android:id="@id/dividerLine3" android:background="#ffcccccc" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+            <TextView android:textSize="15.0sp" android:textColor="#ff444444" android:autoLink="email" android:id="@id/bottomText" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="20.0dip" android:layout_marginBottom="20.0dip" android:text="For any concerns/Questions/Grievances kindly email us at legal@99acres.com or legal@infoedgeindia.com" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

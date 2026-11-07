@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:id="@id/tv_breakup_item" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/extra_extra_small" android:layout_marginEnd="@dimen/small_medium_even" style="@style/propertyOptionTextSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

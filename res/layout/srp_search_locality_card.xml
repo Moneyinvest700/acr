@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.LinearLayoutCompat android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginHorizontal="@dimen/large" android:layout_marginVertical="@dimen/large" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/header" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/semibold_list_header" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:id="@id/zoneSuggestionCard" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" app:cardCornerRadius="@dimen/s" app:cardElevation="@dimen/s" app:event_type="ALL" app:identifier="VIEW_LOCALITY_INSIGHT" app:topmost="true">
+        <include layout="@layout/search_locality_item" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNCardView>
+</androidx.appcompat.widget.LinearLayoutCompat>

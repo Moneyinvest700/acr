@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" layout="@layout/toolbar" />
+    <ScrollView android:id="@id/scrollview" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+        <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:textSize="16.0sp" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:id="@id/confirmMessage" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" android:text="This is a verified listing and and only few parameters can be edited." android:drawableLeft="@drawable/alerts_and_states_error" android:drawablePadding="5.0dip" />
+            <include android:id="@id/askingPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/confirmMessage" layout="@layout/ppf_m2_price" />
+            <include android:id="@id/propArea" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" android:layout_below="@id/askingPrice" layout="@layout/commercial_edit_verified_area" />
+            <LinearLayout android:orientation="horizontal" android:id="@id/price_prunitholder" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="20.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/propArea">
+                <com.google.android.material.textfield.TextInputLayout android:id="@id/price_per_unit_valueContaier" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                    <EditText android:id="@id/price_per_unit_value" android:hint="Price per Unit Area (₹)" android:maxLength="9" android:digits="\ 0123456789" android:inputType="number" style="@style/MaterialEditTextStyle" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/pricemultipleUnit" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="40.0dip" android:layout_below="@id/price_prunitholder" android:layout_alignWithParentIfMissing="true" style="@style/manage_listing_verified_edit">
+                <TextView android:textSize="16.0sp" android:textStyle="bold" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:text="Price (₹)" android:layout_alignWithParentIfMissing="true" />
+                <TextView android:textSize="14.0sp" android:textColor="@color/material_gray_800" android:gravity="center_vertical" android:id="@id/pricemultipleUnitText" android:layout_width="fill_parent" android:layout_height="fill_parent" android:drawablePadding="10.0dip" />
+            </LinearLayout>
+            <TextView android:id="@id/otherDetailsHeader" android:layout_marginTop="@dimen/ppf_section_margin_top" android:text="@string/other_detail_header" android:layout_below="@id/pricemultipleUnit" style="@style/ppf_heading" />
+            <include android:id="@id/propertyDescriptioninclude" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_marginBottom="16.0dip" android:layout_below="@id/otherDetailsHeader" layout="@layout/ppf_property_description_layout" />
+            <LinearLayout android:clickable="true" android:layout_width="fill_parent" android:layout_height="@dimen/action_button_height" android:layout_below="@id/propertyDescriptionContainer" android:layout_alignParentBottom="true">
+                <TextView android:layout_gravity="center" android:id="@id/btn_submit" android:text="Done" style="@style/ActionButtonBlue" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

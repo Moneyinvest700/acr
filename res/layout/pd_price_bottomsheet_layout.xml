@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/pd_header" android:layout_width="wrap_content" android:layout_height="wrap_content" layout="@layout/pd_section_header" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:background="@drawable/shape_rectangle_light_grey_corner_radius_4" android:paddingTop="@dimen/medium_even" android:paddingBottom="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/price_title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bodyRegularSmall" />
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even">
+            <TextView android:textColor="@color/Ng700" android:id="@id/price_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_bold" style="@style/bodyNormal" />
+            <TextView android:textColor="@color/Ng600" android:id="@id/price_area" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small_medium_even" style="@style/bodyNormal" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_price_feature" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_medium_even" />
+        <include android:id="@id/inclusiveRent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" layout="@layout/pd_price_rent_layout" />
+        <include android:id="@id/exclusiveRent" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" layout="@layout/pd_price_rent_layout" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/ll_emi_tuple" android:background="@drawable/shape_rectangle_corners_radius_strokeng300_white_bg" android:paddingTop="@dimen/medium_even" android:paddingBottom="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/extra_large_even">
+        <ImageView android:layout_gravity="center" android:id="@id/emiIcon" android:layout_width="@dimen/extra_large_even" android:layout_height="@dimen/extra_large_even" android:src="@drawable/ic_budget_calculator" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large_medium_even">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:ellipsize="end" android:id="@id/emiTitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" style="@style/bodyRegularSmall" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/calculateEmi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:drawablePadding="@dimen/small_even" android:drawableEnd="@drawable/arrow" android:drawableTint="@color/P500" style="@style/hyperlinkSmall" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_price_breakup_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/price_disclaimer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" style="@style/captionStrongXtraSmall" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" android:layout_marginBottom="@dimen/large_even">
+        <Button android:id="@id/eoi_button" android:background="@drawable/shape_rectangle_corner_radius_4_dark_blue_bkg" android:layout_width="fill_parent" android:layout_height="fill_parent" android:textAlignment="center" style="@style/white_bold_text" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

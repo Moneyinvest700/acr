@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/preference_item_style"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/hp_pref_image" android:layout_width="12.0dip" android:layout_height="12.0dip" />
+    <TextView android:textSize="@dimen/text_size_xxx_small" android:textStyle="bold" android:textColor="@color/hp_tuple_main_line" android:gravity="center_vertical" android:id="@id/preference_item_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:text="Hello" android:fontFamily="@font/open_sans_semibold" />
+</LinearLayout>

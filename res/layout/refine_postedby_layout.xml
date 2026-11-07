@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/dealerButton" android:text="@string/dealer_text" android:onClick="dealerButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_top_dealer_filter_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/tv_top_dealer_filter" android:text="@string/lbl_top_dealer" android:onClick="topDealerFilterClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+        <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    </LinearLayout>
+    <TextView android:id="@id/ownerButton" android:text="@string/owner_text" android:onClick="ownerButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/builderButton" android:text="@string/builder_text" android:onClick="builderButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

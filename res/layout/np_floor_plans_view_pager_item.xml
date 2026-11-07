@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="2.0dip" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_floorplan_root" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/np_floor_plans_iv" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="110.0dip" android:src="@null" android:scaleType="centerInside" />
+        <RelativeLayout android:id="@id/floor_plans_super_built_up_area_ll" android:background="@color/material_gray_50" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <View android:id="@id/divider1" android:background="#fff1f3f5" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider1" android:layout_centerVertical="true" android:layout_toStartOf="@id/divider1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Super Built-up area" style="@style/xid_floor_plan_heading_style" />
+                <TextView android:id="@id/floor_plans_super_built_up_area_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xid_floor_plan_value_style" />
+                <TextView android:id="@id/floor_plans_super_built_up_secondary" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xidDetailFactrowSubValueStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/divider1" android:layout_centerVertical="true" android:layout_toEndOf="@id/divider1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Built-up Area" style="@style/xid_floor_plan_heading_style" />
+                <TextView android:id="@id/floor_plans_built_up_area_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xid_floor_plan_value_style" />
+                <TextView android:id="@id/floor_plans_built_up_area_sec" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xidDetailFactrowSubValueStyle" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/sectionCarpetAreaAndPlotArea" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="75.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/floor_plans_liveable_area_left_row_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:gravity="center_vertical" android:id="@id/information_alert_liveable_area_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Liveable Area" android:drawableRight="@drawable/info_icon" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/info_icon" style="@style/xid_floor_plan_heading_style" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/floor_plans_liveable_area_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xid_floor_plan_value_style" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_450" android:ellipsize="end" android:id="@id/floor_plans_liveable_area_percent_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:maxLines="1" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="5.0dip" />
+                </LinearLayout>
+                <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/floor_plans_liveable_area_config_info_tv" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+                <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/floor_plans_liveable_area_sec" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/sectionNewBookingAndResalePrice" android:background="@color/material_gray_50" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <View android:id="@id/divider2" android:background="#fff1f3f5" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/floor_plans_new_booking_price_left_row_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider2" android:layout_centerVertical="true" android:layout_toStartOf="@id/divider2">
+                <TextView android:gravity="center_vertical" android:id="@id/information_alert_new_booking_price_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="New Booking Price" android:drawableRight="@drawable/info_icon" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/info_icon" style="@style/xid_floor_plan_heading_style" />
+                <TextView android:id="@id/floor_plans_new_booking_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xid_floor_plan_value_style" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/floor_plans_resale_price_left_row_ll" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/divider2" android:layout_centerVertical="true" android:layout_toEndOf="@id/divider2">
+                <TextView android:gravity="center_vertical" android:id="@id/information_alert_resale_price_iv" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Resale Price" android:drawableRight="@drawable/info_icon" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/info_icon" style="@style/xid_floor_plan_heading_style" />
+                <TextView android:id="@id/floor_plans_resale_price_tv" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xid_floor_plan_value_style" />
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

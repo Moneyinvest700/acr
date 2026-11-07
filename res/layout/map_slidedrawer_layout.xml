@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.ui.SemiClosedSlidingDrawer android:id="@id/map_lv_parent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="18.0dip" android:layout_marginRight="18.0dip" android:layout_marginBottom="15.0dip" custom:scallowSingleTap="true" custom:scanimateOnClick="true" custom:sccontent="@id/map_lv_parent_ll" custom:scdownImage="@id/handleslide" custom:schandle="@id/handleslide" custom:scorientation="vertical" custom:scsemiClosedContentSize="100.0dip" custom:scupImage="@id/handleslide"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:custom="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:id="@id/handleslide" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="48.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView android:textSize="17.0sp" android:textColor="@color/material_gray_900" android:ellipsize="end" android:id="@id/society_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="35.0dip" android:singleLine="true" />
+        <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="12.0dip" android:layout_marginTop="-2.0dip" android:layout_marginBottom="4.0dip" android:layout_below="@id/society_name">
+            <TextView android:textSize="13.0sp" android:id="@id/society_locality" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+            <TextView android:textSize="13.0sp" android:ellipsize="end" android:id="@id/society_no_of_properties" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="25.0dip" android:singleLine="true" />
+        </LinearLayout>
+        <ImageView android:layout_gravity="end|center" android:paddingRight="5.0dip" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/map_pager_close" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/map_lv_parent_ll" android:focusable="true" android:focusableInTouchMode="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/listview_header" android:layout_centerHorizontal="true" android:animateLayoutChanges="true">
+        <ListView android:layout_gravity="center" android:id="@id/map_lv" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="3.0dip" android:divider="@null" />
+    </LinearLayout>
+</com.nnacres.app.ui.SemiClosedSlidingDrawer>

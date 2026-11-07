@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/spaceTypeContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:hint="Type of Space" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/spaceType" android:tag="@string/office_space_type" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

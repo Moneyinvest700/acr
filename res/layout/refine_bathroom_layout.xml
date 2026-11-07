@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RadioGroup android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroomAny" android:text="Any" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroom1" android:text="1+" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroom2" android:text="2+" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroom3" android:text="3+" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroom4" android:text="4+" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <com.nnacres.app.ui.NNacresRadioButton android:id="@id/bathroom5" android:text="5+" android:onClick="bathroomClickhandler" style="@style/RefineDetailRadioBtnStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</RadioGroup>

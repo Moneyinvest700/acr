@@ -1,0 +1,274 @@
+{
+	"list": [{
+			"id": -1,
+			"label": "TOP CITIES"
+		},
+		{
+			"id": 1,
+			"label": "Delhi / NCR"
+		},
+		{
+			"id": 7,
+			"label": "Noida"
+		},
+		{
+			"id": 8,
+			"label": "Gurgaon"
+		},
+		{
+			"id": 12,
+			"label": "Mumbai"
+		},
+		{
+			"id": 19,
+			"label": "Pune"
+		},
+		{
+			"id": 20,
+			"label": "Bangalore"
+		},
+		{
+			"id": 25,
+			"label": "Kolkata"
+		},
+		{
+			"id": 32,
+			"label": "Chennai"
+		},
+		{
+			"id": 38,
+			"label": "Hyderabad"
+		},
+		{
+			"id": 45,
+			"label": "Ahmedabad"
+		},
+		{
+			"id": -1,
+			"label": "OTHER CITIES"
+		},
+		{
+			"id": 140,
+			"label": "Bhopal"
+		},
+		{
+			"id": 162,
+			"label": "Bhubaneswar"
+		},
+		{
+			"id": 73,
+			"label": "Chandigarh"
+		},
+{
+	"id": 177,
+	"label": "Jaipur"
+}, {
+	"id": 209,
+	"label": "Varanasi"
+}, {
+	"id": 117,
+	"label": "Ranchi"
+}, {
+	"id": 204,
+	"label": "Kanpur"
+}, {
+	"id": 71,
+	"label": "Patna"
+},
+		{
+			"id": 185,
+			"label": "Coimbatore"
+		},
+		{
+			"id": 77,
+			"label": "Dadra & Nagar Haveli"
+		},
+		{
+			"id": 78,
+			"label": "Daman & Diu"
+		},
+		{
+			"id": 211,
+			"label": "Dehradun"
+		},
+		{
+			"id": 10,
+			"label": "Faridabad"
+		},
+		{
+			"id": 9,
+			"label": "Ghaziabad"
+		},
+		{
+			"id": 222,
+			"label": "Greater Noida"
+		},
+		{
+            "id": 142,
+        	"label": "Indore"
+        },
+		{
+			"id": 205,
+			"label": "Lucknow"
+		},
+		{
+			"id": 125,
+			"label": "Mangalore"
+		},
+		{
+			"id": 150,
+			"label": "Nagpur"
+		},
+		{
+			"id": 151,
+			"label": "Nasik"
+		},
+		{
+			"id": 168,
+			"label": "Pondicherry"
+		},
+		{
+			"id": 75,
+			"label": "Raipur"
+		},
+		{
+			"id": 95,
+			"label": "Surat"
+		},
+		{
+			"id": 96,
+			"label": "Vadodara"
+		},
+		{
+			"id": 61,
+			"label": "Vijayawada"
+		},
+		{
+			"id": 62,
+			"label": "Vishakhapatnam"
+		},
+		{
+			"id": -1,
+			"label": "STATES & UTs"
+		},
+		{
+			"id": 317,
+			"label": "Andaman & Nicobar"
+		},
+		{
+			"id": 228,
+			"label": "Andhra Pradesh"
+		},
+		{
+			"id": 229,
+			"label": "Arunachal Pradesh"
+		},
+		{
+			"id": 230,
+			"label": "Assam"
+		},
+		{
+			"id": 231,
+			"label": "Bihar"
+		},
+		{
+			"id": 233,
+			"label": "Goa"
+		},
+		{
+			"id": 225,
+			"label": "Gujarat"
+		},
+		{
+			"id": 234,
+			"label": "Haryana"
+		},
+		{
+			"id": 235,
+			"label": "Himachal Pradesh"
+		},
+		{
+			"id": 236,
+			"label": "Jammu & Kashmir"
+		},
+		{
+			"id": 237,
+			"label": "Jharkhand"
+		},
+		{
+			"id": 224,
+			"label": "Karnataka"
+		},
+		{
+			"id": 238,
+			"label": "Kerala"
+		},
+		{
+			"id": 239,
+			"label": "Madhya Pradesh"
+		},
+		{
+			"id": 223,
+			"label": "Maharashtra"
+		},
+		{
+			"id": 240,
+			"label": "Manipur"
+		},
+		{
+			"id": 241,
+			"label": "Meghalaya"
+		},
+		{
+			"id": 242,
+			"label": "Mizoram"
+		},
+		{
+			"id": 243,
+			"label": "Nagaland"
+		},
+		{
+			"id": 244,
+			"label": "Orissa"
+		},
+		{
+			"id": 245,
+			"label": "Punjab"
+		},
+		{
+			"id": 246,
+			"label": "Rajasthan"
+		},
+		{
+			"id": 247,
+			"label": "Sikkim"
+		},
+		{
+			"id": 227,
+			"label": "Tamil Nadu"
+		},
+		{
+			"id": 248,
+			"label": "Tripura"
+		},
+		{
+			"id": 249,
+			"label": "Uttar Pradesh"
+		},
+		{
+			"id": 250,
+			"label": "Uttarakhand"
+		},
+		{
+			"id": 226,
+			"label": "West Bengal"
+		}
+	],
+	"metainfo": {
+		"statusCode": "0",
+		"statusMessage": "OK",
+		"processing_time": 0.059744119644165,
+		"99_ab": "1",
+		"X-REQUEST-ID": "11808177827200572646"
+	}
+}

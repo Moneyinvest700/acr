@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/tv_electricity_availability" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/small" android:text="Electricity Availability" android:fontFamily="@font/open_sans" />
+    <RadioGroup android:orientation="horizontal" android:id="@id/rg_elect_aval_extra_charge" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/extra_small" android:layout_marginRight="@dimen/extra_small">
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_elect_not_available" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/not_available" />
+        <com.nnacres.app.ui.NNacresAppCompatRadioButton android:textSize="@dimen/medium" android:textColor="@color/hambuger_text_color" android:id="@id/rb_elect_with_charge" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:text="@string/available_for_extra_charge" />
+    </RadioGroup>
+    <EditText android:id="@id/elect_type" android:visibility="gone" android:layout_marginTop="@dimen/small" android:hint="Type of charges" style="@style/SearchFormDialogueInputCity" />
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/et_elect_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/small" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/elect_charge" android:visibility="gone" android:hint="Fixed charge for electricity" android:maxLength="7" android:digits="\ 0123456789" android:inputType="number" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

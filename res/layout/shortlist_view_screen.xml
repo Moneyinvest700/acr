@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/shortlistRootView" android:background="@color/white" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/radio_buttons_properties_projects" />
+    <View android:id="@id/divider" android:background="@color/custom_notification_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/rgPropertyProject" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rvPropertyProject" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider" />
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/divider" layout="@layout/recent_activity_empty_view" />
+    <com.nnacres.app.customviews.NNReactRootView android:id="@id/reactShortlistEmptyView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/divider" android:layout_centerInParent="true" />
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/ll_bottom_sheet_root" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/large" android:layout_marginRight="@dimen/large" android:layout_marginBottom="@dimen/medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/price_breakup_header" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginStart="@dimen/large" layout="@layout/xid_section_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_price_breakup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" />
+    <include android:layout_width="fill_parent" android:layout_height="@dimen/xxs" layout="@layout/line_divider_layout" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/large">
+        <TextView android:id="@id/tv_total_label" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="2.0" style="@style/semibold_list_header" />
+        <TextView android:id="@id/tv_total_value" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/small" style="@style/semibold_list_header" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_sheet_disclaimer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large_even" style="@style/captionSubduedSmall" />
+</LinearLayout>

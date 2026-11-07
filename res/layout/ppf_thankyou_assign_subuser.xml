@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/ppf_assign_subuser_heading" style="@style/bodyExtraBoldLarge" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/subheading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:text="@string/ppf_assign_subuser_subheading" android:layout_below="@id/heading" style="@style/captionSubduedMedium" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_subuser" android:layout_alignParentRight="true" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/tvSubuser" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="Select Sub - User" android:layout_below="@id/subheading" style="@style/inlineFilterButtonStyle" />
+    <include android:id="@id/assignedSubuser" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_below="@id/subheading" layout="@layout/ppf_assigned_sub_user" />
+</RelativeLayout>

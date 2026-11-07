@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/linearProgressIndicator" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/medium_even" android:layout_marginTop="@dimen/medium" android:layout_marginRight="@dimen/medium_even" android:elevation="1.0dip" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/images" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/leftPort" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="100.0dip" android:layout_marginBottom="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toLeftOf="@id/rightPort" app:layout_constraintTop_toTopOf="parent" />
+    <FrameLayout android:id="@id/rightPort" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="100.0dip" android:layout_marginBottom="50.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toRightOf="@id/leftPort" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

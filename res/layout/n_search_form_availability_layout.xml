@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/aval_llg" android:focusableInTouchMode="true" style="@style/search_page_res_buy_card"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/titleresidential" android:layout_width="fill_parent" style="@style/search_page_res_buy_card_title">
+        <TextView android:id="@id/property_type_lable" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/project_status_text" style="@style/search_page_res_buy_card_title_textview" />
+    </LinearLayout>
+    <LinearLayout android:gravity="center" android:layout_gravity="center_vertical" android:orientation="horizontal" android:id="@id/npAvailabilityChoiceContainer" android:background="@color/white" android:layout_width="fill_parent" android:layout_below="@id/titleresidential" style="@style/search_page_res_buy_card_content">
+        <Button android:id="@id/ready_move_chkbox" android:paddingLeft="0.0dip" android:text="@string/ready_to_move_text" android:drawableTop="@drawable/proj_readytomove_selector" style="@style/availabilityTypeButton" />
+        <View android:id="@id/blankView1" android:background="@color/material_gray_100" android:layout_width="@dimen/searchform_divider_line_height" android:layout_height="fill_parent" />
+        <Button android:id="@id/under_construction_chkbox" android:text="@string/under_construction_text" android:drawableTop="@drawable/proj_underconstruction_selector" style="@style/availabilityTypeButton" />
+        <View android:id="@id/blankView2" android:background="@color/material_gray_100" android:layout_width="@dimen/searchform_divider_line_height" android:layout_height="fill_parent" />
+        <Button android:id="@id/new_launch_chkbox" android:text="@string/new_launch_text" android:drawableTop="@drawable/proj_newlaunch_selector" style="@style/availabilityTypeButton" />
+    </LinearLayout>
+</RelativeLayout>

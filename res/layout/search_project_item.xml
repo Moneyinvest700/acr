@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNCardView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:layout_marginBottom="@dimen/extra_extra_small" android:layout_marginEnd="@dimen/small_even" app:cardCornerRadius="8.0dip" app:cardElevation="4.0dip" app:event_type="CLICK" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <RelativeLayout android:paddingTop="@dimen/large" android:paddingBottom="@dimen/large" android:layout_width="145.0dip" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even" android:paddingEnd="@dimen/large_even">
+        <RelativeLayout android:id="@id/logoSection" android:background="@drawable/shape_rectangle_corners_radius_stroke_white_bg" android:layout_width="65.0dip" android:layout_height="60.0dip" android:layout_marginBottom="@dimen/small_even">
+            <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewCompanyLogo" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_builder_default" android:scaleType="centerInside" />
+            <TextView android:textSize="@dimen/text_size_large" android:textColor="@color/mid_gray" android:gravity="center" android:id="@id/textViewLogoErrorFallback" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="2" android:textAllCaps="true" android:fontFamily="@font/open_sans_semibold" />
+        </RelativeLayout>
+        <TextView android:ellipsize="end" android:id="@id/propTypeName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Apartment" android:maxLines="1" android:layout_below="@id/logoSection" style="@style/semibold_list_header" />
+        <TextView android:ellipsize="end" android:id="@id/propTypeCount" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="2343 properties" android:maxLines="1" android:layout_below="@id/propTypeName" style="@style/captionStrongSmall" />
+    </RelativeLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNCardView>

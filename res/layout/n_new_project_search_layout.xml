@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/searchLayoutNP" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <include layout="@layout/n_autosuggest_edittext" />
+    <View android:id="@id/blankView" android:background="#ffdfdfdf" android:layout_width="fill_parent" android:layout_height="@dimen/searchform_divider_line_height" />
+    <include layout="@layout/n_search_form_price_range_layout" />
+    <include layout="@layout/n_search_form_availability_layout" />
+    <include layout="@layout/n_search_form_area_layout" />
+    <include layout="@layout/n_search_form_bedroom_num_list_button" />
+</LinearLayout>

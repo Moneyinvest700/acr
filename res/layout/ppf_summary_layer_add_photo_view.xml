@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/addMorePhoto" android:background="@color/light_grey" android:layout_width="@dimen/ppf_summary_layer_photo_view_width" android:layout_height="@dimen/ppf_summary_layer_photo_view_width" android:layout_marginEnd="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+        <TextView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="+" style="@style/hyperlink" />
+        <androidx.appcompat.widget.AppCompatTextView android:textSize="@dimen/txt_xtra_xtra_small" android:layout_gravity="center" android:id="@id/add_more_txt" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Add Photo" style="@style/hyperlink" />
+    </LinearLayout>
+</RelativeLayout>

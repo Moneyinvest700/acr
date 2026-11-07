@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="horizontal" android:id="@id/pd_meal_options_bullet_item" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/bulletIcon" android:background="@drawable/pd_bullet_dot" android:layout_width="@dimen/large_even" android:layout_height="@dimen/large_even" android:layout_marginTop="@dimen/medium" android:layout_marginEnd="@dimen/medium" android:backgroundTint="@color/Ng400" />
+    <TextView android:textSize="@dimen/medium_even" android:id="@id/subtext" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginEnd="@dimen/xs" android:layout_toEndOf="@id/bulletIcon" style="@style/bold_medium_label" />
+    <TextView android:textColor="@color/Ng600" android:id="@id/text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:text="@string/price_comparison" android:layout_toEndOf="@id/subtext" style="@style/bodyRegularSmall" />
+</RelativeLayout>

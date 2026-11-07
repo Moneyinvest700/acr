@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.SwitchCompat android:theme="@style/ColorSwitchStyleNotifications" android:textSize="18.0sp" android:textStyle="bold" android:textColor="@android:color/white" android:gravity="center_vertical" android:id="@id/custom_switch_item" android:focusable="false" android:clickable="false" android:layout_width="fill_parent" android:layout_height="?actionBarSize" android:checked="false" android:textIsSelectable="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

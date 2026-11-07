@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/check_box_group" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textColor="@color/P500" android:id="@id/more_localities" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:text="@string/more_localities_label" android:drawablePadding="@dimen/small" android:drawableStart="@null" style="@style/buttonTextMedium" />
+</LinearLayout>

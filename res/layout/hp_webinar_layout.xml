@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/bold_title" />
+    <TextView android:id="@id/tv_sub_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" app:layout_constraintStart_toStartOf="@id/tv_title" app:layout_constraintTop_toBottomOf="@id/tv_title" style="@style/captionSubduedLarge" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_webinar" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/medium" android:layout_marginBottom="@dimen/medium" android:paddingStart="@dimen/small" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/tv_sub_title" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNConstraintLayout>

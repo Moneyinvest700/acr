@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/container" android:background="@color/transparent" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:id="@id/toolbar_choices_layout" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="5.0dip">
+        <include layout="@layout/toolbar" />
+        <LinearLayout android:orientation="horizontal" android:id="@id/choices" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/toolbar">
+            <RelativeLayout android:id="@id/buyTab" android:background="@drawable/buy_project_rent_res_com_form" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="0.49">
+                <TextView android:id="@id/buyText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/buy_tab_text" android:layout_centerInParent="true" style="@style/search_page_pager_text_style" />
+                <View android:id="@id/buyView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+            <RelativeLayout android:id="@id/rentLeaseTab" android:background="@drawable/buy_project_rent_res_com_form" android:layout_width="0.0dip" android:layout_height="50.0dip" android:layout_weight="0.49">
+                <TextView android:id="@id/rentLeaseText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rent_lease_tab_text" android:layout_centerInParent="true" style="@style/search_page_pager_text_style" />
+                <View android:id="@id/rentLeaseView" android:layout_width="fill_parent" android:layout_height="4.0dip" android:layout_alignParentBottom="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+    <RelativeLayout android:id="@id/search_forms_view_layout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/toolbar_choices_layout">
+        <com.nnacres.app.ui.NNAcresViewPager android:id="@id/viewPager" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentStart="true" />
+    </RelativeLayout>
+</RelativeLayout>

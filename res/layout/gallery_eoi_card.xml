@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:id="@id/gallery_eoi_card" android:background="@color/A050" android:paddingTop="@dimen/large_even" android:paddingBottom="@dimen/large_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/xid_about_builder_logo_width" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_eoi_tuple" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_weight="8.0">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_section_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/m" style="@style/bodyRegularSmall" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/rl_eoi_button" android:background="@drawable/shape_rectangle_corner_radius_4_dark_blue_bkg" android:paddingTop="@dimen/m" android:paddingBottom="@dimen/m" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/display">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:ellipsize="end" android:id="@id/tv_eoi" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Request more photos" android:maxLines="1" android:drawablePadding="@dimen/medium_even" android:layout_centerInParent="true" android:drawableEnd="@drawable/ic_arrow_right" android:fontFamily="@font/open_sans_bold" android:drawableTint="@color/Ng100" style="@style/whiteRegularLabel" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/icon" android:layout_width="60.0dip" android:layout_height="50.0dip" android:layout_toEndOf="@id/ll_eoi_tuple" android:layout_alignParentEnd="true" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

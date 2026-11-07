@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/txt_xtra_xtra_small" android:id="@id/tvTag" android:background="@drawable/shape_rectangle_og200_with_border_ng300_corner_2" android:paddingTop="@dimen/extra_extra_small" android:paddingBottom="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawablePadding="@dimen/extra_extra_small" android:textAllCaps="true" android:paddingStart="@dimen/extra_small_even" android:paddingEnd="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" style="@style/text_semi_bold"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

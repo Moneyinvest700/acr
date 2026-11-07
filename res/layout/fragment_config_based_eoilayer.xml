@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="#fffefefe" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="1.0">
+            <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:id="@id/header" android:background="@color/white" android:paddingLeft="11.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_alignParentTop="true" android:elevation="3.0dip">
+                <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="#ff666666" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="Select Advertiser" android:layout_weight="1.0" />
+                <ImageView android:id="@id/back" android:paddingLeft="10.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="38.0dip" android:layout_height="38.0dip" android:src="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+            </LinearLayout>
+            <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="12.0dip" android:layout_marginStart="5.0dip" layout="@layout/config_slot_layout" />
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_advertisers" android:paddingLeft="11.0dip" android:paddingRight="11.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="5.0dip" />
+        </LinearLayout>
+        <Button android:textSize="16.0dip" android:textStyle="bold" android:textColor="@color/white" android:id="@id/btnSubmit" android:background="@color/material_blue_600" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Proceed to Call" android:layout_alignParentBottom="true" />
+    </LinearLayout>
+</LinearLayout>

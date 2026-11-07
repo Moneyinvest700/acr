@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.cardview.widget.CardView android:id="@id/parent_vg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/small" android:layout_marginTop="@dimen/extra_small" android:layout_marginRight="@dimen/small" android:layout_marginBottom="@dimen/extra_small" android:foreground="?android:selectableItemBackground" app:cardElevation="1.0dip">
+        <include layout="@layout/recent_card_layout" />
+    </androidx.cardview.widget.CardView>
+    <View android:id="@id/selection" android:background="#4070b7ff" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginRight="@dimen/extra_small" android:layout_alignTop="@id/parent_vg" android:layout_alignBottom="@id/parent_vg" android:elevation="2.0dip" />
+</RelativeLayout>

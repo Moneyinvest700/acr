@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:layout_gravity="center_horizontal" android:id="@id/horizontal_prop_recom_tuple_root_layout" android:layout_width="wrap_content" android:layout_height="wrap_content" app:cardElevation="2.0dip" app:cardUseCompatPadding="true" xmlns:app="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="vertical" android:id="@id/grid_tuple_detail_part" android:background="?selectableItemBackground" android:layout_width="wrap_content" android:layout_height="@dimen/prop_recom_tuple_height" android:maxWidth="@dimen/prop_recom_tuple_width">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.47">
+                <ImageView android:id="@id/grid_tuple_image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="centerCrop" />
+                <TextView android:layout_gravity="end|center|top" android:id="@id/seen_textview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/seen_text_view" />
+                <TextView android:layout_gravity="end|center|top" android:id="@id/fresh_textview" android:background="@color/fresh_tag_color" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/fresh" style="@style/seen_text_view" />
+                <TextView android:textSize="10.0sp" android:textColor="@color/white" android:layout_gravity="bottom" android:id="@id/posted_by_and_date" android:background="@color/transparentBlackBgOffsite" android:layout_width="fill_parent" android:layout_height="15.0dip" android:paddingStart="10.0dip" android:paddingEnd="10.0dip" />
+            </FrameLayout>
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_weight="0.53">
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_prop_recom_detail_container" android:paddingTop="10.0dip" android:layout_width="wrap_content" android:layout_height="63.0dip" android:layout_alignParentTop="true" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                    <TextView android:textSize="@dimen/hp_tuple_heading_text_size" android:textStyle="bold" android:textColor="@color/blue" android:ellipsize="end" android:id="@id/grid_tuple_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:text="3BHK Flat" android:maxLines="1" />
+                    <TextView android:textSize="@dimen/hp_tuple_regular_text_size" android:textStyle="normal" android:textColor="#ff333333" android:ellipsize="end" android:id="@id/grid_tuple_secondary_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Ready to Movejasbdkjasndlasndlasjndasldnasdnasldnasldn" android:maxLines="1" />
+                    <TextView android:textSize="@dimen/hp_tuple_regular_text_size" android:textColor="@color/material_gray_450" android:ellipsize="end" android:id="@id/grid_tuple_tertiary_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Greater noida west" android:maxLines="1" style="@style/text_semi_bold" />
+                </LinearLayout>
+                <View android:id="@id/view_call_divider" android:background="@color/prop_recom_divider" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_below="@id/ll_prop_recom_detail_container" />
+                <LinearLayout android:orientation="vertical" android:id="@id/ll_contact_now_container" android:background="?selectableItemBackground" android:layout_width="fill_parent" android:layout_height="32.0dip" android:layout_below="@id/view_call_divider" android:paddingStart="10.0dip" android:paddingEnd="10.0dip">
+                    <RelativeLayout android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                        <TextView android:textSize="10.0sp" android:textColor="@color/light_green" android:id="@id/action_call" android:paddingTop="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/contact_now" android:fontFamily="@font/open_sans_semibold" android:layout_alignParentStart="true" />
+                        <ImageView android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginTop="4.0dip" android:src="@null" android:layout_alignParentEnd="true" />
+                    </RelativeLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:id="@id/prop_recom_shortlist" android:background="?selectableItemBackground" android:padding="10.0dip" android:visibility="gone" android:clickable="true" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/shortlist_icon" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_shortlist_inactive" />
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+    <FrameLayout android:layout_gravity="center_horizontal" android:id="@id/fl_stack" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <RelativeLayout android:paddingBottom="@dimen/small" android:layout_width="@dimen/prop_recom_tuple_width" android:layout_height="wrap_content" android:layout_marginTop="185.0dip" android:layout_marginBottom="@dimen/extra_extra_small" android:layout_marginStart="3.0dip">
+            <LinearLayout android:background="@drawable/rect" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginBottom="@dimen/extra_extra_small" android:layout_marginStart="@dimen/extra_small" android:layout_marginEnd="@dimen/extra_small" android:elevation="1.5dip" />
+            <LinearLayout android:background="@drawable/rect" android:layout_width="fill_parent" android:layout_height="12.0dip" android:layout_marginTop="12.0dip" android:layout_marginBottom="@dimen/extra_extra_small" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small" android:elevation="1.0dip" />
+        </RelativeLayout>
+        <LinearLayout android:id="@id/prop_recom_more_options" android:background="?selectableItemBackground" android:clickable="true" android:layout_width="wrap_content" android:layout_height="36.0dip" android:layout_marginTop="185.0dip">
+            <TextView android:textSize="10.0sp" android:textColor="@color/blue" android:id="@id/prop_recom_more_options_text" android:background="@color/white" android:paddingTop="4.0dip" android:layout_width="wrap_content" android:layout_height="24.0dip" android:text="@string/prop_recom_more_similar_options_text" android:textAlignment="center" android:paddingStart="5.0dip" android:paddingEnd="5.0dip" style="@style/text_semi_bold" />
+        </LinearLayout>
+    </FrameLayout>
+</FrameLayout>

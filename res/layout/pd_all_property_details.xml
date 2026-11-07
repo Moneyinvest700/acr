@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/property_Details_Complete_View" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" android:visibility="gone" layout="@layout/toolbar_white" />
+    <ScrollView android:id="@id/scroll_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/propertyDetailItemContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </ScrollView>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:gravity="center_horizontal" android:layout_gravity="bottom|center" android:id="@id/eoiBtn" android:background="@drawable/shape_primary_active_button" android:padding="@dimen/medium_even" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="15.0dip" android:layout_alignParentBottom="true" android:fontFamily="@font/open_sans_bold" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:identifier="INTERESTED" style="@style/whiteLabels" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,14 @@
+[
+  {
+    "value": 1,
+    "label": "IT Park"
+  },
+  {
+    "value": 2,
+    "label": "Business Park"
+  },
+  {
+    "value": 3,
+    "label": "Other"
+  }
+]

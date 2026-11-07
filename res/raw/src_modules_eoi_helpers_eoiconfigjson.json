@@ -1,0 +1,299 @@
+{
+  "CALL": {
+    "mappedNo": 1,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call"
+  },
+  "VIEW_CONTACT": {
+    "mappedNo": 2,
+    "responseType": "C2V",
+    "formTitle": "Provide your details to see Phone Number of this advertiser",
+    "formCta": "View Number",
+    "tyHeaderTxt": "you can use these contact details to connect with the advertiser",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "SEND_MESSAGE": {
+    "mappedNo": 3,
+    "responseType": "QUERY",
+    "formTitle": "Provide your details to see Phone Number of this advertiser",
+    "formCta": "Send Message",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "DOWNLOAD_BROCHURE": {
+    "mappedNo": 4,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details to download brochure",
+    "formCta": "Download Brochure",
+    "tyHeaderTxt": "Brochure has been emailed to your email id, you can also download from below link",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "download",
+    "qryMsg": "I am interested in this Project."
+  },
+  "REQUEST_CALLBACK": {
+    "mappedNo": 5,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for a callback",
+    "formCta": "Request a callback",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am Interested in this property. Please call back."
+  },
+  "DOWNLOAD_PAYMENT_PLAN": {
+    "mappedNo": 5
+  },
+  "REQUEST_SITE_VISIT": {
+    "mappedNo": 6,
+    "responseType": "QUERY",
+    "formTitle": "Provide your contact details to request a site visit",
+    "formCta": "Request Site Visit",
+    "tyHeaderTxt": "your request has been shared with the advertiser",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am interested in this property. Please share suitable details for a site visit."
+  },
+  "CALL_DEALER": {
+    "mappedNo": 27,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call",
+    "qryMsg": "I am Interested in this property."
+  },
+  "DEAL_CALL": {
+    "mappedNo": 7,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call"
+  },
+  "RECOMMENDATION_C2V": {
+    "mappedNo": 10,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call"
+  },
+  "NUDGE_CALL": {
+    "mappedNo": 11,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call"
+  },
+  "QUERY_AGENT": {
+    "mappedNo": 12,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "onEoiSuccess": "call",
+    "qryMsg": "I am Interested in this dealer."
+  },
+  "FULLFILLMENT_RATIO": {
+    "mappedNo": 13,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for sharing interest in project",
+    "formCta": "Share interest",
+    "message": "I'm interested in this project",
+    "tyHeaderTxt": " your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am interested in this Project."
+  },
+  "FULFILLMENT_RATIO": {
+    "mappedNo": 13,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for a callback",
+    "formCta": "Request a callback",
+    "message": "I'm interested in this project",
+    "tyHeaderTxt": " your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am interested in this Project."
+  },
+  "SINGLE_ADVERTISER": {
+    "mappedNo": 14,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to contact the advertiser",
+    "formCta": "Call",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "call"
+  },
+  "UNPAID_LEADS": {
+    "mappedNo": 9,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for sharing interest in project",
+    "formCta": "Share interest",
+    "tyHeaderTxt": "your request has been noted",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "unpaid",
+    "qryMsg": "I am interested in this Project."
+  },
+  "WHATSAPP_CHAT": {
+    "mappedNo": 16,
+    "responseType": "QUERY",
+    "formTitle": "Provide your details to Chat with this advertiser",
+    "formCta": "Chat Now",
+    "tyHeaderTxt": "your request has been shared with the advertiser",
+    "onEoiSuccess": "whatsapp",
+    "qryMsg": "I am Interested in this property."
+  },
+  "VIDEO_CALL": {
+    "mappedNo": 17,
+    "responseType": "C2V",
+    "formCta": "Proceed to Book a Time Slot",
+    "onEoiSuccess": "call"
+  },
+  "WEBINAR": {
+    "mappedNo": 18,
+    "responseType": "WEBINAR"
+  },
+  "REQUEST_PHOTOS_DEALER": {
+    "mappedNo": 19,
+    "responseType": "QUERY",
+    "formTitle": "Please provide your details to receive photos from the seller",
+    "formCta": "Request More Photos",
+    "tyHeaderTxt": " your request for photos has been sent to advertiser",
+    "tySubHeaderTxt": "We will notify you, once the owner adds photos for this property",
+    "qryMsg": "I am interested in checking out photos of this property. Please share them on my phone/email.",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "SITE_VISIT": {
+    "mappedNo": 20,
+    "responseType": "QUERY",
+    "formTitle": "Provide your contact details to request a site visit",
+    "formCta": "Request Site Visit",
+    "tyHeaderTxt": "your request has been shared with the advertiser",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "I_AM_INTERESTED": {
+    "mappedNo": 21,
+    "responseType": "QUERY",
+    "formTitle": "Share your interest with the advertiser",
+    "formCta": "I'm Interested",
+    "tyHeaderTxt": "your request has been shared with the advertiser",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am Interested in this property."
+  },
+  "ENQUIRE_NOW": {
+    "mappedNo": 22,
+    "responseType": "QUERY",
+    "formTitle": "Provide your details to enquire about the property with the advertiser",
+    "formCta": "Enquire Now",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "qryMsg": "I am Interested in this property."
+  },
+  "REQUEST_MORE_PHOTOS": {
+    "mappedNo": 23,
+    "responseType": "QUERY",
+    "formTitle": "Please provide your details to receive photos from the advertiser",
+    "formCta": "Request More Photos",
+    "tyHeaderTxt": " your request for photos has been sent to advertiser",
+    "tySubHeaderTxt": "We will notify you, once the owner adds photos for this property",
+    "qryMsg": "I am interested in checking out photos of this property. Please share them on my phone/email.",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "DOWNLOAD_PROPERTY_BROCHURE": {
+    "mappedNo": 24,
+    "responseType": "C2V",
+    "formTitle": "Share your interest with the advertiser",
+    "formCta": "I’m interested",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "DOWNLOAD_DOCUMENTS": {
+    "mappedNo": 25,
+    "responseType": "QUERY",
+    "formTitle": "Provide your details to download brochure",
+    "formCta": "Download Brochure",
+    "tyHeaderTxt": "Brochure has been emailed to your email id, you can also download from below link",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "download",
+    "qryMsg": "I am interested in this Project."
+  },
+  "MULTIPLE_ADVERTISERS": {
+    "mappedNo": 26,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for a callback",
+    "formCta": "Request a callback",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou"
+  },
+  "Call": {
+    "mappedNo": 100,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to view advertiser contact",
+    "formCta": "Call",
+    "onEoiSuccess": "call"
+  },
+  "View Details": {
+    "mappedNo": 101,
+    "responseType": "C2V",
+    "formTitle": "Please share your details to view advertiser contact",
+    "formCta": "View Details",
+    "tyHeaderTxt": "below are the contact details of the seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "default",
+    "tySubHeaderTxt": ""
+  },
+  "Request for a callback": {
+    "mappedNo": 102,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for a callback",
+    "formCta": "Request for a callback",
+    "tyHeaderTxt": "your request has been shared with the seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "default",
+    "tySubHeaderTxt": "",
+    "qryMsg": "I am interested in this Project."
+  },
+  "Download Brochure": {
+    "mappedNo": 103,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details to download brochure",
+    "formCta": "Download Brochure",
+    "tyHeaderTxt": "brochure has been emailed to your email id, you can also download from below link",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "download",
+    "qryMsg": "I am interested in this Project."
+  },
+  "Share interest": {
+    "mappedNo": 104,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for sharing interest in project",
+    "formCta": "Share interest",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "default",
+    "qryMsg": "I am interested in this Project."
+  },
+  "I'm interested": {
+    "mappedNo": 106,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details for sharing interest in project",
+    "formCta": "Share interest",
+    "tyHeaderTxt": "your interest in the project has been shared with the below seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "default",
+    "qryMsg": "I am interested in this Project."
+  },
+  "Download documents": {
+    "mappedNo": 105,
+    "responseType": "QUERY",
+    "formTitle": "Please share your details to download brochure",
+    "formCta": "Download Brochure",
+    "tyHeaderTxt": "brochure has been emailed to your email id, you can also download from below link",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "download",
+    "qryMsg": "I am interested in this Project."
+  },
+  "DEFAULT": {
+    "mappedNo": 0,
+    "responseType": "query",
+    "formTitle": "Please share your details for a callback",
+    "formCta": "Request a callback",
+    "tyHeaderTxt": "your request has been shared with the seller(s)",
+    "onEoiSuccess": "navigateToThankyou",
+    "tyPageType": "default",
+    "tySubHeaderTxt": "",
+    "qryMsg": "I am interested in this Project."
+  }
+}

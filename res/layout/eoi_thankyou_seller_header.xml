@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:id="@id/rl_seller_info" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <ImageView android:id="@id/iv_seller" android:padding="@dimen/small_medium_even" android:layout_width="60.0dip" android:layout_height="60.0dip" android:src="@drawable/ic_xid_seller_thank_you" />
+            <TextView android:id="@id/tv_seller_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Abhay Jain" android:layout_toRightOf="@id/iv_seller" style="@style/bold_list_header" />
+            <TextView android:id="@id/tv_seller_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Real Estate" android:layout_toRightOf="@id/iv_seller" android:layout_below="@id/tv_seller_name" style="@style/captionSubduedMedium" />
+        </RelativeLayout>
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

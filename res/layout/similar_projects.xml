@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailCardStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hp_widget">
+        <TextView android:id="@id/textViewSimilarHeading" android:paddingStart="10.0dip" style="@style/XidDetailHeading" />
+        <androidx.recyclerview.widget.RecyclerView android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:orientation="horizontal" android:id="@id/rv_similar_projects" android:layout_width="fill_parent" android:layout_height="145.0dip" android:layout_marginTop="5.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+</FrameLayout>

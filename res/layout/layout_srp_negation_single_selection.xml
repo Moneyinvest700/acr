@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/hide_project" android:background="@drawable/selector_white_grey_with_ripple" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:textSize="12.0dip" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:gravity="center_vertical" android:id="@id/textView" android:paddingLeft="15.0dip" android:paddingTop="25.0dip" android:paddingRight="15.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:drawablePadding="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <TextView android:textSize="10.0dip" android:textColor="@color/dark_grey" android:gravity="center_vertical" android:id="@id/subheading" android:paddingLeft="40.0dip" android:paddingRight="15.0dip" android:paddingBottom="25.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/hide_project_text" android:drawablePadding="10.0dip"
+      xmlns:android="http://schemas.android.com/apk/res/android" />
+    <View android:id="@id/divider" android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="1.0dip" />
+</LinearLayout>

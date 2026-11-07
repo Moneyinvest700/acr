@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="155.0dip" android:layout_height="155.0dip" android:layout_margin="@dimen/small_even" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/imageView1" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/login_bg" android:scaleType="centerCrop" />
+    <RelativeLayout android:layout_gravity="bottom" android:id="@id/albumDetails" android:background="@drawable/image_gradient" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <TextView android:id="@id/cellName" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small_medium_even" android:layout_alignParentBottom="true" android:layout_marginStart="@dimen/small_medium_even" style="@style/whiteLargeLabel" />
+        <TextView android:textColor="@android:color/white" android:id="@id/cellCountwe" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/chkBox" android:background="@drawable/grid_cell_mask" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@id/tick" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:scaleType="centerCrop" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

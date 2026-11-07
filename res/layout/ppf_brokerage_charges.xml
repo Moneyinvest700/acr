@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/ppfFieldStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/ppfFieldHeading" layout="@layout/include_ppf_field_heading" />
+    <com.nnacres.app.customviews.ChipGroupView android:id="@id/chipGroupView" android:layout_width="fill_parent" android:layout_height="wrap_content" app:containerEndPadding="0.0dip" app:containerStartPadding="0.0dip" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/percentageChargesInputBox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" />
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/fixedChargesInputBox" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:id="@id/brokerageNegotiable" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="Brokerage negotiable" style="@style/secondaryRegularLabel" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/brokerageWarning" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:text="@string/brokerage_charges_warning" style="@style/captionStrongNormal" />
+</LinearLayout>

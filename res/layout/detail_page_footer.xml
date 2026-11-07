@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/layoutRootView" android:layout_width="fill_parent" android:layout_height="75.0dip" xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/pd_footer_bg" android:background="@color/xid_eoi_bg_color" android:layout_width="fill_parent" android:layout_height="44.0dip" android:layout_alignParentBottom="true" />
+    <LinearLayout android:orientation="horizontal" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/rootOfBroucherAndAddContact" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_footerBrochure" android:background="@drawable/pd_eoibtn_bgcolor" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <ImageView android:id="@id/img_footerBrochure" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_downlod" android:layout_marginEnd="10.0dip" />
+                <TextView android:id="@id/txt_footerBrochure" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Brochure" style="@style/xid_eoi_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_footerAddContact" android:background="@drawable/pd_eoibtn_bgcolor" android:visibility="visible" android:clickable="true" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <ImageView android:id="@id/img_footerAddContact" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_contact" android:layout_marginEnd="10.0dip" />
+                <TextView android:id="@id/txt_footerAddContact" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="View Contact" style="@style/xid_eoi_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_horizontal" android:id="@id/rootOfFooterCallButton" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="1.0">
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/footerCallButton" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:src="@drawable/ic_call_white" android:scaleType="center" app:backgroundTint="@color/blue_priceinsight" app:elevation="6.0dip" app:fabSize="normal" app:pressedTranslationZ="12.0dip" />
+        </LinearLayout>
+        <LinearLayout android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/rootOfMessageAndInterested" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="2.0">
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_footerMessage" android:background="@drawable/pd_eoibtn_bgcolor" android:layout_width="fill_parent" android:layout_height="44.0dip">
+                <ImageView android:id="@id/img_footerMessage" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_message" android:layout_marginEnd="10.0dip" />
+                <TextView android:id="@id/txt_footerMessage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Send Message" style="@style/xid_eoi_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_footerWhatsApp" android:background="@drawable/pd_eoibtn_bgcolor" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/img_footerWhatsApp" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_whatsapp" android:layout_marginEnd="10.0dip" />
+                <TextView android:id="@id/txt_footerWhatsApp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Chat Now" style="@style/xid_eoi_text_style" />
+            </LinearLayout>
+            <LinearLayout android:gravity="center" android:layout_gravity="bottom" android:orientation="horizontal" android:id="@id/ll_footerInterested" android:background="@drawable/pd_eoibtn_bgcolor" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="44.0dip" android:layout_weight="1.0">
+                <ImageView android:id="@id/img_footerInterested" android:layout_width="15.0dip" android:layout_height="15.0dip" android:layout_marginRight="10.0dip" android:src="@drawable/ic_interested" android:layout_marginEnd="10.0dip" />
+                <TextView android:id="@id/txt_footerInterested" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="I'm Interested" style="@style/xid_eoi_text_style" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

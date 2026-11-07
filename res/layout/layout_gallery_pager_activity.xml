@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/rootView" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.ui.GalleryPager android:id="@id/imagepager" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <RelativeLayout android:id="@id/gallery_header" android:background="#ccffffff" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="50.0dip">
+        <ImageView android:id="@id/back_button" style="@style/BackButton" />
+        <LinearLayout android:orientation="vertical" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true">
+            <LinearLayout android:layout_gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="2.0dip" android:layout_centerInParent="true">
+                <TextView android:id="@id/image_lower_limit" style="@style/GalleryPagerHeaderText" />
+                <TextView android:text=" / " style="@style/GalleryPagerHeaderText" />
+                <TextView android:id="@id/image_upper_limit" style="@style/GalleryPagerHeaderText" />
+            </LinearLayout>
+            <TextView android:textSize="14.0sp" android:textColor="#ff999999" android:layout_gravity="center" android:id="@id/gallery_pager_header" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        </LinearLayout>
+        <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:id="@id/opengrid_button" android:paddingLeft="5.0dip" android:paddingTop="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:layout_width="wrap_content" android:layout_height="fill_parent" android:layout_marginTop="4.0dip" android:layout_marginBottom="4.0dip" android:src="@drawable/grid" android:scaleType="fitCenter" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:contentDescription="@string/emptyString" app:event_type="CLICK" app:identifier="GALLERY_GRID_BUTTON" app:topmost="false" />
+        <View android:background="@color/material_gray_300" android:layout_width="fill_parent" android:layout_height="0.6dip" android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+    <TextView android:textSize="14.0sp" android:textColor="#ff333333" android:ellipsize="marquee" android:gravity="center_horizontal" android:id="@id/image_caption" android:background="#ccffffff" android:paddingTop="10.0dip" android:layout_width="fill_parent" android:layout_height="50.0dip" android:layout_marginTop="-50.0dip" android:maxLines="2" android:layout_alignTop="@id/pd_detailFooterParent" android:layout_alignParentBottom="true" />
+    <include android:id="@id/pd_detailFooterParent" android:visibility="invisible" android:layout_width="fill_parent" android:layout_height="75.0dip" android:layout_alignParentBottom="true" layout="@layout/detail_page_footer" />
+</RelativeLayout>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/iv_logo" android:background="@drawable/rounded" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/small_even" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/small_even" android:layout_width="60.0dip" android:layout_height="50.0dip" android:scaleType="fitXY" />
+        <include android:id="@id/basic_detail_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_marginStart="@dimen/small_even" layout="@layout/xid_section_header" />
+        <ImageView android:id="@id/iv_ic_shortlist" android:padding="12.0dip" android:layout_width="48.0dip" android:layout_height="48.0dip" />
+    </LinearLayout>
+    <HorizontalScrollView android:id="@id/rv_status" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+            <TextView android:gravity="center_horizontal" android:id="@id/tv_webinar_tag" android:background="@drawable/shape_webinar_xid_tag" android:paddingTop="@dimen/extra_small_even" android:paddingBottom="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_semibold" android:paddingStart="10.0dip" style="@style/webinar_tag" />
+            <TextView android:gravity="center_horizontal" android:id="@id/tv_status1" android:background="@drawable/shape_grey_bckg" android:paddingTop="@dimen/extra_small_even" android:paddingBottom="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="@dimen/small_even" style="@style/captionStrongSmall" />
+            <TextView android:id="@id/tv_status2" android:background="@drawable/shape_grey_bckg" android:paddingLeft="@dimen/small_even" android:paddingTop="@dimen/extra_small_even" android:paddingRight="@dimen/small_even" android:paddingBottom="@dimen/extra_small_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="@dimen/small_even" style="@style/captionStrongSmall" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</LinearLayout>

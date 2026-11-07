@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/pd_recommendation_horizontal_root" android:layout_width="320.0dip" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.cardview.widget.CardView android:layout_width="fill_parent" android:layout_height="fill_parent" android:elevation="2.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true" xmlns:card_view="http://schemas.android.com/apk/res-auto">
+        <LinearLayout android:orientation="horizontal" android:background="@drawable/bg_similar_tuple" android:layout_width="fill_parent" android:layout_height="135.0dip" android:weightSum="10.0">
+            <RelativeLayout android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="4.0">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewRecomPropertyImage" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/no_photo_trending" android:scaleType="centerCrop" android:contentDescription="@string/emptyString" />
+                <TextView android:textColor="@color/lighterBlackTransparent" android:gravity="start" android:id="@id/tvPropertyRecomClass" android:background="@color/transparentBlackBg" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:layout_alignParentStart="true" />
+            </RelativeLayout>
+            <LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="8.0dip" android:layout_weight="6.0" android:layout_marginStart="8.0dip">
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/text_size_xxx_small" android:textStyle="bold" android:textColor="@color/black" android:id="@id/tvRecomRupeeSymbol" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/rupee_symbol" android:includeFontPadding="false" />
+                    <TextView android:textSize="@dimen/text_size_x_small" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tvPropertyRecomPrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                </LinearLayout>
+                <TextView android:textSize="@dimen/text_size_xxx_small" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/tvPropertyRecomSizePerPrice" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="15.0dip" android:maxLines="1" />
+                <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <androidx.appcompat.widget.AppCompatImageView android:id="@id/imageViewRecomPropertyCall" android:background="@drawable/shape_circle_grey_background" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginRight="10.0dip" android:src="@null" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_marginEnd="10.0dip" android:layout_alignParentEnd="true" />
+                    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/imageViewRecomPropertyCall" android:layout_centerVertical="true" android:layout_toStartOf="@id/imageViewRecomPropertyCall">
+                        <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tvPropertyRecomProject" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" android:fontFamily="@font/open_sans_semibold" />
+                        <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/material_gray_500" android:ellipsize="end" android:id="@id/tvPropertyRecomLocality" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                        <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/hp_tuple_main_line" android:ellipsize="end" android:id="@id/tvPropertyRecomAvailability" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" android:includeFontPadding="false" />
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</FrameLayout>

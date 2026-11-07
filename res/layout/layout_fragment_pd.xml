@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/detail_layout_blank" android:background="@color/white" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/fl_error_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <FrameLayout android:id="@id/detail_layout" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.nnacres.app.ui.ObservableScrollView android:id="@id/detailPageScrollView" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fillViewport="true" android:overScrollMode="never">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <include android:id="@id/root_pdGallery" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true" layout="@layout/pd_layout_image_gallery" />
+                <RelativeLayout android:id="@id/root_detailLayoutProgress" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginBottom="75.0dip" android:layout_below="@id/root_pdGallery">
+                    <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/detail_layout_progress" android:visibility="visible" android:layout_width="80.0dip" android:layout_height="80.0dip" android:layout_centerInParent="true" app:matProg_barColor="@color/material_blue_500" app:matProg_progressIndeterminate="true" />
+                </RelativeLayout>
+                <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_below="@id/root_pdGallery" layout="@layout/pd_layout_scroll_detail" />
+            </RelativeLayout>
+        </com.nnacres.app.ui.ObservableScrollView>
+        <include android:id="@id/pd_tab_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/xid_sticky_header_layout" />
+        <include android:layout_gravity="bottom" android:id="@id/pd_detailFooterParent" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" layout="@layout/eoi_detail_page_footer" />
+    </FrameLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?android:actionBarSize" layout="@layout/xid_main_shimmer" />
+</RelativeLayout>

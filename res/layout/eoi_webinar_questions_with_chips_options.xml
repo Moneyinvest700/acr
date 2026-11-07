@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/extra_extra_large_even" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:ellipsize="end" android:id="@id/tvChipQuestionHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/secondarySmallSemiBoldLabel" />
+    <com.nnacres.app.customviews.ChipGroupView android:id="@id/optionsSection" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" app:chipMultiSelected="false" app:containerEndPadding="0.0dip" app:containerStartPadding="0.0dip" app:toggleFont="true" />
+    <TextView android:id="@id/tvQuestionAnswerSectionError" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" style="@style/errorAssistive" />
+</LinearLayout>

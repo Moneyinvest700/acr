@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/nnll_pd_seller_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" app:event_type="ALL" app:identifier="SELLER" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:id="@id/pd_seller_header_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/zeroDp" android:layout_marginStart="@dimen/zeroDp" android:layout_marginEnd="@dimen/zeroDp">
+        <include android:id="@id/pd_seller_header" layout="@layout/pd_section_header" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/card_view" android:background="@drawable/dealer_card_bkg" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small">
+        <include android:id="@id/fd_details" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/pd_seller_fd_details" />
+        <RelativeLayout android:id="@id/rl_card_view" android:paddingTop="@dimen/text_size_medium" android:paddingBottom="@dimen/medium" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small">
+            <LinearLayout android:orientation="vertical" android:id="@id/iv_card_view" android:layout_width="@dimen/xxxx_large" android:layout_height="@dimen/xxxx_large" android:layout_marginTop="@dimen/extra_extra_small">
+                <ImageView android:id="@id/iv_top_dealer" android:padding="@dimen/extra_small" android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/ic_pd_photo_under_review" android:scaleType="fitXY" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:layout_gravity="center" android:id="@id/cl_initials" android:background="@drawable/image_view_circular_background" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+                    <TextView android:layout_gravity="center" android:id="@id/tv_name_initials" android:layout_width="wrap_content" android:layout_height="@dimen/extra_extra_large" android:textAlignment="center" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/initialsTextStyle" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/dealer_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/iv_card_view" android:layout_marginStart="@dimen/xl_even" android:layout_toEndOf="@id/iv_card_view">
+                <LinearLayout android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <TextView android:id="@id/tv_dealer_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginEnd="@dimen/extra_small_even" style="@style/semibold_list_header" />
+                    <include android:id="@id/layout_verfied_properties_divider" layout="@layout/line_divider_vertical_layout" />
+                    <TextView android:ellipsize="end" android:id="@id/tv_dealer_company_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/extra_small_even" style="@style/captionSubduedMedium" />
+                    <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/tv_top_dealer_tag" android:background="@drawable/top_dealer_tag_bkg" android:paddingLeft="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/lbl_top_dealer" style="@style/bodySmall" />
+                </LinearLayout>
+                <TextView android:id="@id/tv_dealer_mail" android:paddingTop="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_medium_even" android:maxLines="2" style="@style/captionSubduedMedium" />
+                <TextView android:id="@id/tv_dealer_number" android:paddingTop="@dimen/extra_extra_small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" style="@style/captionSubduedMedium" />
+                <LinearLayout android:orientation="horizontal" android:id="@id/ll_seller_score" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/txt_xtra_xtra_small">
+                    <ImageView android:layout_gravity="center" android:background="@drawable/seller_thumb_bkg" android:padding="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_thumb_up_pd_topdealer" />
+                    <TextView android:textColor="@color/rating_color_succes" android:id="@id/tv_dealer_score" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/extra_small" style="@style/captionStrongSmall" /> /> </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+        <HorizontalScrollView android:id="@id/hsv_top_dealer_properties_container" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="horizontal" android:id="@id/linear_top_dealer_properties" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                <include android:id="@id/layout_verfied_properties" layout="@layout/top_dealer_verified_tuple_layout" />
+                <include android:id="@id/layout_properties_listed" layout="@layout/top_dealer_verified_tuple_layout" />
+                <include android:id="@id/layout_dealer_since" layout="@layout/top_dealer_verified_tuple_layout" />
+            </LinearLayout>
+        </HorizontalScrollView>
+        <com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout android:id="@id/rl_complete_profile" android:background="@color/P050" android:padding="@dimen/small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/view_complete_profile" android:layout_centerVertical="true" android:paddingStart="@dimen/small" android:layout_alignParentStart="true" style="@style/hyperlinkSmall" />
+            <com.nnacres.app.clickstreamsdk.custom_view.NNImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_right_blue" android:layout_centerVertical="true" android:layout_marginEnd="@dimen/large_even" android:layout_alignParentEnd="true" />
+        </com.nnacres.app.clickstreamsdk.custom_view.NNRelativeLayout>
+        <TextView android:textColor="@color/Ng500" android:gravity="center" android:id="@id/tv_dealer_feedback" android:background="@color/Ng200" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginBottom="@dimen/small" android:drawableLeft="@drawable/ic_thumb_up_pd" android:drawablePadding="@dimen/m" style="@style/captionStrongSmall" />
+    </LinearLayout>
+    <TextView android:id="@id/tv_eoi_complete_msg" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:drawableLeft="@drawable/tick_symbol" android:drawablePadding="10.0dip" />
+    <RelativeLayout android:orientation="vertical" android:id="@id/rl_user_details" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="10.0dip">
+        <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/eoi_UserName" android:layout_width="fill_parent" android:layout_height="wrap_content" app:errorMsg="@string/please_enter_name" app:floatingHint="@string/hint_name" />
+        <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/eoi_UserEmail" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/eoi_UserName" app:errorMsg="@string/enter_email" app:floatingHint="@string/hint_email" />
+        <com.nnacres.app.customviews.materialComponents.MobileInputView android:id="@id/eoi_countryCode" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/eoi_UserEmail" app:errorMsg="@string/please_enter_mobile" app:floatingHint="@string/contactus_mobile" />
+        <TextView android:textSize="12.0dip" android:textColor="@color/P500" android:id="@id/tv_changeNumber" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Change Number" android:layout_below="@id/eoi_countryCode" style="@style/semibold_label" />
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/ll_userType_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/tv_changeNumber">
+            <TextView android:id="@id/tv_user_intro" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_dealer_intro" style="@style/semibold_label" />
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even">
+                <RadioGroup android:orientation="horizontal" android:id="@id/rg_usertype" android:layout_width="wrap_content" android:layout_height="wrap_content">
+                    <com.nnacres.app.ui.NNRadioButtonAsChip android:textSize="12.0dip" android:id="@id/rb_dealer" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/yes" />
+                    <com.nnacres.app.ui.NNRadioButtonAsChip android:textSize="12.0dip" android:id="@id/rb_individual" android:layout_width="wrap_content" android:layout_height="fill_parent" android:text="@string/no" android:layout_marginStart="10.0dip" />
+                </RadioGroup>
+                <ImageView android:id="@id/iv_error" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small" android:src="@drawable/ic_editext_error" android:contentDescription="@string/error_invalid_mobile" android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+            <TextView android:textColor="@color/I_error" android:id="@id/tv_error" android:paddingTop="@dimen/extra_extra_small" android:paddingBottom="@dimen/extra_extra_small" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/extra_small" style="@style/bodySmall12" />
+        </LinearLayout>
+        <com.nnacres.app.ui.NNacresAppCompatCheckBox android:gravity="center|left" android:id="@id/cb_contact_permission" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxl" android:checked="true" android:text="@string/call_permission_text" android:layout_below="@id/ll_userType_container" android:lineSpacingMultiplier="1.0" style="@style/captionSubduedSmall" />
+        <LinearLayout android:orientation="vertical" android:id="@id/ll_inline_eoi_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:layout_below="@id/cb_contact_permission">
+            <LinearLayout android:orientation="vertical" android:id="@id/ll_inline_eoi_form_layout" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <requestFocus />
+                <Button android:id="@id/eoi_button_request_callback" android:layout_width="fill_parent" android:layout_height="@dimen/ppf_radiogroup_height" android:layout_marginTop="@dimen/extra_small" android:text="Request a Callback" android:textAllCaps="false" android:backgroundTint="@color/P500" style="@style/ActionButtonBlue" />
+                <TextView android:textSize="10.0dip" android:textColorLink="@color/turquoise_dark" android:id="@id/tv_tnc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="6.0dip" android:text="@string/by_submitting_accept" />
+                <include layout="@layout/gdpr_info_layout" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

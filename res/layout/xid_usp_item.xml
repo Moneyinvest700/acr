@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/ll_usp" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/medium"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_bullet_image" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginTop="@dimen/extra_small" android:src="@drawable/xid_dot_icon_refine" />
+    <TextView android:id="@id/tv_usp" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/small" android:layout_toEndOf="@id/iv_bullet_image" style="@style/secondarySmallSemiBoldLabel" />
+</RelativeLayout>

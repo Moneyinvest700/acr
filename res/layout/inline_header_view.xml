@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <View android:id="@id/inline_bg" android:background="@drawable/shape_rectangle_a100_with_corner_8" android:layout_width="fill_parent" android:layout_height="100.0dip" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" />
+</merge>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="@dimen/deal_offer_grid_card_width"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:background="@drawable/shape_rectangle_corner_radius_2_light_grey_background" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="@dimen/extra_small_even" android:paddingStart="@dimen/small_even" android:paddingEnd="@dimen/small" android:layout_marginEnd="@dimen/extra_small_even">
+        <ImageView android:id="@id/icon" android:layout_width="@dimen/large_even" android:layout_height="@dimen/large_even" android:layout_marginTop="@dimen/large_medium_even" android:src="@color/blue" />
+        <TextView android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" android:fontFamily="@font/open_sans_semibold" style="@style/captionSubduedSmall" />
+        <TextView android:textSize="@dimen/small" android:id="@id/description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/semibold_label" />
+        <TextView android:textSize="@dimen/small" android:id="@id/subText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/semibold_label" />
+    </LinearLayout>
+</LinearLayout>

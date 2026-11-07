@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditText android:textSize="14.0sp" android:textColor="@color/material_gray_900" android:id="@id/customBHK_EditText" android:background="@drawable/selector_bg_text" android:paddingLeft="?android:expandableListPreferredChildPaddingLeft" android:paddingTop="5.0dip" android:paddingBottom="5.0dip" android:layout_width="fill_parent" android:layout_height="60.0dip" android:hint="Enter BHK Value" android:maxLength="2" android:inputType="number" />
+    <Button android:id="@id/confirm_customBHK" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Done" android:layout_below="@id/customBHK_EditText" android:layout_centerHorizontal="true" style="@style/ActionButtonBlue" />
+</RelativeLayout>

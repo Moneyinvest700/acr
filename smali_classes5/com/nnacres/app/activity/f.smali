@@ -1,0 +1,34 @@
+.class public final synthetic Lcom/nnacres/app/activity/f;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+# interfaces
+.implements Landroid/view/View$OnClickListener;
+
+
+# instance fields
+.field public final synthetic a:Lcom/nnacres/app/activity/BuyOurServicesActivity;
+
+
+# direct methods
+.method public synthetic constructor <init>(Lcom/nnacres/app/activity/BuyOurServicesActivity;)V
+    .locals 0
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    iput-object p1, p0, Lcom/nnacres/app/activity/f;->a:Lcom/nnacres/app/activity/BuyOurServicesActivity;
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public final onClick(Landroid/view/View;)V
+    .locals 1
+
+    iget-object v0, p0, Lcom/nnacres/app/activity/f;->a:Lcom/nnacres/app/activity/BuyOurServicesActivity;
+
+    invoke-static {v0, p1}, Lcom/nnacres/app/activity/BuyOurServicesActivity;->c9(Lcom/nnacres/app/activity/BuyOurServicesActivity;Landroid/view/View;)V
+
+    return-void
+.end method

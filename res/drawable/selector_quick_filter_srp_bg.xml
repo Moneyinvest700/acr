@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ripple android:color="?android:colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <selector>
+            <item android:state_selected="true" android:drawable="@drawable/shape_capsule_back_blue_stroke_white" />
+            <item android:drawable="@drawable/shape_capsule_back_white_stroke_skyblue" />
+        </selector>
+    </item>
+</ripple>

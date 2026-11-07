@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/custom_button_res_appt" android:text="@string/residential_apartment" android:onClick="residentailAptButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_villa" android:text="@string/residential_villa" android:onClick="villaButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button_res_land" android:text="@string/residential_land" android:onClick="residentailLandButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button2" android:text="@string/residential_builder_floor" android:onClick="builderFloorButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button9" android:text="@string/residential_service_apartment" android:onClick="serviceAppartmentButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button5" android:text="@string/residential_farmhouse" android:onClick="farmHouseButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+    <TextView android:id="@id/custom_button10" android:text="@string/residential_studio_apartment" android:onClick="studioAppartmentmentButtonClickHandler" style="@style/RefineDetailCheckButtonStyle" />
+    <View android:background="@color/material_gray_200" android:layout_width="fill_parent" android:layout_height="0.100000024dip" />
+</LinearLayout>

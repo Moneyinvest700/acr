@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar android:background="@android:color/white" android:paddingRight="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:elevation="4.0dip" android:contentInsetStartWithNavigation="0.0dip" app:contentInsetStartWithNavigation="0.0dip" app:titleTextColor="@color/material_gray_900"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/preferences_bar_title_default" android:visibility="gone" android:layout_width="90.0dip" android:layout_height="30.0dip" android:src="@drawable/aboutus_page_logo" />
+    <RelativeLayout android:id="@id/preferences_bar_detail" android:background="?android:selectableItemBackground" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="fill_parent">
+        <TextView android:textSize="10.0dip" android:textColor="@color/light_gray" android:id="@id/preferences_bar_subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="You are looking to" android:fontFamily="@font/open_sans" />
+        <TextView android:textSize="14.0dip" android:textStyle="bold" android:textColor="@color/dark_gray" android:ellipsize="end" android:id="@id/preferences_bar_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxWidth="200.0dip" android:maxLines="1" android:layout_below="@id/preferences_bar_subtitle" android:layout_alignParentLeft="true" />
+        <ImageView android:id="@id/iv_down_arrow" android:layout_width="10.0dip" android:layout_height="8.0dip" android:layout_marginLeft="3.0dip" android:layout_marginBottom="6.0dip" android:src="@drawable/dropdownarrow" android:scaleType="fitCenter" android:layout_toRightOf="@id/preferences_bar_title" android:layout_alignBottom="@id/preferences_bar_title" />
+    </RelativeLayout>
+</androidx.appcompat.widget.Toolbar>

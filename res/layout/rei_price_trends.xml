@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/price_trends_container" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:identifier="PRICE_INSIGHT.PRICE_TREND" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/homepageHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/homepage_header" />
+    <com.nnacres.customview.graphview.GraphView android:id="@id/price_trends_graph_view" android:layout_width="fill_parent" android:layout_height="@dimen/price_trends_graph_height" android:layout_marginTop="28.0dip" android:layout_marginStart="8.0dip" android:layout_marginEnd="@dimen/medium" />
+    <include android:id="@id/trends_error" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_extra_extra_large" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/xid_error_layout" />
+    <LinearLayout android:orientation="vertical" android:id="@id/location_trends_container" android:paddingTop="@dimen/s" android:paddingBottom="@dimen/s" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:divider="@drawable/item_divider" android:showDividers="middle" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium">
+        <include layout="@layout/rei_legend_item" />
+        <include layout="@layout/rei_legend_item" />
+        <include layout="@layout/rei_legend_item" />
+    </LinearLayout>
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:id="@id/compareButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_margin="@dimen/large" app:event_type="CLICK" app:identifier="COMPARE_LOCALITIES" style="@style/inlineFilterButtonStyle" />
+    <include android:id="@id/feedback_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium" layout="@layout/price_trends_feedback_layout" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/price_trend_rlp_touchpoint" android:background="@drawable/rlp_touchpoint_background" android:padding="@dimen/large_even" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/feedback_view">
+        <ImageView android:layout_gravity="center" android:layout_width="40.0dip" android:layout_height="40.0dip" android:src="@drawable/ic_price_trend_rlp_tp" />
+        <TextView android:textSize="12.0sp" android:textStyle="bold" android:textColor="@color/Ng700" android:layout_gravity="center" android:id="@id/tv_rlp_touchpoint_title" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/check_property_rates_trends" android:layout_weight="1.0" android:fontFamily="@font/open_sans" android:layout_marginStart="@dimen/large_even" />
+        <ImageView android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@null" android:rotation="-90.0" android:layout_marginStart="@dimen/large_even" />
+    </LinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:layout_width="260.0dip" android:layout_height="wrap_content" android:layout_margin="2.0dip" app:cardCornerRadius="2.0dip" app:cardElevation="3.0dip" app:cardUseCompatPadding="false"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:background="@color/material_gray_50" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <RelativeLayout android:background="@color/white" android:layout_width="fill_parent" android:layout_height="100.0dip">
+            <View android:id="@id/divider" android:background="@color/divider" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/pdFloorPlanAmenitySection" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_toRightOf="@id/divider" android:layout_alignParentRight="true" android:layout_centerVertical="true" android:layout_toEndOf="@id/divider" android:layout_alignParentEnd="true" />
+            <ImageView android:id="@id/imageViewFloorPlan" android:layout_width="fill_parent" android:layout_height="wrap_content" android:scaleType="centerInside" android:layout_toLeftOf="@id/divider" android:layout_toStartOf="@id/divider" />
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/sectionSuperAndBuiltUpArea" android:background="@color/material_gray_50" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <View android:id="@id/divider1" android:background="@color/divider" android:visibility="invisible" android:layout_width="1.0dip" android:layout_height="40.0dip" android:layout_margin="10.0dip" android:layout_centerInParent="true" />
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutSuperBuiltUpArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toLeftOf="@id/divider1" android:layout_centerVertical="true" android:layout_toStartOf="@id/divider1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_super_build_up_area" style="@style/pd_floor_plan_heading_style" />
+                <TextView android:id="@id/textViewSuperBuiltUpArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pd_floor_plan_value_style" />
+                <TextView android:id="@id/textViewSuperBuiltUpSecondaryArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondaryArea" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/layoutBuiltUpSecondaryArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_toRightOf="@id/divider1" android:layout_centerVertical="true" android:layout_toEndOf="@id/divider1">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_build_up_area" style="@style/pd_floor_plan_heading_style" />
+                <TextView android:id="@id/textViewBuiltUpArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pd_floor_plan_value_style" />
+                <TextView android:id="@id/textViewBuiltUpSecondaryArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondaryArea" />
+            </LinearLayout>
+        </RelativeLayout>
+        <RelativeLayout android:id="@id/sectionCarpetAreaAndPlotArea" android:background="@color/white" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionCarpetArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:gravity="center_vertical" android:id="@id/labelViewCarpetAreaInfo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_carpet_area" android:drawableRight="@drawable/info_icon" android:drawablePadding="10.0dip" android:drawableEnd="@drawable/info_icon" style="@style/pd_floor_plan_heading_style" />
+                <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:id="@id/textViewLiveableArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pd_floor_plan_value_style" />
+                    <TextView android:textSize="10.0dip" android:textColor="@color/material_gray_450" android:ellipsize="end" android:id="@id/textViewCarpetAreaPercentage" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2.0dip" android:text="@string/text_liveable_area_info" android:maxLines="1" android:fontFamily="sans-serif-medium" android:layout_marginStart="2.0dip" />
+                </LinearLayout>
+                <TextView android:id="@id/textViewSecondaryLiveableArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/SecondaryArea" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionPlotArea" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_centerVertical="true">
+                <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_plot_area" style="@style/pd_floor_plan_heading_style" />
+                <TextView android:id="@id/textViewPlotArea" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pd_floor_plan_value_style" />
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="vertical" android:id="@id/layoutBasePrice" android:background="@color/material_gray_100" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="70.0dip">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/text_base_price" style="@style/pd_floor_plan_heading_style" />
+            <TextView android:id="@id/textViewBasePrice" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/pd_floor_plan_value_style" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="horizontal" android:id="@id/img_pager_footer" android:background="@drawable/prop_detail_img_pager_footer_background" android:padding="3.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginRight="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentRight="true" android:layout_alignParentBottom="true"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:gravity="center_vertical" android:id="@id/image_category" style="@style/PropDetailImagePagerFooterText" />
+    <TextView android:id="@id/pdImgPagerCurIndex" android:layout_marginLeft="3.0dip" style="@style/PropDetailImagePagerFooterText" />
+    <TextView android:text="/" style="@style/PropDetailImagePagerFooterText" />
+    <TextView android:id="@id/pdImgPagerMaxIndex" style="@style/PropDetailImagePagerFooterText" />
+    <ImageView android:layout_gravity="bottom" android:background="@drawable/pd_image_pager_footer" android:layout_width="18.0dip" android:layout_height="15.0dip" android:layout_marginLeft="3.0dip" android:scaleType="centerCrop" />
+</LinearLayout>

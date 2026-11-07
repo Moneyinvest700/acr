@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/srpRootView" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.customviews.mastersrptuple.MasterSrpTupleView android:id="@id/srpTuple" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:weightSum="2.0" android:layout_below="@id/srpTuple" android:layout_marginStart="@dimen/medium_even" android:layout_marginEnd="@dimen/medium_even">
+        <TextView android:textColor="@color/P500" android:gravity="center" android:id="@id/tvPreview" android:background="@drawable/shape_rectangle_corner_radius_stroke" android:layout_width="wrap_content" android:layout_height="@dimen/display" android:text="@string/preview" android:layout_weight="1.0" android:paddingStart="@dimen/small_even" android:paddingEnd="@dimen/small_even" android:layout_marginEnd="@dimen/extra_small_even" style="@style/semibold_list_header" />
+        <TextView android:textColor="@color/P500" android:gravity="center" android:id="@id/tvEdit" android:background="@drawable/shape_rectangle_corner_radius_stroke" android:layout_width="wrap_content" android:layout_height="@dimen/display" android:text="@string/ppf_prop_edit" android:layout_weight="1.0" android:paddingStart="@dimen/small_even" android:paddingEnd="@dimen/small_even" style="@style/semibold_list_header" />
+    </LinearLayout>
+</RelativeLayout>

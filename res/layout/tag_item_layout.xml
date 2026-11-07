@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:gravity="center_horizontal" android:id="@id/tv_tag" android:background="@drawable/shape_grey_bckg" android:paddingTop="@dimen/extra_small_even" android:paddingBottom="@dimen/extra_small_even" android:layout_width="60.0dip" android:layout_height="wrap_content" android:fontFamily="@font/open_sans_semibold" android:layout_marginStart="@dimen/extra_small_even" style="@style/captionStrongXtraSmall"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

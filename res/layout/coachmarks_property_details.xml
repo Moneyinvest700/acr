@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/coachmarkPDRoot" android:background="@color/coachMarkBg" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/ViewNext_anchor" android:background="@drawable/cm_swipe_to_view_next" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_above="@id/contact_anchor" android:layout_centerHorizontal="true" />
+    <ImageView android:id="@id/contact_anchor" android:background="@drawable/cm_contact_advertiser_here" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="50.0dip" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true" />
+</RelativeLayout>

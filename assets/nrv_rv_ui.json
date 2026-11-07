@@ -1,0 +1,65 @@
+{
+  "loginWireframe": {
+    "onBoarding": {
+      "welcomeText": "WELCOME TO 99ACRES",
+      "header": "India’s No.1 Property Portal",
+      "subHeader": "One-stop solution for all your Real Estate needs...",
+      "descArray": [
+
+      ],
+      "icon": "",
+      "ctaText": "Continue"
+    },
+    "shortlist": {
+      "header": "Login or Register to Shortlist Property",
+      "subHeader": "Please login for easy access to properties\nshortlisted in the past.",
+      "descArray": [
+        "Shortlist properties, projects & localities. ",
+        "Save shortlists securely to your profile",
+        "Access them anytime anywhere"
+      ],
+      "icon": "shortlist",
+      "ctaText": "Continue"
+    },
+    "review": {
+      "preHeaderText": "UNLOCK REVIEWS",
+      "header": "Login or Register\nfor more reviews ",
+      "descArray": [
+        "Read what locals have to say about their locality/society",
+        "Get to know their likes & concerns",
+        "Make an informed decision"
+      ],
+      "icon": "review",
+      "headerType": "inline",
+      "ctaText": "Continue"
+    },
+    "propertyAlert": {
+      "preHeaderText": "PROPERTY ALERTS",
+      "header": "Stay up-to-date\nwith Alerts",
+      "descArray": [
+        "Get alerts for matching properties as soon as they’re posted",
+        "Stay updated on Whatsapp & Email"
+      ],
+      "icon": "notify",
+      "headerType": "inline",
+      "inputLabel": "Send Alerts to...",
+      "ctaText": "Create Alerts"
+    },
+    "default": {
+      "header": "India’s No.1 Property Portal",
+      "subHeader": "One-stop solution for all your Real Estate needs...",
+      "descArray": [
+
+      ],
+      "icon": "",
+      "headerType": "default",
+      "ctaText": "Continue"
+    }
+  },
+  "propertyAlert": {
+    "alertHeader": "Turn on property alerts",
+    "alertSubHeader": "& we’ll notify you whenever there are properties available matching your search"
+  },
+  "nrvReiThreshold": 5,
+  "onboardingShowAfterHrs": 168
+}

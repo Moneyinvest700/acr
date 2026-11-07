@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/key_feature" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" style="@style/bodyRegularSmall" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" android:layout_toEndOf="@id/key_feature">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bold_label_header" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/Ng600" android:id="@id/subtitle" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bodySmallRegular" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

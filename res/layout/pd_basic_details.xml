@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:id="@id/ll_header_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even">
+        <include android:id="@id/basic_detail_header" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="1.0" layout="@layout/pd_summary_header" />
+    </LinearLayout>
+    <include android:id="@id/landmarkContainerView" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/pd_landmark_layer" />
+    <HorizontalScrollView android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even">
+        <LinearLayout android:orientation="horizontal" android:id="@id/ll_tag_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" />
+    </HorizontalScrollView>
+    <com.nnacres.app.customviews.NNReactRootView android:id="@id/reactView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <com.nnacres.app.ui.WrapableGridView android:id="@id/detail_grid" android:visibility="gone" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_large" android:listSelector="#00000000" android:numColumns="2" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even" />
+    <View android:id="@id/divider" android:background="@color/Ng300" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/medium_even" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large_even" />
+</LinearLayout>

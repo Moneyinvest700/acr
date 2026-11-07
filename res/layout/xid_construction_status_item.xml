@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:background="@drawable/rounded_grey_stroke_bckg" android:paddingTop="@dimen/small" android:paddingBottom="@dimen/small" android:layout_width="250.0dip" android:layout_height="140.0dip" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/large" android:layout_marginEnd="@dimen/small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView android:id="@id/tv_possession_date" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/informationSmallLabel" />
+    <TextView android:ellipsize="end" android:id="@id/tv_tower" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" android:maxLines="2" style="@style/semibold_list_header" />
+    <TextView android:ellipsize="end" android:id="@id/tv_tower_secondary" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="1" style="@style/semibold_list_header" />
+    <TextView android:id="@id/tv_rera" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" style="@style/secondaryXtraSmallLabel" />
+    <TextView android:gravity="center" android:id="@id/tv_construction_status" android:background="@drawable/shape_grey_bckg" android:padding="4.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" style="@style/customAssistive" />
+</LinearLayout>

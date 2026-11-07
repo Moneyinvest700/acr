@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="ALL" app:topmost="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/homepageHeader" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/homepage_header" />
+    <HorizontalScrollView android:id="@id/trends_scrollview" android:background="@drawable/shape_floor_plan_bkg" android:scrollbars="none" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingHorizontal="@dimen/medium" android:paddingVertical="@dimen/medium">
+        <LinearLayout android:orientation="horizontal" android:id="@id/trends_item_holder" android:layout_width="wrap_content" android:layout_height="fill_parent">
+            <include android:id="@id/reiPriceInsight" layout="@layout/rei_price_insight" />
+            <include layout="@layout/rei_price_insight" />
+            <include layout="@layout/rei_price_insight" />
+        </LinearLayout>
+    </HorizontalScrollView>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

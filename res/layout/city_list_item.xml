@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_vertical" android:id="@id/citySuggestion" android:layout_width="fill_parent" android:layout_height="wrap_content" app:event_type="CLICK" app:identifier="TUPLE"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/city_suggestor_icon" android:layout_width="@dimen/small" android:layout_height="@dimen/small" android:layout_marginStart="@dimen/extra_small" android:layout_marginVertical="@dimen/small" app:srcCompat="@drawable/ic_select_suggestor" />
+    <TextView android:textSize="@dimen/medium_even" android:ellipsize="end" android:id="@id/city_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:layout_marginStart="@dimen/medium" android:paddingVertical="@dimen/small" style="@style/secondarySmallLabel" />
+</LinearLayout>

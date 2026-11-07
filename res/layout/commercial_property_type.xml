@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <HorizontalScrollView android:id="@id/propertyTypeHSeeV" android:focusable="true" android:focusableInTouchMode="true" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:fillViewport="true">
+        <RadioGroup android:orientation="horizontal" android:id="@id/propertyTypeSelection" android:tag="@string/rb_prop_type" android:layout_width="wrap_content" android:layout_height="wrap_content">
+            <com.nnacres.app.ui.NNacresRadioButton android:textSize="13.0sp" android:id="@id/radioButtonOfficSpace" android:text="Office Space" android:drawableTop="@drawable/prop_com_office_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:id="@id/radioButtonShop" android:text="Shop" android:drawableTop="@drawable/prop_com_shop_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:id="@id/radioButtonIndstLand" android:checked="false" android:text="Land/Inst.land" android:drawableTop="@drawable/prop_com_industrialland_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:ellipsize="end" android:id="@id/radioButtonShowroom" android:text="Showroom" android:singleLine="true" android:drawableTop="@drawable/prop_com_showroom_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:id="@id/radioButtonFarmLand" android:text="Agri/Farm land" android:drawableTop="@drawable/prop_com_office_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:id="@id/radioButtonLand" android:text="Industrial Land" android:drawableTop="@drawable/prop_com_inistitute_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:id="@id/radioButtonFactory" android:text="Factory" android:drawableTop="@drawable/prop_com_factory_selector" style="@style/ppf_property_type" />
+            <com.nnacres.app.ui.NNacresRadioButton android:ellipsize="end" android:id="@id/radioButtonWareHouse" android:text="Ware House" android:drawableTop="@drawable/prop_com_warehouses_selector" style="@style/ppf_property_type" />
+        </RadioGroup>
+    </HorizontalScrollView>
+    <com.google.android.material.textfield.TextInputLayout android:id="@id/officeSpaceContainer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginTop="10.0dip" android:layout_marginRight="@dimen/ppf_material_left_margin" android:hint="@string/type_office_space" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+        <EditText android:id="@id/officeSpaceType" android:tag="@string/office_space_type" style="@style/SearchFormDialogueInputCity" />
+    </com.google.android.material.textfield.TextInputLayout>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/l" layout="@layout/homepage_header" />
+    <com.nnacres.app.customviews.ChipGroupView android:id="@id/chipGroup" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingVertical="@dimen/large_even" app:chipMultiSelected="false" app:horizontalPadding="@dimen/small_even" app:maxLine="1" app:toggleFont="true" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/projectRecycler" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+</LinearLayout>

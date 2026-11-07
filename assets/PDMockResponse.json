@@ -1,0 +1,1238 @@
+{
+  "data": {
+    "results": [
+      {
+        "basicDetails": {
+          "id": "Y56327558",
+          "resCom": "C",
+          "name": "",
+          "editable": false,
+          "location": {
+            "address": "Block F",
+            "addressLabel": "Block F, Sector-6 Noida, Noida, U P",
+            "localityId": "147",
+            "localityName": "Sector-6 Noida",
+            "cityId": "7",
+            "cityName": "Noida",
+            "stateName": "U P",
+            "latitute": 28.59357,
+            "longitude": 77.31886,
+            "source": "LOCALITY"
+          },
+          "areaUnit": 1,
+          "secondaryAreaUnit": 3,
+          "stickyEoi": [
+            {
+              "type": "VIEW_CONTACT",
+              "label": "View Contact",
+              "trackingSource": "STICKY.VIEW_CONTACT",
+              "fillInDetailsForm": {
+                "ctaText": "View Contact",
+                "subHeading": "Provide your details to see Phone Number of this advertiser"
+              }
+            },
+            {
+              "type": "CALL",
+              "label": "Call",
+              "trackingSource": "STICKY.CALL",
+              "fillInDetailsForm": {
+                "ctaText": "Call",
+                "subHeading": "Provide your details to see Phone Number of this advertiser"
+              }
+            },
+            {
+              "type": "WHATSAPP_CHAT",
+              "label": "Chat Now",
+              "trackingSource": "STICKY.CHAT_NOW",
+              "fillInDetailsForm": {
+                "ctaText": "Chat Now",
+                "subHeading": "Provide your details to Chat with this advertiser"
+              }
+            }
+          ],
+          "shortlisted": {
+            "done": false
+          },
+          "shareUrl": "Check out this property I found using 99acres mobile app #  https://www.99acres.com/manufacturing-unit-space-for-sale-in-sector-6-noida-8602-sq-ft-spid-Y56327558",
+          "pageNavigation": {
+            "heading1": "₹ 15 Crore",
+            "heading3": "8602 sq.ft. plot area"
+          },
+          "tracking": {
+            "pageVersion": "v2"
+          },
+          "photonLayer": {
+            "categories": [
+              {
+                "type": {
+                  "value": "WALK_THROUGH_VIDEO",
+                  "label": "Walk-through"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "OFFICE",
+                  "label": "Office Space"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "INTERIOR",
+                  "label": "Interior"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "CONFERENCE_ROOM",
+                  "label": "Conference room"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "MEETING_ROOM",
+                  "label": "Meeting room"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "CABIN",
+                  "label": "Cabin"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "RECEPTION_AREA",
+                  "label": "Reception area"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "BUILDING",
+                  "label": "Building"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LOCALITY",
+                  "label": "Locality"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "ENTRANCE",
+                  "label": "Entrance"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "STAIRCASE",
+                  "label": "Staircase"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "WASHROOM",
+                  "label": "Washroom"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "PANTRY",
+                  "label": "Pantry"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "FLOOR_PLAN",
+                  "label": "Floor Plan"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "PROPERTY_LAYOUT",
+                  "label": "Property layout"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "MASTER_PLAN",
+                  "label": "Master plan"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LAND",
+                  "label": "Land"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LOCATION_MAP",
+                  "label": "Location map"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "OTHERS",
+                  "label": "Others"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "SEATING",
+                  "label": "Seating"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "FACILITY",
+                  "label": "Facility"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LOBBY",
+                  "label": "Lobby"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "SOCIETY_VIDEO",
+                  "label": "Society Video"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "ELEVATOR",
+                  "label": "Elevator"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "SOCIETY_PHOTO",
+                  "label": "Society Photos"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LOCALITY_VIDEO",
+                  "label": "Locality Video"
+                },
+                "configurationBased": false
+              },
+              {
+                "type": {
+                  "value": "LOCALITY_PHOTO",
+                  "label": "Locality Photos"
+                },
+                "configurationBased": false
+              }
+            ]
+          },
+          "maskContact": "N",
+          "assignedTo": 44306439,
+          "propertyType": 19,
+          "price": {
+            "max": 150000000,
+            "min": 150000000
+          },
+          "preference": "S",
+          "selectedConfig": "19_0",
+          "configSlotListing": false
+        },
+        "components": {
+          "summaryLayer": {
+            "componentId": "SUMMARY_LAYER",
+            "heading": "Summary Layer",
+            "menuTabTitle": "Details",
+            "title": {
+              "heading1": "Manufacturing for sale",
+              "heading3": "Sector-6 Noida"
+            },
+            "tags": [
+              {
+                "text": "Platinum",
+                "heading": "PLATINUM"
+              },
+              {
+                "text": "Featured",
+                "heading": "FEATURED"
+              },
+              {
+                "text": "Ready to move",
+                "heading": "PROPERTY_TYPE"
+              }
+            ],
+            "tuples": [
+              {
+                "type": "PRICE",
+                "title": "Price",
+                "text1": "₹ 15 Crore",
+                "subText": "@ 17,437 / sq.ft.",
+                "value": "PRICE"
+              },
+              {
+                "type": "AREA",
+                "title": "Plot area",
+                "text1": "8602 sq.ft.",
+                "subText": "800 sq.m.",
+                "value": "PLOT",
+                "area": {
+                  "min": 8602,
+                  "max": 8602,
+                  "unit": 1,
+                  "secondaryUnit": 3
+                }
+              }
+            ],
+            "coverImage": {
+              "text2": "Posted 3w ago by dealer",
+              "generic": {
+                "text": "Photos are not shared by the advertiser",
+                "url": "https://static.99acres.com/universalapp/img/RequestPhotos.png",
+                "eoi": {
+                  "type": "REQUEST_PHOTOS_DEALER",
+                  "label": "Request Photos",
+                  "trackingSource": "SUMMARY_LAYER.REQUEST_PHOTOS_DEALER",
+                  "fillInDetailsForm": {
+                    "ctaText": "Request Photos",
+                    "subHeading": "Provide your details to receive photos from this advertiser"
+                  }
+                }
+              }
+            }
+          },
+          "preLease": {
+            "componentId": "PRELEASE_WIDGET",
+            "heading": "Pre Leased Details",
+            "subHeading": "Property currently leased / rented out",
+            "tooltip": "Invest in Pre Leased / Rented commercial properties and earn high returns annually with low to medium risk",
+            "menuTabTitle": "Pre Leased Details",
+            "tuples": [
+              {
+                "label": "₹ 23,333 / month Lease Amount",
+                "type": "PRELEASE_RENT",
+                "iconClass": ""
+              },
+              {
+                "label": "7.0 years Lease Tenure",
+                "type": "PRELEASE_TENURE",
+                "iconClass": ""
+              },
+              {
+                "label": "6% annual rent increment",
+                "type": "PRELEASE_RENT_INCREMENT",
+                "iconClass": ""
+              },
+              {
+                "label": "Currently Leased to: Dairy",
+                "type": "PRELEASE_TO",
+                "iconClass": ""
+              }
+            ]
+          },
+          "description": {
+            "componentId": "DESCRIPTION",
+            "heading": "About Property",
+            "description": "This industrial building for sale in sector-6 noida which is right next to delhi with metro connectivity. This building has a total of 5 floors constructed the main road 24 facing sector-6 where many car showrooms are functional such as nexin, wv and tata. The property is a company takeover deal and has one time lease rent paid for it. Serious buyer please get in touch.",
+            "textLimit": 150,
+            "webViewContent": {
+              "html": "<html><head><script src=\"https://www.99acres.com/react-recom-cards/bundle.js?_=1622545854813\" defer></script><meta name=\"viewport\" id=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"><script>var __appWebView__ = true; var __layerName__=\"ABOUT_PROPERTY\"; var __pageData__ = {\"description\":\"This industrial building for sale in sector-6 noida which is right next to delhi with metro connectivity. This building has a total of 5 floors constructed the main road 24 facing sector-6 where many car showrooms are functional such as nexin, wv and tata. The property is a company takeover deal and has one time lease rent paid for it. Serious buyer please get in touch.\" ,\"heading\":\"About Property\" }; var __hostName__ = \"https://www.99acres.com/\"; if(!document.__defineGetter__) { Object.defineProperty(document, 'cookie', {get: function(){return \"\"}, set: function(){return true},}); } else { document.__defineGetter__(\"cookie\", function() { return \"\";} ); document.__defineSetter__(\"cookie\", function() {} );} </script></head><body><div id=__reactAppRoot__></div></body></html>"
+            },
+            "eoi": {
+              "type": "REQUEST_CALLBACK",
+              "label": "Contact Dealer",
+              "trackingSource": "DESCRIPTION.SHARE_INTEREST",
+              "fillInDetailsForm": {
+                "ctaText": "Contact Dealer",
+                "subHeading": "Fill in your details to request for a callback"
+              }
+            }
+          },
+          "contentDisclaimer": {
+            "componentId": "CONTENT_DISCLAIMER",
+            "heading": "Disclaimer",
+            "text": "To our understanding, ensuring efficiency and transparency in the real estate sector is the primary objective of the Real Estate (Regulation and Development) Act, 2016. We also intend to promote the same, to the extent we can, by providing a platform to display all relevant information which is publicly available in an organized format relating to a particular property at a single place, however, at all times do keep in mind that the information that has been provided on 99acres.com “the Website”, including property listings, project details, location, floor, area, maps, layout etc. have been displayed for reference purposes only and cannot replace the primary source i.e. an independent verification by buyer/ agent. Any investment decisions that you take should not be based relying solely on the data that is available on the Website. Please remember it is your money which is at stake, therefore, it is advisable that any decisions that are taken to invest in any real estate are taken after researching the bonafides of the person/entity selling the same to you including title of such property.",
+            "textTruncationLimit": 150,
+            "copyrightText": "A naukri.com group website\n\nCopyright © 2021 Infoedge India Ltd. All rights reserved.",
+            "disclaimerheading": "RERA Disclaimer : "
+          },
+          "fatFooter": {
+            "componentId": "FAT_FOOTER",
+            "heading": "Quick Links",
+            "details": {
+              "bcData": {
+                "SID64:Breadcrumbs:BRCMB": {
+                  "Commercial Property in Noida": [
+                    "/commercial-property-in-noida-ffid"
+                  ],
+                  "Sector-6 Noida": [
+                    "/commercial-property-in-sector-6-noida-ffid"
+                  ],
+                  "Manufacturing": [
+                    "/manufacturing-unit-in-sector-6-noida-ffid"
+                  ],
+                  "10 to 20 Cr": [
+                    "/manufacturing-unit-in-sector-6-noida-10-crores-to-20-crores-ffid"
+                  ],
+                  "Below Max sq.ft.": []
+                }
+              },
+              "sectionUrls": {},
+              "urlRepos": {
+                "/commercial-property-in-noida-ffid": {
+                  "title": "Commercial property in Noida"
+                },
+                "/commercial-property-in-sector-6-noida-ffid": {
+                  "title": "Commercial property in Sector-6 Noida"
+                },
+                "/manufacturing-unit-in-sector-6-noida-ffid": {
+                  "title": "Manufacturing unit in Sector-6 Noida"
+                },
+                "/manufacturing-unit-in-sector-6-noida-10-crores-to-20-crores-ffid": {
+                  "title": "Manufacturing unit in Sector-6 Noida between 10 Cr to 20 Cr"
+                },
+                "/commercial-property-for-rent-in-sector-6-noida-ffid": {
+                  "title": "Commercial property for rent in Sector-6 Noida"
+                },
+                "/factory-land-in-sector-6-noida-ffid": {
+                  "title": "Factory in Sector-6 Noida"
+                },
+                "/factory-land-for-rent-in-sector-6-noida-ffid": {
+                  "title": "Factory for rent in Sector-6 Noida"
+                },
+                "/ware-house-for-rent-in-sector-6-noida-ffid": {
+                  "title": "Warehouse for rent in Sector-6 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-6-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-6 Noida"
+                },
+                "/manufacturing-unit-in-noida-ffid": {
+                  "title": "Manufacturing unit in Noida"
+                },
+                "/factory-land-in-noida-ffid": {
+                  "title": "Factory in Noida"
+                },
+                "/ware-house-in-noida-ffid": {
+                  "title": "Warehouse in Noida"
+                },
+                "/commercial-property-in-sector-7-noida-ffid": {
+                  "title": "Commercial property in Sector-7 Noida"
+                },
+                "/commercial-property-in-sector-5-noida-ffid": {
+                  "title": "Commercial property in Sector-5 Noida"
+                },
+                "/commercial-property-in-sector-1-noida-ffid": {
+                  "title": "Commercial property in Sector-1 Noida"
+                },
+                "/factory-land-in-sector-7-noida-ffid": {
+                  "title": "Factory in Sector-7 Noida"
+                },
+                "/factory-land-in-sector-5-noida-ffid": {
+                  "title": "Factory in Sector-5 Noida"
+                },
+                "/factory-land-in-sector-1-noida-ffid": {
+                  "title": "Factory in Sector-1 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-7-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-7 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-5-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-5 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-1-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-1 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-8-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-8 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-2-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-2 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-9-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-9 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-4-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-4 Noida"
+                },
+                "/commercial-real-estate-agents-in-sector-10-noida-ffid": {
+                  "title": "Commercial Property Dealers in Sector-10 Noida"
+                }
+              },
+              "fatFooter": {
+                "SID119-SID100-DUMMYFG:Properties in Sector-6 Noida:ELLPS_COM_BUY": {
+                  "urls": [
+                    {
+                      "url": "/commercial-property-for-rent-in-sector-6-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-in-sector-6-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-for-rent-in-sector-6-noida-ffid"
+                    },
+                    {
+                      "url": "/ware-house-for-rent-in-sector-6-noida-ffid"
+                    },
+                    {
+                      "url": "/manufacturing-unit-in-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-in-noida-ffid"
+                    },
+                    {
+                      "url": "/ware-house-in-noida-ffid"
+                    }
+                  ]
+                },
+                "SID119-SID101-DUMMYFG:Properties in Nearby Localities:ELLPS_COM_TL": {
+                  "urls": [
+                    {
+                      "url": "/commercial-property-in-sector-7-noida-ffid"
+                    },
+                    {
+                      "url": "/commercial-property-in-sector-5-noida-ffid"
+                    },
+                    {
+                      "url": "/commercial-property-in-sector-1-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-in-sector-7-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-in-sector-5-noida-ffid"
+                    },
+                    {
+                      "url": "/factory-land-in-sector-1-noida-ffid"
+                    }
+                  ]
+                }
+              },
+              "fatFooterTitleParentHeading": "Related to your search"
+            }
+          },
+          "availabilityAndTerms": {
+            "componentId": "AVAILABILITY_AND_TERMS",
+            "heading": "Availability and Terms",
+            "menuTabTitle": "Terms",
+            "tuples": [
+              {
+                "type": "AVAILABLE",
+                "title": "Available from",
+                "text": "Immediately"
+              },
+              {
+                "type": "PRICE",
+                "title": "Price",
+                "text": "₹ 15 Crore"
+              },
+              {
+                "type": "TAX_GOVT_CHARGES",
+                "title": "Tax and Government Charges",
+                "text": "Not included"
+              }
+            ]
+          },
+          "seller": {
+            "componentId": "SELLER",
+            "heading": "Contact Dealer",
+            "subHeading": "Get a callback and resolve your queries",
+            "eoi": {
+              "type": "REQUEST_CALLBACK",
+              "label": "Request a Callback",
+              "trackingSource": "SELLER.REQUEST_CALLBACK",
+              "fillInDetailsForm": {
+                "ctaText": "Request a Callback",
+                "subHeading": "Fill in your details to request for a callback"
+              }
+            },
+            "data": [
+              {
+                "profileId": 2348487,
+                "contact": {
+                  "email": "useremailXXXXXX@gmail.com",
+                  "mobile1": "+91-98xxxxxx10"
+                },
+                "user": {
+                  "modifyDate": 1306955407000,
+                  "isGuest": false,
+                  "city": 7,
+                  "profileId": 2348487,
+                  "superProfileId": 0,
+                  "name": "Ajay Bathla",
+                  "verified": "EMAIL",
+                  "userClass": "A",
+                  "registrationDateLabel": "Jun 2011",
+                  "registrationDateDes": "Member Since",
+                  "fieldName": "user",
+                  "guest": false
+                },
+                "media": {
+                  "image": "https://mediacdn.99acres.com/666/18/13338232O-1390391193-DEALER_2348487_PHOTO.jpeg"
+                },
+                "dealerFeedBackDto": {
+                  "thumbUp": 0,
+                  "thumbDown": 0
+                },
+                "listingDto": {
+                  "totalListingCount": 76,
+                  "totalListingCountLabel": "50+",
+                  "totalListingCountDesc": "Properties Listed",
+                  "verifiedListingCount": 5,
+                  "verifiedListingCountLabel": "5",
+                  "verifiedListingCountDesc": "Verified Properties",
+                  "localities": [
+                    "Sector-11 Noida",
+                    "Sector-155 Noida",
+                    "Sector-2 Noida",
+                    "Sector-3 Noida",
+                    "Sector-6 Noida",
+                    "Sector-80 Noida",
+                    "Sector-83 Noida",
+                    "Sector-125 Noida",
+                    "Sector-135 Noida",
+                    "Phase-II",
+                    "Sector-133 Noida ",
+                    "Sector-85 Noida",
+                    "Sector-136 Noida",
+                    "Hosiery Complex",
+                    "Sector-59 Noida",
+                    "Sector-63 Noida",
+                    "Sector-65 Noida"
+                  ]
+                },
+                "company": {
+                  "address1": "B1/48 Sec-50, Noida",
+                  "address2": " ",
+                  "haveLogo": "Y",
+                  "companyName": "Bathlas Estate & Developers",
+                  "companyProfile": "Bathlas Estate & Developers",
+                  "companyUrl": "http://www.bathlasgroup.com",
+                  "fieldName": "company"
+                }
+              }
+            ]
+          },
+          "building": {
+            "componentId": "BUILDING",
+            "heading": "Building Details",
+            "menuTabTitle": "Building Details",
+            "subHeading": "Key building details and amenities",
+            "tuples": [
+              {
+                "type": "AGE",
+                "title": "Age of Property",
+                "text": "1-5 Year Old Property",
+                "icon": "https://static.99acres.com/universalapp/img/Age_Of_Property.png"
+              }
+            ]
+          },
+          "ownerPropertyRecommendation": {
+            "componentId": "OWNER_RECOMMENDATION",
+            "type": "OWNER_RECOMMENDATION",
+            "params": {
+              "building_id": "0",
+              "transact_type": "1",
+              "res_com": "C",
+              "city": "7",
+              "propId": "56327558",
+              "area_max": "800.0",
+              "moduleName": "msite_PD_REACT",
+              "availability": "2",
+              "type": "recom",
+              "resCom": "C",
+              "spid": "56327558",
+              "pageName": "PD",
+              "platform": "msite",
+              "budget_max": "150000000",
+              "advertiser_id": "2348487",
+              "furnish": "0",
+              "bedroom_num": "0",
+              "area_min": "800.0",
+              "algoType": "OWNER_PROPERTIES",
+              "property_type": "19",
+              "class": "A",
+              "exclude_agents": "2348487",
+              "sub_availability": "1",
+              "preference": "S",
+              "verified": "N",
+              "exclude_search_spid": "56327558",
+              "transactType": "1",
+              "locality_array": "147",
+              "area_unit": "3",
+              "tenant_pref": "",
+              "budget_min": "150000000"
+            },
+            "minVisibilityLimit": 1
+          },
+          "preLeaseRecommendation": {
+            "componentId": "PRE_LEASE_RECOMMENDATION",
+            "type": "PRE_LEASE_RECOMMENDATION",
+            "params": {
+              "building_id": "0",
+              "transact_type": "1",
+              "res_com": "C",
+              "city": "7",
+              "propId": "56327558",
+              "area_max": "800.0",
+              "moduleName": "msite_PD_REACT",
+              "availability": "2",
+              "type": "recom",
+              "resCom": "C",
+              "spid": "56327558",
+              "pageName": "PD",
+              "platform": "msite",
+              "budget_max": "150000000",
+              "advertiser_id": "2348487",
+              "furnish": "0",
+              "bedroom_num": "0",
+              "area_min": "800.0",
+              "algoType": "OWNER_PROPERTIES",
+              "property_type": "19",
+              "class": "A",
+              "exclude_agents": "2348487",
+              "sub_availability": "1",
+              "preference": "S",
+              "verified": "N",
+              "exclude_search_spid": "56327558",
+              "transactType": "1",
+              "locality_array": "147",
+              "area_unit": "3",
+              "tenant_pref": "",
+              "budget_min": "150000000"
+            },
+            "minVisibilityLimit": 1
+          },
+          "collaborativePropertyRecommendation": {
+            "componentId": "COLLABORATIVE_RECOMMENDATION",
+            "type": "COLLABORATIVE_RECOMMENDATION",
+            "params": {
+              "building_id": "0",
+              "transact_type": "1",
+              "res_com": "C",
+              "city": "7",
+              "propId": "56327558",
+              "area_max": "800.0",
+              "moduleName": "msite_PD_REACT",
+              "availability": "2",
+              "type": "recom",
+              "resCom": "C",
+              "spid": "56327558",
+              "pageName": "PD",
+              "platform": "msite",
+              "budget_max": "150000000",
+              "advertiser_id": "2348487",
+              "furnish": "0",
+              "bedroom_num": "0",
+              "area_min": "800.0",
+              "algoType": "COLLABORATIVE_PROPERTY",
+              "property_type": "19",
+              "class": "A",
+              "exclude_agents": "2348487",
+              "sub_availability": "1",
+              "preference": "S",
+              "verified": "N",
+              "exclude_search_spid": "56327558",
+              "transactType": "1",
+              "locality_array": "147",
+              "area_unit": "3",
+              "tenant_pref": "",
+              "budget_min": "150000000"
+            },
+            "minVisibilityLimit": 1
+          },
+          "buildingAmenities": {
+            "componentId": "BUILDING_AMENITIES",
+            "heading": "Building amenities",
+            "sideText": "View All (17)",
+            "tuples": [
+              {
+                "icon": "https://static.99acres.com/universalapp/img/water_storage.png",
+                "text": "Water Storage"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/atm.png",
+                "text": "ATM"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/intercom.png",
+                "text": "Intercom Facility"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/garbage_disposal_export.png",
+                "text": "Waste Disposal"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/cafeteria.png",
+                "text": "Cafeteria / Food Court"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/conference_room.png",
+                "text": "Conference room"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/centralised_ac.png",
+                "text": "Centrally Air Conditioned"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/fire_alarm.png",
+                "text": "Security/Fire Alarm"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/high_speed_internet_connectivity.png",
+                "text": "Access to High Speed Internet"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/vastu.png",
+                "text": "Feng Shui / Vaastu Compliant"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/lifts.png",
+                "text": "Lifts"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/gymnasium.png",
+                "text": "Fitness Centre / GYM"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/club_house.png",
+                "text": "Club house / Community Center"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/247_security.png",
+                "text": "Security Personnel"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/maintenance-Staff.png",
+                "text": "Maintenance Staff"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/swimming_pool.png",
+                "text": "Swimming Pool"
+              },
+              {
+                "icon": "https://static.99acres.com/universalapp/img/bank_attached_property.png",
+                "text": "Bank Attached Property"
+              }
+            ],
+            "webViewContent": {
+              "html": "<html><head><script src=\"https://www.99acres.com/react-recom-cards/bundle.js?_=1622545854813\" defer></script><meta name=\"viewport\" id=\"viewport\" content=\"width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no\"><script>var __appWebView__ = true; var __layerName__=\"BUILDING_AMENITIES\"; var __pageData__ = {\"tuples\":[{\"icon\":\"https://static.99acres.com/universalapp/img/water_storage.png\", \"text\":\"Water Storage\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/atm.png\", \"text\":\"ATM\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/intercom.png\", \"text\":\"Intercom Facility\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/garbage_disposal_export.png\", \"text\":\"Waste Disposal\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/cafeteria.png\", \"text\":\"Cafeteria / Food Court\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/conference_room.png\", \"text\":\"Conference room\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/centralised_ac.png\", \"text\":\"Centrally Air Conditioned\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/fire_alarm.png\", \"text\":\"Security/Fire Alarm\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/high_speed_internet_connectivity.png\", \"text\":\"Access to High Speed Internet\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/vastu.png\", \"text\":\"Feng Shui / Vaastu Compliant\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/lifts.png\", \"text\":\"Lifts\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/gymnasium.png\", \"text\":\"Fitness Centre / GYM\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/club_house.png\", \"text\":\"Club house / Community Center\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/247_security.png\", \"text\":\"Security Personnel\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/maintenance-Staff.png\", \"text\":\"Maintenance Staff\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/swimming_pool.png\", \"text\":\"Swimming Pool\", }, {\"icon\":\"https://static.99acres.com/universalapp/img/bank_attached_property.png\", \"text\":\"Bank Attached Property\", }], }; var __hostName__ = \"https://www.99acres.com/\"; if(!document.__defineGetter__) { Object.defineProperty(document, 'cookie', {get: function(){return \"\"}, set: function(){return true},}); } else { document.__defineGetter__(\"cookie\", function() { return \"\";} ); document.__defineSetter__(\"cookie\", function() {} );} </script></head><body><div id=__reactAppRoot__></div></body></html>"
+            }
+          },
+          "usp": {
+            "componentId": "USP",
+            "heading": "Key Specifications",
+            "tuples": [
+              {
+                "text": "4 private washrooms",
+                "icon": "https://static.99acres.com/universalapp/img/Washrooms.png",
+                "className": "key_washroom"
+              },
+              {
+                "text": "North-West Facing",
+                "icon": "https://static.99acres.com/universalapp/img/facingPD.png",
+                "className": "key_facing"
+              },
+              {
+                "text": "Stone flooring",
+                "icon": "https://static.99acres.com/universalapp/img/Walls.png",
+                "className": "key_flooring"
+              }
+            ]
+          },
+          "verifiedPropertyRecommendation": {
+            "componentId": "VERIFIED_RECOMMENDATION",
+            "type": "VERIFIED_RECOMMENDATION",
+            "params": {
+              "building_id": "0",
+              "transact_type": "1",
+              "res_com": "C",
+              "city": "7",
+              "propId": "56327558",
+              "area_max": "800.0",
+              "moduleName": "msite_PD_REACT",
+              "availability": "2",
+              "type": "recom",
+              "resCom": "C",
+              "spid": "56327558",
+              "pageName": "PD",
+              "platform": "msite",
+              "budget_max": "150000000",
+              "advertiser_id": "2348487",
+              "furnish": "0",
+              "bedroom_num": "0",
+              "area_min": "800.0",
+              "algoType": "VERIFIED_PROPERTIES",
+              "property_type": "19",
+              "class": "A",
+              "exclude_agents": "2348487",
+              "sub_availability": "1",
+              "preference": "S",
+              "verified": "N",
+              "exclude_search_spid": "56327558",
+              "transactType": "1",
+              "locality_array": "147",
+              "area_unit": "3",
+              "tenant_pref": "",
+              "budget_min": "150000000"
+            },
+            "minVisibilityLimit": 1
+          },
+          "media": {
+            "componentId": "MEDIA",
+            "heading": "Tour this space",
+            "menuTabTitle": "Photos",
+            "subHeading": "with photos and videos",
+            "upperLayer": {
+              "categories": [
+                {
+                  "tuples": [
+                    {
+                      "name": "Locality Video",
+                      "videoId": "Vm2Oxr_XId0",
+                      "variants": {
+                        "SMALL": "https://img.youtube.com/vi/Vm2Oxr_XId0/hqdefault.jpg",
+                        "LARGE": "https://www.youtube.com/embed/Vm2Oxr_XId0?rel=0&wmode=transparent&autoplay=1",
+                        "ORIGINAL": "https://www.youtube.com/embed/Vm2Oxr_XId0?rel=0&wmode=transparent&autoplay=1"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "value": "LOCALITY_VIDEO",
+                    "label": "Locality Video"
+                  },
+                  "galleryGroup": "LOCALITY_VIDEO",
+                  "count": 1
+                },
+                {
+                  "tuples": [
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448926T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448926F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448926F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448926D-1385123042.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448928T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448928F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448928F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448928D-1385123042.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448934T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448934F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448934F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448934D-1385123041.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448936T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448936F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448936F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448936D-1385123041.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448940T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448940F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448940F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448940D-1385123041.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Commercial Buiding-Noida Sector 6",
+                      "altTag": "Commercial Buiding-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448942T-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448942F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448942F-1382431742-Commercial_Buiding-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448942D-1385123041.jpeg"
+                      }
+                    },
+                    {
+                      "name": "Park-Noida Sector 6",
+                      "altTag": "Park-Noida Sector 6",
+                      "variants": {
+                        "SMALL": "https://mediacdn.99acres.com/572/8/11448944T-1382431742-Park-Noida_Sector_6.jpeg",
+                        "LARGE": "https://mediacdn.99acres.com/572/8/11448944F-1382431742-Park-Noida_Sector_6.jpeg",
+                        "ORIGINAL": "https://mediacdn.99acres.com/572/8/11448944F-1382431742-Park-Noida_Sector_6.jpeg",
+                        "MEDIUM": "https://mediacdn.99acres.com/572/8/11448944D-1385123041.jpeg"
+                      }
+                    }
+                  ],
+                  "type": {
+                    "value": "LOCALITY_PHOTO",
+                    "label": "Locality Photos"
+                  },
+                  "galleryGroup": "LOCALITY_PHOTO",
+                  "count": 7
+                }
+              ]
+            },
+            "eoi": {
+              "type": "REQUEST_CALLBACK",
+              "label": "I’m interested in this manufacturing",
+              "trackingSource": "GALLERY.SHARE_INTEREST",
+              "fillInDetailsForm": {
+                "ctaText": "I’m interested in this manufacturing",
+                "subHeading": "Fill in your details to request for a callback"
+              }
+            }
+          }
+        },
+        "stickyEoi": [
+          {
+            "type": "VIEW_CONTACT",
+            "label": "View Contact",
+            "trackingSource": "STICKY.VIEW_CONTACT",
+            "fillInDetailsForm": {
+              "ctaText": "View Contact",
+              "subHeading": "Provide your details to see Phone Number of this advertiser"
+            }
+          },
+          {
+            "type": "CALL",
+            "label": "Call",
+            "trackingSource": "STICKY.CALL",
+            "fillInDetailsForm": {
+              "ctaText": "Call",
+              "subHeading": "Provide your details to see Phone Number of this advertiser"
+            }
+          },
+          {
+            "type": "WHATSAPP_CHAT",
+            "label": "Chat Now",
+            "trackingSource": "STICKY.CHAT_NOW",
+            "fillInDetailsForm": {
+              "ctaText": "Chat Now",
+              "subHeading": "Provide your details to Chat with this advertiser"
+            }
+          }
+        ],
+        "seoContent": {
+          "metaTitle": "Manufacturing unit / space for sale in Sector-6 Noida - 8602 Sq. Ft.",
+          "metaDescription": "8602 Sq. Ft. - Buy Manufacturing unit / space in Sector-6 Noida * Resale property * Possession: Immediate * Ownership: Leasehold. View contact number for free. Click for complete details on 99acres.com",
+          "detailPageUrl": "https://www.99acres.com/manufacturing-unit-space-for-sale-in-sector-6-noida-8602-sq-ft-spid-Y56327558",
+          "redirection": {
+            "url": "https://www.99acres.com/manufacturing-unit-space-for-sale-in-sector-6-noida-8602-sq-ft-spid-Y56327558",
+            "httpCode": 301,
+            "relativeUrl": "/manufacturing-unit-space-for-sale-in-sector-6-noida-8602-sq-ft-spid-Y56327558"
+          },
+          "relativeUrlPath": "/manufacturing-unit-space-for-sale-in-sector-6-noida-8602-sq-ft-spid-Y56327558"
+        },
+        "marketing": {
+          "availability": "Ready to move",
+          "price": "150000000",
+          "advertiserName": "Ajay Bathla",
+          "businessSegment": "resale",
+          "cityId": "7",
+          "cityName": "Noida",
+          "className": "A",
+          "locality": "Sector-6 Noida",
+          "currency": "INR",
+          "localityName": "Sector-6 Noida",
+          "minBudget": "1.5E8",
+          "maxBudget": "1.5E8",
+          "minSeats": "",
+          "maxSeats": "",
+          "carpetArea": "",
+          "superbuiltupArea": "",
+          "page": "PD",
+          "propertyType": " ",
+          "photo": "",
+          "preference": "Buy",
+          "projId": "",
+          "projName": "",
+          "resCom": "C",
+          "siteType": "m"
+        },
+        "ordering": {
+          "tuples": [
+            {
+              "componentId": "SUMMARY_LAYER",
+              "menuTabsTitle": "Details",
+              "order": 1
+            },
+            {
+              "componentId": "PRELEASE_WIDGET",
+              "menuTabsTitle": "Pre Leased Details",
+              "order": 2
+            },
+            {
+              "componentId": "USP",
+              "order": 3
+            },
+            {
+              "componentId": "MEDIA",
+              "menuTabsTitle": "Photos",
+              "order": 4
+            },
+            {
+              "componentId": "AVAILABILITY_AND_TERMS",
+              "menuTabsTitle": "Terms",
+              "order": 5
+            },
+            {
+              "componentId": "FACILITIES",
+              "menuTabsTitle": "Facilities",
+              "order": 6
+            },
+            {
+              "componentId": "DESCRIPTION",
+              "order": 7
+            },
+            {
+              "componentId": "BUILDING",
+              "menuTabsTitle": "Building Details",
+              "order": 8
+            },
+            {
+              "componentId": "SELLER",
+              "order": 9
+            },
+            {
+              "componentId": "VERIFIED_RECOMMENDATION",
+              "order": 10
+            },
+            {
+              "componentId": "OWNER_RECOMMENDATION",
+              "order": 11
+            },
+            {
+              "componentId": "COLLABORATIVE_RECOMMENDATION",
+              "order": 12
+            },
+            {
+              "componentId": "FAT_FOOTER",
+              "order": 13
+            },
+            {
+              "componentId": "CONTENT_DISCLAIMER",
+              "order": 14
+            }
+          ]
+        },
+        "tupleData": {
+          "SPID": "56327558",
+          "PROFILEID": "2348487",
+          "PROP_ID": "Y56327558",
+          "PREFERENCE": "S",
+          "DESCRIPTION": "This industrial building for sale in sector-6 noida which is right next to delhi with metro connectivity. This building has a total of 5 floors constructed the main road 24 facing sector-6 where many car showrooms are functional such as nexin, wv and tata. The property is a company takeover deal and has one time lease rent paid for it. Serious buyer please get in touch.",
+          "PROPERTY_TYPE": "19",
+          "CITY": "7",
+          "LOCALITY": "Sector-6 Noida",
+          "SUPER_AREA": "800.0",
+          "AREA_UNIT": "0",
+          "SUPERAREA_UNIT": "3",
+          "SUPER_SQFT": "8611.132040945933",
+          "TRANSACT_TYPE": "1",
+          "OWNTYPE": "2",
+          "BEDROOM_NUM": "0",
+          "BATHROOM_NUM": "0",
+          "BATHROOM_ATTACHED": "N",
+          "BALCONY_ATTACHED": "N",
+          "PRICE_PER_UNIT_AREA": "187500.0",
+          "AVAILABILITY": "I",
+          "FURNISH": "0",
+          "FACING": "6",
+          "AGE": "1",
+          "FEATURES": "11,23,12,24,13,25,26,27,16,28,17,19,1,3,5,9,20,10,21",
+          "REGISTER_DATE": "2021-05-25",
+          "CLASS": "A",
+          "RES_COM": "C",
+          "PROP_NAME": "",
+          "PROPERTY_NUMBER": "1",
+          "MIN_PRICE": "150000000",
+          "MAX_PRICE": "150000000",
+          "PRICE_SQFT": "17437",
+          "LISTING": "P",
+          "BUILDING_ID": "0",
+          "VERIFIED": "N",
+          "MASK_CONTACT": "N",
+          "CONF_ID": "0",
+          "ASSIGNED_TO": "44306439",
+          "CORNER_PROPERTY": "N",
+          "MAP_DETAILS": {
+            "LATITUDE": "28.59357",
+            "LONGITUDE": "77.31886",
+            "ZOOM_LEVEL": "12",
+            "SOURCE": "LOCALITY",
+            "MAP_ACCURACY": "0",
+            "MAPPED": "Y"
+          },
+          "FSL_Data": {
+            "LOCALITY_ID": 147,
+            "TYPE": "FSL"
+          },
+          "MIN_AREA_SQFT": "8611 sq.ft.",
+          "MAX_AREA_SQFT": "8611 sq.ft.",
+          "SHOW_BSP": true,
+          "CONTACT_AVAILABILITY": false,
+          "HAVEPHOTO": "N",
+          "AMENITIES": "1,3,5,101,9,10,11,12,13,16,17,19,20,21,23,24,25,26,27,28",
+          "CityName": "Noida",
+          "shortlisted": "false",
+          "Price_Text": "₹ 15 Crore",
+          "Property_Text": "Manufacturing",
+          "Society_Name": "",
+          "Transact_type": "Resale"
+        }
+      }
+    ]
+  },
+  "metainfo": {
+    "processing_time": 0.205,
+    "session_id": "EZHzm9KtKvr2CbJ1KR4jmeIaTmG82uCdI2AJ+OLqZnrrM5mRee/M6cSYKoxOND6pilXWRcoUy8M7QFGp4YXnxA==",
+    "X-REQUEST-ID": "32407317462818858168",
+    "statusMessage": "OK",
+    "99_ab": "88",
+    "statusCode": 0,
+    "upgrade": null,
+    "source": "AGGREGATOR",
+    "captchaStatusCode": 0,
+    "captchaUrl": null,
+    "captchaRelUrl": null
+  }
+}

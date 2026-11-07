@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <corners android:radius="@dimen/xs" />
+            <solid android:color="@color/webinar_bckg_color" />
+            <size android:height="16.0dip" android:width="60.0dip" />
+            <stroke android:width="0.5dip" android:color="@color/Ng300" />
+        </shape>
+    </item>
+    <item android:height="10.0dip" android:width="10.0dip" android:drawable="@drawable/shape_ic_video" android:left="5.0dip" android:top="4.0dip" />
+</layer-list>

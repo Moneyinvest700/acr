@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.ppf_revamp.customViewHolders.PPFInputBoxView android:id="@id/inputBox" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="horizontal" android:id="@id/areaUnitSection" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="48.0dip" android:layout_alignBottom="@id/inputBox" android:layout_marginEnd="@dimen/medium_even" android:layout_alignEnd="@id/inputBox" android:layout_alignParentEnd="true">
+        <View android:layout_gravity="center_vertical" android:background="@color/Ng300" android:layout_width="1.5dip" android:layout_height="18.0dip" android:layout_marginEnd="@dimen/small" />
+        <TextView android:textSize="@dimen/medium_even" android:textColor="@color/Ng800" android:gravity="center_vertical" android:id="@id/tvAreaUnit" android:background="@color/white" android:paddingTop="@dimen/xs" android:paddingBottom="@dimen/xs" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:drawablePadding="@dimen/s" android:paddingEnd="@dimen/s" app:drawableEndCompat="@null" style="@style/normal_text_view" />
+    </LinearLayout>
+</RelativeLayout>

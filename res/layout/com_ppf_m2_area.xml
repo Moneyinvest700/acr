@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:id="@id/propertyAreaTitleContainer" android:paddingBottom="0.0dip" android:layout_alignParentTop="true" style="@style/ppf_heading">
+        <TextView android:textSize="11.0dip" android:textColor="@color/material_gray_700" android:id="@id/propertyAreaTV" android:paddingBottom="8.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/property_area_title_atleast_one" android:textAllCaps="true" />
+        <ImageView android:id="@id/areatypesDescriptionIV" android:paddingLeft="5.0dip" android:paddingBottom="3.0dip" android:layout_width="30.0dip" android:layout_height="30.0dip" android:src="@drawable/tooltip" android:layout_toRightOf="@id/propertyAreaTV" android:contentDescription="null" />
+    </LinearLayout>
+    <RelativeLayout android:id="@id/area_single_property_area" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/propertyAreaTitleContainer">
+        <LinearLayout android:orientation="horizontal" android:id="@id/propertyUnitAreaDropDownLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:baselineAligned="false" android:layout_alignWithParentIfMissing="true">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/builtUpAreaContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.65" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/builtUpArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Built-up" android:maxLength="10" android:inputType="numberDecimal" android:imeOptions="actionDone" android:textCursorDrawable="@null" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText android:id="@id/builtUpAreaUnit" android:layout_width="0.0dip" android:layout_marginTop="8.0dip" android:hint="Unit" android:layout_weight="0.35" style="@style/SearchFormDialogueInputCity" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/propertyCarpetAreaDropDownLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:baselineAligned="false" android:layout_below="@id/propertyUnitAreaDropDownLayout" android:layout_alignWithParentIfMissing="true">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/carpetAreaContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.65" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/carpetArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Carpet" android:maxLength="10" android:inputType="numberDecimal" android:imeOptions="actionDone" android:textCursorDrawable="@null" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText android:id="@id/carpetAreaUnit" android:layout_width="0.0dip" android:layout_marginTop="8.0dip" android:hint="Unit" android:layout_weight="0.35" style="@style/SearchFormDialogueInputCity" />
+        </LinearLayout>
+        <LinearLayout android:orientation="horizontal" android:id="@id/propertyPlotAreaDropDownLayout" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:baselineAligned="false" android:layout_below="@id/propertyCarpetAreaDropDownLayout" android:layout_alignWithParentIfMissing="true">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/plotAreaContainer" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.65" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:id="@id/plotArea" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Plot" android:maxLength="10" android:inputType="numberDecimal" android:imeOptions="actionDone" android:textCursorDrawable="@null" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText android:id="@id/plotAreaUnit" android:layout_width="0.0dip" android:layout_marginTop="8.0dip" android:hint="Unit" android:layout_weight="0.35" style="@style/SearchFormDialogueInputCity" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout android:id="@id/area_multiple_property_area" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/ppf_material_left_margin" android:layout_marginRight="@dimen/ppf_material_left_margin" android:layout_below="@id/propertyAreaTitleContainer">
+        <com.google.android.material.textfield.TextInputLayout android:id="@id/spinner_areatypeContainer" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_alignParentTop="true" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+            <EditText android:id="@id/spinner_areatype" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="Area Type" style="@style/SearchFormDialogueInputCity" />
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_below="@id/spinner_areatypeContainer">
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/minareaContainer" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.35" android:layout_alignParentTop="true" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:gravity="center|left" android:id="@id/minarea" android:hint="Min" android:maxLength="10" android:inputType="numberDecimal" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <TextView android:textSize="15.0sp" android:gravity="center" android:layout_gravity="center" android:id="@id/to" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_marginLeft="8.0dip" android:layout_marginRight="8.0dip" android:text="-" android:layout_weight="0.05" />
+            <com.google.android.material.textfield.TextInputLayout android:id="@id/maxareaContainer" android:paddingLeft="8.0dip" android:paddingRight="8.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_weight="0.35" android:layout_alignParentTop="true" app:errorTextAppearance="@style/textInputLayoutErrAppearance">
+                <EditText android:gravity="center|left" android:id="@id/maxarea" android:hint="Max" android:maxLength="10" android:inputType="numberDecimal" android:imeOptions="actionDone" style="@style/MaterialEditTextStyle" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText android:id="@id/singleAreaUnit" android:layout_width="wrap_content" android:layout_marginLeft="8.0dip" android:layout_marginTop="9.0dip" android:hint="Unit" android:layout_weight="0.15" style="@style/SearchFormDialogueInputCity" />
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

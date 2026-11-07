@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="@dimen/small" android:paddingBottom="@dimen/extra_small" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/xxl" android:layout_marginEnd="@dimen/xxl"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/clickableText" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/hyperlinkSmall" />
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/userInput" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:layout_gravity="end" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatTextView android:id="@id/maxCharCount" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/inactiveCounterText" />
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:id="@id/layout_amenityTuple" android:layout_width="@dimen/min_width_amenity" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/amenityDrawable" android:layout_width="35.0dip" android:layout_height="35.0dip" android:src="@drawable/amenity_bank_attached_property" />
+    <TextView android:textSize="10.0dip" android:gravity="center" android:id="@id/amenityLabel" android:paddingLeft="2.0dip" android:paddingRight="2.0dip" android:layout_width="@dimen/min_width_amenity" android:layout_height="wrap_content" android:text="Feng shui/Vaastu compliant" />
+</LinearLayout>

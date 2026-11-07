@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector android:height="36.0dip" android:width="37.0dip" android:viewportWidth="37.0" android:viewportHeight="36.0"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#ff0078db" android:pathData="M14.1367,1.6612H0.5V0H14.1367H15.4509H29.0877V1.6612H15.4509H14.1367ZM15.8675,28.3109H27.9802V2.3544H15.8675H14.1367H2.0241V28.3109H14.1367H15.8675Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M7.144,8.3061H10.4665V4.9836H7.144V8.3061Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M7.144,16.0594H10.4665V12.737H7.144V16.0594Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M7.144,24.7116H10.4665V21.3892H7.144V24.7116Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M19.1208,8.3061H22.4433V4.9836H19.1208V8.3061Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M19.1208,16.0594H22.4433V12.737H19.1208V16.0594Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffffff" android:pathData="M19.1208,24.7116H22.4433V21.3892H19.1208V24.7116Z" android:fillType="evenOdd" />
+    <path android:fillColor="#ffffe6bc" android:pathData="M26.9706,26.4706m-9.5294,0a9.5294,9.5294 0,1 1,19.0588 0a9.5294,9.5294 0,1 1,-19.0588 0" />
+    <path android:fillColor="#ffffaa3e" android:pathData="M21.7254,26.3376L26.8372,21.2259C26.9031,21.16 27.0087,21.16 27.0746,21.2259L29.0155,23.1671V22.7646C29.0155,22.7066 29.0632,22.6589 29.1212,22.6589H30.8142C30.8722,22.6589 30.9198,22.7066 30.9198,22.7646V25.0717L32.1856,26.3376C32.2912,26.4424 32.2165,26.6235 32.0672,26.6235H30.9198V26.8956H30.9195V31.2478H22.9918V26.6235H21.8446C21.6953,26.6235 21.6206,26.4424 21.7254,26.3376ZM25.7171,29.3101V31.2477H28.1947V29.3101C28.1947,28.6256 27.6397,28.0713 26.9559,28.0713C26.2722,28.0713 25.7171,28.6256 25.7171,29.3101Z" android:fillType="evenOdd" />
+</vector>

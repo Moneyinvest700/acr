@@ -1,0 +1,59 @@
+{
+  "notification": {
+    "id": null,
+    "senderId": null,
+    "notificationType": "PUSH",
+    "created": 1542354296941,
+    "updated": null,
+    "expiry": null,
+    "senderName": null,
+    "eventType": "OFFSITE_RECOMMENDATION",
+    "eventId": "983874887427677803_1542354296941",
+    "recipientIdType": "CLIENTID",
+    "content": "Projects similar to Pranjee Soho Court in terms of price and delivery timelines",
+    "subject": "Similar Project Options",
+    "status": "UNDELIVERED",
+    "contentRendered": false,
+    "appNames": [
+      "ANDROID_99",
+      "IOS_99"
+    ],
+    "attributes": {
+      "alert_heading": "Similar Project Options",
+      "recommendationCriteria": "{\"resCom\":\"C\",\"preference\":\"S\",\"projectId\":[5751],\"abCookie\":86}",
+      "landingType": "AS",
+      "bodyText": "Projects similar to Pranjee Soho Court in terms of price and delivery timelines",
+      "campId": "405",
+      "recommendationAlgorithm": "SIMILAR_PROJECTS",
+      "csReferrerSection":"FRESH_SIMILAR_PROPERTY",
+      "content": "Projects similar to Pranjee Soho Court in terms of price and delivery timelines",
+      "landingVal": "NOTIFICATION_RESULT"
+    },
+    "platform": "ANDROID",
+    "sourceModule": "OFFSITE_RECOMMENDATION",
+    "receivedAt": null,
+    "deliveredAt": null,
+    "openedAt": null,
+    "tag": "SIMILAR_PROJECTS",
+    "moduleIdentifier": "5b8550da345b2c653ae25431",
+    "templateId": null,
+    "rawTemplateBody": null,
+    "trackingData": null,
+    "contentRenderedEnabled": false
+  },
+  "minAppVersion": {
+    "IOS": "68",
+    "ANDROID": "124"
+  },
+  "maxAppVersion": null,
+  "recipientIds": [
+    "983874887427677803"
+  ],
+  "partialPersistKeys": [],
+  "persistent": true,
+  "partialPersist": false,
+  "invalidParams": [],
+  "persistentEnabled": true,
+  "partialPersistentEnabled": false,
+  "missingParams": []
+}

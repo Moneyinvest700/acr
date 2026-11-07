@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:layout_width="100.0dip" android:layout_height="100.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatImageView android:id="@id/image" android:layout_width="fill_parent" android:layout_height="fill_parent" android:scaleType="fitXY" android:layout_marginEnd="@dimen/small" />
+    <com.nnacres.app.ui.NNacresAppCompatCheckBox android:layout_gravity="end" android:id="@id/checkbox" android:layout_width="wrap_content" android:layout_height="wrap_content" android:button="@drawable/ppf_custom_checkbox_design" android:translationX="8.0dip" android:translationY="-5.0dip" />
+</FrameLayout>

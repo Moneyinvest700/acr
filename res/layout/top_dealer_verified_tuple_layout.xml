@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center_vertical" android:orientation="vertical" android:id="@id/card_layout" android:paddingBottom="@dimen/medium_even" android:layout_width="wrap_content" android:layout_height="wrap_content" android:paddingStart="@dimen/medium_even" android:paddingEnd="@dimen/small"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/recent_search_filter_image" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="@dimen/medium" android:scaleType="fitCenter" />
+        <TextView android:layout_gravity="center_vertical" android:id="@id/recent_search_filter_result_pd" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" android:paddingStart="@dimen/extra_small" style="@style/AppHeadingStyle" />
+    </LinearLayout>
+    <TextView android:id="@id/recent_search_filter_result" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" style="@style/AppHeadingStyle" />
+    <TextView android:id="@id/recent_search_filter_label" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="2" app:layout_constraintEnd_toEndOf="@id/recent_search_filter_image" app:layout_constraintStart_toStartOf="@id/recent_search_filter_image" app:layout_constraintTop_toBottomOf="@id/recent_search_filter_result" style="@style/captionStrongSmall" />
+</LinearLayout>

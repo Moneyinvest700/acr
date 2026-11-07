@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/carouselView" android:layout_width="fill_parent" android:layout_height="400.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:textSize="14.0dip" android:id="@id/selfVerifyBenefitsButton" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/large" android:text="Self - Verify Property Now" android:layout_marginHorizontal="@dimen/large" app:event_type="CLICK" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintHorizontal_bias="0.5" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/svBenefitsBottomSheetHeader2" style="@style/primaryDefaultButton" />
+</LinearLayout>

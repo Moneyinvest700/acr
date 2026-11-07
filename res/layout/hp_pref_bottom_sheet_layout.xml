@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/bottomSheetContainer" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <View android:layout_gravity="center_horizontal" android:background="@drawable/shape_bottom_sheet_top" android:layout_width="60.0dip" android:layout_height="5.0dip" android:layout_marginTop="@dimen/medium" />
+    <TextView android:id="@id/heading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/your_property_preferences" style="@style/hp_widget_heading_new" />
+    <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/subtitle_text_color" android:ellipsize="end" android:id="@id/subHeading" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/text_select_preferences" android:maxLines="1" android:fontFamily="@font/open_sans" android:layout_marginStart="@dimen/hp_widget_right_left_margin" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="vertical" android:id="@id/rvPreferences" android:layout_width="fill_parent" android:layout_height="0.0dip" android:layout_marginTop="@dimen/medium_even" android:layout_marginBottom="@dimen/hp_prop_tuple_top_margin" android:layout_weight="1.0" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <Button android:id="@id/buttonAddPreference" android:layout_marginLeft="@dimen/hp_widget_right_left_margin" android:layout_marginRight="@dimen/hp_widget_right_left_margin" android:layout_marginBottom="@dimen/hp_widget_right_left_margin" android:text="@string/text_add_new_preference" android:textAllCaps="false" style="@style/AppActionButtonStyle" />
+</LinearLayout>

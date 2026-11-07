@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/leftIcon" android:visibility="invisible" android:layout_width="12.0dip" android:layout_height="12.0dip" android:layout_marginStart="@dimen/extra_small_even" android:layout_marginEnd="@dimen/extra_small_even" />
+        <androidx.appcompat.widget.AppCompatTextView android:textColor="@color/Ng700" android:id="@id/tvValue" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/bodyRegularSmall" />
+    </LinearLayout>
+    <View android:id="@id/divider" android:background="@color/Ng300" android:layout_width="fill_parent" android:layout_height="1.0dip" android:layout_marginTop="@dimen/small_even" />
+</LinearLayout>

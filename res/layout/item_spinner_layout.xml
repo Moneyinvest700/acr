@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<CheckedTextView android:textSize="@dimen/txt_normal" android:textColor="@color/Ng500" android:padding="@dimen/medium_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:fontFamily="@font/open_sans" style="?android:spinnerDropDownItemStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

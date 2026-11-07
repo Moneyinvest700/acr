@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/layoutRootView" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:gravity="center_vertical" android:id="@id/ll_cancelLayer" android:background="@color/material_blue_500" android:layout_width="fill_parent" android:layout_height="50.0dip" android:minHeight="50.0dip">
+        <TextView android:textSize="18.0sp" android:textColor="@color/white" android:gravity="center_vertical" android:id="@id/blankView" android:padding="10.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:text="@string/contact_detail" android:layout_weight="90.0" />
+        <ImageView android:id="@id/btn_cancelAddContactLayer" android:padding="@dimen/small" android:clickable="true" android:layout_width="wrap_content" android:layout_height="fill_parent" android:src="@drawable/navigation_cancel" />
+    </LinearLayout>
+    <ScrollView android:layout_width="fill_parent" android:layout_height="wrap_content" android:fillViewport="true" android:layout_below="@id/ll_cancelLayer">
+        <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <LinearLayout android:orientation="vertical" android:id="@id/contactDetailSection" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/eoi_complete_action_header" />
+                <include android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/eoi_showcontact_header" />
+            </LinearLayout>
+            <ViewStub android:id="@id/videoTourSection" android:layout="@layout/video_tour_confirmed_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+            <LinearLayout android:orientation="vertical" android:id="@id/similar_properties_view" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <TextView android:id="@id/similar_properties_heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/text_similar_layer_text" android:layout_marginStart="10.0dip" />
+                <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_recom_properties" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:paddingStart="10.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>

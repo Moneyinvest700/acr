@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@id/searchPage_Parent" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.drawerlayout.widget.DrawerLayout android:id="@id/drawer_layout" android:fitsSystemWindows="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/coordinator_layout" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <include android:id="@id/title_bar" layout="@layout/nav_activity_toolbar" />
+            <FrameLayout android:orientation="vertical" android:id="@id/content_frame" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="?actionBarSize" />
+            <FrameLayout android:layout_gravity="bottom" android:id="@id/bottom_nav_frame" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_behavior="com.nnacres.app.ui.BottomNavigationBehavior"
+              xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+                <com.google.android.material.bottomnavigation.BottomNavigationView android:theme="@style/BottomNavTheme" android:id="@id/bottom_nav_bar" android:background="@android:color/white" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" app:labelVisibilityMode="labeled" app:menu="@menu/bottom_nav_menu" xmlns:app="http://schemas.android.com/apk/res-auto" />
+            </FrameLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:layout_gravity="bottom|center" android:id="@id/fab_search" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/medium" android:foreground="@drawable/search_fab_background" app:borderWidth="0.0dip" app:elevation="@dimen/fab_elevation" app:fabSize="normal" app:layout_behavior="com.nnacres.app.ui.BottomNavigationSearchFabBehavior" app:pressedTranslationZ="@dimen/fab_pressed_translation" />
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+        <com.google.android.material.navigation.NavigationView android:layout_gravity="start" android:id="@id/nav_view" android:background="@color/white" android:scrollbars="vertical" android:layout_width="wrap_content" android:layout_height="fill_parent" app:elevation="16.0dip" app:headerLayout="@layout/nav_header_main" app:itemTextAppearance="@style/navigationBarItemTextAppearance" app:itemTextColor="@color/hambuger_text_color" app:menu="@menu/nav_main_menu" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+</RelativeLayout>

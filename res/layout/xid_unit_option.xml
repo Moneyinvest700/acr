@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent" app:event_type="CLICK"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include layout="@layout/bottom_sheet_bar" />
+    <include android:id="@id/xid_unit_option" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" layout="@layout/xid_section_header" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_config" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/small_even" android:layout_marginStart="@dimen/small" android:layout_marginEnd="@dimen/large" />
+    <TextView android:id="@id/tv_continue" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:layout_marginBottom="@dimen/medium" android:text="Continue" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/primaryActiveButton" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

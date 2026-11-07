@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout android:orientation="vertical" android:id="@id/shimmer_root" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" app:shimmer_duration="1000"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.cardview.widget.CardView android:id="@id/shimmer_card_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" app:cardCornerRadius="4.0dip" app:cardElevation="4.0dip">
+            <RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_medium_even" android:paddingStart="@dimen/small" android:paddingEnd="@dimen/small">
+                <androidx.cardview.widget.CardView android:id="@id/shimmer_iv_card_view" android:layout_width="65.0dip" android:layout_height="65.0dip" android:layout_marginTop="@dimen/extra_extra_small" app:cardCornerRadius="@dimen/extra_extra_small" app:cardElevation="@dimen/extra_extra_small">
+                    <ImageView android:id="@id/shimmer_iv_top_dealer" android:background="@color/Ng300" android:padding="@dimen/extra_small" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                </androidx.cardview.widget.CardView>
+                <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignTop="@id/shimmer_iv_card_view" android:layout_marginStart="@dimen/small" android:layout_toEndOf="@id/shimmer_iv_card_view">
+                    <TextView android:textColor="@color/Ng700" android:id="@id/shimmer_tv_dealer_title" android:background="@color/Ng300" android:layout_width="100.0dip" android:layout_height="wrap_content" style="@style/bold_label_header" />
+                    <TextView android:textColor="@color/Ng500" android:id="@id/shimmer_tv_dealer_label" android:background="@color/Ng300" android:paddingTop="@dimen/extra_extra_small" android:layout_width="100.0dip" android:layout_height="wrap_content" style="@style/label" />
+                    <LinearLayout android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small">
+                        <TextView android:textColor="@color/white" android:gravity="center" android:id="@id/shimmer_tv_top_dealer_tag" android:background="@color/Ng300" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_extra_small" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" android:text="@string/lbl_top_dealer" style="@style/bodySmall" />
+                        <TextView android:textColor="@color/Ng500" android:gravity="center" android:id="@id/shimmer_tv_rera_tag" android:background="@color/Ng300" android:paddingLeft="@dimen/extra_small" android:paddingTop="@dimen/extra_extra_small" android:paddingRight="@dimen/extra_small" android:paddingBottom="@dimen/extra_extra_small" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/extra_small" android:layout_marginTop="@dimen/extra_extra_small" android:layout_marginStart="@dimen/extra_small" style="@style/bodySmall" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small">
+            <TextView android:background="@color/Ng300" android:layout_width="120.0dip" android:layout_height="100.0dip" />
+            <TextView android:background="@color/Ng300" android:layout_width="120.0dip" android:layout_height="100.0dip" android:layout_marginStart="@dimen/small" />
+            <TextView android:background="@color/Ng300" android:layout_width="120.0dip" android:layout_height="100.0dip" android:layout_marginStart="@dimen/small" />
+        </LinearLayout>
+        <TextView android:id="@id/shimmer_tv_expert" android:background="@color/Ng300" android:layout_width="100.0dip" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" />
+        <RelativeLayout android:id="@id/shimmer_videoSection" android:layout_width="fill_parent" android:layout_height="180.0dip" android:layout_marginTop="@dimen/large_even" android:layout_marginBottom="@dimen/large_even">
+            <androidx.cardview.widget.CardView android:id="@id/shimmer_videoThumbnailWrapper" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="4.0dip" app:cardElevation="0.0dip">
+                <androidx.appcompat.widget.AppCompatImageView android:id="@id/shimmer_videoThumbnail" android:background="@color/Ng300" android:layout_width="fill_parent" android:layout_height="182.0dip" android:maxHeight="182.0dip" android:minHeight="182.0dip" />
+            </androidx.cardview.widget.CardView>
+        </RelativeLayout>
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

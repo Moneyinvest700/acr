@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/toolbar" android:visibility="gone" layout="@layout/toolbar_white" />
+    <ScrollView android:id="@id/scroll_view" android:scrollbars="none" android:layout_width="fill_parent" android:layout_height="0.0dip" android:fillViewport="true" android:layout_weight="1.0" android:layout_marginStart="@dimen/medium" android:layout_marginEnd="@dimen/medium">
+        <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:id="@id/tv_description" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small" app:event_type="CLICK" app:identifier="VIEW_MORE" style="@style/bodyMedium" />
+            </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+            <LinearLayout android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include android:id="@id/meal_options_layout" android:visibility="gone" layout="@layout/pd_meal_options_available" />
+            </LinearLayout>
+            <LinearLayout android:id="@id/house_rules_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <include layout="@layout/pd_house_rules" />
+            </LinearLayout>
+        </com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>
+    </ScrollView>
+    <include android:id="@id/eoi_button" layout="@layout/custom_footer_btn_topdealer" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

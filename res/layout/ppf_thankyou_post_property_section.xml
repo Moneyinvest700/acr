@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:background="@drawable/shape_rectangle_corners_radius_8_white_bg" android:paddingTop="@dimen/large" android:paddingBottom="@dimen/large_even" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/heading" android:layout_width="179.0dip" android:layout_height="wrap_content" android:text="@string/ppf_post_property_heading" style="@style/bodyMediumSemibold" />
+    <androidx.appcompat.widget.AppCompatTextView android:id="@id/openPPF" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" android:text="@string/ppf_post_property_button_text" android:drawablePadding="@dimen/medium_even" android:layout_below="@id/heading" android:drawableEnd="@drawable/ic_blue_arrow_right" style="@style/hyperlinkNormal" />
+    <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_sell_property" android:layout_alignBottom="@id/openPPF" android:layout_alignParentRight="true" />
+</RelativeLayout>

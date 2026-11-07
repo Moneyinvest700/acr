@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="@drawable/shape_grey_vertical_bckg" android:padding="@dimen/medium" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/extra_small_even"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/iv_pannel" android:layout_width="40.0dip" android:layout_height="40.0dip" android:layout_marginTop="@dimen/medium_even" />
+    <TextView android:id="@id/tv_pannel_name" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" style="@style/bodySmall12" />
+    <TextView android:id="@id/tv_pannel_designation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/captionSubduedMedium" />
+    <TextView android:id="@id/tv_pannel_company" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_small_even" style="@style/captionSubduedMedium" />
+</LinearLayout>

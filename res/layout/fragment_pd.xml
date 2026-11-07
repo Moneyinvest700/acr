@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/PD_RESIDENTIAL_CONTENT" android:background="@color/white" android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <FrameLayout android:id="@id/error_layout_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_propDetail" android:background="@color/white" android:paddingBottom="72.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <LinearLayout android:layout_gravity="bottom|center" android:orientation="horizontal" android:id="@id/snackBar" android:background="@color/Ng700" android:padding="@dimen/small" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="72.0dip" android:layout_marginBottom="100.0dip" android:layout_marginStart="@dimen/large_even" android:layout_marginEnd="@dimen/large_even" android:elevation="@dimen/small_even">
+        <androidx.appcompat.widget.AppCompatImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_extra_small" app:srcCompat="@drawable/ic_check_circle_prop_alert" />
+        <TextView android:textColor="@color/white" android:ellipsize="end" android:id="@id/errorMessage" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/notify_me_success_msg" android:layout_weight="1.0" android:paddingStart="@dimen/extra_small" android:paddingEnd="@dimen/extra_small" style="@style/semibold_list_header" />
+    </LinearLayout>
+</FrameLayout>

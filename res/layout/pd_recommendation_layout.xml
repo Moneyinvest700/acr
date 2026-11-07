@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_recommendation" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/xxxx_large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginStart="@dimen/large" layout="@layout/pd_section_header" />
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_recommendation" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/extra_large" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.facebook.shimmer.ShimmerFrameLayout android:id="@id/pw_loader" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_marginStart="@dimen/large" android:translationZ="10.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintLeft_toLeftOf="parent" app:layout_constraintRight_toRightOf="parent" app:layout_constraintTop_toBottomOf="@id/xid_recommendation_header" style="@style/global_shimmer_style">
+        <ImageView android:layout_width="fill_parent" android:layout_height="fill_parent" android:src="@drawable/recom_shimmer" android:scaleType="matrix" />
+    </com.facebook.shimmer.ShimmerFrameLayout>
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

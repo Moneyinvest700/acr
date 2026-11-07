@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:orientation="vertical" android:id="@id/np_top_channel_projects_widget" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:id="@id/hp_top_label" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@id/hp_tcp_info_icon" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" android:layout_marginTop="0.0dip" android:layout_marginRight="@dimen/hp_widget_right_left_margin" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+        <TextView android:id="@id/top_widget_heading" android:layout_marginBottom="@dimen/extra_extra_small" android:layout_alignParentLeft="true" style="@style/hp_section_heading" />
+    </RelativeLayout>
+    <RelativeLayout android:layout_width="fill_parent" android:layout_height="140.0dip" android:layout_below="@id/hp_top_label">
+        <com.nnacres.app.ui.NNAcresViewPager android:gravity="center_horizontal" android:layout_gravity="center_horizontal" android:id="@id/vp_top_channel" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.nnacres.app.ui.NNAcresProgressWheel android:id="@id/hpProgressBar" android:visibility="gone" android:layout_width="20.0dip" android:layout_height="20.0dip" android:layout_centerInParent="true" wheel:matProg_barColor="@color/material_gray_500" wheel:matProg_barWidth="2.0dip" wheel:matProg_progressIndeterminate="true" wheel:matProg_spinSpeed="1.0" xmlns:wheel="http://schemas.android.com/apk/res-auto" />
+    </RelativeLayout>
+</RelativeLayout>

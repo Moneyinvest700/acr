@@ -1,0 +1,128 @@
+{
+  "loginWireframe": {
+    "onBoarding": {
+      "welcomeText": "WELCOME TO 99ACRES",
+      "header": "India’s leading Property Portal",
+      "subHeader": "One-stop solution for all your Real Estate needs...",
+      "descArray": [],
+      "icon": "",
+      "ctaText": "Continue"
+    },
+    "shortlist": {
+      "header": "Login or Register to Shortlist Property",
+      "subHeader": "Please login for easy access to properties\nshortlisted in the past.",
+      "descArray": [
+        "Shortlist properties, projects & localities. ",
+        "Save shortlists securely to your profile",
+        "Access them anytime anywhere"
+      ],
+      "icon": "shortlist",
+      "ctaText": "Continue"
+
+    },
+  "shortlist_nonloggedin": {
+      "header": "Login or Register to see your Shortlists",
+      "subHeader": "Your shortlisted properties, projects and localities will appear here...",
+      "descArray": [
+      ],
+      "icon": "shortlist",
+      "ctaText": "Continue"
+
+    },
+    "shortlist_loggedin_property": {
+      "header": "You haven’t Shortlisted any properties yet! ",
+      "subHeader": "Tap on the star icon on property / project / locality you like to see them here...",
+      "descArray": [
+      ],
+      "icon": "shortlist",
+      "ctaText": ""
+    },
+    "shortlist_loggedin_project": {
+      "header": "You haven’t Shortlisted any projects yet! ",
+      "subHeader": "Tap on the star icon on property / project / locality you like to see them here...",
+      "descArray": [
+      ],
+      "icon": "shortlist",
+      "ctaText": ""
+    },    "shortlist_loggedin_locality": {
+      "header": "You haven’t Shortlisted any localities yet! ",
+      "subHeader": "Tap on the star icon on property / project / locality you like to see them here...",
+      "descArray": [
+      ],
+      "icon": "shortlist",
+      "ctaText": ""
+    },
+    "review": {
+      "preHeaderText":"UNLOCK REVIEWS",
+      "header": "Login or Register\nfor more reviews ",
+      "descArray": [
+        "Read what locals have to say about their locality/society",
+        "Get to know their likes & concerns",
+        "Make an informed decision"
+      ],
+      "icon": "review",
+      "headerType":"inline",
+      "ctaText": "Continue"
+
+    },
+    "propertyAlert": {
+      "preHeaderText":"PROPERTY ALERTS",
+      "header": "Stay up-to-date\nwith Alerts",
+      "descArray": ["Get alerts for matching properties as soon as they’re posted",
+        "Stay updated on Whatsapp & Email"
+      ],
+      "icon": "notify",
+      "headerType":"inline",
+      "inputLabel":"Send Alerts to...",
+      "ctaText": "Create Alerts"
+
+    },
+    "intermediateSRP": {
+      "preHeaderText":"PROPERTY ALERTS",
+      "header": "Stay up-to-date\nwith Alerts",
+      "descArray": ["Get alerts for matching properties as soon as they’re posted",
+        "Stay updated on Whatsapp & Email","Be the first to get exclusive offers & deals"
+      ],
+      "icon": "intermediateSRP",
+      "headerType":"inline",
+      "inputLabel":"Send Alerts to...",
+      "ctaText": "Create Alerts"
+    },
+    "shareRequirement" : {
+      "header": "Login or Register to Save Preferences",
+      "subHeader": "We never share your details with anyone without your consent.",
+      "descArray": [
+        "Ease your property hunt",
+        "Get property recommendations",
+        "Access them anytime anywhere"
+      ],
+      "icon": "shareRequirement",
+      "ctaText": "Continue"
+    },
+    "registryTransaction": {
+      "header": "Login to see Registry\nInsights",
+      "subHeader": "We never share your details with anyone\nwithout your consent",
+      "descArray": [
+        "Get an actual understanding of price",
+        "Compare Market Price & Transaction Price"
+      ],
+      "icon": "registryTransaction",
+      "ctaText": "Continue"
+
+    },
+    "default": {
+      "header": "India’s leading Property Portal",
+      "subHeader": "One-stop solution for all your Real Estate needs...",
+      "descArray": [],
+      "icon": "",
+      "headerType":"default",
+      "ctaText": "Continue"
+    }
+  },
+  "propertyAlert": {
+    "alertHeader": "Turn on property alerts",
+    "alertSubHeader": "& we’ll notify you whenever there are properties available matching your search"
+  },
+  "nrvReiThreshold":3,
+  "onboardingShowDayCount":7
+}

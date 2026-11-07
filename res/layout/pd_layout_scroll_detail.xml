@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout android:orientation="vertical" android:id="@id/ll_PDContent" android:background="@color/white" android:paddingBottom="70.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <include android:id="@id/pd_nudge" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/pd_nudge_layout" />
+    <include android:id="@id/top_deal_label" android:visibility="gone" layout="@layout/top_deal_label" />
+    <include layout="@layout/pd_card_basic_deatils" />
+    <ViewStub android:id="@id/vstub_pdCard_specifications" android:layout="@layout/pd_card_specifications" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/vstub_pdCard_additionalDetail" android:layout="@layout/pd_card_additional_detail" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/vstub_pdCard_floorPlans" android:layout="@layout/pd_card_floor_plans" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/vstub_pdCard_propDescription" android:layout="@layout/pd_card_propdescription" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <com.nnacres.app.webinar.view.WebinarView android:id="@id/rl_webinar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium" />
+    <ViewStub android:id="@id/view_stub_included_facilities" android:layout="@layout/pd_card_amenities" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/view_stub_excluded_facilities" android:layout="@layout/pd_card_amenities" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/view_stub_food_details" android:layout="@layout/layout_food_details_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <include android:id="@id/noteview_layout" android:visibility="gone" layout="@layout/noteview_layout" />
+    <include android:id="@id/pd_cardAmenities" layout="@layout/pd_card_amenities" />
+    <ViewStub android:id="@id/offerSection" android:layout="@layout/offers_section_pd" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_furnishing_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <include android:id="@id/pd_cardFurnish" android:visibility="gone" layout="@layout/pd_card_amenities" />
+        <include android:id="@id/pd_card_common_furnish" android:visibility="gone" layout="@layout/pd_card_amenities" />
+    </LinearLayout>
+    <com.nnacres.app.pricetrends.views.PriceTrendsView android:id="@id/price_trends_view" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large" />
+    <com.nnacres.app.customviews.NNReactRootView android:id="@id/ratings_reviews" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <ViewStub android:id="@id/view_stub_house_rules" android:layout="@layout/layout_house_rules_widget" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <LinearLayout android:orientation="vertical" android:id="@id/pd_distanceNearbyCard" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:id="@id/distances_heading" android:paddingLeft="20.0dip" android:paddingTop="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="Nearby Point of Interest" style="@style/pd_detailHeading" />
+        <LinearLayout android:orientation="vertical" android:id="@id/distance_parent" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <include android:id="@id/pd_top_deals_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip" layout="@layout/hp_top_deals_layout" />
+    <ImageView android:id="@id/bottomPointer" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:src="@drawable/deal_pointer" android:scaleType="fitXY" />
+    <include android:id="@id/pd_top_deal_offer_section" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/top_deal_offers_section" />
+    <TextView android:id="@id/property_on_map_heading" android:paddingLeft="@dimen/xid_inside_margin_top" android:paddingTop="15.0dip" android:paddingRight="@dimen/xid_inside_margin_top" android:paddingBottom="15.0dip" android:layout_marginTop="@dimen/large" android:layout_marginBottom="0.0dip" android:text="Location" style="@style/PdDetailHeading" />
+    <include layout="@layout/pd_card_staticmap" />
+    <include android:id="@id/book_site_visit" android:visibility="gone" layout="@layout/pd_card_book_site_visit" />
+    <include layout="@layout/pd_card_dealerinfo" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pdCard_similarProperties" android:background="@color/pd_card_dark" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minHeight="200.0dip">
+        <TextView android:textSize="@dimen/text_size_small" android:textStyle="bold" android:textColor="@color/black" android:ellipsize="end" android:id="@id/pd_headingSimilarProperties" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="@dimen/margin_xsmall" android:text="@string/titile_text_similar_properties" android:maxLines="1" android:layout_marginStart="13.0dip" />
+        <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_similar_prop" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_pdCard_reportListing" android:paddingLeft="10.0dip" android:paddingTop="20.0dip" android:paddingRight="10.0dip" android:paddingBottom="20.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <TextView android:textSize="14.0sp" android:textColor="@color/material_gray_700" android:gravity="center" android:id="@id/tv_reportInaccuracy" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/report_listing_default_text" />
+        <LinearLayout android:gravity="center" android:id="@id/report_listing_button_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="20.0dip">
+            <Button android:textSize="14.0dip" android:textColor="@color/material_gray_700" android:id="@id/btn_reportCorrectListing" android:background="@drawable/btn_bg_box_green" android:layout_width="wrap_content" android:layout_height="30.0dip" android:text=" Yes " style="@style/propertydetailbutton" />
+            <Button android:textSize="14.0dip" android:textColor="@color/material_gray_700" android:id="@id/btn_reportIncorrectListing" android:background="@drawable/btn_bg_box_red" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginLeft="20.0dip" android:text=" No " style="@style/propertydetailbutton" />
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout android:orientation="vertical" android:id="@id/recommendedProperties" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="30.0dip" />
+    <LinearLayout android:orientation="vertical" android:id="@id/ll_top_dealer_container" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large">
+        <TextView android:textSize="@dimen/text_size_small" android:textColor="@color/black" android:ellipsize="end" android:id="@id/tv_top_dealers_in_locality" android:paddingLeft="@dimen/small" android:layout_width="wrap_content" android:layout_height="wrap_content" android:maxLines="1" android:fontFamily="@font/open_sans_bold" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/rv_top_dealers" android:paddingLeft="@dimen/small" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    </LinearLayout>
+    <ViewStub android:id="@id/viewStubTrending" android:layout="@layout/pd_card_trending" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <TextView android:textSize="13.0sp" android:textColor="@color/material_gray_500" android:gravity="center" android:id="@id/propertyId" android:background="@color/pd_card_dark" android:padding="10.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:layout_marginBottom="15.0dip" android:text="PROPERTY CODE:  " />
+    <TextView android:id="@id/pd_page_disclaimer_text" android:padding="@dimen/xxl" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/captionSubduedMedium" />
+</com.nnacres.app.clickstreamsdk.custom_view.NNLinearLayout>

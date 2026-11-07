@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout android:id="@id/cl_activity_layout" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbar_xid" android:background="@color/Ng100" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingEnd="@dimen/txt_xtra_xtra_small" android:stateListAnimator="@null">
+            <include android:id="@id/toolbarWhite" layout="@layout/toolbar_white" />
+            <include android:id="@id/sticky_header" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" layout="@layout/xid_sticky_header_layout" />
+        </com.google.android.material.appbar.AppBarLayout>
+        <FrameLayout android:id="@id/pd_fragment_container" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior" />
+        <include android:layout_gravity="bottom" android:id="@id/pd_detailFooterParent" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="10.0dip" android:layout_marginStart="10.0dip" android:layout_marginEnd="10.0dip" layout="@layout/eoi_detail_page_footer" />
+        <include android:layout_gravity="bottom" android:id="@id/optionsLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true" layout="@layout/manage_listing_options" />
+        <com.nnacres.app.customviews.ChatbotButton android:layout_gravity="end|bottom|center" android:id="@id/chatbotButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="80.0dip" android:layout_marginEnd="15.0dip" android:layout_alignParentEnd="true" />
+        <com.nnacres.app.clickstreamsdk.custom_view.NNButton android:layout_gravity="bottom" android:id="@id/selfVerifyButton" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="@dimen/small" android:text="Self-Verify Now" android:layout_marginStart="@dimen/large" android:layout_marginEnd="@dimen/large" style="@style/primaryDefaultButton" />
+    </com.nnacres.app.clickstreamsdk.custom_view.NNCoordinatorLayout>
+    <include android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/xid_main_shimmer" />
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

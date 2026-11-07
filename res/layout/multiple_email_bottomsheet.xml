@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingBottom="@dimen/large" android:layout_width="fill_parent" android:layout_height="wrap_content" android:animateLayoutChanges="true" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:gravity="center" android:id="@id/heading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/multiple_email" style="@style/bold_title" />
+    <TextView android:textColor="@color/black" android:id="@id/subHeading" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/multiple_email_text" style="@style/normal_text_view" />
+    <com.nnacres.app.customviews.materialComponents.MaterialInputView android:id="@id/email" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/large_even" app:errorMsg="@string/error_name" app:floatingHint="@string/enter_valid_email" />
+    <com.nnacres.app.customviews.materialComponents.PasswordInputView android:id="@id/password" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/small_even" app:errorMsg="@string/error_password" app:floatingHint="@string/type_password" />
+    <com.nnacres.app.clickstreamsdk.custom_view.NNTextView android:textColor="@color/P500" android:gravity="end" android:id="@id/forgotPass" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="@dimen/medium_even" android:text="@string/text_forgot_password" app:event_type="CLICK" app:topmost="true" style="@style/text_semi_bold" />
+</LinearLayout>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/noImageAvailable" android:background="@drawable/prop_border_image" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="230.0dip" android:src="@drawable/not_available" android:scaleType="centerCrop" />
+    <RelativeLayout android:id="@id/pd_img_pager_container" android:background="@color/material_gray_400" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="230.0dip" android:scrollingCache="false">
+        <androidx.viewpager.widget.ViewPager android:id="@id/image_pager" android:layout_width="wrap_content" android:layout_height="230.0dip" />
+        <include layout="@layout/prop_detail_img_pager_footer" />
+        <TextView android:id="@id/sample_textview_pd" android:background="@drawable/prop_detail_img_pager_footer_background" android:layout_width="wrap_content" android:layout_height="24.0dip" android:layout_marginLeft="4.0dip" android:layout_marginBottom="4.0dip" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" style="@style/sample_text_view" />
+        <ImageView android:id="@id/play_icon" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="100.0dip" android:src="@drawable/play_video_icon_big" android:layout_centerInParent="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/notification_row_card" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?android:selectableItemBackground" android:elevation="2.0dip" app:cardCornerRadius="4.0dip" app:cardElevation="1.0dip" app:cardUseCompatPadding="true"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.AppCompatImageView android:id="@id/iv" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:scaleType="centerInside" />
+        <LinearLayout android:orientation="vertical" android:paddingTop="5.0dip" android:paddingRight="5.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginTop="4.0dip" android:layout_marginRight="5.0dip">
+            <TextView android:textSize="@dimen/text_size_xx_small" android:textColor="@color/black" android:id="@id/notification_row_header" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="New Property" android:maxLines="1" android:fontFamily="@font/open_sans_bold" />
+            <TextView android:textSize="@dimen/text_size_xxx_small" android:ellipsize="end" android:id="@id/notification_row_desc" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="New Property" android:maxLines="1" />
+            <TextView android:textSize="@dimen/text_size_xxx_small" android:layout_gravity="bottom|center|right" android:id="@id/notification_lastupdate_time" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:layout_marginBottom="@dimen/extra_small" />
+        </LinearLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

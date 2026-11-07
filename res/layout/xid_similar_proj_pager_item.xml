@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/hp_similar_proj_item_parent" android:focusable="true" android:clickable="true" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/trending_tuple_margin" android:layout_marginRight="@dimen/trending_tuple_margin" android:foreground="@drawable/transparent_cardview_selector" card_view:cardBackgroundColor="@color/white" card_view:cardElevation="1.0dip" card_view:cardPreventCornerOverlap="false" card_view:cardUseCompatPadding="true" xmlns:card_view="http://schemas.android.com/apk/res-auto"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="horizontal" android:background="@drawable/shape_rectangle_solid_white_corners_radius_stroke_grey" android:layout_width="fill_parent" android:layout_height="fill_parent" android:weightSum="1.0">
+        <FrameLayout android:id="@id/hpSimilarProjImageWrapper" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.45">
+            <LinearLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+                <ImageView android:id="@id/similarTupleImage" android:layout_width="0.0dip" android:layout_height="fill_parent" android:scaleType="centerCrop" android:maxHeight="154.0dip" android:layout_weight="1.0" />
+                <View android:background="@color/material_gray_200" android:layout_width="0.5dip" android:layout_height="fill_parent" />
+            </LinearLayout>
+            <TextView android:layout_gravity="bottom|center|left" android:id="@id/similarTuplePossession" android:paddingLeft="6.0dip" android:paddingTop="3.0dip" android:paddingRight="6.0dip" android:paddingBottom="3.0dip" android:layout_width="wrap_content" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTuplePossessionStyle" />
+        </FrameLayout>
+        <RelativeLayout android:orientation="vertical" android:paddingLeft="12.0dip" android:paddingTop="8.0dip" android:paddingRight="5.0dip" android:paddingBottom="8.0dip" android:layout_width="0.0dip" android:layout_height="fill_parent" android:layout_weight="0.55">
+            <TextView android:id="@id/ReraTag" android:paddingLeft="4.0dip" android:paddingTop="2.0dip" android:paddingRight="4.0dip" android:paddingBottom="2.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="16.0dip" android:layout_marginBottom="4.0dip" android:text="" android:layout_alignParentLeft="true" android:layout_alignParentTop="true" android:layout_alignWithParentIfMissing="true" style="@style/xidDetailSimilarProjectsTupleRERAStyle" />
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionNameAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_below="@id/ReraTag">
+                <TextView android:id="@id/similarTupleProjectName" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTupleProjectNameStyle" />
+                <TextView android:id="@id/similarTupleBuilder" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTupleBuilderStyle" />
+                <TextView android:id="@id/similarTupleProjectAddress" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTupleProjectAddressStyle" />
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@id/sectionDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_alignParentBottom="true">
+                <TextView android:id="@id/similarTuplePlanDescription" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTupleProjectDescriptionStyle" />
+                <TextView android:id="@id/similarTupleArea" android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/xidDetailSimilarProjectsTupleProjectAreaStyle" />
+            </LinearLayout>
+            <TextView android:gravity="center_vertical" android:id="@id/similarTuplePrice" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_above="@id/sectionDescription" android:layout_below="@id/sectionNameAddress" style="@style/xidDetailSimilarProjectsTuplePriceStyle" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,54 @@
+.class public Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs$Duration;
+.super Ljava/lang/Object;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/EnclosingClass;
+    value = Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs;
+.end annotation
+
+.annotation system Ldalvik/annotation/InnerClass;
+    accessFlags = 0x1
+    name = "Duration"
+.end annotation
+
+
+# instance fields
+.field private mDurationValue:Ljava/lang/String;
+    .annotation runtime Lcom/google/gson/annotations/SerializedName;
+        value = "text"
+    .end annotation
+.end field
+
+.field final synthetic this$2:Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs;
+
+
+# direct methods
+.method public constructor <init>(Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs$Duration;->this$2:Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs;
+
+    invoke-direct {p0}, Ljava/lang/Object;-><init>()V
+
+    return-void
+.end method
+
+
+# virtual methods
+.method public getmDurationValue()Ljava/lang/String;
+    .locals 1
+
+    iget-object v0, p0, Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs$Duration;->mDurationValue:Ljava/lang/String;
+
+    return-object v0
+.end method
+
+.method public setmDurationValue(Ljava/lang/String;)V
+    .locals 0
+
+    iput-object p1, p0, Lcom/nnacres/app/model/NearbyPathResponseModel$Routes$Legs$Duration;->mDurationValue:Ljava/lang/String;
+
+    return-void
+.end method

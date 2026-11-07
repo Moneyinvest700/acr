@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.recyclerview.widget.RecyclerView android:orientation="horizontal" android:id="@id/rv_filter_container" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" android:paddingEnd="@dimen/large" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
+    <com.nnacres.app.utils.FlowLayout android:id="@id/fl_chip_container" android:layout_width="fill_parent" android:layout_height="wrap_content" android:paddingStart="@dimen/large" app:flowlayout_horizontalPadding="@dimen/small_even" app:flowlayout_verticalPadding="@dimen/small_even" />
+</LinearLayout>
